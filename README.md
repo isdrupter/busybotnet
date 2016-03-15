@@ -10,6 +10,10 @@ are often only found on full systems available their resource lacking counterpar
 recent surge in popularity of such devices (aka, the explosion of the 'internet of things'), came many, *many* security 
 issues. Part of the problem is that it's difficult to implement cryptography tools on systems with limited resources, 
 and the rest is caused by incompetent OEM's that never issue updates or bother to patch any of the gaping security holes 
-in they're systems. This inevitably leads to the devices being repurpoused by hackers, visa vi botnets... The 
+in their systems. This inevitably leads to the devices being repurpoused by hackers, visa vi botnets... The 
 point of this project is to provide all of the security tools a system admin needs to administer embedded devices in one 
-static binary (hence the term, "Busybotnet").
+static binary, hence the term, "Busybotnet".
+
+### Want to help?
+
+Great! We've even included a shell script (add.sh) that simplifies the process of adding applets to busybotnet (or just plain busybox). If you want to improve busybotnet, fork our code and submit a pull request.
