@@ -14,6 +14,25 @@ in their systems. This inevitably leads to the devices being repurpoused by hack
 point of this project is to provide all of the security tools a system admin needs to administer embedded devices in one 
 static binary, hence the term, "Busybotnet".
 
+### Compiling & Installation
+**Step 1: **
+$ make clean
+**Step 2: **
+$ make menuconfig - configure your build
+** Step 3: **
+$ make
+
+#### Cross Compiling
+Cross-compiling busybo* is easy. First, you need a toolchain. 
+**Step 1:**
+Grab the latest [buildroot](https://download.buildroot.org) and build it (same as above, $ make clean;make menuconfig;make)
+**Step 2**
+Configure with *make menuconfig* -- Specifically, tell busybotnet where your toolchain and sysroot are located.
+**Step 3**
+$ make
+
+That's it!
+
 ### Want to help?
 
 Great! We've even included a shell script (add.sh) that simplifies the process of adding applets to busybotnet (or just plain busybox). If you want to improve busybotnet, fork our code and submit a pull request.
