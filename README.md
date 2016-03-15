@@ -23,7 +23,7 @@ $ make menuconfig - configure your build <br>
 $ make <br>
 
 #### Cross Compiling
-Cross-compiling busybo* is easy. First, you need a toolchain. 
+Cross-compiling busybo* is easy. First, you need a toolchain. <br>
 **Step 1:** <br>
 Grab the latest [buildroot](https://download.buildroot.org) and build it (same as above, $ make clean;make menuconfig;make) <br>
 **Step 2** <br>
