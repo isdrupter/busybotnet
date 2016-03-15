@@ -1,1 +1,0 @@
-cmd_mailutils/lib.a := rm -f mailutils/lib.a; /home/ghost/bin/host/usr/bin/mips-buildroot-linux-uclibc-ar  rcs mailutils/lib.a mailutils/mail.o mailutils/makemime.o mailutils/popmaildir.o mailutils/reformime.o mailutils/sendmail.o
