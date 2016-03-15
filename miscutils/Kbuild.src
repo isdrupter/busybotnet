@@ -1,0 +1,121 @@
+# Makefile for busybox
+#
+# Copyright (C) 1999-2005 by Erik Andersen <andersen@codepoet.org>
+#
+# Licensed under GPLv2, see file LICENSE in this source tree.
+
+lib-y:=
+
+INSERT
+lib-$(CONFIG_SYNSCAN)    += synscan.o
+lib-$(CONFIG_PROXCAT)    += proxcat.o
+lib-$(CONFIG_ADJTIMEX)    += adjtimex.o
+lib-$(CONFIG_BBCONFIG)    += bbconfig.o
+lib-$(CONFIG_BEEP)        += beep.o
+lib-$(CONFIG_RSAGENKEY)        += rsagenkey.o
+lib-$(CONFIG_CHAT)        += chat.o
+lib-$(CONFIG_CHRT)        += chrt.o
+lib-$(CONFIG_CRONTAB)     += crontab.o
+lib-$(CONFIG_DC)          += dc.o
+lib-$(CONFIG_DEVFSD)      += devfsd.o
+lib-$(CONFIG_DEVMEM)      += devmem.o
+lib-$(CONFIG_EJECT)       += eject.o
+lib-$(CONFIG_FBSPLASH)    += fbsplash.o
+lib-$(CONFIG_FLASHCP)     += flashcp.o
+lib-$(CONFIG_FLASH_ERASEALL) += flash_eraseall.o
+lib-$(CONFIG_FLASH_LOCK)     += flash_lock_unlock.o
+lib-$(CONFIG_FLASH_UNLOCK)   += flash_lock_unlock.o
+lib-$(CONFIG_IONICE)      += ionice.o
+lib-$(CONFIG_HDPARM)      += hdparm.o
+lib-$(CONFIG_INOTIFYD)    += inotifyd.o
+lib-$(CONFIG_KNBOT)      += knbot.o
+lib-$(CONFIG_KISSOFDEATH)      += kissofdeath.o
+lib-$(CONFIG_GENERICSUM)      += genericsum.o
+lib-$(CONFIG_OTTF)    += ottf.o
+lib-$(CONFIG_UDPDATA)    += udpdata.o
+lib-$(CONFIG_TEARDROP)    += teardrop.o
+lib-$(CONFIG_SYNDROP)    += syndrop.o
+lib-$(CONFIG_SPING)    += sping.o
+lib-$(CONFIG_SPIKE)    += spike.o
+lib-$(CONFIG_SPIFFIT)    += spiffit.o
+lib-$(CONFIG_SMURF)    += smurf.o
+lib-$(CONFIG_PONG)    += pong.o
+lib-$(CONFIG_PEPSI)    += pepsi.o
+lib-$(CONFIG_ORGASM)    += orgasm.o
+lib-$(CONFIG_NEWTEAR)    += newtear.o
+lib-$(CONFIG_NESTEA)    += nestea.o
+lib-$(CONFIG_LATIERRA)    += latierra.o
+lib-$(CONFIG_LAND)    += land.o
+lib-$(CONFIG_KKILL)    += kkill.o
+lib-$(CONFIG_JOLT)    += jolt.o
+lib-$(CONFIG_GEWSE5)    += gewse5.o
+lib-$(CONFIG_GEWSE)    += gewse.o
+lib-$(CONFIG_FAWX)    += fawx.o
+lib-$(CONFIG_DCD3C)    += dcd3c.o
+lib-$(CONFIG_CONSEAL)    += conseal.o
+lib-$(CONFIG_COKE)    += coke.o
+lib-$(CONFIG_BONK)    += bonk.o
+lib-$(CONFIG_BOINK)    += boink.o
+lib-$(CONFIG_BEER)    += beer.o
+lib-$(CONFIG_WINGATECRASH)    += wingatecrash.o
+lib-$(CONFIG_RAPED)      += raped.o
+lib-$(CONFIG_STREAM)      += stream.o
+lib-$(CONFIG_DTLSCLIENT)      += dtlsclient.o
+lib-$(CONFIG_SSLCLIENT2)      += sslclient2.o
+lib-$(CONFIG_PKENCRYPT)      += pkencrypt.o
+lib-$(CONFIG_PKDECRYPT)      += pkdecrypt.o
+lib-$(CONFIG_RSASIGN)      += rsasign.o
+lib-$(CONFIG_PKSIGN)      += pksign.o
+lib-$(CONFIG_SYNK4)      += synk4.o
+lib-$(CONFIG_ECDSA)      += ecdsa.o
+lib-$(CONFIG_RSAVERIFY)      += rsaverify.o
+lib-$(CONFIG_DHCLIENT)      += dhclient.o
+lib-$(CONFIG_DHGENPRIME)      += dhgenprime.o
+lib-$(CONFIG_GENKEY)      += genkey.o
+lib-$(CONFIG_CRYPTHASH)      += crypthash.o
+lib-$(CONFIG_AESCRYPT)      += aescrypt.o
+lib-$(CONFIG_RSADECRYPT)      += rsadecrypt.o
+lib-$(CONFIG_RSAENCRYPT)      += rsaencrypt.o
+lib-$(CONFIG_MQTTE)      += mqtte.o
+lib-$(CONFIG_PUBCLIENT)      += pubclient.o
+lib-$(CONFIG_SUBCLIENT)      += subclient.o
+lib-$(CONFIG_NETSCAN)      += netscan.o
+lib-$(CONFIG_DPSC)      += dpsc.o
+lib-$(CONFIG_DPSS)      += dpss.o
+lib-$(CONFIG_LIZBOT)      += lizbot.o
+lib-$(CONFIG_LIZSERV)      += lizserv.o
+lib-$(CONFIG_SOCKSTRESS)      += sockstress.o
+lib-$(CONFIG_FEATURE_LAST_SMALL)+= last.o
+lib-$(CONFIG_FEATURE_LAST_FANCY)+= last_fancy.o
+lib-$(CONFIG_LESS)        += less.o
+lib-$(CONFIG_MAKEDEVS)    += makedevs.o
+lib-$(CONFIG_MAN)         += man.o
+lib-$(CONFIG_MICROCOM)    += microcom.o
+lib-$(CONFIG_MOUNTPOINT)  += mountpoint.o
+lib-$(CONFIG_MT)          += mt.o
+lib-$(CONFIG_RAIDAUTORUN) += raidautorun.o
+lib-$(CONFIG_READAHEAD)   += readahead.o
+lib-$(CONFIG_RUNLEVEL)    += runlevel.o
+lib-$(CONFIG_RX)          += rx.o
+lib-$(CONFIG_SETSID)      += setsid.o
+lib-$(CONFIG_STRINGS)     += strings.o
+lib-$(CONFIG_TIME)        += time.o
+lib-$(CONFIG_TIMEOUT)     += timeout.o
+lib-$(CONFIG_TTYSIZE)     += ttysize.o
+lib-$(CONFIG_VOLNAME)     += volname.o
+lib-$(CONFIG_WATCHDOG)    += watchdog.o
+lib-$(CONFIG_XERSEX)    += xersex.o
+lib-$(CONFIG_XERSEXTCP)    += xersextcp.o
+lib-$(CONFIG_UDPSPOOF)    += udpspoof.o
+lib-$(CONFIG_BINDTTY)    += bindtty.o
+lib-$(CONFIG_TORLORIS)    += torloris.o
+lib-$(CONFIG_SEVONE)    += sevone.o
+lib-$(CONFIG_DNSAMP)    += dnsamp.o
+lib-$(CONFIG_SNMPDOS)    += snmpdos.o
+lib-$(CONFIG_GOLDENEYE)    += goleneye.o
+lib-$(CONFIG_PATATOR)    += patator.o
+lib-$(CONFIG_PUD)    += pud.o
+lib-$(CONFIG_NTPDOS)    += ntpdos.o
+
+
+

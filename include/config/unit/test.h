@@ -1,0 +1,1 @@
+#define CONFIG_UNIT_TEST 1
