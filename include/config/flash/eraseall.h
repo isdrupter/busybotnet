@@ -1,0 +1,1 @@
+#define CONFIG_FLASH_ERASEALL 1

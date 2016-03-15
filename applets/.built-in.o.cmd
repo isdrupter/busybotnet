@@ -1,0 +1,1 @@
+cmd_applets/built-in.o :=  /home/ghost/bin/host/usr/bin/mips-buildroot-linux-uclibc-gcc -static -pthread -L/usr/local/lib/libmosquitto.so -nostdlib -nostdlib -static -r -o applets/built-in.o applets/applets.o
