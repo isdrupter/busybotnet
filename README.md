@@ -15,21 +15,21 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### Compiling & Installation
-**Step 1: **
-$ make clean
-**Step 2: **
-$ make menuconfig - configure your build
-** Step 3: **
-$ make
+**Step 1: ** <br>
+$ make clean <br>
+**Step 2: ** <br>
+$ make menuconfig - configure your build <br>
+** Step 3: ** <br>
+$ make <br>
 
 #### Cross Compiling
 Cross-compiling busybo* is easy. First, you need a toolchain. 
-**Step 1:**
-Grab the latest [buildroot](https://download.buildroot.org) and build it (same as above, $ make clean;make menuconfig;make)
-**Step 2**
-Configure with *make menuconfig* -- Specifically, tell busybotnet where your toolchain and sysroot are located.
-**Step 3**
-$ make
+**Step 1:** <br>
+Grab the latest [buildroot](https://download.buildroot.org) and build it (same as above, $ make clean;make menuconfig;make) <br>
+**Step 2** <br>
+Configure with *make menuconfig* -- Specifically, tell busybotnet where your toolchain and sysroot are located. <br>
+**Step 3** <br>
+$ make <br>
 
 That's it!
 
