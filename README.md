@@ -15,7 +15,7 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### Compiling & Installation
-Building is litterally 3 commands
+Building is litterally 3 commands <br>
 **Step 1: ** <br>
 $ make clean <br>
 **Step 2: ** <br>
