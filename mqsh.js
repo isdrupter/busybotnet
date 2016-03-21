@@ -7,7 +7,7 @@
 // 		~ kod ~
 //
 //
-//HOW TO INSTALL:   $ mkdir mqsh; mv mqsh.js mqsh; cd mqsh; npm install mqtt; npm install corporal; npm install colors; npm install readcommand; echo done; nodejs mqsh.js localhost
+//HOW TO INSTALL:   $ mkdir mqsh; mv mqsh.js mqsh; cd mqsh; npm install optimist; npm install mqtt; npm install corporal; npm install colors; npm install readcommand; echo done; nodejs mqsh.js localhost
 
 //var sleep = require('sleep');
 // set up our dependancies
@@ -15,21 +15,13 @@ var mqtt    = require('mqtt');
 var Corporal = require('corporal');
 var colors = require("colors/safe");
 var readcommand = require('readcommand');
-// set up variables for use in shell data pipe
-var subtopic = 'data'
-var pubtopic = 'shell'
-
-// take in argument from cmdline as servername for mqtt connection
-var procargs = process.argv.slice(2);
-var servername = procargs;
-
-
+var argv = require('optimist').argv;
 //function for beginning a mqtt connection to a server, listening to topic defined by subtopic and publishing to pubtopic
 function shell ()
 {
 	//this is where we connect
         var client  = mqtt.connect('mqtt://' + servername);
-        console.log("mqtt.connect " + procargs);
+        console.log("mqtt.connect " + servername);
 
 	//on client connection, we subscribe to the subtopic
 	client.on('connect', function ()
@@ -199,7 +191,28 @@ function startinteractive ()
 	corporal.on('load', corporal.loop);
 }
 
-//print welcome and then start tui
-console.log('welcome to mqsh type help to begin');
-startinteractive();
+	// set up variables for use in shell data pipe
+	var subtopic = 'data'
+	var pubtopic = 'shell'
+
+	// take in argument from cmdline as servername for mqtt connection
+	var servername = 'localhost';
+	//old style server argument passing
+//	var procargs = process.argv.slice(2);
+//	if (process.argv[2] != null || process.argv[2] != undefined) {
+//	        var servername = procargs;
+//	}
+
+	//new style
+	if (argv.h)
+	{
+		servername = argv.h;
+	}
+	if (argv.s) {
+		shell();	
+	}
+	else {
+		console.log('welcome to mqsh type help to begin');
+		startinteractive();
+	}
 
