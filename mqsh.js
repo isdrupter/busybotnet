@@ -21,14 +21,12 @@ var pubtopic = 'shell'
 var procargs = process.argv.slice(2);
 var servername = procargs;
 //take the process arguments as the mqtt server
-function startlistener() 
-{ 
-	var client  = mqtt.connect('mqtt://' + servername);
-	console.log("mqtt.connect " + procargs);
-}
 
 function shell ()
 {
+        var client  = mqtt.connect('mqtt://' + servername);
+        console.log("mqtt.connect " + procargs);
+
 	client.on('connect', function ()
 	{
 		client.subscribe(subtopic);
@@ -191,3 +189,4 @@ function startinteractive ()
 
 console.log('welcome to mqsh type help to begin');
 startinteractive();
+
