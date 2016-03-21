@@ -10,29 +10,35 @@
 //HOW TO INSTALL:   $ mkdir mqsh; mv mqsh.js mqsh; cd mqsh; npm install mqtt; npm install corporal; npm install colors; npm install readcommand; echo done; nodejs mqsh.js localhost
 
 //var sleep = require('sleep');
+// set up our dependancies
 var mqtt    = require('mqtt');
 var Corporal = require('corporal');
 var colors = require("colors/safe");
 var readcommand = require('readcommand');
+// set up variables for use in shell data pipe
 var subtopic = 'data'
 var pubtopic = 'shell'
 
-
+// take in argument from cmdline as servername for mqtt connection
 var procargs = process.argv.slice(2);
 var servername = procargs;
-//take the process arguments as the mqtt server
 
+
+//function for beginning a mqtt connection to a server, listening to topic defined by subtopic and publishing to pubtopic
 function shell ()
 {
+	//this is where we connect
         var client  = mqtt.connect('mqtt://' + servername);
         console.log("mqtt.connect " + procargs);
 
+	//on client connection, we subscribe to the subtopic
 	client.on('connect', function ()
 	{
 		client.subscribe(subtopic);
 		//  client.publish('lol', 'f');
 	});
 
+	//on receiving a message we write a newline and then the message
 	client.on('message', function (topic, message)
 	{
 		// message is Buffer
@@ -41,8 +47,8 @@ function shell ()
 		//  client.end();
 	});
 
+	//for handling control c
 	var sigints = 0;
-
 	readcommand.loop(function(err, args, str, next)
 	{
 		if (err && err.code !== 'SIGINT')
@@ -68,7 +74,9 @@ function shell ()
 		{
 			sigints = 0;
 		}
-
+		
+		// handle the input and send to pubtopic
+		
 		//console.log('Received args: %s', JSON.stringify(args));
 
 		client.publish(pubtopic, args.join(" "));
@@ -78,11 +86,13 @@ function shell ()
 
 }
 
-
+//function to handle the initial tui
 var corporal = new Corporal(
 {
+	//define out tui commands
 	'commands':
 	{
+		//this needs to be improved, currently cannot fun a callback without prompt rendering for whatever reason. once launched you will have to re enter if you need to come back to tui
 		'sh':
 		{
 			'description': 'open shell',
@@ -94,6 +104,7 @@ var corporal = new Corporal(
 				//		callback();
 			}
 		},
+			//hello world example
 			'echo':
 		{
 			'description': 'echo',
@@ -103,7 +114,7 @@ var corporal = new Corporal(
 					callback();
 			}
 		},
-
+			//get currently selected environment variables
 			'server':
 		{
 			'description': 'current server',
@@ -134,6 +145,7 @@ var corporal = new Corporal(
                                         callback();
                         }
                 },
+			//not working correctly, currently being called manually by shell()
                         'connect':
                 {
                         'description': 'connect to current server',
@@ -145,6 +157,7 @@ var corporal = new Corporal(
                                         callback();
                         }
                 },
+			//functions to change variables
                         'chpub':
                 {
                         'description': 'change pubtopic',
@@ -180,13 +193,13 @@ var corporal = new Corporal(
 
 	}
 });
-
+//function to start tui
 function startinteractive () 
 {
 	corporal.on('load', corporal.loop);
 }
 
-
+//print welcome and then start tui
 console.log('welcome to mqsh type help to begin');
 startinteractive();
 
