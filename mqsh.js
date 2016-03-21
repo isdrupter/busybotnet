@@ -89,7 +89,7 @@ var corporal = new Corporal(
 				'invoke': function(session, args, callback)
 			{
 				//session.stdout().write(args[0] + '\n');
-				console.log(colors.blue(" [*] ") + colors.red("opening mqtt shell on ") + colors.green(procargs));
+				console.log(colors.blue(" [*] ") + colors.red("opening mqtt shell on ") + colors.green(servername));
 					shell();
 				//		callback();
 			}
