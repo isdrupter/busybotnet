@@ -77,59 +77,58 @@ COMMANDS
     Currently available applets include:
 
             [, [[, acpid, add-shell, addgroup, adduser, adjtimex, aescrypt, arp,
-            arping, ash, awk, base64, basename, beep, beer, bindtty, blkid,
-            blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat, bzip2,
-            cal, cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd, chpst,
-            chroot, chrt, chvt, cksum, clear, cmp, coke, comm, conseal, conspy,
-            cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack, cut, date,
-            dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem, df,
-            dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp, dnsd,
-            dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases,
+            arping, ash, awk, base64, basename, bcrypt, beep, beer, bindtty,
+            blkid, blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat,
+            bzip2, cal, cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd,
+            chpst, chroot, chrt, chvt, cksum, clear, cmp, coke, comm, conseal,
+            conspy, cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack, cut,
+            date, dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem,
+            df, dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp,
+            dnsd, dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases,
             ecdsa, echo, ed, egrep, eject, env, envdir, envuidgid, ether-wake,
             expand, expr, fakeidentd, false, fatattr, fbset, fbsplash, fdflush,
-            fdformat, fdisk, fgconsole, fgrep, find, findfs, flash_eraseall,
-            flash_lock, flash_unlock, flashcp, flock, fold, free, freeramdisk,
-            fsck, fsck.minix, fstrim, fsync, ftpd, ftpget, ftpput, fuser,
-            genericsum, genkey, getopt, getty, gewse, gewse5, grep, groups,
-            gunzip, gzip, halt, hd, hdparm, head, hexdump, hostid, hostname,
-            httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset, id,
-            ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, inotifyd,
-            insmod, install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs,
-            iplink, iproute, iprule, iptunnel, jolt, kbd_mode, kill, killall,
+            fdformat, fdisk, fenc, fgconsole, fgrep, find, findfs, flock, fold,
+            free, freeramdisk, fsck, fsck.minix, fstrim, fsync, ftpd, ftpget,
+            ftpput, fuser, genericsum, genkey, getopt, getty, gewse, gewse5,
+            grep, groups, gunzip, gzip, halt, hd, hdparm, head, hexdump, hostid,
+            hostname, httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset,
+            id, ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, insmod,
+            install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink,
+            iproute, iprule, iptunnel, jolt, jshon, kbd_mode, kill, killall,
             killall5, kissofdeath, kkill, klogd, knbot, land, last, latierra,
-            less, linux32, linux64, linuxrc, ln, loadfont, loadkmap, logger,
-            login, logname, logread, losetup, lpd, lpq, lpr, ls, lsattr, lsmod,
-            lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat, makedevs, makemime,
-            man, md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo,
-            mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
-            modinfo, modprobe, more, mount, mountpoint, mpstat, mqtte, mt, mv,
-            nameif, nanddump, nandwrite, nbd-client, nc, nestea, netscan,
-            netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od,
-            openvt, orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping,
-            ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill,
-            pksign, pmap, pong, popmaildir, poweroff, powertop, printenv,
-            printf, proxcat, ps, pscan, pstree, pubclient, pud, pwd, pwdx,
-            raidautorun, raped, rdate, rdev, readahead, readlink, readprofile,
-            realpath, reboot, reformime, remove-shell, renice, reset, resize,
-            rev, rm, rmdir, rmmod, route, rpm, rpm2cpio, rsadecrypt, rsaencrypt,
-            rsagenkey, rsasign, rsaverify, rtcwake, run-parts, runlevel, runsv,
-            runsvdir, rx, script, scriptreplay, sed, sendmail, seq, setarch,
-            setconsole, setfont, setkeycodes, setlogcons, setserial, setsid,
-            setuidgid, sh, sha1sum, sha256sum, sha3sum, sha512sum, showkey,
-            shuf, slattach, sleep, smemcap, snmpdos, sockstress, softlimit,
-            sort, spiffit, sping, split, start-stop-daemon, stat, stream,
-            strings, stty, su, subclient, sulogin, sum, sv, svlogd, swapoff,
-            swapon, switch_root, sync, synk4, synscan, sysctl, syslogd, tac,
-            tail, tar, tcpsvd, teardrop, tee, telnet, telnetd, test, tftp,
-            tftpd, time, timeout, top, torloris, touch, tr, traceroute,
-            traceroute6, true, truncate, tty, ttysize, tunctl, ubiattach,
-            ubidetach, ubimkvol, ubirmvol, ubirsvol, ubiupdatevol, udhcpc,
-            udhcpd, udpdata, udpspoof, udpsvd, uevent, umount, uname,
-            uncompress, unexpand, uniq, unit, unix2dos, unlink, unlzma, unlzop,
-            unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
-            vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-            whois, wingatecrash, xargs, xersex, xersextcp, xz, xzcat, yes, zcat,
-            zcip
+            less, linux32, linux64, linuxrc, lizbot, lizserv, ln, loadfont,
+            loadkmap, logger, login, logname, logread, losetup, lpd, lpq, lpr,
+            ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat,
+            makedevs, makemime, man, md5sum, mdev, mesg, microcom, mkdir,
+            mkdosfs, mke2fs, mkfifo, mkfs.ext2, mkfs.minix, mkfs.vfat, mknod,
+            mkpasswd, mkswap, mktemp, modinfo, modprobe, more, mount,
+            mountpoint, mpstat, mqtte, mt, mv, nameif, nanddump, nandwrite,
+            nbd-client, nc, nestea, netscan, netstat, newtear, nice, nmeter,
+            nohup, nslookup, ntpd, ntpdos, od, openvt, orgasm, ottf, passwd,
+            patator, patch, pgrep, pidof, ping, ping6, pipe_progress,
+            pivot_root, pkdecrypt, pkencrypt, pkill, pksign, pmap, pong,
+            popmaildir, poweroff, powertop, printenv, printf, proxcat, ps,
+            pscan, pstree, pubclient, pud, pwd, pwdx, raidautorun, raped, rdate,
+            rdev, readahead, readlink, readprofile, realpath, reboot, reformime,
+            remove-shell, renice, reset, resize, rev, rm, rmdir, rmmod, route,
+            rpm, rpm2cpio, rsadecrypt, rsaencrypt, rsagenkey, rsasign,
+            rsaverify, rtcwake, run-parts, runlevel, runsv, runsvdir, rx,
+            script, scriptreplay, sed, sendmail, seq, setarch, setconsole,
+            setfont, setkeycodes, setlogcons, setserial, setsid, setuidgid, sh,
+            sha1sum, sha256sum, sha3sum, sha512sum, showkey, shuf, slattach,
+            sleep, smemcap, snmpdos, sockstress, softlimit, sort, spiffit,
+            sping, split, start-stop-daemon, stat, stream, strings, stty, su,
+            subclient, sulogin, sum, sv, svlogd, swapoff, swapon, switch_root,
+            sync, syndrop, synk4, sysctl, syslogd, tac, tail, tar, tcpsvd,
+            teardrop, tee, telnet, telnetd, test, tftp, tftpd, time, timeout,
+            top, torloris, touch, tr, traceroute, traceroute6, true, truncate,
+            tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol, ubirmvol,
+            ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd,
+            uevent, umount, uname, unexpand, uniq, unix2dos, unlink, unlzma,
+            unlzop, unxz, unzip, uptime, users, usleep, uudecode, uuencode,
+            vconfig, vi, vlock, volname, wall, watch, watchdog, wc, wget, which,
+            who, whoami, whois, wingatecrash, xargs, xersex, xersextcp, xz,
+            xzcat, yes, zcat, zcip
 
 COMMAND DESCRIPTIONS
     acpid
@@ -247,6 +246,9 @@ COMMAND DESCRIPTIONS
         basename FILE [SUFFIX]
 
         Strip directory path and .SUFFIX from FILE
+
+    bcrypt
+        bcrypt NoneNone
 
     beep
         beep -f FREQ -l LEN -d DELAY -r COUNT -n
@@ -1000,6 +1002,9 @@ COMMAND DESCRIPTIONS
                 -H HEADS
                 -S SECTORS
 
+    fenc
+        fenc NoneNone
+
     fgconsole
         fgconsole
 
@@ -1060,33 +1065,6 @@ COMMAND DESCRIPTIONS
         findfs LABEL=label or UUID=uuid
 
         Find a filesystem device based on a label or UUID
-
-    flash_eraseall
-        flash_eraseall [-jNq] MTD_DEVICE
-
-        Erase an MTD device
-
-                -j      Format the device for jffs2
-                -N      Don't skip bad blocks
-                -q      Don't display progress messages
-
-    flash_lock
-        flash_lock MTD_DEVICE OFFSET SECTORS
-
-        Lock part or all of an MTD device. If SECTORS is -1, then all
-        sectors will be locked, regardless of the value of OFFSET
-
-    flash_unlock
-        flash_unlock MTD_DEVICE
-
-        Unlock an MTD device
-
-    flashcp
-        flashcp -v FILE MTD_DEVICE
-
-        Copy an image to MTD device
-
-                -v      Verbose
 
     flock
         flock [-sxun] FD|{FILE [-c] PROG ARGS}
@@ -1628,34 +1606,6 @@ COMMAND DESCRIPTIONS
         Init is the first process started during boot. It never exits. It
         (re)spawns children according to /etc/inittab.
 
-    inotifyd
-        inotifyd PROG FILE1[:MASK]...
-
-        Run PROG on filesystem changes. When a filesystem event matching
-        MASK occurs on FILEn, PROG ACTUAL_EVENTS FILEn [SUBFILE] is run. If
-        PROG is -, events are sent to stdout. Events:
-
-                a       File is accessed
-                c       File is modified
-                e       Metadata changed
-                w       Writable file is closed
-                0       Unwritable file is closed
-                r       File is opened
-                D       File is deleted
-                M       File is moved
-                u       Backing fs is unmounted
-                o       Event queue overflowed
-                x       File can't be watched anymore
-        If watching a directory:
-
-                m       Subfile is moved into dir
-                y       Subfile is moved out of dir
-                n       Subfile is created
-                d       Subfile is deleted
-
-        inotifyd waits for PROG to exit. When x event happens for all FILEs,
-        inotifyd exits.
-
     insmod
         insmod FILE [SYMBOL=VALUE]...
 
@@ -1790,6 +1740,9 @@ COMMAND DESCRIPTIONS
     jolt
         jolt NoneNone
 
+    jshon
+        jshon NoneNone
+
     kbd_mode
         kbd_mode [-a|k|s|u] [-C TTY]
 
@@ -1868,6 +1821,12 @@ COMMAND DESCRIPTIONS
                 -N      Prefix line number to each line
                 -S      Truncate long lines
                 -~      Suppress ~s displayed past EOF
+
+    lizbot
+        lizbot NoneNone
+
+    lizserv
+        lizserv NoneNone
 
     ln  ln [OPTIONS] TARGET... LINK|DIR
 
@@ -3412,11 +3371,11 @@ COMMAND DESCRIPTIONS
         Write all buffered blocks (in FILEs) to disk -d Avoid syncing
         metadata -f Sync filesystems underlying FILEs
 
+    syndrop
+        syndrop NoneNone
+
     synk4
         synk4 NoneNone
-
-    synscan
-        synscan NoneNone
 
     sysctl
         sysctl [OPTIONS] [KEY[=VALUE]]...
@@ -3469,7 +3428,7 @@ COMMAND DESCRIPTIONS
 
         N may be suffixed by k (x1024), b (x512), or m (x1024^2).
 
-    tar tar -[cxtZzJjahmvO] [-X FILE] [-T FILE] [-f TARFILE] [-C DIR]
+    tar tar -[cxtzJjahmvO] [-X FILE] [-T FILE] [-f TARFILE] [-C DIR]
         [FILE]...
 
         Create, extract, or list files from a tar file
@@ -3482,7 +3441,6 @@ COMMAND DESCRIPTIONS
                 f       Name of TARFILE ('-' for stdin/out)
                 C       Change to DIR before operation
                 v       Verbose
-                Z       (De)compress using compress
                 z       (De)compress using gzip
                 J       (De)compress using xz
                 j       (De)compress using bzip2
@@ -3858,14 +3816,6 @@ COMMAND DESCRIPTIONS
                 -i      The hardware platform
                 -o      OS name
 
-    uncompress
-        uncompress [-cf] [FILE]...
-
-        Decompress .Z file[s]
-
-                -c      Write to stdout
-                -f      Overwrite
-
     unexpand
         unexpand [-fa][-t N] [FILE]...
 
@@ -3886,11 +3836,6 @@ COMMAND DESCRIPTIONS
                 -f N    Skip first N fields
                 -s N    Skip first N chars (after any skipped fields)
                 -w N    Compare N characters in line
-
-    unit
-        unit
-
-        Run the unit-test suite
 
     unix2dos
         unix2dos [-ud] [FILE]

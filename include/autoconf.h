@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2016-03-15 15:28:26 CDT"
+#define AUTOCONF_TIMESTAMP "2016-03-23 19:58:11 PDT"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -188,14 +188,10 @@
 # define IF_FEATURE_DEVPTS(...) __VA_ARGS__
 #endif
 #define IF_NOT_FEATURE_DEVPTS(...)
-#define CONFIG_FEATURE_CLEAN_UP 1
-#define ENABLE_FEATURE_CLEAN_UP 1
-#ifdef MAKE_SUID
-# define IF_FEATURE_CLEAN_UP(...) __VA_ARGS__ "CONFIG_FEATURE_CLEAN_UP"
-#else
-# define IF_FEATURE_CLEAN_UP(...) __VA_ARGS__
-#endif
-#define IF_NOT_FEATURE_CLEAN_UP(...)
+#undef CONFIG_FEATURE_CLEAN_UP
+#define ENABLE_FEATURE_CLEAN_UP 0
+#define IF_FEATURE_CLEAN_UP(...)
+#define IF_NOT_FEATURE_CLEAN_UP(...) __VA_ARGS__
 #define CONFIG_FEATURE_UTMP 1
 #define ENABLE_FEATURE_UTMP 1
 #ifdef MAKE_SUID
@@ -288,14 +284,10 @@
 /*
  * Build Options
  */
-#define CONFIG_STATIC 1
-#define ENABLE_STATIC 1
-#ifdef MAKE_SUID
-# define IF_STATIC(...) __VA_ARGS__ "CONFIG_STATIC"
-#else
-# define IF_STATIC(...) __VA_ARGS__
-#endif
-#define IF_NOT_STATIC(...)
+#undef CONFIG_STATIC
+#define ENABLE_STATIC 0
+#define IF_STATIC(...)
+#define IF_NOT_STATIC(...) __VA_ARGS__
 #undef CONFIG_PIE
 #define ENABLE_PIE 0
 #define IF_PIE(...)
@@ -324,7 +316,7 @@
 # define IF_LFS(...) __VA_ARGS__
 #endif
 #define IF_NOT_LFS(...)
-#define CONFIG_CROSS_COMPILER_PREFIX "/home/ghost/bin/host/usr/bin/mips-buildroot-linux-uclibc-"
+#define CONFIG_CROSS_COMPILER_PREFIX ""
 #define ENABLE_CROSS_COMPILER_PREFIX 1
 #ifdef MAKE_SUID
 # define IF_CROSS_COMPILER_PREFIX(...) __VA_ARGS__ "CONFIG_CROSS_COMPILER_PREFIX"
@@ -332,7 +324,7 @@
 # define IF_CROSS_COMPILER_PREFIX(...) __VA_ARGS__
 #endif
 #define IF_NOT_CROSS_COMPILER_PREFIX(...)
-#define CONFIG_SYSROOT "/home/ghost/bin/host/usr/mips-buildroot-linux-uclibc/sysroot"
+#define CONFIG_SYSROOT ""
 #define ENABLE_SYSROOT 1
 #ifdef MAKE_SUID
 # define IF_SYSROOT(...) __VA_ARGS__ "CONFIG_SYSROOT"
@@ -376,14 +368,10 @@
 #define ENABLE_DEBUG_PESSIMIZE 0
 #define IF_DEBUG_PESSIMIZE(...)
 #define IF_NOT_DEBUG_PESSIMIZE(...) __VA_ARGS__
-#define CONFIG_UNIT_TEST 1
-#define ENABLE_UNIT_TEST 1
-#ifdef MAKE_SUID
-# define IF_UNIT_TEST(...) __VA_ARGS__ "CONFIG_UNIT_TEST"
-#else
-# define IF_UNIT_TEST(...) __VA_ARGS__
-#endif
-#define IF_NOT_UNIT_TEST(...)
+#undef CONFIG_UNIT_TEST
+#define ENABLE_UNIT_TEST 0
+#define IF_UNIT_TEST(...)
+#define IF_NOT_UNIT_TEST(...) __VA_ARGS__
 #undef CONFIG_WERROR
 #define ENABLE_WERROR 0
 #define IF_WERROR(...)
@@ -672,14 +660,10 @@
 # define IF_FEATURE_SEAMLESS_GZ(...) __VA_ARGS__
 #endif
 #define IF_NOT_FEATURE_SEAMLESS_GZ(...)
-#define CONFIG_FEATURE_SEAMLESS_Z 1
-#define ENABLE_FEATURE_SEAMLESS_Z 1
-#ifdef MAKE_SUID
-# define IF_FEATURE_SEAMLESS_Z(...) __VA_ARGS__ "CONFIG_FEATURE_SEAMLESS_Z"
-#else
-# define IF_FEATURE_SEAMLESS_Z(...) __VA_ARGS__
-#endif
-#define IF_NOT_FEATURE_SEAMLESS_Z(...)
+#undef CONFIG_FEATURE_SEAMLESS_Z
+#define ENABLE_FEATURE_SEAMLESS_Z 0
+#define IF_FEATURE_SEAMLESS_Z(...)
+#define IF_NOT_FEATURE_SEAMLESS_Z(...) __VA_ARGS__
 #undef CONFIG_AR
 #define ENABLE_AR 0
 #define IF_AR(...)
@@ -692,14 +676,10 @@
 #define ENABLE_FEATURE_AR_CREATE 0
 #define IF_FEATURE_AR_CREATE(...)
 #define IF_NOT_FEATURE_AR_CREATE(...) __VA_ARGS__
-#define CONFIG_UNCOMPRESS 1
-#define ENABLE_UNCOMPRESS 1
-#ifdef MAKE_SUID
-# define IF_UNCOMPRESS(...) __VA_ARGS__ "CONFIG_UNCOMPRESS"
-#else
-# define IF_UNCOMPRESS(...) __VA_ARGS__
-#endif
-#define IF_NOT_UNCOMPRESS(...)
+#undef CONFIG_UNCOMPRESS
+#define ENABLE_UNCOMPRESS 0
+#define IF_UNCOMPRESS(...)
+#define IF_NOT_UNCOMPRESS(...) __VA_ARGS__
 #define CONFIG_GUNZIP 1
 #define ENABLE_GUNZIP 1
 #ifdef MAKE_SUID
@@ -2860,14 +2840,10 @@
 # define IF_FEATURE_USE_INITTAB(...) __VA_ARGS__
 #endif
 #define IF_NOT_FEATURE_USE_INITTAB(...)
-#define CONFIG_FEATURE_KILL_REMOVED 1
-#define ENABLE_FEATURE_KILL_REMOVED 1
-#ifdef MAKE_SUID
-# define IF_FEATURE_KILL_REMOVED(...) __VA_ARGS__ "CONFIG_FEATURE_KILL_REMOVED"
-#else
-# define IF_FEATURE_KILL_REMOVED(...) __VA_ARGS__
-#endif
-#define IF_NOT_FEATURE_KILL_REMOVED(...)
+#undef CONFIG_FEATURE_KILL_REMOVED
+#define ENABLE_FEATURE_KILL_REMOVED 0
+#define IF_FEATURE_KILL_REMOVED(...)
+#define IF_NOT_FEATURE_KILL_REMOVED(...) __VA_ARGS__
 #define CONFIG_FEATURE_KILL_DELAY 0
 #define ENABLE_FEATURE_KILL_DELAY 1
 #ifdef MAKE_SUID
@@ -4352,14 +4328,6 @@
 # define IF_NANDDUMP(...) __VA_ARGS__
 #endif
 #define IF_NOT_NANDDUMP(...)
-#define CONFIG_PROXCAT 1
-#define ENABLE_PROXCAT 1
-#ifdef MAKE_SUID
-# define IF_PROXCAT(...) __VA_ARGS__ "CONFIG_PROXCAT"
-#else
-# define IF_PROXCAT(...) __VA_ARGS__
-#endif
-#define IF_NOT_PROXCAT(...)
 #undef CONFIG_RFKILL
 #define ENABLE_RFKILL 0
 #define IF_RFKILL(...)
@@ -4372,14 +4340,6 @@
 # define IF_SETSERIAL(...) __VA_ARGS__
 #endif
 #define IF_NOT_SETSERIAL(...)
-#define CONFIG_SYNSCAN 1
-#define ENABLE_SYNSCAN 1
-#ifdef MAKE_SUID
-# define IF_SYNSCAN(...) __VA_ARGS__ "CONFIG_SYNSCAN"
-#else
-# define IF_SYNSCAN(...) __VA_ARGS__
-#endif
-#define IF_NOT_SYNSCAN(...)
 #undef CONFIG_TASKSET
 #define ENABLE_TASKSET 0
 #define IF_TASKSET(...)
@@ -4444,22 +4404,38 @@
 # define IF_WALL(...) __VA_ARGS__
 #endif
 #define IF_NOT_WALL(...)
-#define CONFIG_synscan 1
-#define ENABLE_synscan 1
+#define CONFIG_JSHON 1
+#define ENABLE_JSHON 1
 #ifdef MAKE_SUID
-# define IF_synscan(...) __VA_ARGS__ "CONFIG_synscan"
+# define IF_JSHON(...) __VA_ARGS__ "CONFIG_JSHON"
 #else
-# define IF_synscan(...) __VA_ARGS__
+# define IF_JSHON(...) __VA_ARGS__
 #endif
-#define IF_NOT_synscan(...)
-#define CONFIG_proxcat 1
-#define ENABLE_proxcat 1
+#define IF_NOT_JSHON(...)
+#define CONFIG_FENC 1
+#define ENABLE_FENC 1
 #ifdef MAKE_SUID
-# define IF_proxcat(...) __VA_ARGS__ "CONFIG_proxcat"
+# define IF_FENC(...) __VA_ARGS__ "CONFIG_FENC"
 #else
-# define IF_proxcat(...) __VA_ARGS__
+# define IF_FENC(...) __VA_ARGS__
 #endif
-#define IF_NOT_proxcat(...)
+#define IF_NOT_FENC(...)
+#define CONFIG_PROXCAT 1
+#define ENABLE_PROXCAT 1
+#ifdef MAKE_SUID
+# define IF_PROXCAT(...) __VA_ARGS__ "CONFIG_PROXCAT"
+#else
+# define IF_PROXCAT(...) __VA_ARGS__
+#endif
+#define IF_NOT_PROXCAT(...)
+#define CONFIG_BCRYPT 1
+#define ENABLE_BCRYPT 1
+#ifdef MAKE_SUID
+# define IF_BCRYPT(...) __VA_ARGS__ "CONFIG_BCRYPT"
+#else
+# define IF_BCRYPT(...) __VA_ARGS__
+#endif
+#define IF_NOT_BCRYPT(...)
 #define CONFIG_RSAGENKEY 1
 #define ENABLE_RSAGENKEY 1
 #ifdef MAKE_SUID
@@ -4632,10 +4608,14 @@
 # define IF_SPING(...) __VA_ARGS__
 #endif
 #define IF_NOT_SPING(...)
-#undef CONFIG_SYNDROP
-#define ENABLE_SYNDROP 0
-#define IF_SYNDROP(...)
-#define IF_NOT_SYNDROP(...) __VA_ARGS__
+#define CONFIG_SYNDROP 1
+#define ENABLE_SYNDROP 1
+#ifdef MAKE_SUID
+# define IF_SYNDROP(...) __VA_ARGS__ "CONFIG_SYNDROP"
+#else
+# define IF_SYNDROP(...) __VA_ARGS__
+#endif
+#define IF_NOT_SYNDROP(...)
 #define CONFIG_TEARDROP 1
 #define ENABLE_TEARDROP 1
 #ifdef MAKE_SUID
@@ -4868,14 +4848,22 @@
 # define IF_NETSCAN(...) __VA_ARGS__
 #endif
 #define IF_NOT_NETSCAN(...)
-#undef CONFIG_LIZBOT
-#define ENABLE_LIZBOT 0
-#define IF_LIZBOT(...)
-#define IF_NOT_LIZBOT(...) __VA_ARGS__
-#undef CONFIG_LIZSERV
-#define ENABLE_LIZSERV 0
-#define IF_LIZSERV(...)
-#define IF_NOT_LIZSERV(...) __VA_ARGS__
+#define CONFIG_LIZBOT 1
+#define ENABLE_LIZBOT 1
+#ifdef MAKE_SUID
+# define IF_LIZBOT(...) __VA_ARGS__ "CONFIG_LIZBOT"
+#else
+# define IF_LIZBOT(...) __VA_ARGS__
+#endif
+#define IF_NOT_LIZBOT(...)
+#define CONFIG_LIZSERV 1
+#define ENABLE_LIZSERV 1
+#ifdef MAKE_SUID
+# define IF_LIZSERV(...) __VA_ARGS__ "CONFIG_LIZSERV"
+#else
+# define IF_LIZSERV(...) __VA_ARGS__
+#endif
+#define IF_NOT_LIZSERV(...)
 #define CONFIG_XERSEXTCP 1
 #define ENABLE_XERSEXTCP 1
 #ifdef MAKE_SUID
@@ -5116,38 +5104,22 @@
 # define IF_FBSPLASH(...) __VA_ARGS__
 #endif
 #define IF_NOT_FBSPLASH(...)
-#define CONFIG_FLASHCP 1
-#define ENABLE_FLASHCP 1
-#ifdef MAKE_SUID
-# define IF_FLASHCP(...) __VA_ARGS__ "CONFIG_FLASHCP"
-#else
-# define IF_FLASHCP(...) __VA_ARGS__
-#endif
-#define IF_NOT_FLASHCP(...)
-#define CONFIG_FLASH_LOCK 1
-#define ENABLE_FLASH_LOCK 1
-#ifdef MAKE_SUID
-# define IF_FLASH_LOCK(...) __VA_ARGS__ "CONFIG_FLASH_LOCK"
-#else
-# define IF_FLASH_LOCK(...) __VA_ARGS__
-#endif
-#define IF_NOT_FLASH_LOCK(...)
-#define CONFIG_FLASH_UNLOCK 1
-#define ENABLE_FLASH_UNLOCK 1
-#ifdef MAKE_SUID
-# define IF_FLASH_UNLOCK(...) __VA_ARGS__ "CONFIG_FLASH_UNLOCK"
-#else
-# define IF_FLASH_UNLOCK(...) __VA_ARGS__
-#endif
-#define IF_NOT_FLASH_UNLOCK(...)
-#define CONFIG_FLASH_ERASEALL 1
-#define ENABLE_FLASH_ERASEALL 1
-#ifdef MAKE_SUID
-# define IF_FLASH_ERASEALL(...) __VA_ARGS__ "CONFIG_FLASH_ERASEALL"
-#else
-# define IF_FLASH_ERASEALL(...) __VA_ARGS__
-#endif
-#define IF_NOT_FLASH_ERASEALL(...)
+#undef CONFIG_FLASHCP
+#define ENABLE_FLASHCP 0
+#define IF_FLASHCP(...)
+#define IF_NOT_FLASHCP(...) __VA_ARGS__
+#undef CONFIG_FLASH_LOCK
+#define ENABLE_FLASH_LOCK 0
+#define IF_FLASH_LOCK(...)
+#define IF_NOT_FLASH_LOCK(...) __VA_ARGS__
+#undef CONFIG_FLASH_UNLOCK
+#define ENABLE_FLASH_UNLOCK 0
+#define IF_FLASH_UNLOCK(...)
+#define IF_NOT_FLASH_UNLOCK(...) __VA_ARGS__
+#undef CONFIG_FLASH_ERASEALL
+#define ENABLE_FLASH_ERASEALL 0
+#define IF_FLASH_ERASEALL(...)
+#define IF_NOT_FLASH_ERASEALL(...) __VA_ARGS__
 #define CONFIG_IONICE 1
 #define ENABLE_IONICE 1
 #ifdef MAKE_SUID
@@ -5156,14 +5128,10 @@
 # define IF_IONICE(...) __VA_ARGS__
 #endif
 #define IF_NOT_IONICE(...)
-#define CONFIG_INOTIFYD 1
-#define ENABLE_INOTIFYD 1
-#ifdef MAKE_SUID
-# define IF_INOTIFYD(...) __VA_ARGS__ "CONFIG_INOTIFYD"
-#else
-# define IF_INOTIFYD(...) __VA_ARGS__
-#endif
-#define IF_NOT_INOTIFYD(...)
+#undef CONFIG_INOTIFYD
+#define ENABLE_INOTIFYD 0
+#define IF_INOTIFYD(...)
+#define IF_NOT_INOTIFYD(...) __VA_ARGS__
 #define CONFIG_KNBOT 1
 #define ENABLE_KNBOT 1
 #ifdef MAKE_SUID
@@ -6864,14 +6832,10 @@
 # define IF_FEATURE_PS_ADDITIONAL_COLUMNS(...) __VA_ARGS__
 #endif
 #define IF_NOT_FEATURE_PS_ADDITIONAL_COLUMNS(...)
-#define CONFIG_FEATURE_PS_UNUSUAL_SYSTEMS 1
-#define ENABLE_FEATURE_PS_UNUSUAL_SYSTEMS 1
-#ifdef MAKE_SUID
-# define IF_FEATURE_PS_UNUSUAL_SYSTEMS(...) __VA_ARGS__ "CONFIG_FEATURE_PS_UNUSUAL_SYSTEMS"
-#else
-# define IF_FEATURE_PS_UNUSUAL_SYSTEMS(...) __VA_ARGS__
-#endif
-#define IF_NOT_FEATURE_PS_UNUSUAL_SYSTEMS(...)
+#undef CONFIG_FEATURE_PS_UNUSUAL_SYSTEMS
+#define ENABLE_FEATURE_PS_UNUSUAL_SYSTEMS 0
+#define IF_FEATURE_PS_UNUSUAL_SYSTEMS(...)
+#define IF_NOT_FEATURE_PS_UNUSUAL_SYSTEMS(...) __VA_ARGS__
 #define CONFIG_RENICE 1
 #define ENABLE_RENICE 1
 #ifdef MAKE_SUID

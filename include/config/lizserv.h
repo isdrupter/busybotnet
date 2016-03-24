@@ -1,1 +1,1 @@
-#undef CONFIG_LIZSERV
+#define CONFIG_LIZSERV 1

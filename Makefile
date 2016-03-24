@@ -289,8 +289,8 @@ MAKEFLAGS += -rR
 # Make variables (CC, etc...)
 
 AS		= $(CROSS_COMPILE)as
-CC		= $(CROSS_COMPILE)gcc -static -pthread -L/usr/local/lib/libmosquitto.so
-LD		= $(CC) -nostdlib
+CC		= $(CROSS_COMPILE)gcc -static -pthread 
+LD		= $(CC) -nostdlib -static 
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm

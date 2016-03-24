@@ -1,1 +1,1 @@
-#define CONFIG_proxcat 1
+#define CONFIG_PROXCAT 1

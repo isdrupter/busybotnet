@@ -133,7 +133,7 @@
 .\" ========================================================================
 .\"
 .IX Title "BUSYBOX 1"
-.TH BUSYBOX 1 "2016-03-15" "version 1.24.1" "busybox"
+.TH BUSYBOX 1 "2016-03-24" "version 1.24.1" "busybox"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -221,59 +221,58 @@ Currently available applets include:
 .PP
 .Vb 10
 \&        [, [[, acpid, add\-shell, addgroup, adduser, adjtimex, aescrypt, arp,
-\&        arping, ash, awk, base64, basename, beep, beer, bindtty, blkid,
-\&        blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat, bzip2,
-\&        cal, cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd, chpst,
-\&        chroot, chrt, chvt, cksum, clear, cmp, coke, comm, conseal, conspy,
-\&        cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack, cut, date,
-\&        dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem, df,
-\&        dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp, dnsd,
-\&        dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases,
+\&        arping, ash, awk, base64, basename, bcrypt, beep, beer, bindtty,
+\&        blkid, blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat,
+\&        bzip2, cal, cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd,
+\&        chpst, chroot, chrt, chvt, cksum, clear, cmp, coke, comm, conseal,
+\&        conspy, cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack, cut,
+\&        date, dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem,
+\&        df, dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp,
+\&        dnsd, dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases,
 \&        ecdsa, echo, ed, egrep, eject, env, envdir, envuidgid, ether\-wake,
 \&        expand, expr, fakeidentd, false, fatattr, fbset, fbsplash, fdflush,
-\&        fdformat, fdisk, fgconsole, fgrep, find, findfs, flash_eraseall,
-\&        flash_lock, flash_unlock, flashcp, flock, fold, free, freeramdisk,
-\&        fsck, fsck.minix, fstrim, fsync, ftpd, ftpget, ftpput, fuser,
-\&        genericsum, genkey, getopt, getty, gewse, gewse5, grep, groups,
-\&        gunzip, gzip, halt, hd, hdparm, head, hexdump, hostid, hostname,
-\&        httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset, id,
-\&        ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, inotifyd,
-\&        insmod, install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs,
-\&        iplink, iproute, iprule, iptunnel, jolt, kbd_mode, kill, killall,
+\&        fdformat, fdisk, fenc, fgconsole, fgrep, find, findfs, flock, fold,
+\&        free, freeramdisk, fsck, fsck.minix, fstrim, fsync, ftpd, ftpget,
+\&        ftpput, fuser, genericsum, genkey, getopt, getty, gewse, gewse5,
+\&        grep, groups, gunzip, gzip, halt, hd, hdparm, head, hexdump, hostid,
+\&        hostname, httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset,
+\&        id, ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, insmod,
+\&        install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink,
+\&        iproute, iprule, iptunnel, jolt, jshon, kbd_mode, kill, killall,
 \&        killall5, kissofdeath, kkill, klogd, knbot, land, last, latierra,
-\&        less, linux32, linux64, linuxrc, ln, loadfont, loadkmap, logger,
-\&        login, logname, logread, losetup, lpd, lpq, lpr, ls, lsattr, lsmod,
-\&        lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat, makedevs, makemime,
-\&        man, md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo,
-\&        mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
-\&        modinfo, modprobe, more, mount, mountpoint, mpstat, mqtte, mt, mv,
-\&        nameif, nanddump, nandwrite, nbd\-client, nc, nestea, netscan,
-\&        netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od,
-\&        openvt, orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping,
-\&        ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill,
-\&        pksign, pmap, pong, popmaildir, poweroff, powertop, printenv,
-\&        printf, proxcat, ps, pscan, pstree, pubclient, pud, pwd, pwdx,
-\&        raidautorun, raped, rdate, rdev, readahead, readlink, readprofile,
-\&        realpath, reboot, reformime, remove\-shell, renice, reset, resize,
-\&        rev, rm, rmdir, rmmod, route, rpm, rpm2cpio, rsadecrypt, rsaencrypt,
-\&        rsagenkey, rsasign, rsaverify, rtcwake, run\-parts, runlevel, runsv,
-\&        runsvdir, rx, script, scriptreplay, sed, sendmail, seq, setarch,
-\&        setconsole, setfont, setkeycodes, setlogcons, setserial, setsid,
-\&        setuidgid, sh, sha1sum, sha256sum, sha3sum, sha512sum, showkey,
-\&        shuf, slattach, sleep, smemcap, snmpdos, sockstress, softlimit,
-\&        sort, spiffit, sping, split, start\-stop\-daemon, stat, stream,
-\&        strings, stty, su, subclient, sulogin, sum, sv, svlogd, swapoff,
-\&        swapon, switch_root, sync, synk4, synscan, sysctl, syslogd, tac,
-\&        tail, tar, tcpsvd, teardrop, tee, telnet, telnetd, test, tftp,
-\&        tftpd, time, timeout, top, torloris, touch, tr, traceroute,
-\&        traceroute6, true, truncate, tty, ttysize, tunctl, ubiattach,
-\&        ubidetach, ubimkvol, ubirmvol, ubirsvol, ubiupdatevol, udhcpc,
-\&        udhcpd, udpdata, udpspoof, udpsvd, uevent, umount, uname,
-\&        uncompress, unexpand, uniq, unit, unix2dos, unlink, unlzma, unlzop,
-\&        unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
-\&        vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-\&        whois, wingatecrash, xargs, xersex, xersextcp, xz, xzcat, yes, zcat,
-\&        zcip
+\&        less, linux32, linux64, linuxrc, lizbot, lizserv, ln, loadfont,
+\&        loadkmap, logger, login, logname, logread, losetup, lpd, lpq, lpr,
+\&        ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat,
+\&        makedevs, makemime, man, md5sum, mdev, mesg, microcom, mkdir,
+\&        mkdosfs, mke2fs, mkfifo, mkfs.ext2, mkfs.minix, mkfs.vfat, mknod,
+\&        mkpasswd, mkswap, mktemp, modinfo, modprobe, more, mount,
+\&        mountpoint, mpstat, mqtte, mt, mv, nameif, nanddump, nandwrite,
+\&        nbd\-client, nc, nestea, netscan, netstat, newtear, nice, nmeter,
+\&        nohup, nslookup, ntpd, ntpdos, od, openvt, orgasm, ottf, passwd,
+\&        patator, patch, pgrep, pidof, ping, ping6, pipe_progress,
+\&        pivot_root, pkdecrypt, pkencrypt, pkill, pksign, pmap, pong,
+\&        popmaildir, poweroff, powertop, printenv, printf, proxcat, ps,
+\&        pscan, pstree, pubclient, pud, pwd, pwdx, raidautorun, raped, rdate,
+\&        rdev, readahead, readlink, readprofile, realpath, reboot, reformime,
+\&        remove\-shell, renice, reset, resize, rev, rm, rmdir, rmmod, route,
+\&        rpm, rpm2cpio, rsadecrypt, rsaencrypt, rsagenkey, rsasign,
+\&        rsaverify, rtcwake, run\-parts, runlevel, runsv, runsvdir, rx,
+\&        script, scriptreplay, sed, sendmail, seq, setarch, setconsole,
+\&        setfont, setkeycodes, setlogcons, setserial, setsid, setuidgid, sh,
+\&        sha1sum, sha256sum, sha3sum, sha512sum, showkey, shuf, slattach,
+\&        sleep, smemcap, snmpdos, sockstress, softlimit, sort, spiffit,
+\&        sping, split, start\-stop\-daemon, stat, stream, strings, stty, su,
+\&        subclient, sulogin, sum, sv, svlogd, swapoff, swapon, switch_root,
+\&        sync, syndrop, synk4, sysctl, syslogd, tac, tail, tar, tcpsvd,
+\&        teardrop, tee, telnet, telnetd, test, tftp, tftpd, time, timeout,
+\&        top, torloris, touch, tr, traceroute, traceroute6, true, truncate,
+\&        tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol, ubirmvol,
+\&        ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd,
+\&        uevent, umount, uname, unexpand, uniq, unix2dos, unlink, unlzma,
+\&        unlzop, unxz, unzip, uptime, users, usleep, uudecode, uuencode,
+\&        vconfig, vi, vlock, volname, wall, watch, watchdog, wc, wget, which,
+\&        who, whoami, whois, wingatecrash, xargs, xersex, xersextcp, xz,
+\&        xzcat, yes, zcat, zcip
 .Ve
 .SH "COMMAND DESCRIPTIONS"
 .IX Header "COMMAND DESCRIPTIONS"
@@ -411,6 +410,9 @@ Base64 encode or decode \s-1FILE\s0 to standard output
 basename \s-1FILE\s0 [\s-1SUFFIX\s0]
 .Sp
 Strip directory path and .SUFFIX from \s-1FILE\s0
+.IP "\fBbcrypt\fR" 4
+.IX Item "bcrypt"
+bcrypt NoneNone
 .IP "\fBbeep\fR" 4
 .IX Item "beep"
 beep \-f \s-1FREQ\s0 \-l \s-1LEN\s0 \-d \s-1DELAY\s0 \-r \s-1COUNT\s0 \-n
@@ -1267,6 +1269,9 @@ Change partition table
 \&        \-H HEADS
 \&        \-S SECTORS
 .Ve
+.IP "\fBfenc\fR" 4
+.IX Item "fenc"
+fenc NoneNone
 .IP "\fBfgconsole\fR" 4
 .IX Item "fgconsole"
 fgconsole
@@ -1332,37 +1337,6 @@ Actions:
 findfs LABEL=label or UUID=uuid
 .Sp
 Find a filesystem device based on a label or \s-1UUID\s0
-.IP "\fBflash_eraseall\fR" 4
-.IX Item "flash_eraseall"
-flash_eraseall [\-jNq] \s-1MTD_DEVICE\s0
-.Sp
-Erase an \s-1MTD\s0 device
-.Sp
-.Vb 3
-\&        \-j      Format the device for jffs2
-\&        \-N      Don\*(Aqt skip bad blocks
-\&        \-q      Don\*(Aqt display progress messages
-.Ve
-.IP "\fBflash_lock\fR" 4
-.IX Item "flash_lock"
-flash_lock \s-1MTD_DEVICE OFFSET SECTORS\s0
-.Sp
-Lock part or all of an \s-1MTD\s0 device. If \s-1SECTORS\s0 is \-1, then all sectors
-will be locked, regardless of the value of \s-1OFFSET\s0
-.IP "\fBflash_unlock\fR" 4
-.IX Item "flash_unlock"
-flash_unlock \s-1MTD_DEVICE\s0
-.Sp
-Unlock an \s-1MTD\s0 device
-.IP "\fBflashcp\fR" 4
-.IX Item "flashcp"
-flashcp \-v \s-1FILE MTD_DEVICE\s0
-.Sp
-Copy an image to \s-1MTD\s0 device
-.Sp
-.Vb 1
-\&        \-v      Verbose
-.Ve
 .IP "\fBflock\fR" 4
 .IX Item "flock"
 flock [\-sxun] FD|{\s-1FILE\s0 [\-c] \s-1PROG ARGS\s0}
@@ -1978,38 +1952,6 @@ init
 .Sp
 Init is the first process started during boot. It never exits.
 It (re)spawns children according to /etc/inittab.
-.IP "\fBinotifyd\fR" 4
-.IX Item "inotifyd"
-inotifyd \s-1PROG\s0 FILE1[:MASK]...
-.Sp
-Run \s-1PROG\s0 on filesystem changes.
-When a filesystem event matching \s-1MASK\s0 occurs on FILEn,
-\&\s-1PROG ACTUAL_EVENTS\s0 FILEn [\s-1SUBFILE\s0] is run.
-If \s-1PROG\s0 is \-, events are sent to stdout.
-Events:
-.Sp
-.Vb 12
-\&        a       File is accessed
-\&        c       File is modified
-\&        e       Metadata changed
-\&        w       Writable file is closed
-\&        0       Unwritable file is closed
-\&        r       File is opened
-\&        D       File is deleted
-\&        M       File is moved
-\&        u       Backing fs is unmounted
-\&        o       Event queue overflowed
-\&        x       File can\*(Aqt be watched anymore
-\&If watching a directory:
-\&
-\&        m       Subfile is moved into dir
-\&        y       Subfile is moved out of dir
-\&        n       Subfile is created
-\&        d       Subfile is deleted
-.Ve
-.Sp
-inotifyd waits for \s-1PROG\s0 to exit.
-When x event happens for all FILEs, inotifyd exits.
 .IP "\fBinsmod\fR" 4
 .IX Item "insmod"
 insmod \s-1FILE\s0 [SYMBOL=VALUE]...
@@ -2164,6 +2106,9 @@ iptunnel { add | change | del | show } [\s-1NAME\s0]
 .IP "\fBjolt\fR" 4
 .IX Item "jolt"
 jolt NoneNone
+.IP "\fBjshon\fR" 4
+.IX Item "jshon"
+jshon NoneNone
 .IP "\fBkbd_mode\fR" 4
 .IX Item "kbd_mode"
 kbd_mode [\-a|k|s|u] [\-C \s-1TTY\s0]
@@ -2256,6 +2201,12 @@ View \s-1FILE \s0(or stdin) one screenful at a time
 \&        \-S      Truncate long lines
 \&        \-~      Suppress ~s displayed past EOF
 .Ve
+.IP "\fBlizbot\fR" 4
+.IX Item "lizbot"
+lizbot NoneNone
+.IP "\fBlizserv\fR" 4
+.IX Item "lizserv"
+lizserv NoneNone
 .IP "\fBln\fR" 4
 .IX Item "ln"
 ln [\s-1OPTIONS\s0] \s-1TARGET...\s0 LINK|DIR
@@ -4034,12 +3985,12 @@ sync [\-df] [\s-1FILE\s0]...
 Write all buffered blocks (in FILEs) to disk
 	\-d	Avoid syncing metadata
 	\-f	Sync filesystems underlying FILEs
+.IP "\fBsyndrop\fR" 4
+.IX Item "syndrop"
+syndrop NoneNone
 .IP "\fBsynk4\fR" 4
 .IX Item "synk4"
 synk4 NoneNone
-.IP "\fBsynscan\fR" 4
-.IX Item "synscan"
-synscan NoneNone
 .IP "\fBsysctl\fR" 4
 .IX Item "sysctl"
 sysctl [\s-1OPTIONS\s0] [KEY[=VALUE]]...
@@ -4100,7 +4051,7 @@ With more than one \s-1FILE,\s0 precede each with a filename header.
 N may be suffixed by k (x1024), b (x512), or m (x1024^2).
 .IP "\fBtar\fR" 4
 .IX Item "tar"
-tar \-[cxtZzJjahmvO] [\-X \s-1FILE\s0] [\-T \s-1FILE\s0] [\-f \s-1TARFILE\s0] [\-C \s-1DIR\s0] [\s-1FILE\s0]...
+tar \-[cxtzJjahmvO] [\-X \s-1FILE\s0] [\-T \s-1FILE\s0] [\-f \s-1TARFILE\s0] [\-C \s-1DIR\s0] [\s-1FILE\s0]...
 .Sp
 Create, extract, or list files from a tar file
 .Sp
@@ -4113,7 +4064,6 @@ Operation:
 \&        f       Name of TARFILE (\*(Aq\-\*(Aq for stdin/out)
 \&        C       Change to DIR before operation
 \&        v       Verbose
-\&        Z       (De)compress using compress
 \&        z       (De)compress using gzip
 \&        J       (De)compress using xz
 \&        j       (De)compress using bzip2
@@ -4549,16 +4499,6 @@ Print system information
 \&        \-i      The hardware platform
 \&        \-o      OS name
 .Ve
-.IP "\fBuncompress\fR" 4
-.IX Item "uncompress"
-uncompress [\-cf] [\s-1FILE\s0]...
-.Sp
-Decompress .Z file[s]
-.Sp
-.Vb 2
-\&        \-c      Write to stdout
-\&        \-f      Overwrite
-.Ve
 .IP "\fBunexpand\fR" 4
 .IX Item "unexpand"
 unexpand [\-fa][\-t N] [\s-1FILE\s0]...
@@ -4584,11 +4524,6 @@ Discard duplicate lines
 \&        \-s N    Skip first N chars (after any skipped fields)
 \&        \-w N    Compare N characters in line
 .Ve
-.IP "\fBunit\fR" 4
-.IX Item "unit"
-unit
-.Sp
-Run the unit-test suite
 .IP "\fBunix2dos\fR" 4
 .IX Item "unix2dos"
 unix2dos [\-ud] [\s-1FILE\s0]

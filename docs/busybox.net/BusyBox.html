@@ -61,59 +61,58 @@
 <p>Currently available applets include:</p>
 
 <pre><code>        [, [[, acpid, add-shell, addgroup, adduser, adjtimex, aescrypt, arp,
-        arping, ash, awk, base64, basename, beep, beer, bindtty, blkid,
-        blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat, bzip2,
-        cal, cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd, chpst,
-        chroot, chrt, chvt, cksum, clear, cmp, coke, comm, conseal, conspy,
-        cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack, cut, date,
-        dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem, df,
-        dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp, dnsd,
-        dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases,
+        arping, ash, awk, base64, basename, bcrypt, beep, beer, bindtty,
+        blkid, blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat,
+        bzip2, cal, cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd,
+        chpst, chroot, chrt, chvt, cksum, clear, cmp, coke, comm, conseal,
+        conspy, cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack, cut,
+        date, dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem,
+        df, dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp,
+        dnsd, dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases,
         ecdsa, echo, ed, egrep, eject, env, envdir, envuidgid, ether-wake,
         expand, expr, fakeidentd, false, fatattr, fbset, fbsplash, fdflush,
-        fdformat, fdisk, fgconsole, fgrep, find, findfs, flash_eraseall,
-        flash_lock, flash_unlock, flashcp, flock, fold, free, freeramdisk,
-        fsck, fsck.minix, fstrim, fsync, ftpd, ftpget, ftpput, fuser,
-        genericsum, genkey, getopt, getty, gewse, gewse5, grep, groups,
-        gunzip, gzip, halt, hd, hdparm, head, hexdump, hostid, hostname,
-        httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset, id,
-        ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, inotifyd,
-        insmod, install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs,
-        iplink, iproute, iprule, iptunnel, jolt, kbd_mode, kill, killall,
+        fdformat, fdisk, fenc, fgconsole, fgrep, find, findfs, flock, fold,
+        free, freeramdisk, fsck, fsck.minix, fstrim, fsync, ftpd, ftpget,
+        ftpput, fuser, genericsum, genkey, getopt, getty, gewse, gewse5,
+        grep, groups, gunzip, gzip, halt, hd, hdparm, head, hexdump, hostid,
+        hostname, httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset,
+        id, ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, insmod,
+        install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink,
+        iproute, iprule, iptunnel, jolt, jshon, kbd_mode, kill, killall,
         killall5, kissofdeath, kkill, klogd, knbot, land, last, latierra,
-        less, linux32, linux64, linuxrc, ln, loadfont, loadkmap, logger,
-        login, logname, logread, losetup, lpd, lpq, lpr, ls, lsattr, lsmod,
-        lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat, makedevs, makemime,
-        man, md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo,
-        mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
-        modinfo, modprobe, more, mount, mountpoint, mpstat, mqtte, mt, mv,
-        nameif, nanddump, nandwrite, nbd-client, nc, nestea, netscan,
-        netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od,
-        openvt, orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping,
-        ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill,
-        pksign, pmap, pong, popmaildir, poweroff, powertop, printenv,
-        printf, proxcat, ps, pscan, pstree, pubclient, pud, pwd, pwdx,
-        raidautorun, raped, rdate, rdev, readahead, readlink, readprofile,
-        realpath, reboot, reformime, remove-shell, renice, reset, resize,
-        rev, rm, rmdir, rmmod, route, rpm, rpm2cpio, rsadecrypt, rsaencrypt,
-        rsagenkey, rsasign, rsaverify, rtcwake, run-parts, runlevel, runsv,
-        runsvdir, rx, script, scriptreplay, sed, sendmail, seq, setarch,
-        setconsole, setfont, setkeycodes, setlogcons, setserial, setsid,
-        setuidgid, sh, sha1sum, sha256sum, sha3sum, sha512sum, showkey,
-        shuf, slattach, sleep, smemcap, snmpdos, sockstress, softlimit,
-        sort, spiffit, sping, split, start-stop-daemon, stat, stream,
-        strings, stty, su, subclient, sulogin, sum, sv, svlogd, swapoff,
-        swapon, switch_root, sync, synk4, synscan, sysctl, syslogd, tac,
-        tail, tar, tcpsvd, teardrop, tee, telnet, telnetd, test, tftp,
-        tftpd, time, timeout, top, torloris, touch, tr, traceroute,
-        traceroute6, true, truncate, tty, ttysize, tunctl, ubiattach,
-        ubidetach, ubimkvol, ubirmvol, ubirsvol, ubiupdatevol, udhcpc,
-        udhcpd, udpdata, udpspoof, udpsvd, uevent, umount, uname,
-        uncompress, unexpand, uniq, unit, unix2dos, unlink, unlzma, unlzop,
-        unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
-        vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-        whois, wingatecrash, xargs, xersex, xersextcp, xz, xzcat, yes, zcat,
-        zcip</code></pre>
+        less, linux32, linux64, linuxrc, lizbot, lizserv, ln, loadfont,
+        loadkmap, logger, login, logname, logread, losetup, lpd, lpq, lpr,
+        ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat,
+        makedevs, makemime, man, md5sum, mdev, mesg, microcom, mkdir,
+        mkdosfs, mke2fs, mkfifo, mkfs.ext2, mkfs.minix, mkfs.vfat, mknod,
+        mkpasswd, mkswap, mktemp, modinfo, modprobe, more, mount,
+        mountpoint, mpstat, mqtte, mt, mv, nameif, nanddump, nandwrite,
+        nbd-client, nc, nestea, netscan, netstat, newtear, nice, nmeter,
+        nohup, nslookup, ntpd, ntpdos, od, openvt, orgasm, ottf, passwd,
+        patator, patch, pgrep, pidof, ping, ping6, pipe_progress,
+        pivot_root, pkdecrypt, pkencrypt, pkill, pksign, pmap, pong,
+        popmaildir, poweroff, powertop, printenv, printf, proxcat, ps,
+        pscan, pstree, pubclient, pud, pwd, pwdx, raidautorun, raped, rdate,
+        rdev, readahead, readlink, readprofile, realpath, reboot, reformime,
+        remove-shell, renice, reset, resize, rev, rm, rmdir, rmmod, route,
+        rpm, rpm2cpio, rsadecrypt, rsaencrypt, rsagenkey, rsasign,
+        rsaverify, rtcwake, run-parts, runlevel, runsv, runsvdir, rx,
+        script, scriptreplay, sed, sendmail, seq, setarch, setconsole,
+        setfont, setkeycodes, setlogcons, setserial, setsid, setuidgid, sh,
+        sha1sum, sha256sum, sha3sum, sha512sum, showkey, shuf, slattach,
+        sleep, smemcap, snmpdos, sockstress, softlimit, sort, spiffit,
+        sping, split, start-stop-daemon, stat, stream, strings, stty, su,
+        subclient, sulogin, sum, sv, svlogd, swapoff, swapon, switch_root,
+        sync, syndrop, synk4, sysctl, syslogd, tac, tail, tar, tcpsvd,
+        teardrop, tee, telnet, telnetd, test, tftp, tftpd, time, timeout,
+        top, torloris, touch, tr, traceroute, traceroute6, true, truncate,
+        tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol, ubirmvol,
+        ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd,
+        uevent, umount, uname, unexpand, uniq, unix2dos, unlink, unlzma,
+        unlzop, unxz, unzip, uptime, users, usleep, uudecode, uuencode,
+        vconfig, vi, vlock, volname, wall, watch, watchdog, wc, wget, which,
+        who, whoami, whois, wingatecrash, xargs, xersex, xersextcp, xz,
+        xzcat, yes, zcat, zcip</code></pre>
 
 <h1 id="COMMAND-DESCRIPTIONS">COMMAND DESCRIPTIONS</h1>
 
@@ -267,6 +266,12 @@
 <p>basename FILE [SUFFIX]</p>
 
 <p>Strip directory path and .SUFFIX from FILE</p>
+
+</dd>
+<dt id="bcrypt"><b>bcrypt</b></dt>
+<dd>
+
+<p>bcrypt NoneNone</p>
 
 </dd>
 <dt id="beep"><b>beep</b></dt>
@@ -1241,6 +1246,12 @@ Options:
         -S SECTORS</code></pre>
 
 </dd>
+<dt id="fenc"><b>fenc</b></dt>
+<dd>
+
+<p>fenc NoneNone</p>
+
+</dd>
 <dt id="fgconsole"><b>fgconsole</b></dt>
 <dd>
 
@@ -1307,44 +1318,6 @@ If none of the following actions is specified, -print is assumed
 <p>findfs LABEL=label or UUID=uuid</p>
 
 <p>Find a filesystem device based on a label or UUID</p>
-
-</dd>
-<dt id="flash_eraseall"><b>flash_eraseall</b></dt>
-<dd>
-
-<p>flash_eraseall [-jNq] MTD_DEVICE</p>
-
-<p>Erase an MTD device</p>
-
-<pre><code>        -j      Format the device for jffs2
-        -N      Don&#39;t skip bad blocks
-        -q      Don&#39;t display progress messages</code></pre>
-
-</dd>
-<dt id="flash_lock"><b>flash_lock</b></dt>
-<dd>
-
-<p>flash_lock MTD_DEVICE OFFSET SECTORS</p>
-
-<p>Lock part or all of an MTD device. If SECTORS is -1, then all sectors will be locked, regardless of the value of OFFSET</p>
-
-</dd>
-<dt id="flash_unlock"><b>flash_unlock</b></dt>
-<dd>
-
-<p>flash_unlock MTD_DEVICE</p>
-
-<p>Unlock an MTD device</p>
-
-</dd>
-<dt id="flashcp"><b>flashcp</b></dt>
-<dd>
-
-<p>flashcp -v FILE MTD_DEVICE</p>
-
-<p>Copy an image to MTD device</p>
-
-<pre><code>        -v      Verbose</code></pre>
 
 </dd>
 <dt id="flock"><b>flock</b></dt>
@@ -2009,34 +1982,6 @@ MODE is:
 <p>Init is the first process started during boot. It never exits. It (re)spawns children according to /etc/inittab.</p>
 
 </dd>
-<dt id="inotifyd"><b>inotifyd</b></dt>
-<dd>
-
-<p>inotifyd PROG FILE1[:MASK]...</p>
-
-<p>Run PROG on filesystem changes. When a filesystem event matching MASK occurs on FILEn, PROG ACTUAL_EVENTS FILEn [SUBFILE] is run. If PROG is -, events are sent to stdout. Events:</p>
-
-<pre><code>        a       File is accessed
-        c       File is modified
-        e       Metadata changed
-        w       Writable file is closed
-        0       Unwritable file is closed
-        r       File is opened
-        D       File is deleted
-        M       File is moved
-        u       Backing fs is unmounted
-        o       Event queue overflowed
-        x       File can&#39;t be watched anymore
-If watching a directory:
-
-        m       Subfile is moved into dir
-        y       Subfile is moved out of dir
-        n       Subfile is created
-        d       Subfile is deleted</code></pre>
-
-<p>inotifyd waits for PROG to exit. When x event happens for all FILEs, inotifyd exits.</p>
-
-</dd>
 <dt id="insmod"><b>insmod</b></dt>
 <dd>
 
@@ -2191,6 +2136,12 @@ Output format:
 <p>jolt NoneNone</p>
 
 </dd>
+<dt id="jshon"><b>jshon</b></dt>
+<dd>
+
+<p>jshon NoneNone</p>
+
+</dd>
 <dt id="kbd_mode"><b>kbd_mode</b></dt>
 <dd>
 
@@ -2303,6 +2254,18 @@ Output format:
         -N      Prefix line number to each line
         -S      Truncate long lines
         -~      Suppress ~s displayed past EOF</code></pre>
+
+</dd>
+<dt id="lizbot"><b>lizbot</b></dt>
+<dd>
+
+<p>lizbot NoneNone</p>
+
+</dd>
+<dt id="lizserv"><b>lizserv</b></dt>
+<dd>
+
+<p>lizserv NoneNone</p>
 
 </dd>
 <dt id="ln"><b>ln</b></dt>
@@ -4305,16 +4268,16 @@ Other:
 <p>Write all buffered blocks (in FILEs) to disk -d Avoid syncing metadata -f Sync filesystems underlying FILEs</p>
 
 </dd>
+<dt id="syndrop"><b>syndrop</b></dt>
+<dd>
+
+<p>syndrop NoneNone</p>
+
+</dd>
 <dt id="synk4"><b>synk4</b></dt>
 <dd>
 
 <p>synk4 NoneNone</p>
-
-</dd>
-<dt id="synscan"><b>synscan</b></dt>
-<dd>
-
-<p>synscan NoneNone</p>
 
 </dd>
 <dt id="sysctl"><b>sysctl</b></dt>
@@ -4383,7 +4346,7 @@ Other:
 <dt id="tar"><b>tar</b></dt>
 <dd>
 
-<p>tar -[cxtZzJjahmvO] [-X FILE] [-T FILE] [-f TARFILE] [-C DIR] [FILE]...</p>
+<p>tar -[cxtzJjahmvO] [-X FILE] [-T FILE] [-f TARFILE] [-C DIR] [FILE]...</p>
 
 <p>Create, extract, or list files from a tar file</p>
 
@@ -4395,7 +4358,6 @@ Other:
         f       Name of TARFILE (&#39;-&#39; for stdin/out)
         C       Change to DIR before operation
         v       Verbose
-        Z       (De)compress using compress
         z       (De)compress using gzip
         J       (De)compress using xz
         j       (De)compress using bzip2
@@ -4858,17 +4820,6 @@ Signals:
         -o      OS name</code></pre>
 
 </dd>
-<dt id="uncompress"><b>uncompress</b></dt>
-<dd>
-
-<p>uncompress [-cf] [FILE]...</p>
-
-<p>Decompress .Z file[s]</p>
-
-<pre><code>        -c      Write to stdout
-        -f      Overwrite</code></pre>
-
-</dd>
 <dt id="unexpand"><b>unexpand</b></dt>
 <dd>
 
@@ -4894,14 +4845,6 @@ Signals:
         -f N    Skip first N fields
         -s N    Skip first N chars (after any skipped fields)
         -w N    Compare N characters in line</code></pre>
-
-</dd>
-<dt id="unit"><b>unit</b></dt>
-<dd>
-
-<p>unit</p>
-
-<p>Run the unit-test suite</p>
 
 </dd>
 <dt id="unix2dos"><b>unix2dos</b></dt>

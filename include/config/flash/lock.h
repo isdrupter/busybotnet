@@ -1,1 +1,1 @@
-#define CONFIG_FLASH_LOCK 1
+#undef CONFIG_FLASH_LOCK

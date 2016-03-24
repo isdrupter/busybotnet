@@ -1,1 +1,1 @@
-#undef CONFIG_LIZBOT
+#define CONFIG_LIZBOT 1

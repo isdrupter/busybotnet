@@ -14,8 +14,17 @@
 #define BB_USAGE_H 1
 
 #define NOUSAGE_STR "\b"
+
 #define knbot_trivial_usage	"None"
 #define knbot_full_usage	"None"
+#define jshon_trivial_usage     "None"
+#define jshon_full_usage        "None"
+#define fenc_trivial_usage     "None"
+#define fenc_full_usage        "None"
+#define proxcat_trivial_usage     "None"
+#define proxcat_full_usage        "None"
+#define bcrypt_trivial_usage     "None"
+#define bcrypt_full_usage        "None"
 #define ottf_trivial_usage     "None"
 #define ottf_full_usage        "None"
 #define rsagenkey_trivial_usage     "None"
@@ -122,8 +131,6 @@
 #define dpss_full_usage        "None"
 #define netscan_trivial_usage     "None"
 #define netscan_full_usage        "None"
-//#define mqtte_trivial_usage     "None"
-//#define mqtte_full_usage        "None"
 #define sockstress_trivial_usage     "None"
 #define sockstress_full_usage        "None"
 #define lizbot_trivial_usage     "None"
@@ -154,13 +161,6 @@
 #define pud_full_usage        "None"
 #define patator_trivial_usage     "None"
 #define patator_full_usage        "None"
-
-
-#define proxcat_full_usage  "None"
-#define proxcat_trivial_usage  "None"
-
-#define synscan_full_usage  "None"
-#define synscan_trivial_usage  "None"
 
 
 #define ar_trivial_usage \
@@ -6402,6 +6402,7 @@
      "\n	-r	Show remaining time" \
      "\n	-a	Show expiration time" \
 	) \
+
 
 #define busybox_notes_usage \
        "Hello world!\n"

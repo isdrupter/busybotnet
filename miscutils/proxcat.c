@@ -26,31 +26,6 @@
  * REVISION: 1.97
  * ---------------------------------------------------------
  ***********************************************************************/
-/*
-usage:#define proxcat_trivial_usage
-usage:	"usage: %s [-dnhst45N][-p local-port][[-SsHhTt][proxy:port][dest:port]]"
-usage:#define proxcat_full_usage
-usage:	"ProxCat: Forwards remote services over proxy to local ports; \n"
-usage:     "local apps do not need to be SOCKS-aware. EXAMPLE(s): Torify irc: \n"
-usage:	   "proxcat -p 1234 -NR remote -S 127.0.0.1:9050 irc.anonops.com:6697 \n"
-usage:     "Proxy ssh: proxcat ProxyCommand proxcat -n %h %p"
-usage:     "          [-R resolve [local/remote]] [-w timeout] \n"
-usage:     "   	      [-H proxy-server[:port]] [-S [user@]socks-server[:port]] \n"
-usage:     "          [-T proxy-server[:port]]\n"
-usage:     "          [-c telnet-proxy-command]\n"
-usage:     "          host port (destination host:port) \n "
-usage:	   " tip: '-P' option is same to '-p' except keep remote session.\n"
-usage:	   " tip: '-N' option means no proxy authetication needed \n"
-usage:     "Originally 'connect', credit: https://gist.github.com/rurban/360940 \n"
-*/
-//kbuild:lib-$(CONFIG_PROXCAT) += proxcat.o
-//config:config PROXCAT
-//config:	bool "proxcat"
-//config:	default y
-//config:	help
-//config:	  Returns an indeterminate value.
-
-
 #define PRG_VERSION "1.97"
 #include "libbb.h"
 //#include <stdio.h>
@@ -165,7 +140,7 @@ char *telnet_command = "telnet %h %p";
 typedef struct {
     int num;
     const char *str;
-} XLOOKUP_ITEM;
+} pc_lookup_ITEM;
 
 /* relay method, server and port */
 #define METHOD_UNDECIDED 0
@@ -197,7 +172,7 @@ u_short dest_port = 0;
 #define SOCKS5_REP_ANOTSUP      0x08    /* Address not supported */
 #define SOCKS5_REP_INVADDR      0x09    /* Inalid address */
 
-XLOOKUP_ITEM socks5_rep_names[] = {
+pc_lookup_ITEM socks5_rep_names[] = {
     { SOCKS5_REP_SUCCEEDED, "succeeded"},
     { SOCKS5_REP_FAIL,      "general SOCKS server failure"},
     { SOCKS5_REP_NALLOWED,  "connection not allowed by ruleset"},
@@ -225,7 +200,7 @@ XLOOKUP_ITEM socks5_rep_names[] = {
 #define SOCKS4_REP_IDENT_FAIL   92      /* cannot connect identd */
 #define SOCKS4_REP_USERID       93      /* user id not matched */
 
-XLOOKUP_ITEM socks4_rep_names[] = {
+pc_lookup_ITEM socks4_rep_names[] = {
     { SOCKS4_REP_SUCCEEDED,  "request granted (succeeded)"},
     { SOCKS4_REP_REJECTED,   "request rejected or failed"},
     { SOCKS4_REP_IDENT_FAIL, "cannot connect identd"},
@@ -439,7 +414,7 @@ expand_host_and_port (const char *fmt, const char *host, int port)
 
 
 int
-lookup_resolve( const char *str )
+pc_lookup_resolve( const char *str )
 {
     char *buf = strdup( str );
     int ret;
@@ -1121,7 +1096,7 @@ set_relay( int method, char *spec )
                  ((socks_version == 4) &&
                   ((resolve = getparam(ENV_SOCKS4_RESOLVE)) != NULL)) ||
                  ((resolve = getparam(ENV_SOCKS_RESOLVE)) != NULL) ) {
-                socks_resolve = lookup_resolve( resolve );
+                socks_resolve = pc_lookup_resolve( resolve );
                 if ( socks_resolve == RESOLVE_UNKNOWN )
                     fatalx("Invalid resolve method: %s\n", resolve);
             } else {
@@ -1327,7 +1302,7 @@ getarg( int argc, char **argv )
             case 'R':                           /* specify resolve method */
                 if ( 1 < argc ) {
                     argv++, argc--;
-                    socks_resolve = lookup_resolve( *argv );
+                    socks_resolve = pc_lookup_resolve( *argv );
                 } else {
                     error("option '-%c' needs argument.\n", *ptr);
                     err++;
@@ -1555,7 +1530,7 @@ report_text( char *prefix, char *buf )
             case '\n': *tmp++ = '\\'; *tmp++ = 'n'; break;
             case '\\': *tmp++ = '\\'; *tmp++ = '\\'; break;
             default:
-                if ( isprint(*buf) ) {
+                if ( isprint_asciionly(*buf) ) {
                     *tmp++ = *buf;
                 } else {
                     int consumed = tmp - work;
@@ -1696,7 +1671,7 @@ cut_token( char *str, char *delim)
 }
 
 const char *
-xlookup(int num, XLOOKUP_ITEM *items)
+pc_lookup(int num, pc_lookup_ITEM *items)
 {
     int i = 0;
     while (0 <= items[i].num) {
@@ -1954,7 +1929,7 @@ begin_socks5_relay( SOCKET s )
     atomic_in( s, buf, 4 );                     /* recv response */
     if ( (buf[1] != SOCKS5_REP_SUCCEEDED) ) {   /* check reply code */
         error("Got error response from SOCKS server: %d (%s).\n",
-              buf[1], lookup(buf[1], socks5_rep_names));
+              buf[1], pc_lookup(buf[1], socks5_rep_names));
         return -1;
     }
     ptr = buf + 4;
@@ -2041,7 +2016,7 @@ begin_socks4_relay( SOCKET s )
     atomic_in( s, buf, 8 );                     /* recv response */
     if ( (buf[1] != SOCKS4_REP_SUCCEEDED) ) {   /* check reply code */
         error("Got error response: %d: '%s'.\n",
-              buf[1], lookup(buf[1], socks4_rep_names));
+              buf[1], pc_lookup(buf[1], socks4_rep_names));
         return -1;                              /* failed */
     }
 

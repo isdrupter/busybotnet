@@ -1,1 +1,1 @@
-#define CONFIG_FLASHCP 1
+#undef CONFIG_FLASHCP

@@ -1,1 +1,1 @@
-#define CONFIG_INOTIFYD 1
+#undef CONFIG_INOTIFYD

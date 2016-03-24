@@ -6,16 +6,31 @@
 menu "Miscellaneous Utilities"
 
 INSERT
-config synscan
-	bool "synscan"
-	default y
-	help
-		x
-config proxcat
-	bool "proxcat"
-	default y
-	help
-		x
+config JSHON
+        bool "jshon"
+        default y
+        help
+          This is dank botnet command.
+
+
+config FENC
+        bool "fenc"
+        default y
+        help
+          This is dank botnet command.
+
+config PROXCAT
+        bool "proxcat"
+        default y
+        help
+          This is dank botnet command.
+
+config BCRYPT
+        bool "bcrypt"
+        default y
+        help
+          This is dank botnet command.
+
 config RSAGENKEY
         bool "rsagenkey"
         default y

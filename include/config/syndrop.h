@@ -1,1 +1,1 @@
-#undef CONFIG_SYNDROP
+#define CONFIG_SYNDROP 1

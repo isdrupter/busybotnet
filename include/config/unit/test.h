@@ -1,1 +1,1 @@
-#define CONFIG_UNIT_TEST 1
+#undef CONFIG_UNIT_TEST
