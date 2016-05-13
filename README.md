@@ -29,16 +29,16 @@ static binary, hence the term, "Busybotnet".
 
 ### What's New?
 
--- You can now actually call ./busybotnet and it will work!
--- fenc (encrypt stuff with salsa algo)
--- tsh (needs work, backdoor shell aes enc)
--- rathole (backdoor shell, blowfish enc)
--- ssyn2 (deadly ddos tool)
--- sudp (deadly udp ddos tool)
--- jshon (sh wrapper for json)
--- hydra (yes, buybotnet now has hydra!)
--- prism (userspace icmp triggered reverse shell backdoor)
--- Many other gems, you must figure out the power yourself.
+-- You can now actually call ./busybotnet and it will work! <br>
+-- fenc (encrypt stuff with salsa algo) <br>
+-- tsh (needs work, backdoor shell aes enc) <br>
+-- rathole (backdoor shell, blowfish enc) <br>
+-- ssyn2 (deadly ddos tool) <br>
+-- sudp (deadly udp ddos tool) <br>
+-- jshon (sh wrapper for json) <br>
+-- hydra (yes, buybotnet now has hydra!) <br>
+-- prism (userspace icmp triggered reverse shell backdoor) <br>
+-- Many other gems, you must figure out the power yourself. <br>
 
 ### Currently Defined Functions:
 As you can see, we have added many new features to busybox. Particulary interesting are the cryptography applets. This is an 
