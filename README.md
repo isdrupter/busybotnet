@@ -16,7 +16,7 @@
 </pre>
 ## Offensive & Defensive Security for Embedded Systems
 
-### What is busybotnet?
+### One Bin to Rule Them All...
 
 Busybotnet is a (deviously named) fork of [busybox](https://busybox.net) that aims to make many of the security tools that
 are often only found on full systems available their resource lacking counterparts we call embedded devices. With the 
@@ -27,9 +27,43 @@ in their systems. This inevitably leads to the devices being repurpoused by hack
 point of this project is to provide all of the security tools a system admin needs to administer embedded devices in one 
 static binary, hence the term, "Busybotnet".
 
+### What's New?
+
+-- You can now actually call ./busybotnet and it will work!
+-- fenc (encrypt stuff with salsa algo)
+-- tsh (needs work, backdoor shell aes enc)
+-- rathole (backdoor shell, blowfish enc)
+-- ssyn2 (deadly ddos tool)
+-- sudp (deadly udp ddos tool)
+-- jshon (sh wrapper for json)
+-- hydra (yes, buybotnet now has hydra!)
+-- prism (userspace icmp triggered reverse shell backdoor)
+-- Many other gems, you must figure out the power yourself.
+
 ### Currently Defined Functions:
 As you can see, we have added many new features to busybox. Particulary interesting are the cryptography applets. This is an 
 incomplete list of the applets enabled during my last build:
+
+<pre>
+evil@devbox:~/busybotnet$ ./busybotnet hydra
+Hydra v8.2-dev (c) 2016 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Syntax: hydra [[[-l LOGIN|-L FILE] [-p PASS|-P FILE]] | [-C FILE]] [-e nsr] [-o FILE] [-t TASKS] [-M FILE [-T TASKS]] [-w TIME] [-W TIME] [-f] [-s PORT] [-SOuvVd46] [service://server[:PORT][/OPT]]
+
+Options:
+  -l LOGIN or -L FILE  login with LOGIN name, or load several logins from FILE
+  -p PASS  or -P FILE  try password PASS, or load several passwords from FILE
+  -C FILE   colon separated "login:pass" format, instead of -L/-P options
+  -M FILE   list of servers to attack, one entry per line, ':' to specify port
+  -t TASKS  run TASKS number of connects in parallel (per host, default: 16)
+  -U        service module usage details
+  -h        more command line options (COMPLETE hyhelp)
+  server    the target: DNS, IP or 192.168.0.0/24 (this OR the -M option)
+  service   the service to crack (see below for supported protocols)
+  OPT       some service modules support additional input (-U for module hyhelp)
+
+Supported services: asterisk cisco cisco-enable cvs ftp http-{head|get} http-{get|post}-form http-proxy http-proxy-urlenum icq imap irc ldap2 ldap3[s] mssql mysql(v4) nntp pcanywhere pcnfs pop3 redis rexec rlogin rsh rtsp s7-300 smb smtp smtp-enum snmp socks5 teamspeak telnet vmauthd vnc xmpp
+</pre>
 
 <pre>
 evil@devbox:~/busybotnet$ ./busybox
@@ -49,58 +83,53 @@ Usage: busybox [function [arguments]...]
 	will act like whatever it was invoked as.
 
 Currently defined functions:
-	[, [[, acpid, add-shell, addgroup, adduser, adjtimex, aescrypt, arp,
-	arping, ash, awk, base64, basename, beep, beer, bindtty, blkid,
-	blockdev, boink, bonk, bootchartd, brctl, bunzip2, bzcat, bzip2, cal,
-	cat, catv, chat, chattr, chgrp, chmod, chown, chpasswd, chpst, chroot,
-	chrt, chvt, cksum, clear, cmp, coke, comm, conseal, conspy, cp, cpio,
-	crond, crontab, crypthash, cryptpw, cttyhack, cut, date, dc, dcd3c, dd,
-	deallocvt, delgroup, deluser, depmod, devmem, df, dhclient, dhcprelay,
-	dhgenprime, diff, dirname, dmesg, dnsamp, dnsd, dnsdomainname,
-	dos2unix, dpsc, dpss, du, dumpkmap, dumpleases, ecdsa, echo, echoize,
-	ed, egrep, eject, env, envdir, envuidgid, ether-wake, expand, expr,
-	fakeidentd, false, fatattr, fbset, fbsplash, fdflush, fdformat, fdisk,
-	fgconsole, fgrep, find, findfs, flash_eraseall, flash_lock,
-	flash_unlock, flashcp, flock, fold, free, freeramdisk, fsck,
-	fsck.minix, fstrim, fsync, ftpd, ftpget, ftpput, fuser, genericsum,
-	genkey, getopt, getty, gewse, gewse5, grep, groups, gunzip, gzip, halt,
-	hd, hdparm, head, hexdump, hostid, hostname, httpd, hush, hwclock,
-	i2cdetect, i2cdump, i2cget, i2cset, id, ifconfig, ifdown, ifenslave,
-	ifplugd, ifup, inetd, init, inotifyd, insmod, install, ionice, iostat,
-	ip, ipaddr, ipcalc, ipcrm, ipcs, iplink, iproute, iprule, iptunnel,
-	jolt, kbd_mode, kill, killall, killall5, kissofdeath, kkill, klogd,
-	knbot, land, last, latierra, less, linux32, linux64, linuxrc, ln,
-	loadfont, loadkmap, logger, login, logname, logread, losetup, lpd, lpq,
-	lpr, ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma, lzop, lzopcat,
-	makedevs, makemime, man, md5sum, mdev, mesg, microcom, mkdir, mkdosfs,
-	mke2fs, mkfifo, mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd,
-	mkswap, mktemp, modinfo, modprobe, more, mount, mountpoint, mpstat,
-	mqtte, mt, mv, nameif, nanddump, nandwrite, nbd-client, nc, nestea,
-	netscan, netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos,
-	od, openvt, orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping,
-	ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill, pksign,
-	pmap, pong, popmaildir, poweroff, powertop, printenv, printf, proxcat,
-	ps, pscan, pstree, pubclient, pud, pwd, pwdx, raidautorun, raped,
-	rdate, rdev, readahead, readlink, readprofile, realpath, reboot,
-	reformime, remove-shell, renice, reset, resize, rev, rm, rmdir, rmmod,
-	route, rpm, rpm2cpio, rsadecrypt, rsaencrypt, rsagenkey, rsasign,
-	rsaverify, rtcwake, run-parts, runlevel, runsv, runsvdir, rx, script,
-	scriptreplay, sed, sendmail, seq, setarch, setconsole, setfont,
-	setkeycodes, setlogcons, setserial, setsid, setuidgid, sh, sha1sum,
+	[, [[, acpid, add-shell, addgroup, adduser, adjtimex, aescrypt, arp, arping,
+	ash, awk, base64, basename, beep, beer, bindtty, blkid, blockdev, boink, bonk,
+	bootchartd, brctl, bunzip2, bzcat, bzip2, cal, cat, catv, chat, chattr, chgrp,
+	chmod, chown, chpasswd, chpst, chroot, chrt, chvt, cksum, clear, cmp, coke,
+	comm, conseal, conspy, cp, cpio, crond, crontab, crypthash, cryptpw, cttyhack,
+	cut, date, dc, dcd3c, dd, deallocvt, delgroup, deluser, depmod, devmem, df,
+	dhclient, dhcprelay, dhgenprime, diff, dirname, dmesg, dnsamp, dnsd,
+	dnsdomainname, dos2unix, dpsc, dpss, du, dumpkmap, dumpleases, ecdsa, echo, ed,
+	egrep, eject, env, envdir, envuidgid, ether-wake, expand, expr, fakeidentd,
+	false, fatattr, fbset, fbsplash, fdflush, fdformat, fdisk, fenc, fgconsole,
+	fgrep, find, findfs, flock, fold, free, freeramdisk, fsck, fsck.minix, fstrim,
+	fsync, ftpd, ftpget, ftpput, fuser, genericsum, genkey, getopt, getty, gewse,
+	gewse5, grep, groups, gunzip, gzip, halt, hd, hdparm, head, hexdump, hole,
+	hostid, hostname, httpd, hush, hwclock, hydra, i2cdetect, i2cdump, i2cget,
+	i2cset, id, ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, insmod,
+	install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink, iproute,
+	iprule, iptunnel, jolt, jshon, kbd_mode, kill, killall, killall5, kissofdeath,
+	kkill, klogd, knbot, land, last, latierra, less, linux32, linux64, linuxrc,
+	lizbot, lizserv, ln, loadfont, loadkmap, logger, login, logname, logread,
+	losetup, lpd, lpq, lpr, ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma,
+	lzop, lzopcat, makedevs, makemime, man, md5sum, mdev, mesg, microcom, mkdir,
+	mkdosfs, mke2fs, mkfifo, mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd,
+	mkswap, mktemp, modinfo, modprobe, more, mount, mountpoint, mpstat, mqsh,
+	mqtte, mt, mv, nameif, nanddump, nandwrite, nbd-client, nc, nestea, netscan,
+	netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od, openvt,
+	orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping, ping6, pipe_progress,
+	pivot_root, pkdecrypt, pkencrypt, pkill, pksign, pmap, pong, popmaildir,
+	poweroff, powertop, printenv, printf, prism, proxcat, ps, pscan, pstree,
+	pubclient, pud, pwd, pwdx, raidautorun, raped, rdate, rdev, readahead,
+	readlink, readprofile, realpath, reboot, reformime, remove-shell, renice,
+	reset, resize, rev, rm, rmdir, rmmod, route, rpm, rpm2cpio, rsadecrypt,
+	rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake, run-parts, runlevel, runsv,
+	runsvdir, rx, script, scriptreplay, sed, sendmail, seq, setarch, setconsole,
+	setfont, setkeycodes, setlogcons, setserial, setsid, setuidgid, sh, sha1sum,
 	sha256sum, sha3sum, sha512sum, showkey, shuf, slattach, sleep, smemcap,
-	snmpdos, sockstress, softlimit, sort, spiffit, sping, split,
-	start-stop-daemon, stat, stream, strings, stty, su, subclient, sulogin,
-	sum, sv, svlogd, swapoff, swapon, switch_root, sync, synk4, synscan,
-	sysctl, syslogd, tac, tail, tar, tcpsvd, teardrop, tee, telnet,
-	telnetd, test, tftp, tftpd, time, timeout, top, torloris, touch, tr,
-	traceroute, traceroute6, true, truncate, tty, ttysize, tunctl,
-	ubiattach, ubidetach, ubimkvol, ubirmvol, ubirsvol, ubiupdatevol,
-	udhcpc, udhcpd, udpdata, udpspoof, udpsvd, uevent, umount, uname,
-	uncompress, unexpand, uniq, unit, unix2dos, unlink, unlzma, unlzop,
-	unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
-	vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-	whois, wingatecrash, xargs, xersex, xersextcp, xz, xzcat, yes, zcat,
-	zcip
+	snmpdos, sockstress, softlimit, sort, spiffit, sping, split, ssyn2,
+	start-stop-daemon, stat, stream, strings, stty, su, subclient, sudp, sulogin,
+	sum, sv, svlogd, swapoff, swapon, switch_root, sync, synk4, synscan, sysctl,
+	syslogd, tac, tail, tar, tcpsvd, teardrop, tee, telnet, telnetd, test, tftp,
+	tftpd, time, timeout, top, torloris, touch, tr, traceroute, traceroute6, true,
+	truncate, tsh, tshd, tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol,
+	ubirmvol, ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd,
+	uevent, umount, uname, unexpand, uniq, unix2dos, unlink, unlzma, unlzop, unxz,
+	unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi, vlock, volname,
+	wall, watch, watchdog, wc, wget, which, who, whoami, whois, wingatecrash,
+	xargs, xersex, xersextcp, xz, xzcat, yes, zcat, zcip
+
 </pre>
 
 ### Demo
