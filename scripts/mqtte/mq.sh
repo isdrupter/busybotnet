@@ -13,7 +13,7 @@
 # Publish output
 publish(){
 uxt=`date +%s`
-jshout_=$workdir/jshout.uxt
+jshout_=$workdir/jshout.$uxt
 jshout=$workdir/jshout
 #if ([[ $debug == "1" ]]);then echo publishing shell out to $host;fi
 #pubclient -h $host -i ${ip} -q 2 -t "data/sh" -u bot -P $pass -f $out;rm $out
