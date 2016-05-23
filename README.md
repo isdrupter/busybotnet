@@ -66,7 +66,7 @@ Supported services: asterisk cisco cisco-enable cvs ftp http-{head|get} http-{ge
 </pre>
 
 <pre>
-evil@devbox:~/busybotnet$ ./busybox
+evil@devbox:~/busybotnet$ ./busybotnet
 BusyBox v1.24.1 (2016-03-15 22:49:48 CDT) multi-call binary.
 BusyBox is copyrighted by many authors between 1998-2015.
 Licensed under GPLv2. See source distribution for detailed
@@ -135,14 +135,14 @@ Currently defined functions:
 ### Demo
 
 <pre>
-evil@devbox:~/busybotnet$ ./busybox rsaencrypt -h
+evil@devbox:~/busybotnet$ ./busybotnet rsaencrypt -h
 
   . Seeding the random number generator...
   . Reading public key from rsa_pub.txt
   . Generating the RSA encrypted value
   . Done (created "result-enc.txt")
 
-evil@devbox:~/busybotnet$ ./busybox ecdsa
+evil@devbox:~/busybotnet$ ./busybotnet ecdsa
 
   . Seeding the random number generator... ok
   . Generating key pair... ok (key size: 192 bits)
@@ -158,7 +158,7 @@ evil@devbox:~/busybotnet$ ./busybox ecdsa --help
 BusyBox v1.24.1 (2016-03-15 22:49:48 CDT) multi-call binary.
 
 Usage: ecdsa NoneNone
-evil@devbox:~/busybotnet$ ./busybox crypthash -h
+evil@devbox:~/busybotnet$ ./busybotnet crypthash -h
 
   crypt_and_hash <mode> <input filename> <output filename> <cipher> <mbedtls_md> <key>
 
@@ -224,7 +224,7 @@ Available message digests:
   RIPEMD160
   MD5
 
-evil@devbox:~/busybotnet$ ./busybox aescrypt -h
+evil@devbox:~/busybotnet$ ./busybotnet aescrypt -h
 
   aescrypt2 <mode> <input filename> <output filename> <key>
 
@@ -233,7 +233,7 @@ evil@devbox:~/busybotnet$ ./busybox aescrypt -h
   example: aescrypt2 0 file file.aes hex:E76B2413958B00E193
 
 Usage: xersex NoneNone
-evil@devbox:~/busybotnet$ ./busybox xersex fags.com 80
+evil@devbox:~/busybotnet$ ./busybotnet xersex fags.com 80
 [Connecting -> fags.com:80
 [Connecting -> fags.com:80
 [Connecting -> fags.com:80
@@ -264,7 +264,7 @@ Connecting to google.com (216.58.216.238:443)
 Connecting to www.google.de (216.58.216.227:443)
 index.html           100% |****************************************************| 19570   0:00:00 ETA
 
-evil@devbox:~/busybotnet$ ./busybox proxcat 
+evil@devbox:~/busybotnet$ ./busybotnet proxcat 
 connect --- simple relaying command via proxy.
 Version 1.97
 usage: proxcat [-dnhst45N] [-p local-port][-R resolve] [-w timeout] 
@@ -273,7 +273,7 @@ usage: proxcat [-dnhst45N] [-p local-port][-R resolve] [-w timeout]
           [-c telnet-proxy-command]
           host port
           
-evil@devbox:~/busybotnet$ ./busybox netscan -h
+evil@devbox:~/busybotnet$ ./busybotnet netscan -h
 [*] Network Scanner v1.0 starting at 22:51:11 Mar 15 2016 [*]
   -c | --connect	Tcp protocol
   -s | --syn		Syn packet scanner
@@ -317,6 +317,10 @@ Grab the latest [buildroot](https://download.buildroot.org) and build it (same a
 Configure with *make menuconfig* -- Specifically, tell busybotnet where your *toolchain and sysroot* are located. <br>
 **Step 3** <br>
 $ make <br>
+
+If you want your resulting binary to be conspiciously called "busybotnet" than rename it like so: <br>
+$ mv busybox busybotnet <br>
+The libbb.h library has been changed to allow prefixes of busybo\* instead of busybox\* , way cooler, in my opinion. 
 
 That's it!
 
