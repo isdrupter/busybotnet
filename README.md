@@ -339,3 +339,6 @@ Brought to life by [Kod](https://github.com/kernelzeroday) <br>
 Busybox GPL source code forked from [busybox.net](https://busybox.net) <br>
 Authors of any applets included are in the source. I will add them here when I get around to it. <br>
 If you add an applet, please do credit the original author (even if it's you). <br>
+
+#### Contact
+Don't be shy! Feel free to write us at: busybotnet@gmx.com
