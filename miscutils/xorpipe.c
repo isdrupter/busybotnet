@@ -228,4 +228,7 @@ void std_err(void) {
     exit(1);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 125abcd183567cf9f40f49757843d1aeaf533103
