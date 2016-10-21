@@ -364,7 +364,7 @@ BusyBotNet is licensed under the GPL. You should have received a copy of the GPL
 
 #### Credits
 Authors: Kod & Shellz <br>
-Concept originally by [Shellz](https://github.com/isdrupter). <br>
+Conceptualized by [Shellz](https://github.com/isdrupter). <br>
 Brought to life by [Kod](https://github.com/kernelzeroday) <br>
 Busybox GPL source code forked from [busybox.net](https://busybox.net) <br>
 Authors of any applets included are in the source. I will add them here when I get around to it. <br>
