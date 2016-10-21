@@ -133,7 +133,7 @@
 .\" ========================================================================
 .\"
 .IX Title "BUSYBOX 1"
-.TH BUSYBOX 1 "2016-05-13" "version 1.24.1" "busybox"
+.TH BUSYBOX 1 "2016-10-21" "version 1.24.1" "busybox"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -243,11 +243,11 @@ Currently available applets include:
 \&        land, last, latierra, less, linux32, linux64, linuxrc, lizbot,
 \&        lizserv, ln, loadfont, loadkmap, logger, login, logname, logread,
 \&        losetup, lpd, lpq, lpr, ls, lsattr, lsmod, lsof, lspci, lsusb,
-\&        lzcat, lzma, lzop, lzopcat, makedevs, makemime, man, md5sum, mdev,
-\&        mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo, mkfs.ext2,
-\&        mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp, modinfo,
-\&        modprobe, more, mount, mountpoint, mpstat, mqsh, mqtte, mt, mv,
-\&        nameif, nanddump, nandwrite, nbd\-client, nc, nestea, netscan,
+\&        lzcat, lzma, lzop, lzopcat, makedevs, makemime, man, masscan,
+\&        md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo,
+\&        mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
+\&        modinfo, modprobe, more, mount, mountpoint, mpstat, mqsh, mqtte, mt,
+\&        mv, nameif, nanddump, nandwrite, nbd\-client, nc, nestea, netscan,
 \&        netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od,
 \&        openvt, orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping,
 \&        ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill,
@@ -255,7 +255,7 @@ Currently available applets include:
 \&        printf, prism, proxcat, ps, pscan, pstree, pubclient, pud, pwd,
 \&        pwdx, raidautorun, raped, rdate, rdev, readahead, readlink,
 \&        readprofile, realpath, reboot, reformime, remove\-shell, renice,
-\&        reset, resize, rev, rfkill, rm, rmdir, rmmod, route, rpm, rpm2cpio,
+\&        reset, resize, rev, rm, rmdir, rmmod, route, rpm, rpm2cpio,
 \&        rsadecrypt, rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake,
 \&        run\-parts, runlevel, runsv, runsvdir, rx, script, scriptreplay, sed,
 \&        sendmail, seq, setarch, setconsole, setfont, setkeycodes,
@@ -272,8 +272,8 @@ Currently available applets include:
 \&        umount, uname, unexpand, uniq, unix2dos, unlink, unlzma, unlzop,
 \&        unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
 \&        vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-\&        whois, wingatecrash, xargs, xersex, xersextcp, xz, xzcat, yes, zcat,
-\&        zcip
+\&        whois, wingatecrash, xargs, xersex, xersextcp, xorpipe, xxd, xz,
+\&        xzcat, yes, zcat, zcip
 .Ve
 .SH "COMMAND DESCRIPTIONS"
 .IX Header "COMMAND DESCRIPTIONS"
@@ -2469,6 +2469,9 @@ Format and display manual page
 \&        \-a      Display all pages
 \&        \-w      Show page locations
 .Ve
+.IP "\fBmasscan\fR" 4
+.IX Item "masscan"
+masscan NoneNone
 .IP "\fBmd5sum\fR" 4
 .IX Item "md5sum"
 md5sum [\-c[sw]] [\s-1FILE\s0]...
@@ -2820,22 +2823,18 @@ nbd-client \s-1HOST PORT BLOCKDEV\s0
 Connect to \s-1HOST\s0 and provide a network block device on \s-1BLOCKDEV\s0
 .IP "\fBnc\fR" 4
 .IX Item "nc"
-nc [\s-1OPTIONS\s0] \s-1HOST PORT  \-\s0 connect
-nc [\s-1OPTIONS\s0] \-l \-p \s-1PORT\s0 [\s-1HOST\s0] [\s-1PORT\s0]  \- listen
+nc [\-iN] [\-wN] [\-l] [\-p \s-1PORT\s0] [\-f FILE|IPADDR \s-1PORT\s0] [\-e \s-1PROG\s0]
 .Sp
-.Vb 12
-\&        \-e PROG Run PROG after connect (must be last)
+Open a pipe to \s-1IP:PORT\s0 or \s-1FILE\s0
+.Sp
+.Vb 7
 \&        \-l      Listen mode, for inbound connects
-\&        \-lk     With \-e, provides persistent server
+\&                (use \-ll with \-e for persistent server)
 \&        \-p PORT Local port
-\&        \-s ADDR Local address
-\&        \-w SEC  Timeout for connects and final net reads
+\&        \-w SEC  Connect timeout
 \&        \-i SEC  Delay interval for lines sent
-\&        \-n      Don\*(Aqt do DNS resolution
-\&        \-u      UDP mode
-\&        \-v      Verbose
-\&        \-o FILE Hex dump traffic
-\&        \-z      Zero\-I/O mode (scanning)
+\&        \-f FILE Use file (ala /dev/ttyS0) instead of network
+\&        \-e PROG Run PROG after connect
 .Ve
 .IP "\fBnestea\fR" 4
 .IX Item "nestea"
@@ -3310,22 +3309,6 @@ Resize the screen
 rev [\s-1FILE\s0]...
 .Sp
 Reverse lines of \s-1FILE\s0
-.IP "\fBrfkill\fR" 4
-.IX Item "rfkill"
-rfkill \s-1COMMAND\s0 [INDEX|TYPE]
-.Sp
-Enable/disable wireless devices
-.Sp
-Commands:
-.Sp
-.Vb 3
-\&        list [INDEX|TYPE]       List current state
-\&        block INDEX|TYPE        Disable device
-\&        unblock INDEX|TYPE      Enable device
-\&
-\&        TYPE: all, wlan(wifi), bluetooth, uwb(ultrawideband),
-\&                wimax, wwan, gps, fm
-.Ve
 .IP "\fBrm\fR" 4
 .IX Item "rm"
 rm [\-irf] \s-1FILE...\s0
@@ -4822,6 +4805,14 @@ xersex NoneNone
 .IP "\fBxersextcp\fR" 4
 .IX Item "xersextcp"
 xersextcp NoneNone
+.IP "\fBxorpipe\fR" 4
+.IX Item "xorpipe"
+xorpipe [Xorpipe] input output key (use \- for stdin/stdout) [ \-h for full help ]
+.IP "\fBxxd\fR" 4
+.IX Item "xxd"
+xxd [xxd]
+.Sp
+xxd \- Hex
 .IP "\fBxz\fR" 4
 .IX Item "xz"
 xz \-d [\-cf] [\s-1FILE\s0]...

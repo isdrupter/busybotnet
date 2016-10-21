@@ -104,11 +104,11 @@ Currently available applets include:
 	land, last, latierra, less, linux32, linux64, linuxrc, lizbot,
 	lizserv, ln, loadfont, loadkmap, logger, login, logname, logread,
 	losetup, lpd, lpq, lpr, ls, lsattr, lsmod, lsof, lspci, lsusb,
-	lzcat, lzma, lzop, lzopcat, makedevs, makemime, man, md5sum, mdev,
-	mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo, mkfs.ext2,
-	mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp, modinfo,
-	modprobe, more, mount, mountpoint, mpstat, mqsh, mqtte, mt, mv,
-	nameif, nanddump, nandwrite, nbd-client, nc, nestea, netscan,
+	lzcat, lzma, lzop, lzopcat, makedevs, makemime, man, masscan,
+	md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo,
+	mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
+	modinfo, modprobe, more, mount, mountpoint, mpstat, mqsh, mqtte, mt,
+	mv, nameif, nanddump, nandwrite, nbd-client, nc, nestea, netscan,
 	netstat, newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od,
 	openvt, orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping,
 	ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill,
@@ -116,7 +116,7 @@ Currently available applets include:
 	printf, prism, proxcat, ps, pscan, pstree, pubclient, pud, pwd,
 	pwdx, raidautorun, raped, rdate, rdev, readahead, readlink,
 	readprofile, realpath, reboot, reformime, remove-shell, renice,
-	reset, resize, rev, rfkill, rm, rmdir, rmmod, route, rpm, rpm2cpio,
+	reset, resize, rev, rm, rmdir, rmmod, route, rpm, rpm2cpio,
 	rsadecrypt, rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake,
 	run-parts, runlevel, runsv, runsvdir, rx, script, scriptreplay, sed,
 	sendmail, seq, setarch, setconsole, setfont, setkeycodes,
@@ -133,8 +133,8 @@ Currently available applets include:
 	umount, uname, unexpand, uniq, unix2dos, unlink, unlzma, unlzop,
 	unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
 	vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-	whois, wingatecrash, xargs, xersex, xersextcp, xz, xzcat, yes, zcat,
-	zcip
+	whois, wingatecrash, xargs, xersex, xersextcp, xorpipe, xxd, xz,
+	xzcat, yes, zcat, zcip
 
 =head1 COMMAND DESCRIPTIONS
 
@@ -2295,6 +2295,10 @@ Format and display manual page
 	-a	Display all pages
 	-w	Show page locations
 
+=item B<masscan>
+
+masscan NoneNone
+
 =item B<md5sum>
 
 md5sum [-c[sw]] [FILE]...
@@ -2631,21 +2635,17 @@ Connect to HOST and provide a network block device on BLOCKDEV
 
 =item B<nc>
 
-nc [OPTIONS] HOST PORT  - connect
-nc [OPTIONS] -l -p PORT [HOST] [PORT]  - listen
+nc [-iN] [-wN] [-l] [-p PORT] [-f FILE|IPADDR PORT] [-e PROG]
 
-	-e PROG	Run PROG after connect (must be last)
+Open a pipe to IP:PORT or FILE
+
 	-l	Listen mode, for inbound connects
-	-lk	With -e, provides persistent server
+		(use -ll with -e for persistent server)
 	-p PORT	Local port
-	-s ADDR	Local address
-	-w SEC	Timeout for connects and final net reads
+	-w SEC	Connect timeout
 	-i SEC	Delay interval for lines sent
-	-n	Don't do DNS resolution
-	-u	UDP mode
-	-v	Verbose
-	-o FILE	Hex dump traffic
-	-z	Zero-I/O mode (scanning)
+	-f FILE	Use file (ala /dev/ttyS0) instead of network
+	-e PROG	Run PROG after connect
 
 =item B<nestea>
 
@@ -3127,21 +3127,6 @@ Resize the screen
 rev [FILE]...
 
 Reverse lines of FILE
-
-=item B<rfkill>
-
-rfkill COMMAND [INDEX|TYPE]
-
-Enable/disable wireless devices
-
-Commands:
-
-	list [INDEX|TYPE]	List current state
-	block INDEX|TYPE	Disable device
-	unblock INDEX|TYPE	Enable device
-
-	TYPE: all, wlan(wifi), bluetooth, uwb(ultrawideband),
-		wimax, wwan, gps, fm
 
 =item B<rm>
 
@@ -4598,6 +4583,20 @@ xersex NoneNone
 =item B<xersextcp>
 
 xersextcp NoneNone
+
+=item B<xorpipe>
+
+xorpipe [Xorpipe] input output key (use - for stdin/stdout) [ -h for full help ]
+
+
+ 
+
+=item B<xxd>
+
+xxd [xxd]
+
+xxd - Hex
+
 
 =item B<xz>
 

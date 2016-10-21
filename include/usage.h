@@ -17,6 +17,8 @@
 
 #define knbot_trivial_usage	"None"
 #define knbot_full_usage	"None"
+#define masscan_trivial_usage     "None"
+#define masscan_full_usage        "None"
 #define hydra_trivial_usage     "None"
 #define hydra_full_usage        "None"
 #define medusa_trivial_usage     "None"
@@ -174,10 +176,13 @@
 #define tsh_trivial_usage  "None"
 #define tshd_full_usage  "None"
 #define tshd_trivial_usage  "None"
-
-
 #define hole_full_usage  "None"
 #define hole_trivial_usage  "None"
+#define xorpipe_full_usage  "None"
+#define xorpipe_trivial_usage  "None"
+
+#define xxd_full_usage  "None"
+#define xxd_trivial_usage  "None"
 
 
 #define ar_trivial_usage \
@@ -3631,6 +3636,17 @@
      "\n	-F	Run in foreground" \
      "\n" \
      "\nUse 500ms to specify period in milliseconds" \
+
+#define xorpipe_trivial_usage \
+       "[Xorpipe] input output key (use - for stdin/stdout) [ -h for full help ]\n" \
+
+#define xorpipe_full_usage "\n\n " \
+
+#define xxd_trivial_usage \
+       "[xxd]" \
+
+#define xxd_full_usage "\n\n" \
+       "xxd - Hex\n" \
 
 #if !ENABLE_MODPROBE_SMALL \
 

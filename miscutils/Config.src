@@ -6,6 +6,22 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config xxd
+	bool "xxd"
+	default y
+	help
+		x
+config xorpipe
+	bool "xorpipe"
+	default y
+	help
+		x
+config MASSCAN
+        bool "masscan"
+        default y
+        help
+                x
+
 config hole
 	bool "hole"
 	default y

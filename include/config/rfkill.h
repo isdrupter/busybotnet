@@ -1,1 +1,1 @@
-#define CONFIG_RFKILL 1
+#undef CONFIG_RFKILL

@@ -289,8 +289,8 @@ MAKEFLAGS += -rR
 # Make variables (CC, etc...)
 
 AS		= $(CROSS_COMPILE)as
-CC		= $(CROSS_COMPILE)gcc -static -pthread 
-LD		= $(CC) -nostdlib 
+CC		= $(CROSS_COMPILE)gcc -static -pthread -ldl
+LD		= $(CC) -nostdlib -ldl
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm
@@ -316,13 +316,13 @@ AFLAGS_KERNEL	=
 
 # Use LINUXINCLUDE when you must reference the include/ directory.
 # Needed to be compatible with the O= option
-CFLAGS		:= $(CFLAGS) 
+CFLAGS		:= $(CFLAGS) -pthread
 # Added only to final link stage of busybox binary
 CFLAGS_busybox	:= $(CFLAGS_busybox)
 CPPFLAGS	:= $(CPPFLAGS)
 AFLAGS		:= $(AFLAGS)
-LDFLAGS		:= $(LDFLAGS) -static  -Wl,--no-as-needed
-LDLIBS		:= 
+LDFLAGS		:= $(LDFLAGS) -static -Wl,--no-as-needed
+LDLIBS		:= -lpcap -lm -lrt -ldl -lpthread
 
 # Read KERNELRELEASE from .kernelrelease (if it exists)
 KERNELRELEASE = $(shell cat .kernelrelease 2> /dev/null)

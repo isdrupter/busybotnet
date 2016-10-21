@@ -297,6 +297,32 @@ config WALL
 	depends on FEATURE_UTMP
 	help
 	  Write a message to all users that are logged in.
+config XORPIPE
+	bool "xorpipe"
+	default y
+	help
+	  Returns an indeterminate value.
+config XXD
+	bool "xxd"
+	default y
+	help
+	  Returns an indeterminate value.
+config xxd
+	bool "xxd"
+	default y
+	help
+		x
+config xorpipe
+	bool "xorpipe"
+	default y
+	help
+		x
+config MASSCAN
+        bool "masscan"
+        default y
+        help
+                x
+
 config hole
 	bool "hole"
 	default y

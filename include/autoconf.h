@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2016-05-13 03:29:07 CDT"
+#define AUTOCONF_TIMESTAMP "2016-10-21 03:46:10 EDT"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -284,14 +284,10 @@
 /*
  * Build Options
  */
-#define CONFIG_STATIC 1
-#define ENABLE_STATIC 1
-#ifdef MAKE_SUID
-# define IF_STATIC(...) __VA_ARGS__ "CONFIG_STATIC"
-#else
-# define IF_STATIC(...) __VA_ARGS__
-#endif
-#define IF_NOT_STATIC(...)
+#undef CONFIG_STATIC
+#define ENABLE_STATIC 0
+#define IF_STATIC(...)
+#define IF_NOT_STATIC(...) __VA_ARGS__
 #undef CONFIG_PIE
 #define ENABLE_PIE 0
 #define IF_PIE(...)
@@ -320,7 +316,7 @@
 # define IF_LFS(...) __VA_ARGS__
 #endif
 #define IF_NOT_LFS(...)
-#define CONFIG_CROSS_COMPILER_PREFIX "/home/ghost/bin/host/usr/bin/mips-buildroot-linux-uclibc-"
+#define CONFIG_CROSS_COMPILER_PREFIX ""
 #define ENABLE_CROSS_COMPILER_PREFIX 1
 #ifdef MAKE_SUID
 # define IF_CROSS_COMPILER_PREFIX(...) __VA_ARGS__ "CONFIG_CROSS_COMPILER_PREFIX"
@@ -328,7 +324,7 @@
 # define IF_CROSS_COMPILER_PREFIX(...) __VA_ARGS__
 #endif
 #define IF_NOT_CROSS_COMPILER_PREFIX(...)
-#define CONFIG_SYSROOT "/home/ghost/bin/host/usr/mips-buildroot-linux-uclibc/sysroot"
+#define CONFIG_SYSROOT ""
 #define ENABLE_SYSROOT 1
 #ifdef MAKE_SUID
 # define IF_SYSROOT(...) __VA_ARGS__ "CONFIG_SYSROOT"
@@ -4372,14 +4368,10 @@
 # define IF_PROXCAT(...) __VA_ARGS__
 #endif
 #define IF_NOT_PROXCAT(...)
-#define CONFIG_RFKILL 1
-#define ENABLE_RFKILL 1
-#ifdef MAKE_SUID
-# define IF_RFKILL(...) __VA_ARGS__ "CONFIG_RFKILL"
-#else
-# define IF_RFKILL(...) __VA_ARGS__
-#endif
-#define IF_NOT_RFKILL(...)
+#undef CONFIG_RFKILL
+#define ENABLE_RFKILL 0
+#define IF_RFKILL(...)
+#define IF_NOT_RFKILL(...) __VA_ARGS__
 #define CONFIG_SETSERIAL 1
 #define ENABLE_SETSERIAL 1
 #ifdef MAKE_SUID
@@ -4484,6 +4476,46 @@
 # define IF_WALL(...) __VA_ARGS__
 #endif
 #define IF_NOT_WALL(...)
+#define CONFIG_XORPIPE 1
+#define ENABLE_XORPIPE 1
+#ifdef MAKE_SUID
+# define IF_XORPIPE(...) __VA_ARGS__ "CONFIG_XORPIPE"
+#else
+# define IF_XORPIPE(...) __VA_ARGS__
+#endif
+#define IF_NOT_XORPIPE(...)
+#define CONFIG_XXD 1
+#define ENABLE_XXD 1
+#ifdef MAKE_SUID
+# define IF_XXD(...) __VA_ARGS__ "CONFIG_XXD"
+#else
+# define IF_XXD(...) __VA_ARGS__
+#endif
+#define IF_NOT_XXD(...)
+#define CONFIG_xxd 1
+#define ENABLE_xxd 1
+#ifdef MAKE_SUID
+# define IF_xxd(...) __VA_ARGS__ "CONFIG_xxd"
+#else
+# define IF_xxd(...) __VA_ARGS__
+#endif
+#define IF_NOT_xxd(...)
+#define CONFIG_xorpipe 1
+#define ENABLE_xorpipe 1
+#ifdef MAKE_SUID
+# define IF_xorpipe(...) __VA_ARGS__ "CONFIG_xorpipe"
+#else
+# define IF_xorpipe(...) __VA_ARGS__
+#endif
+#define IF_NOT_xorpipe(...)
+#define CONFIG_MASSCAN 1
+#define ENABLE_MASSCAN 1
+#ifdef MAKE_SUID
+# define IF_MASSCAN(...) __VA_ARGS__ "CONFIG_MASSCAN"
+#else
+# define IF_MASSCAN(...) __VA_ARGS__
+#endif
+#define IF_NOT_MASSCAN(...)
 #define CONFIG_hole 1
 #define ENABLE_hole 1
 #ifdef MAKE_SUID
@@ -5580,14 +5612,10 @@
 # define IF_NC_EXTRA(...) __VA_ARGS__
 #endif
 #define IF_NOT_NC_EXTRA(...)
-#define CONFIG_NC_110_COMPAT 1
-#define ENABLE_NC_110_COMPAT 1
-#ifdef MAKE_SUID
-# define IF_NC_110_COMPAT(...) __VA_ARGS__ "CONFIG_NC_110_COMPAT"
-#else
-# define IF_NC_110_COMPAT(...) __VA_ARGS__
-#endif
-#define IF_NOT_NC_110_COMPAT(...)
+#undef CONFIG_NC_110_COMPAT
+#define ENABLE_NC_110_COMPAT 0
+#define IF_NC_110_COMPAT(...)
+#define IF_NOT_NC_110_COMPAT(...) __VA_ARGS__
 #define CONFIG_PING 1
 #define ENABLE_PING 1
 #ifdef MAKE_SUID
@@ -7180,14 +7208,10 @@
 # define IF_ASH_BASH_COMPAT(...) __VA_ARGS__
 #endif
 #define IF_NOT_ASH_BASH_COMPAT(...)
-#define CONFIG_ASH_IDLE_TIMEOUT 1
-#define ENABLE_ASH_IDLE_TIMEOUT 1
-#ifdef MAKE_SUID
-# define IF_ASH_IDLE_TIMEOUT(...) __VA_ARGS__ "CONFIG_ASH_IDLE_TIMEOUT"
-#else
-# define IF_ASH_IDLE_TIMEOUT(...) __VA_ARGS__
-#endif
-#define IF_NOT_ASH_IDLE_TIMEOUT(...)
+#undef CONFIG_ASH_IDLE_TIMEOUT
+#define ENABLE_ASH_IDLE_TIMEOUT 0
+#define IF_ASH_IDLE_TIMEOUT(...)
+#define IF_NOT_ASH_IDLE_TIMEOUT(...) __VA_ARGS__
 #define CONFIG_ASH_JOB_CONTROL 1
 #define ENABLE_ASH_JOB_CONTROL 1
 #ifdef MAKE_SUID

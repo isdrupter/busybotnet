@@ -1,1 +1,1 @@
-#define CONFIG_STATIC 1
+#undef CONFIG_STATIC
