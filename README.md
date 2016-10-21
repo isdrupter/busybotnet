@@ -28,7 +28,7 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### What's New?
-
+-- BusyBotNet now has *MASSCAN* !!!!
 -- You can now actually call ./busybotnet and it will work! <br>
 -- fenc (encrypt stuff with salsa algo) <br>
 -- tsh (needs work, backdoor shell aes enc) <br>
@@ -66,6 +66,36 @@ Supported services: asterisk cisco cisco-enable cvs ftp http-{head|get} http-{ge
 </pre>
 
 <pre>
+evil@devbox:~/busybotnet_masscan/binaries$ ./busybotnet-x64 masscan --echo
+rate =     100.00
+randomize-hosts = true
+seed = 5335182937496124102
+shard = 1/1
+# ADAPTER SETTINGS
+adapter = 
+adapter-ip = 0.0.0.0
+adapter-mac = 00:00:00:00:00:00
+router-mac = 00:00:00:00:00:00
+# OUTPUT/REPORTING SETTINGS
+output-format = unknown(0)
+show = open,,
+output-filename = 
+rotate = 0
+rotate-dir = .
+rotate-offset = 0
+rotate-filesize = 0
+pcap = 
+# TARGET SELECTION (IP, PORTS, EXCLUDES)
+retries = 0
+ports = 
+
+capture = cert
+nocapture = html
+nocapture = heartbleed
+
+min-packet = 60
+
+
 evil@devbox:~/busybotnet$ ./busybotnet
 BusyBox v1.24.1 (2016-03-15 22:49:48 CDT) multi-call binary.
 BusyBox is copyrighted by many authors between 1998-2015.
