@@ -28,7 +28,7 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### What's New?
--- BusyBotNet now has *MASSCAN* !!!!
+-- BusyBotNet now has *MASSCAN* !!!! <br>
 -- You can now actually call ./busybotnet and it will work! <br>
 -- fenc (encrypt stuff with salsa algo) <br>
 -- tsh (needs work, backdoor shell aes enc) <br>
