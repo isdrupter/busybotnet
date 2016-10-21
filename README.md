@@ -371,4 +371,4 @@ Authors of any applets included are in the source. I will add them here when I g
 If you add an applet, please do credit the original author (even if it's you). <br>
 
 #### Contact
-Don't be shy! Feel free to write us at: busybotnet@gmx.com
+Don't be shy! Feel free to write us at: ---- never mind, our email was suspended. You can message us here on github.
