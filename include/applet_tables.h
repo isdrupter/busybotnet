@@ -1,6 +1,6 @@
 /* This is a generated file, don't edit */
 
-#define NUM_APPLETS 439
+#define NUM_APPLETS 442
 
 const char applet_names[] ALIGN1 = ""
 "[" "\0"
@@ -15,8 +15,10 @@ const char applet_names[] ALIGN1 = ""
 "arping" "\0"
 "ash" "\0"
 "awk" "\0"
+"bangrab" "\0"
 "base64" "\0"
 "basename" "\0"
+"bd" "\0"
 "beep" "\0"
 "beer" "\0"
 "bindtty" "\0"
@@ -49,6 +51,7 @@ const char applet_names[] ALIGN1 = ""
 "comm" "\0"
 "conseal" "\0"
 "conspy" "\0"
+"cowroot" "\0"
 "cp" "\0"
 "cpio" "\0"
 "crond" "\0"
@@ -453,424 +456,427 @@ const char applet_names[] ALIGN1 = ""
 #define APPLET_NO_arping 9
 #define APPLET_NO_ash 10
 #define APPLET_NO_awk 11
-#define APPLET_NO_base64 12
-#define APPLET_NO_basename 13
-#define APPLET_NO_beep 14
-#define APPLET_NO_beer 15
-#define APPLET_NO_bindtty 16
-#define APPLET_NO_blkid 17
-#define APPLET_NO_blockdev 18
-#define APPLET_NO_boink 19
-#define APPLET_NO_bonk 20
-#define APPLET_NO_bootchartd 21
-#define APPLET_NO_brctl 22
-#define APPLET_NO_bunzip2 23
-#define APPLET_NO_bzcat 24
-#define APPLET_NO_bzip2 25
-#define APPLET_NO_cal 26
-#define APPLET_NO_cat 27
-#define APPLET_NO_catv 28
-#define APPLET_NO_chat 29
-#define APPLET_NO_chattr 30
-#define APPLET_NO_chgrp 31
-#define APPLET_NO_chmod 32
-#define APPLET_NO_chown 33
-#define APPLET_NO_chpasswd 34
-#define APPLET_NO_chpst 35
-#define APPLET_NO_chroot 36
-#define APPLET_NO_chrt 37
-#define APPLET_NO_chvt 38
-#define APPLET_NO_cksum 39
-#define APPLET_NO_clear 40
-#define APPLET_NO_cmp 41
-#define APPLET_NO_coke 42
-#define APPLET_NO_comm 43
-#define APPLET_NO_conseal 44
-#define APPLET_NO_conspy 45
-#define APPLET_NO_cp 46
-#define APPLET_NO_cpio 47
-#define APPLET_NO_crond 48
-#define APPLET_NO_crontab 49
-#define APPLET_NO_crypthash 50
-#define APPLET_NO_cryptpw 51
-#define APPLET_NO_cttyhack 52
-#define APPLET_NO_cut 53
-#define APPLET_NO_date 54
-#define APPLET_NO_dc 55
-#define APPLET_NO_dcd3c 56
-#define APPLET_NO_dd 57
-#define APPLET_NO_deallocvt 58
-#define APPLET_NO_delgroup 59
-#define APPLET_NO_deluser 60
-#define APPLET_NO_depmod 61
-#define APPLET_NO_devmem 62
-#define APPLET_NO_df 63
-#define APPLET_NO_dhclient 64
-#define APPLET_NO_dhcprelay 65
-#define APPLET_NO_dhgenprime 66
-#define APPLET_NO_diff 67
-#define APPLET_NO_dirname 68
-#define APPLET_NO_dmesg 69
-#define APPLET_NO_dnsamp 70
-#define APPLET_NO_dnsd 71
-#define APPLET_NO_dnsdomainname 72
-#define APPLET_NO_dos2unix 73
-#define APPLET_NO_dpsc 74
-#define APPLET_NO_dpss 75
-#define APPLET_NO_du 76
-#define APPLET_NO_dumpkmap 77
-#define APPLET_NO_dumpleases 78
-#define APPLET_NO_ecdsa 79
-#define APPLET_NO_echo 80
-#define APPLET_NO_ed 81
-#define APPLET_NO_egrep 82
-#define APPLET_NO_eject 83
-#define APPLET_NO_env 84
-#define APPLET_NO_envdir 85
-#define APPLET_NO_envuidgid 86
-#define APPLET_NO_expand 88
-#define APPLET_NO_expr 89
-#define APPLET_NO_fakeidentd 90
-#define APPLET_NO_false 91
-#define APPLET_NO_fatattr 92
-#define APPLET_NO_fbset 93
-#define APPLET_NO_fbsplash 94
-#define APPLET_NO_fdflush 95
-#define APPLET_NO_fdformat 96
-#define APPLET_NO_fdisk 97
-#define APPLET_NO_fenc 98
-#define APPLET_NO_fgconsole 99
-#define APPLET_NO_fgrep 100
-#define APPLET_NO_find 101
-#define APPLET_NO_findfs 102
-#define APPLET_NO_flock 103
-#define APPLET_NO_fold 104
-#define APPLET_NO_free 105
-#define APPLET_NO_freeramdisk 106
-#define APPLET_NO_fsck 107
-#define APPLET_NO_fstrim 109
-#define APPLET_NO_fsync 110
-#define APPLET_NO_ftpd 111
-#define APPLET_NO_ftpget 112
-#define APPLET_NO_ftpput 113
-#define APPLET_NO_fuser 114
-#define APPLET_NO_genericsum 115
-#define APPLET_NO_genkey 116
-#define APPLET_NO_getopt 117
-#define APPLET_NO_getty 118
-#define APPLET_NO_gewse 119
-#define APPLET_NO_gewse5 120
-#define APPLET_NO_grep 121
-#define APPLET_NO_groups 122
-#define APPLET_NO_gunzip 123
-#define APPLET_NO_gzip 124
-#define APPLET_NO_halt 125
-#define APPLET_NO_hd 126
-#define APPLET_NO_hdparm 127
-#define APPLET_NO_head 128
-#define APPLET_NO_hexdump 129
-#define APPLET_NO_hole 130
-#define APPLET_NO_hostid 131
-#define APPLET_NO_hostname 132
-#define APPLET_NO_httpd 133
-#define APPLET_NO_hush 134
-#define APPLET_NO_hwclock 135
-#define APPLET_NO_hydra 136
-#define APPLET_NO_i2cdetect 137
-#define APPLET_NO_i2cdump 138
-#define APPLET_NO_i2cget 139
-#define APPLET_NO_i2cset 140
-#define APPLET_NO_id 141
-#define APPLET_NO_ifconfig 142
-#define APPLET_NO_ifdown 143
-#define APPLET_NO_ifenslave 144
-#define APPLET_NO_ifplugd 145
-#define APPLET_NO_ifup 146
-#define APPLET_NO_inetd 147
-#define APPLET_NO_init 148
-#define APPLET_NO_insmod 149
-#define APPLET_NO_install 150
-#define APPLET_NO_ionice 151
-#define APPLET_NO_iostat 152
-#define APPLET_NO_ip 153
-#define APPLET_NO_ipaddr 154
-#define APPLET_NO_ipcalc 155
-#define APPLET_NO_ipcrm 156
-#define APPLET_NO_ipcs 157
-#define APPLET_NO_iplink 158
-#define APPLET_NO_iproute 159
-#define APPLET_NO_iprule 160
-#define APPLET_NO_iptunnel 161
-#define APPLET_NO_jolt 162
-#define APPLET_NO_jshon 163
-#define APPLET_NO_kbd_mode 164
-#define APPLET_NO_kill 165
-#define APPLET_NO_killall 166
-#define APPLET_NO_killall5 167
-#define APPLET_NO_kissofdeath 168
-#define APPLET_NO_kkill 169
-#define APPLET_NO_klogd 170
-#define APPLET_NO_knbot 171
-#define APPLET_NO_land 172
-#define APPLET_NO_last 173
-#define APPLET_NO_latierra 174
-#define APPLET_NO_less 175
-#define APPLET_NO_linux32 176
-#define APPLET_NO_linux64 177
-#define APPLET_NO_linuxrc 178
-#define APPLET_NO_lizbot 179
-#define APPLET_NO_lizserv 180
-#define APPLET_NO_ln 181
-#define APPLET_NO_loadfont 182
-#define APPLET_NO_loadkmap 183
-#define APPLET_NO_logger 184
-#define APPLET_NO_login 185
-#define APPLET_NO_logname 186
-#define APPLET_NO_logread 187
-#define APPLET_NO_losetup 188
-#define APPLET_NO_lpd 189
-#define APPLET_NO_lpq 190
-#define APPLET_NO_lpr 191
-#define APPLET_NO_ls 192
-#define APPLET_NO_lsattr 193
-#define APPLET_NO_lsmod 194
-#define APPLET_NO_lsof 195
-#define APPLET_NO_lspci 196
-#define APPLET_NO_lsusb 197
-#define APPLET_NO_lzcat 198
-#define APPLET_NO_lzma 199
-#define APPLET_NO_lzop 200
-#define APPLET_NO_lzopcat 201
-#define APPLET_NO_makedevs 202
-#define APPLET_NO_makemime 203
-#define APPLET_NO_man 204
-#define APPLET_NO_masscan 205
-#define APPLET_NO_md5sum 206
-#define APPLET_NO_mdev 207
-#define APPLET_NO_mesg 208
-#define APPLET_NO_microcom 209
-#define APPLET_NO_mkdir 210
-#define APPLET_NO_mkdosfs 211
-#define APPLET_NO_mke2fs 212
-#define APPLET_NO_mkfifo 213
-#define APPLET_NO_mknod 217
-#define APPLET_NO_mkpasswd 218
-#define APPLET_NO_mkswap 219
-#define APPLET_NO_mktemp 220
-#define APPLET_NO_modinfo 221
-#define APPLET_NO_modprobe 222
-#define APPLET_NO_more 223
-#define APPLET_NO_mount 224
-#define APPLET_NO_mountpoint 225
-#define APPLET_NO_mpstat 226
-#define APPLET_NO_mqsh 227
-#define APPLET_NO_mqtte 228
-#define APPLET_NO_mt 229
-#define APPLET_NO_mv 230
-#define APPLET_NO_nameif 231
-#define APPLET_NO_nanddump 232
-#define APPLET_NO_nandwrite 233
-#define APPLET_NO_nc 235
-#define APPLET_NO_nestea 236
-#define APPLET_NO_netscan 237
-#define APPLET_NO_netstat 238
-#define APPLET_NO_newtear 239
-#define APPLET_NO_nice 240
-#define APPLET_NO_nmeter 241
-#define APPLET_NO_nohup 242
-#define APPLET_NO_nslookup 243
-#define APPLET_NO_ntpd 244
-#define APPLET_NO_ntpdos 245
-#define APPLET_NO_od 246
-#define APPLET_NO_openvt 247
-#define APPLET_NO_orgasm 248
-#define APPLET_NO_ottf 249
-#define APPLET_NO_passwd 250
-#define APPLET_NO_patator 251
-#define APPLET_NO_patch 252
-#define APPLET_NO_pgrep 253
-#define APPLET_NO_pidof 254
-#define APPLET_NO_ping 255
-#define APPLET_NO_ping6 256
-#define APPLET_NO_pipe_progress 257
-#define APPLET_NO_pivot_root 258
-#define APPLET_NO_pkdecrypt 259
-#define APPLET_NO_pkencrypt 260
-#define APPLET_NO_pkill 261
-#define APPLET_NO_pksign 262
-#define APPLET_NO_pmap 263
-#define APPLET_NO_pong 264
-#define APPLET_NO_popmaildir 265
-#define APPLET_NO_poweroff 266
-#define APPLET_NO_powertop 267
-#define APPLET_NO_printenv 268
-#define APPLET_NO_printf 269
-#define APPLET_NO_prism 270
-#define APPLET_NO_proxcat 271
-#define APPLET_NO_ps 272
-#define APPLET_NO_pscan 273
-#define APPLET_NO_pstree 274
-#define APPLET_NO_pubclient 275
-#define APPLET_NO_pud 276
-#define APPLET_NO_pwd 277
-#define APPLET_NO_pwdx 278
-#define APPLET_NO_raidautorun 279
-#define APPLET_NO_raped 280
-#define APPLET_NO_rdate 281
-#define APPLET_NO_rdev 282
-#define APPLET_NO_readahead 283
-#define APPLET_NO_readlink 284
-#define APPLET_NO_readprofile 285
-#define APPLET_NO_realpath 286
-#define APPLET_NO_reboot 287
-#define APPLET_NO_reformime 288
-#define APPLET_NO_renice 290
-#define APPLET_NO_reset 291
-#define APPLET_NO_resize 292
-#define APPLET_NO_rev 293
-#define APPLET_NO_rm 294
-#define APPLET_NO_rmdir 295
-#define APPLET_NO_rmmod 296
-#define APPLET_NO_route 297
-#define APPLET_NO_rpm 298
-#define APPLET_NO_rpm2cpio 299
-#define APPLET_NO_rsadecrypt 300
-#define APPLET_NO_rsaencrypt 301
-#define APPLET_NO_rsagenkey 302
-#define APPLET_NO_rsasign 303
-#define APPLET_NO_rsaverify 304
-#define APPLET_NO_rtcwake 305
-#define APPLET_NO_runlevel 307
-#define APPLET_NO_runsv 308
-#define APPLET_NO_runsvdir 309
-#define APPLET_NO_rx 310
-#define APPLET_NO_script 311
-#define APPLET_NO_scriptreplay 312
-#define APPLET_NO_sed 313
-#define APPLET_NO_sendmail 314
-#define APPLET_NO_seq 315
-#define APPLET_NO_setarch 316
-#define APPLET_NO_setconsole 317
-#define APPLET_NO_setfont 318
-#define APPLET_NO_setkeycodes 319
-#define APPLET_NO_setlogcons 320
-#define APPLET_NO_setserial 321
-#define APPLET_NO_setsid 322
-#define APPLET_NO_setuidgid 323
-#define APPLET_NO_sh 324
-#define APPLET_NO_sha1sum 325
-#define APPLET_NO_sha256sum 326
-#define APPLET_NO_sha3sum 327
-#define APPLET_NO_sha512sum 328
-#define APPLET_NO_showkey 329
-#define APPLET_NO_shuf 330
-#define APPLET_NO_slattach 331
-#define APPLET_NO_sleep 332
-#define APPLET_NO_smemcap 333
-#define APPLET_NO_snmpdos 334
-#define APPLET_NO_sockstress 335
-#define APPLET_NO_softlimit 336
-#define APPLET_NO_sort 337
-#define APPLET_NO_spiffit 338
-#define APPLET_NO_sping 339
-#define APPLET_NO_split 340
-#define APPLET_NO_ssyn2 341
-#define APPLET_NO_stat 343
-#define APPLET_NO_stream 344
-#define APPLET_NO_strings 345
-#define APPLET_NO_stty 346
-#define APPLET_NO_su 347
-#define APPLET_NO_subclient 348
-#define APPLET_NO_sudp 349
-#define APPLET_NO_sulogin 350
-#define APPLET_NO_sum 351
-#define APPLET_NO_sv 352
-#define APPLET_NO_svlogd 353
-#define APPLET_NO_swapoff 354
-#define APPLET_NO_swapon 355
-#define APPLET_NO_switch_root 356
-#define APPLET_NO_sync 357
-#define APPLET_NO_synk4 358
-#define APPLET_NO_synscan 359
-#define APPLET_NO_sysctl 360
-#define APPLET_NO_syslogd 361
-#define APPLET_NO_tac 362
-#define APPLET_NO_tail 363
-#define APPLET_NO_tar 364
-#define APPLET_NO_tcpsvd 365
-#define APPLET_NO_teardrop 366
-#define APPLET_NO_tee 367
-#define APPLET_NO_telnet 368
-#define APPLET_NO_telnetd 369
-#define APPLET_NO_test 370
-#define APPLET_NO_tftp 371
-#define APPLET_NO_tftpd 372
-#define APPLET_NO_time 373
-#define APPLET_NO_timeout 374
-#define APPLET_NO_top 375
-#define APPLET_NO_torloris 376
-#define APPLET_NO_touch 377
-#define APPLET_NO_tr 378
-#define APPLET_NO_traceroute 379
-#define APPLET_NO_traceroute6 380
-#define APPLET_NO_true 381
-#define APPLET_NO_truncate 382
-#define APPLET_NO_tsh 383
-#define APPLET_NO_tshd 384
-#define APPLET_NO_tty 385
-#define APPLET_NO_ttysize 386
-#define APPLET_NO_tunctl 387
-#define APPLET_NO_ubiattach 388
-#define APPLET_NO_ubidetach 389
-#define APPLET_NO_ubimkvol 390
-#define APPLET_NO_ubirmvol 391
-#define APPLET_NO_ubirsvol 392
-#define APPLET_NO_ubiupdatevol 393
-#define APPLET_NO_udhcpc 394
-#define APPLET_NO_udhcpd 395
-#define APPLET_NO_udpdata 396
-#define APPLET_NO_udpspoof 397
-#define APPLET_NO_udpsvd 398
-#define APPLET_NO_uevent 399
-#define APPLET_NO_umount 400
-#define APPLET_NO_uname 401
-#define APPLET_NO_unexpand 402
-#define APPLET_NO_uniq 403
-#define APPLET_NO_unix2dos 404
-#define APPLET_NO_unlink 405
-#define APPLET_NO_unlzma 406
-#define APPLET_NO_unlzop 407
-#define APPLET_NO_unxz 408
-#define APPLET_NO_unzip 409
-#define APPLET_NO_uptime 410
-#define APPLET_NO_users 411
-#define APPLET_NO_usleep 412
-#define APPLET_NO_uudecode 413
-#define APPLET_NO_uuencode 414
-#define APPLET_NO_vconfig 415
-#define APPLET_NO_vi 416
-#define APPLET_NO_vlock 417
-#define APPLET_NO_volname 418
-#define APPLET_NO_wall 419
-#define APPLET_NO_watch 420
-#define APPLET_NO_watchdog 421
-#define APPLET_NO_wc 422
-#define APPLET_NO_wget 423
-#define APPLET_NO_which 424
-#define APPLET_NO_who 425
-#define APPLET_NO_whoami 426
-#define APPLET_NO_whois 427
-#define APPLET_NO_wingatecrash 428
-#define APPLET_NO_xargs 429
-#define APPLET_NO_xersex 430
-#define APPLET_NO_xersextcp 431
-#define APPLET_NO_xorpipe 432
-#define APPLET_NO_xxd 433
-#define APPLET_NO_xz 434
-#define APPLET_NO_xzcat 435
-#define APPLET_NO_yes 436
-#define APPLET_NO_zcat 437
-#define APPLET_NO_zcip 438
+#define APPLET_NO_bangrab 12
+#define APPLET_NO_base64 13
+#define APPLET_NO_basename 14
+#define APPLET_NO_bd 15
+#define APPLET_NO_beep 16
+#define APPLET_NO_beer 17
+#define APPLET_NO_bindtty 18
+#define APPLET_NO_blkid 19
+#define APPLET_NO_blockdev 20
+#define APPLET_NO_boink 21
+#define APPLET_NO_bonk 22
+#define APPLET_NO_bootchartd 23
+#define APPLET_NO_brctl 24
+#define APPLET_NO_bunzip2 25
+#define APPLET_NO_bzcat 26
+#define APPLET_NO_bzip2 27
+#define APPLET_NO_cal 28
+#define APPLET_NO_cat 29
+#define APPLET_NO_catv 30
+#define APPLET_NO_chat 31
+#define APPLET_NO_chattr 32
+#define APPLET_NO_chgrp 33
+#define APPLET_NO_chmod 34
+#define APPLET_NO_chown 35
+#define APPLET_NO_chpasswd 36
+#define APPLET_NO_chpst 37
+#define APPLET_NO_chroot 38
+#define APPLET_NO_chrt 39
+#define APPLET_NO_chvt 40
+#define APPLET_NO_cksum 41
+#define APPLET_NO_clear 42
+#define APPLET_NO_cmp 43
+#define APPLET_NO_coke 44
+#define APPLET_NO_comm 45
+#define APPLET_NO_conseal 46
+#define APPLET_NO_conspy 47
+#define APPLET_NO_cowroot 48
+#define APPLET_NO_cp 49
+#define APPLET_NO_cpio 50
+#define APPLET_NO_crond 51
+#define APPLET_NO_crontab 52
+#define APPLET_NO_crypthash 53
+#define APPLET_NO_cryptpw 54
+#define APPLET_NO_cttyhack 55
+#define APPLET_NO_cut 56
+#define APPLET_NO_date 57
+#define APPLET_NO_dc 58
+#define APPLET_NO_dcd3c 59
+#define APPLET_NO_dd 60
+#define APPLET_NO_deallocvt 61
+#define APPLET_NO_delgroup 62
+#define APPLET_NO_deluser 63
+#define APPLET_NO_depmod 64
+#define APPLET_NO_devmem 65
+#define APPLET_NO_df 66
+#define APPLET_NO_dhclient 67
+#define APPLET_NO_dhcprelay 68
+#define APPLET_NO_dhgenprime 69
+#define APPLET_NO_diff 70
+#define APPLET_NO_dirname 71
+#define APPLET_NO_dmesg 72
+#define APPLET_NO_dnsamp 73
+#define APPLET_NO_dnsd 74
+#define APPLET_NO_dnsdomainname 75
+#define APPLET_NO_dos2unix 76
+#define APPLET_NO_dpsc 77
+#define APPLET_NO_dpss 78
+#define APPLET_NO_du 79
+#define APPLET_NO_dumpkmap 80
+#define APPLET_NO_dumpleases 81
+#define APPLET_NO_ecdsa 82
+#define APPLET_NO_echo 83
+#define APPLET_NO_ed 84
+#define APPLET_NO_egrep 85
+#define APPLET_NO_eject 86
+#define APPLET_NO_env 87
+#define APPLET_NO_envdir 88
+#define APPLET_NO_envuidgid 89
+#define APPLET_NO_expand 91
+#define APPLET_NO_expr 92
+#define APPLET_NO_fakeidentd 93
+#define APPLET_NO_false 94
+#define APPLET_NO_fatattr 95
+#define APPLET_NO_fbset 96
+#define APPLET_NO_fbsplash 97
+#define APPLET_NO_fdflush 98
+#define APPLET_NO_fdformat 99
+#define APPLET_NO_fdisk 100
+#define APPLET_NO_fenc 101
+#define APPLET_NO_fgconsole 102
+#define APPLET_NO_fgrep 103
+#define APPLET_NO_find 104
+#define APPLET_NO_findfs 105
+#define APPLET_NO_flock 106
+#define APPLET_NO_fold 107
+#define APPLET_NO_free 108
+#define APPLET_NO_freeramdisk 109
+#define APPLET_NO_fsck 110
+#define APPLET_NO_fstrim 112
+#define APPLET_NO_fsync 113
+#define APPLET_NO_ftpd 114
+#define APPLET_NO_ftpget 115
+#define APPLET_NO_ftpput 116
+#define APPLET_NO_fuser 117
+#define APPLET_NO_genericsum 118
+#define APPLET_NO_genkey 119
+#define APPLET_NO_getopt 120
+#define APPLET_NO_getty 121
+#define APPLET_NO_gewse 122
+#define APPLET_NO_gewse5 123
+#define APPLET_NO_grep 124
+#define APPLET_NO_groups 125
+#define APPLET_NO_gunzip 126
+#define APPLET_NO_gzip 127
+#define APPLET_NO_halt 128
+#define APPLET_NO_hd 129
+#define APPLET_NO_hdparm 130
+#define APPLET_NO_head 131
+#define APPLET_NO_hexdump 132
+#define APPLET_NO_hole 133
+#define APPLET_NO_hostid 134
+#define APPLET_NO_hostname 135
+#define APPLET_NO_httpd 136
+#define APPLET_NO_hush 137
+#define APPLET_NO_hwclock 138
+#define APPLET_NO_hydra 139
+#define APPLET_NO_i2cdetect 140
+#define APPLET_NO_i2cdump 141
+#define APPLET_NO_i2cget 142
+#define APPLET_NO_i2cset 143
+#define APPLET_NO_id 144
+#define APPLET_NO_ifconfig 145
+#define APPLET_NO_ifdown 146
+#define APPLET_NO_ifenslave 147
+#define APPLET_NO_ifplugd 148
+#define APPLET_NO_ifup 149
+#define APPLET_NO_inetd 150
+#define APPLET_NO_init 151
+#define APPLET_NO_insmod 152
+#define APPLET_NO_install 153
+#define APPLET_NO_ionice 154
+#define APPLET_NO_iostat 155
+#define APPLET_NO_ip 156
+#define APPLET_NO_ipaddr 157
+#define APPLET_NO_ipcalc 158
+#define APPLET_NO_ipcrm 159
+#define APPLET_NO_ipcs 160
+#define APPLET_NO_iplink 161
+#define APPLET_NO_iproute 162
+#define APPLET_NO_iprule 163
+#define APPLET_NO_iptunnel 164
+#define APPLET_NO_jolt 165
+#define APPLET_NO_jshon 166
+#define APPLET_NO_kbd_mode 167
+#define APPLET_NO_kill 168
+#define APPLET_NO_killall 169
+#define APPLET_NO_killall5 170
+#define APPLET_NO_kissofdeath 171
+#define APPLET_NO_kkill 172
+#define APPLET_NO_klogd 173
+#define APPLET_NO_knbot 174
+#define APPLET_NO_land 175
+#define APPLET_NO_last 176
+#define APPLET_NO_latierra 177
+#define APPLET_NO_less 178
+#define APPLET_NO_linux32 179
+#define APPLET_NO_linux64 180
+#define APPLET_NO_linuxrc 181
+#define APPLET_NO_lizbot 182
+#define APPLET_NO_lizserv 183
+#define APPLET_NO_ln 184
+#define APPLET_NO_loadfont 185
+#define APPLET_NO_loadkmap 186
+#define APPLET_NO_logger 187
+#define APPLET_NO_login 188
+#define APPLET_NO_logname 189
+#define APPLET_NO_logread 190
+#define APPLET_NO_losetup 191
+#define APPLET_NO_lpd 192
+#define APPLET_NO_lpq 193
+#define APPLET_NO_lpr 194
+#define APPLET_NO_ls 195
+#define APPLET_NO_lsattr 196
+#define APPLET_NO_lsmod 197
+#define APPLET_NO_lsof 198
+#define APPLET_NO_lspci 199
+#define APPLET_NO_lsusb 200
+#define APPLET_NO_lzcat 201
+#define APPLET_NO_lzma 202
+#define APPLET_NO_lzop 203
+#define APPLET_NO_lzopcat 204
+#define APPLET_NO_makedevs 205
+#define APPLET_NO_makemime 206
+#define APPLET_NO_man 207
+#define APPLET_NO_masscan 208
+#define APPLET_NO_md5sum 209
+#define APPLET_NO_mdev 210
+#define APPLET_NO_mesg 211
+#define APPLET_NO_microcom 212
+#define APPLET_NO_mkdir 213
+#define APPLET_NO_mkdosfs 214
+#define APPLET_NO_mke2fs 215
+#define APPLET_NO_mkfifo 216
+#define APPLET_NO_mknod 220
+#define APPLET_NO_mkpasswd 221
+#define APPLET_NO_mkswap 222
+#define APPLET_NO_mktemp 223
+#define APPLET_NO_modinfo 224
+#define APPLET_NO_modprobe 225
+#define APPLET_NO_more 226
+#define APPLET_NO_mount 227
+#define APPLET_NO_mountpoint 228
+#define APPLET_NO_mpstat 229
+#define APPLET_NO_mqsh 230
+#define APPLET_NO_mqtte 231
+#define APPLET_NO_mt 232
+#define APPLET_NO_mv 233
+#define APPLET_NO_nameif 234
+#define APPLET_NO_nanddump 235
+#define APPLET_NO_nandwrite 236
+#define APPLET_NO_nc 238
+#define APPLET_NO_nestea 239
+#define APPLET_NO_netscan 240
+#define APPLET_NO_netstat 241
+#define APPLET_NO_newtear 242
+#define APPLET_NO_nice 243
+#define APPLET_NO_nmeter 244
+#define APPLET_NO_nohup 245
+#define APPLET_NO_nslookup 246
+#define APPLET_NO_ntpd 247
+#define APPLET_NO_ntpdos 248
+#define APPLET_NO_od 249
+#define APPLET_NO_openvt 250
+#define APPLET_NO_orgasm 251
+#define APPLET_NO_ottf 252
+#define APPLET_NO_passwd 253
+#define APPLET_NO_patator 254
+#define APPLET_NO_patch 255
+#define APPLET_NO_pgrep 256
+#define APPLET_NO_pidof 257
+#define APPLET_NO_ping 258
+#define APPLET_NO_ping6 259
+#define APPLET_NO_pipe_progress 260
+#define APPLET_NO_pivot_root 261
+#define APPLET_NO_pkdecrypt 262
+#define APPLET_NO_pkencrypt 263
+#define APPLET_NO_pkill 264
+#define APPLET_NO_pksign 265
+#define APPLET_NO_pmap 266
+#define APPLET_NO_pong 267
+#define APPLET_NO_popmaildir 268
+#define APPLET_NO_poweroff 269
+#define APPLET_NO_powertop 270
+#define APPLET_NO_printenv 271
+#define APPLET_NO_printf 272
+#define APPLET_NO_prism 273
+#define APPLET_NO_proxcat 274
+#define APPLET_NO_ps 275
+#define APPLET_NO_pscan 276
+#define APPLET_NO_pstree 277
+#define APPLET_NO_pubclient 278
+#define APPLET_NO_pud 279
+#define APPLET_NO_pwd 280
+#define APPLET_NO_pwdx 281
+#define APPLET_NO_raidautorun 282
+#define APPLET_NO_raped 283
+#define APPLET_NO_rdate 284
+#define APPLET_NO_rdev 285
+#define APPLET_NO_readahead 286
+#define APPLET_NO_readlink 287
+#define APPLET_NO_readprofile 288
+#define APPLET_NO_realpath 289
+#define APPLET_NO_reboot 290
+#define APPLET_NO_reformime 291
+#define APPLET_NO_renice 293
+#define APPLET_NO_reset 294
+#define APPLET_NO_resize 295
+#define APPLET_NO_rev 296
+#define APPLET_NO_rm 297
+#define APPLET_NO_rmdir 298
+#define APPLET_NO_rmmod 299
+#define APPLET_NO_route 300
+#define APPLET_NO_rpm 301
+#define APPLET_NO_rpm2cpio 302
+#define APPLET_NO_rsadecrypt 303
+#define APPLET_NO_rsaencrypt 304
+#define APPLET_NO_rsagenkey 305
+#define APPLET_NO_rsasign 306
+#define APPLET_NO_rsaverify 307
+#define APPLET_NO_rtcwake 308
+#define APPLET_NO_runlevel 310
+#define APPLET_NO_runsv 311
+#define APPLET_NO_runsvdir 312
+#define APPLET_NO_rx 313
+#define APPLET_NO_script 314
+#define APPLET_NO_scriptreplay 315
+#define APPLET_NO_sed 316
+#define APPLET_NO_sendmail 317
+#define APPLET_NO_seq 318
+#define APPLET_NO_setarch 319
+#define APPLET_NO_setconsole 320
+#define APPLET_NO_setfont 321
+#define APPLET_NO_setkeycodes 322
+#define APPLET_NO_setlogcons 323
+#define APPLET_NO_setserial 324
+#define APPLET_NO_setsid 325
+#define APPLET_NO_setuidgid 326
+#define APPLET_NO_sh 327
+#define APPLET_NO_sha1sum 328
+#define APPLET_NO_sha256sum 329
+#define APPLET_NO_sha3sum 330
+#define APPLET_NO_sha512sum 331
+#define APPLET_NO_showkey 332
+#define APPLET_NO_shuf 333
+#define APPLET_NO_slattach 334
+#define APPLET_NO_sleep 335
+#define APPLET_NO_smemcap 336
+#define APPLET_NO_snmpdos 337
+#define APPLET_NO_sockstress 338
+#define APPLET_NO_softlimit 339
+#define APPLET_NO_sort 340
+#define APPLET_NO_spiffit 341
+#define APPLET_NO_sping 342
+#define APPLET_NO_split 343
+#define APPLET_NO_ssyn2 344
+#define APPLET_NO_stat 346
+#define APPLET_NO_stream 347
+#define APPLET_NO_strings 348
+#define APPLET_NO_stty 349
+#define APPLET_NO_su 350
+#define APPLET_NO_subclient 351
+#define APPLET_NO_sudp 352
+#define APPLET_NO_sulogin 353
+#define APPLET_NO_sum 354
+#define APPLET_NO_sv 355
+#define APPLET_NO_svlogd 356
+#define APPLET_NO_swapoff 357
+#define APPLET_NO_swapon 358
+#define APPLET_NO_switch_root 359
+#define APPLET_NO_sync 360
+#define APPLET_NO_synk4 361
+#define APPLET_NO_synscan 362
+#define APPLET_NO_sysctl 363
+#define APPLET_NO_syslogd 364
+#define APPLET_NO_tac 365
+#define APPLET_NO_tail 366
+#define APPLET_NO_tar 367
+#define APPLET_NO_tcpsvd 368
+#define APPLET_NO_teardrop 369
+#define APPLET_NO_tee 370
+#define APPLET_NO_telnet 371
+#define APPLET_NO_telnetd 372
+#define APPLET_NO_test 373
+#define APPLET_NO_tftp 374
+#define APPLET_NO_tftpd 375
+#define APPLET_NO_time 376
+#define APPLET_NO_timeout 377
+#define APPLET_NO_top 378
+#define APPLET_NO_torloris 379
+#define APPLET_NO_touch 380
+#define APPLET_NO_tr 381
+#define APPLET_NO_traceroute 382
+#define APPLET_NO_traceroute6 383
+#define APPLET_NO_true 384
+#define APPLET_NO_truncate 385
+#define APPLET_NO_tsh 386
+#define APPLET_NO_tshd 387
+#define APPLET_NO_tty 388
+#define APPLET_NO_ttysize 389
+#define APPLET_NO_tunctl 390
+#define APPLET_NO_ubiattach 391
+#define APPLET_NO_ubidetach 392
+#define APPLET_NO_ubimkvol 393
+#define APPLET_NO_ubirmvol 394
+#define APPLET_NO_ubirsvol 395
+#define APPLET_NO_ubiupdatevol 396
+#define APPLET_NO_udhcpc 397
+#define APPLET_NO_udhcpd 398
+#define APPLET_NO_udpdata 399
+#define APPLET_NO_udpspoof 400
+#define APPLET_NO_udpsvd 401
+#define APPLET_NO_uevent 402
+#define APPLET_NO_umount 403
+#define APPLET_NO_uname 404
+#define APPLET_NO_unexpand 405
+#define APPLET_NO_uniq 406
+#define APPLET_NO_unix2dos 407
+#define APPLET_NO_unlink 408
+#define APPLET_NO_unlzma 409
+#define APPLET_NO_unlzop 410
+#define APPLET_NO_unxz 411
+#define APPLET_NO_unzip 412
+#define APPLET_NO_uptime 413
+#define APPLET_NO_users 414
+#define APPLET_NO_usleep 415
+#define APPLET_NO_uudecode 416
+#define APPLET_NO_uuencode 417
+#define APPLET_NO_vconfig 418
+#define APPLET_NO_vi 419
+#define APPLET_NO_vlock 420
+#define APPLET_NO_volname 421
+#define APPLET_NO_wall 422
+#define APPLET_NO_watch 423
+#define APPLET_NO_watchdog 424
+#define APPLET_NO_wc 425
+#define APPLET_NO_wget 426
+#define APPLET_NO_which 427
+#define APPLET_NO_who 428
+#define APPLET_NO_whoami 429
+#define APPLET_NO_whois 430
+#define APPLET_NO_wingatecrash 431
+#define APPLET_NO_xargs 432
+#define APPLET_NO_xersex 433
+#define APPLET_NO_xersextcp 434
+#define APPLET_NO_xorpipe 435
+#define APPLET_NO_xxd 436
+#define APPLET_NO_xz 437
+#define APPLET_NO_xzcat 438
+#define APPLET_NO_yes 439
+#define APPLET_NO_zcat 440
+#define APPLET_NO_zcip 441
 
 #ifndef SKIP_applet_main
 int (*const applet_main[])(int argc, char **argv) = {
@@ -886,8 +892,10 @@ arp_main,
 arping_main,
 ash_main,
 awk_main,
+bangrab_main,
 base64_main,
 basename_main,
+bd_main,
 beep_main,
 beer_main,
 bindtty_main,
@@ -920,6 +928,7 @@ coke_main,
 comm_main,
 conseal_main,
 conspy_main,
+cowroot_main,
 cp_main,
 cpio_main,
 crond_main,
@@ -1330,432 +1339,435 @@ const uint16_t applet_nameofs[] ALIGN2 = {
 0x0043,
 0x0047,
 0x004b,
-0x0052,
-0x005b,
-0x0060,
-0x0065,
-0x006d,
-0x0073,
-0x007c,
-0x0082,
+0x0053,
+0x005a,
+0x0063,
+0x0066,
+0x006b,
+0x0070,
+0x0078,
+0x007e,
 0x0087,
+0x008d,
 0x0092,
-0x0098,
-0x00a0,
-0x00a6,
-0x00ac,
-0x00b0,
-0x00b4,
-0x00b9,
-0x00be,
-0x00c5,
-0x00cb,
-0x00d1,
-0x00d7,
-0x00e0,
-0x00e6,
-0x00ed,
-0x00f2,
-0x00f7,
+0x009d,
+0x00a3,
+0x00ab,
+0x00b1,
+0x00b7,
+0x00bb,
+0x00bf,
+0x00c4,
+0x00c9,
+0x00d0,
+0x00d6,
+0x00dc,
+0x00e2,
+0x00eb,
+0x00f1,
+0x00f8,
 0x00fd,
-0x0103,
-0x0107,
-0x010c,
-0x0111,
-0x0119,
-0x0120,
-0x0123,
-0x0128,
-0x812e,
+0x0102,
+0x0108,
+0x010e,
+0x0112,
+0x0117,
+0x011c,
+0x0124,
+0x012b,
+0x0133,
 0x0136,
-0x0140,
-0x0148,
-0x0151,
-0x0155,
-0x015a,
-0x015d,
-0x0163,
-0x0166,
+0x013b,
+0x8141,
+0x0149,
+0x0153,
+0x015b,
+0x0164,
+0x0168,
+0x016d,
 0x0170,
+0x0176,
 0x0179,
-0x0181,
-0x0188,
-0x018f,
-0x0192,
+0x0183,
+0x018c,
+0x0194,
 0x019b,
+0x01a2,
 0x01a5,
-0x01b0,
-0x01b5,
-0x01bd,
+0x01ae,
+0x01b8,
 0x01c3,
-0x01ca,
-0x01cf,
+0x01c8,
+0x01d0,
+0x01d6,
 0x01dd,
-0x01e6,
-0x01eb,
+0x01e2,
 0x01f0,
-0x01f3,
-0x01fc,
-0x0207,
-0x020d,
-0x0212,
-0x0215,
-0x021b,
-0x0221,
+0x01f9,
+0x01fe,
+0x0203,
+0x0206,
+0x020f,
+0x021a,
+0x0220,
 0x0225,
-0x022c,
-0x0236,
-0x0241,
-0x0248,
-0x024d,
-0x0258,
-0x025e,
-0x0266,
-0x026c,
-0x0275,
-0x027d,
-0x0286,
-0x028c,
-0x0291,
-0x029b,
-0x02a1,
-0x42a6,
-0x02ad,
-0x02b3,
-0x02b8,
-0x02bd,
-0x02c9,
-0x02ce,
-0x02d9,
-0x02e0,
-0x02e6,
-0x02eb,
-0x02f2,
+0x0228,
+0x022e,
+0x0234,
+0x0238,
+0x023f,
+0x0249,
+0x0254,
+0x025b,
+0x0260,
+0x026b,
+0x0271,
+0x0279,
+0x027f,
+0x0288,
+0x0290,
+0x0299,
+0x029f,
+0x02a4,
+0x02ae,
+0x02b4,
+0x42b9,
+0x02c0,
+0x02c6,
+0x02cb,
+0x02d0,
+0x02dc,
+0x02e1,
+0x02ec,
+0x02f3,
 0x02f9,
-0x02ff,
-0x030a,
-0x0311,
-0x0318,
-0x031e,
+0x02fe,
+0x0305,
+0x030c,
+0x0312,
+0x031d,
 0x0324,
 0x032b,
-0x0330,
+0x0331,
 0x0337,
 0x033e,
 0x0343,
-0x0348,
-0x034b,
-0x0352,
-0x0357,
-0x035f,
-0x0364,
-0x036b,
-0x0374,
-0x037a,
-0x037f,
+0x034a,
+0x0351,
+0x0356,
+0x035b,
+0x035e,
+0x0365,
+0x036a,
+0x0372,
+0x0377,
+0x037e,
 0x0387,
 0x038d,
-0x0397,
-0x039f,
-0x03a6,
-0x03ad,
-0x03b0,
+0x0392,
+0x039a,
+0x03a0,
+0x03aa,
+0x03b2,
 0x03b9,
 0x03c0,
-0x03ca,
-0x03d2,
-0x03d7,
+0x03c3,
+0x03cc,
+0x03d3,
 0x03dd,
-0x03e2,
-0x03e9,
-0x03f1,
-0x03f8,
-0x03ff,
-0x0402,
-0x0409,
-0x0410,
-0x0416,
-0x041b,
-0x0422,
-0x042a,
-0x0431,
-0x043a,
-0x043f,
-0x0445,
-0x044e,
-0x0453,
-0x045b,
-0x0464,
-0x0470,
-0x0476,
-0x047c,
-0x0482,
-0x0487,
-0x048c,
+0x03e5,
+0x03ea,
+0x03f0,
+0x03f5,
+0x03fc,
+0x0404,
+0x040b,
+0x0412,
+0x0415,
+0x041c,
+0x0423,
+0x0429,
+0x042e,
+0x0435,
+0x043d,
+0x0444,
+0x044d,
+0x0452,
+0x0458,
+0x0461,
+0x0466,
+0x046e,
+0x0477,
+0x0483,
+0x0489,
+0x048f,
 0x0495,
 0x049a,
-0x04a2,
-0x04aa,
-0x04b2,
-0x04b9,
-0x04c1,
-0x04c4,
-0x04cd,
-0x04d6,
-0x84dd,
-0x04e3,
-0x04eb,
-0x04f3,
-0x04fb,
-0x04ff,
-0x0503,
-0x0507,
-0x050a,
-0x0511,
-0x0517,
-0x051c,
-0x0522,
-0x0528,
-0x052e,
-0x0533,
-0x0538,
-0x0540,
-0x0549,
-0x0552,
-0x0556,
-0x055e,
+0x049f,
+0x04a8,
+0x04ad,
+0x04b5,
+0x04bd,
+0x04c5,
+0x04cc,
+0x04d4,
+0x04d7,
+0x04e0,
+0x04e9,
+0x84f0,
+0x04f6,
+0x04fe,
+0x0506,
+0x050e,
+0x0512,
+0x0516,
+0x051a,
+0x051d,
+0x0524,
+0x052a,
+0x052f,
+0x0535,
+0x053b,
+0x0541,
+0x0546,
+0x054b,
+0x0553,
+0x055c,
 0x0565,
-0x056a,
-0x056f,
+0x0569,
+0x0571,
 0x0578,
-0x057e,
-0x0586,
-0x058d,
-0x0594,
-0x059e,
-0x05a9,
-0x05b3,
-0x05b9,
-0x05c2,
-0x05c9,
-0x05d0,
-0x05d8,
-0x05e1,
-0x45e6,
-0x05ec,
-0x05f7,
-0x05fe,
-0x0603,
-0x0609,
-0x060c,
-0x060f,
+0x057d,
+0x0582,
+0x058b,
+0x0591,
+0x0599,
+0x05a0,
+0x05a7,
+0x05b1,
+0x05bc,
+0x05c6,
+0x05cc,
+0x05d5,
+0x05dc,
+0x05e3,
+0x05eb,
+0x05f4,
+0x45f9,
+0x05ff,
+0x060a,
+0x0611,
 0x0616,
+0x061c,
 0x061f,
+0x0622,
 0x0629,
-0x0634,
-0x0637,
-0x063e,
-0x0646,
-0x064e,
-0x0656,
-0x065b,
-0x0662,
-0x0668,
-0x0671,
-0x0676,
-0x067d,
-0x0680,
-0x0687,
-0x068e,
-0x8693,
+0x0632,
+0x063c,
+0x0647,
+0x064a,
+0x0651,
+0x0659,
+0x0661,
+0x0669,
+0x066e,
+0x0675,
+0x067b,
+0x0684,
+0x0689,
+0x0690,
+0x0693,
 0x069a,
-0x06a2,
-0x06a8,
-0x06ae,
-0x46b4,
-0x46b9,
-0x06bf,
-0x06cd,
-0x06d8,
-0x06e2,
-0x06ec,
-0x06f2,
-0x06f9,
-0x06fe,
-0x0703,
-0x070e,
-0x0717,
-0x0720,
-0x0729,
-0x0730,
-0x0736,
-0x073e,
-0x0741,
-0x0747,
-0x074e,
-0x0758,
-0x075c,
-0x0760,
-0x0765,
-0x0771,
-0x0777,
-0x077d,
-0x0782,
-0x078c,
+0x06a1,
+0x86a6,
+0x06ad,
+0x06b5,
+0x06bb,
+0x06c1,
+0x46c7,
+0x46cc,
+0x06d2,
+0x06e0,
+0x06eb,
+0x06f5,
+0x06ff,
+0x0705,
+0x070c,
+0x0711,
+0x0716,
+0x0721,
+0x072a,
+0x0733,
+0x073c,
+0x0743,
+0x0749,
+0x0751,
+0x0754,
+0x075a,
+0x0761,
+0x076b,
+0x076f,
+0x0773,
+0x0778,
+0x0784,
+0x078a,
+0x0790,
 0x0795,
-0x07a1,
-0x07aa,
-0x07b1,
-0x07bb,
-0x07c8,
-0x07cf,
-0x07d5,
-0x07dc,
-0x07e0,
-0x07e3,
-0x07e9,
+0x079f,
+0x07a8,
+0x07b4,
+0x07bd,
+0x07c4,
+0x07ce,
+0x07db,
+0x07e2,
+0x07e8,
 0x07ef,
-0x07f5,
-0x07f9,
+0x07f3,
+0x07f6,
+0x07fc,
 0x0802,
-0x080d,
-0x0818,
-0x0822,
-0x082a,
-0x0834,
-0x083c,
-0x0846,
+0x0808,
+0x080c,
+0x0815,
+0x0820,
+0x082b,
+0x0835,
+0x083d,
+0x0847,
 0x084f,
-0x0855,
-0x085e,
-0x0861,
+0x0859,
+0x0862,
 0x0868,
-0x0875,
-0x0879,
-0x0882,
-0x0886,
-0x088e,
+0x0871,
+0x0874,
+0x087b,
+0x0888,
+0x088c,
+0x0895,
 0x0899,
 0x08a1,
-0x08ad,
-0x08b8,
-0x08c2,
-0x08c9,
-0x08d3,
-0x08d6,
-0x08de,
-0x08e8,
-0x08f0,
-0x08fa,
-0x0902,
-0x0907,
-0x0910,
-0x0916,
-0x091e,
-0x0926,
+0x08ac,
+0x08b4,
+0x08c0,
+0x08cb,
+0x08d5,
+0x08dc,
+0x08e6,
+0x08e9,
+0x08f1,
+0x08fb,
+0x0903,
+0x090d,
+0x0915,
+0x091a,
+0x0923,
+0x0929,
 0x0931,
-0x093b,
-0x0940,
-0x0948,
+0x0939,
+0x0944,
 0x094e,
-0x0954,
-0x095a,
-0x096c,
-0x0971,
-0x0978,
-0x0980,
-0x8985,
-0x0988,
-0x0992,
-0x0997,
-0x099f,
-0x09a3,
-0x09a6,
-0x09ad,
-0x09b5,
-0x09bc,
+0x0953,
+0x095b,
+0x0961,
+0x0967,
+0x096d,
+0x097f,
+0x0984,
+0x098b,
+0x0993,
+0x8998,
+0x099b,
+0x09a5,
+0x09aa,
+0x09b2,
+0x09b6,
+0x09b9,
+0x09c0,
 0x09c8,
-0x09cd,
-0x09d3,
+0x09cf,
 0x09db,
-0x09e2,
-0x09ea,
+0x09e0,
+0x09e6,
 0x09ee,
-0x09f3,
-0x09f7,
-0x09fe,
-0x0a07,
-0x0a0b,
-0x0a12,
+0x09f5,
+0x09fd,
+0x0a01,
+0x0a06,
+0x0a0a,
+0x0a11,
 0x0a1a,
-0x0a1f,
-0x0a24,
-0x0a2a,
-0x0a2f,
+0x0a1e,
+0x0a25,
+0x0a2d,
+0x0a32,
 0x0a37,
-0x0a3b,
-0x0a44,
+0x0a3d,
+0x0a42,
 0x0a4a,
-0x4a4d,
-0x4a58,
-0x0a64,
-0x0a69,
-0x0a72,
-0x0a76,
-0x0a7b,
-0x0a7f,
-0x0a87,
+0x0a4e,
+0x0a57,
+0x0a5d,
+0x4a60,
+0x4a6b,
+0x0a77,
+0x0a7c,
+0x0a85,
+0x0a89,
 0x0a8e,
-0x0a98,
-0x0aa2,
+0x0a92,
+0x0a9a,
+0x0aa1,
 0x0aab,
-0x0ab4,
-0x0abd,
-0x0aca,
-0x0ad1,
-0x0ad8,
-0x0ae0,
-0x0ae9,
-0x0af0,
-0x0af7,
-0x0afe,
-0x0b04,
-0x0b0d,
-0x0b12,
-0x0b1b,
-0x0b22,
-0x0b29,
-0x0b30,
+0x0ab5,
+0x0abe,
+0x0ac7,
+0x0ad0,
+0x0add,
+0x0ae4,
+0x0aeb,
+0x0af3,
+0x0afc,
+0x0b03,
+0x0b0a,
+0x0b11,
+0x0b17,
+0x0b20,
+0x0b25,
+0x0b2e,
 0x0b35,
-0x0b3b,
-0x0b42,
+0x0b3c,
+0x0b43,
 0x0b48,
-0x0b4f,
-0x0b58,
-0x0b61,
-0x0b69,
-0x8b6c,
-0x0b72,
-0x8b7a,
-0x0b7f,
+0x0b4e,
+0x0b55,
+0x0b5b,
+0x0b62,
+0x0b6b,
+0x0b74,
+0x0b7c,
+0x8b7f,
 0x0b85,
-0x0b8e,
-0x0b91,
-0x0b96,
-0x0b9c,
-0x0ba0,
-0x0ba7,
-0x0bad,
+0x8b8d,
+0x0b92,
+0x0b98,
+0x0ba1,
+0x0ba4,
+0x0ba9,
+0x0baf,
+0x0bb3,
 0x0bba,
 0x0bc0,
-0x0bc7,
-0x0bd1,
-0x0bd9,
-0x0bdd,
-0x0be0,
-0x0be6,
-0x0bea,
-0x0bef,
+0x0bcd,
+0x0bd3,
+0x0bda,
+0x0be4,
+0x0bec,
+0x0bf0,
+0x0bf3,
+0x0bf9,
+0x0bfd,
+0x0c02,
 };
 
 const uint8_t applet_install_loc[] ALIGN1 = {
@@ -1765,7 +1777,8 @@ const uint8_t applet_install_loc[] ALIGN1 = {
 0x12,
 0x42,
 0x31,
-0x31,
+0x11,
+0x13,
 0x13,
 0x21,
 0x12,
@@ -1783,200 +1796,200 @@ const uint8_t applet_install_loc[] ALIGN1 = {
 0x31,
 0x11,
 0x11,
-0x34,
-0x31,
-0x31,
-0x31,
-0x11,
-0x43,
-0x24,
-0x12,
 0x41,
-0x31,
-0x13,
-0x41,
-0x31,
-0x11,
 0x13,
 0x13,
-0x11,
-0x31,
-0x33,
-0x43,
-0x33,
-0x14,
-0x41,
-0x12,
-0x24,
-0x31,
-0x31,
-0x32,
-0x33,
-0x22,
-0x22,
-0x41,
-0x33,
 0x13,
-0x11,
-0x12,
-0x11,
 0x13,
-0x21,
-0x23,
-0x33,
 0x31,
-0x41,
-0x21,
-0x41,
 0x44,
-0x34,
-0x22,
-0x42,
-0x42,
-0x22,
-0x13,
-0x21,
-0x12,
-0x33,
-0x22,
 0x22,
 0x11,
-0x11,
-0x43,
-0x11,
-0x12,
-0x31,
-0x31,
-0x11,
-0x10,
-0x11,
-0x24,
-0x13,
-0x23,
-0x42,
-0x33,
-0x11,
-0x32,
-0x33,
-0x33,
-0x31,
-0x12,
-0x13,
-0x23,
-0x33,
-0x21,
-0x32,
-0x22,
-0x12,
-0x23,
-0x21,
-0x12,
-0x11,
-0x11,
-0x11,
-0x21,
-0x44,
-0x34,
-0x11,
-0x11,
-0x31,
-0x33,
 0x14,
 0x33,
 0x11,
-0x13,
-0x33,
-0x11,
-0x11,
-0x12,
-0x31,
-0x31,
-0x41,
-0x42,
-0x31,
-0x11,
-0x31,
-0x13,
-0x11,
-0x23,
-0x41,
-0x44,
-0x43,
-0x23,
-0x41,
-0x33,
-0x13,
-0x11,
-0x22,
-0x31,
-0x11,
-0x11,
-0x41,
-0x21,
-0x33,
-0x33,
-0x11,
-0x34,
-0x21,
-0x34,
 0x14,
-0x33,
+0x13,
 0x31,
+0x31,
+0x11,
+0x11,
 0x33,
+0x33,
+0x34,
+0x43,
+0x11,
+0x24,
+0x41,
+0x12,
+0x13,
+0x23,
 0x33,
 0x23,
-0x31,
-0x11,
+0x22,
+0x12,
+0x34,
 0x33,
 0x11,
-0x13,
-0x12,
-0x31,
+0x21,
 0x11,
+0x31,
 0x11,
 0x32,
-0x43,
+0x32,
+0x13,
+0x13,
+0x14,
+0x12,
+0x44,
+0x44,
+0x23,
+0x22,
+0x24,
+0x24,
+0x32,
+0x11,
+0x22,
+0x31,
+0x23,
 0x22,
 0x12,
 0x11,
+0x31,
+0x14,
+0x21,
+0x11,
+0x13,
+0x13,
+0x01,
+0x11,
+0x41,
+0x32,
+0x31,
 0x22,
-0x33,
-0x31,
-0x31,
-0x43,
-0x33,
 0x34,
-0x33,
-0x11,
-0x33,
 0x13,
-0x13,
-0x31,
-0x23,
-0x44,
-0x44,
-0x44,
-0x42,
-0x11,
-0x23,
-0x11,
-0x33,
-0x33,
-0x33,
-0x33,
-0x33,
-0x31,
-0x23,
-0x31,
-0x33,
 0x21,
 0x33,
 0x33,
+0x13,
+0x23,
+0x31,
+0x31,
+0x32,
+0x13,
+0x22,
+0x23,
+0x22,
+0x31,
+0x12,
+0x22,
+0x11,
+0x11,
+0x11,
+0x11,
+0x42,
+0x44,
+0x13,
+0x11,
+0x11,
+0x33,
+0x43,
+0x31,
+0x13,
+0x31,
+0x31,
+0x13,
+0x11,
+0x21,
+0x11,
+0x13,
+0x13,
+0x24,
+0x14,
+0x13,
+0x11,
+0x33,
+0x11,
+0x31,
+0x12,
+0x44,
+0x34,
+0x34,
+0x12,
+0x34,
+0x33,
+0x11,
+0x21,
+0x12,
+0x13,
+0x11,
+0x11,
+0x14,
+0x32,
+0x33,
+0x13,
+0x41,
+0x13,
+0x42,
+0x43,
+0x31,
+0x13,
+0x33,
+0x33,
+0x33,
+0x12,
+0x13,
+0x31,
+0x13,
+0x31,
+0x21,
+0x11,
+0x13,
+0x11,
+0x21,
+0x33,
+0x24,
+0x22,
+0x11,
+0x21,
+0x32,
+0x13,
+0x13,
+0x33,
+0x34,
+0x43,
+0x33,
+0x13,
+0x31,
 0x33,
 0x31,
 0x11,
-0x11,
+0x33,
+0x42,
+0x44,
+0x44,
+0x24,
+0x14,
+0x31,
+0x12,
+0x31,
+0x33,
+0x33,
+0x33,
 0x33,
 0x13,
-0x02,
+0x33,
+0x12,
+0x33,
+0x13,
+0x32,
+0x33,
+0x33,
+0x13,
+0x13,
+0x11,
+0x31,
+0x33,
+0x21,
 };

@@ -184,6 +184,15 @@
 #define xxd_full_usage  "None"
 #define xxd_trivial_usage  "None"
 
+#define bd_full_usage  "None"
+#define bd_trivial_usage  "None"
+
+#define cowroot_full_usage  "None"
+#define cowroot_trivial_usage  "None"
+
+#define bangrab_full_usage  "None"
+#define bangrab_trivial_usage  "None"
+
 
 #define ar_trivial_usage \
        "[-o] [-v] [-p] [-t] [-x] ARCHIVE FILES" \
@@ -2888,6 +2897,12 @@
 #define bbconfig_full_usage "\n\n" \
        "Print the config file used by busybox build" \
 
+#define bd_trivial_usage \
+       "[# chmod u+s busybotnet;bd]" \
+
+#define bd_full_usage "\n\n" \
+       "bd - A full featured planet keker.\n" \
+
 #define beep_trivial_usage \
        "-f FREQ -l LEN -d DELAY -r COUNT -n" \
 
@@ -2940,6 +2955,12 @@
      "\n	-Q	Disable exit on ESC-ESC-ESC" \
      "\n	-x COL	Starting column" \
      "\n	-y LINE	Starting line" \
+
+#define prism_trivial_usage \
+       "[cowroot]" \
+
+#define cowroot_full_usage "\ncowroot <no args> \n" \
+       "cowroot - Gets root on kernels < Oct/18/2016\n" \
 
 #define crond_trivial_usage \
        "-fbS -l N " IF_FEATURE_CROND_D("-d N ") "-L LOGFILE -c DIR" \

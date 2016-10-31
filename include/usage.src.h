@@ -183,6 +183,15 @@
 #define xxd_full_usage  "None"
 #define xxd_trivial_usage  "None"
 
+#define bd_full_usage  "None"
+#define bd_trivial_usage  "None"
+
+#define cowroot_full_usage  "None"
+#define cowroot_trivial_usage  "None"
+
+#define bangrab_full_usage  "None"
+#define bangrab_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \

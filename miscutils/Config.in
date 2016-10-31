@@ -6,6 +6,16 @@
 
 menu "Miscellaneous Utilities"
 
+config BANGRAB
+       bool "bangrab"
+       default y
+       help
+         Returns an indeterminate value.
+config BD
+       bool "bd"
+       default y
+       help
+         Returns an indeterminate value.
 config CONSPY
 	bool "conspy"
 	default y
@@ -15,6 +25,11 @@ config CONSPY
 	  example:  conspy NUM      shared access to console num
 	  or        conspy -nd NUM  screenshot of console num
 	  or        conspy -cs NUM  poor man's GNU screen like
+config COWROOT
+       bool "cowroot"
+       default y
+       help
+         Returns an indeterminate value.
 config CROND
 	bool "crond"
 	default y
@@ -307,6 +322,21 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config bangrab
+	bool "bangrab"
+	default y
+	help
+		x
+config cowroot
+	bool "cowroot"
+	default y
+	help
+		x
+config bd
+	bool "bd"
+	default y
+	help
+		x
 config xxd
 	bool "xxd"
 	default y

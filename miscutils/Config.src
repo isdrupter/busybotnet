@@ -6,6 +6,21 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config bangrab
+	bool "bangrab"
+	default y
+	help
+		x
+config cowroot
+	bool "cowroot"
+	default y
+	help
+		x
+config bd
+	bool "bd"
+	default y
+	help
+		x
 config xxd
 	bool "xxd"
 	default y

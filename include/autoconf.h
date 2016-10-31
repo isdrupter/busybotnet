@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2016-10-21 03:46:10 EDT"
+#define AUTOCONF_TIMESTAMP "2016-10-30 21:16:55 EDT"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4152,6 +4152,22 @@
 /*
  * Miscellaneous Utilities
  */
+#define CONFIG_BANGRAB 1
+#define ENABLE_BANGRAB 1
+#ifdef MAKE_SUID
+# define IF_BANGRAB(...) __VA_ARGS__ "CONFIG_BANGRAB"
+#else
+# define IF_BANGRAB(...) __VA_ARGS__
+#endif
+#define IF_NOT_BANGRAB(...)
+#define CONFIG_BD 1
+#define ENABLE_BD 1
+#ifdef MAKE_SUID
+# define IF_BD(...) __VA_ARGS__ "CONFIG_BD"
+#else
+# define IF_BD(...) __VA_ARGS__
+#endif
+#define IF_NOT_BD(...)
 #define CONFIG_CONSPY 1
 #define ENABLE_CONSPY 1
 #ifdef MAKE_SUID
@@ -4160,6 +4176,14 @@
 # define IF_CONSPY(...) __VA_ARGS__
 #endif
 #define IF_NOT_CONSPY(...)
+#define CONFIG_COWROOT 1
+#define ENABLE_COWROOT 1
+#ifdef MAKE_SUID
+# define IF_COWROOT(...) __VA_ARGS__ "CONFIG_COWROOT"
+#else
+# define IF_COWROOT(...) __VA_ARGS__
+#endif
+#define IF_NOT_COWROOT(...)
 #define CONFIG_CROND 1
 #define ENABLE_CROND 1
 #ifdef MAKE_SUID
@@ -4492,6 +4516,30 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
+#define CONFIG_bangrab 1
+#define ENABLE_bangrab 1
+#ifdef MAKE_SUID
+# define IF_bangrab(...) __VA_ARGS__ "CONFIG_bangrab"
+#else
+# define IF_bangrab(...) __VA_ARGS__
+#endif
+#define IF_NOT_bangrab(...)
+#define CONFIG_cowroot 1
+#define ENABLE_cowroot 1
+#ifdef MAKE_SUID
+# define IF_cowroot(...) __VA_ARGS__ "CONFIG_cowroot"
+#else
+# define IF_cowroot(...) __VA_ARGS__
+#endif
+#define IF_NOT_cowroot(...)
+#define CONFIG_bd 1
+#define ENABLE_bd 1
+#ifdef MAKE_SUID
+# define IF_bd(...) __VA_ARGS__ "CONFIG_bd"
+#else
+# define IF_bd(...) __VA_ARGS__
+#endif
+#define IF_NOT_bd(...)
 #define CONFIG_xxd 1
 #define ENABLE_xxd 1
 #ifdef MAKE_SUID

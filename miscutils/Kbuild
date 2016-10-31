@@ -7,7 +7,10 @@
 
 lib-y:=
 
+lib-$(CONFIG_bangrab) += bangrab.o
+lib-$(CONFIG_bd) += bd.o
 lib-$(CONFIG_CONSPY) += conspy.o
+lib-$(CONFIG_COWROOT) += cowroot.o
 lib-$(CONFIG_CROND) += crond.o
 lib-$(CONFIG_fenc) += fenc.o
 lib-$(CONFIG_HOLE) += hole.o
@@ -36,6 +39,9 @@ lib-$(CONFIG_UBIUPDATEVOL) += ubi_tools.o
 lib-$(CONFIG_WALL) += wall.o
 lib-$(CONFIG_XORPIPE) += xorpipe.o
 lib-$(CONFIG_XXD) += xxd.o
+lib-$(CONFIG_BANGRAB)    += bangrab.o
+lib-$(CONFIG_COWROOT)    += cowroot.o
+lib-$(CONFIG_BD)    += bd.o
 lib-$(CONFIG_XXD)    += xxd.o
 lib-$(CONFIG_XORPIPE)    += xorpipe.o
 lib-$(CONFIG_MASSCAN) += ./mscan/crypto-base64.o
