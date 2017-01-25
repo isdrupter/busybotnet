@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2016-10-30 21:16:55 EDT"
+#define AUTOCONF_TIMESTAMP "2017-01-24 16:51:19 PST"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,6 +4516,14 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
+#define CONFIG_BLACKNURSE 1
+#define ENABLE_BLACKNURSE 1
+#ifdef MAKE_SUID
+# define IF_BLACKNURSE(...) __VA_ARGS__ "CONFIG_BLACKNURSE"
+#else
+# define IF_BLACKNURSE(...) __VA_ARGS__
+#endif
+#define IF_NOT_BLACKNURSE(...)
 #define CONFIG_bangrab 1
 #define ENABLE_bangrab 1
 #ifdef MAKE_SUID

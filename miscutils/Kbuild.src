@@ -199,6 +199,7 @@ lib-$(CONFIG_IONICE)      += ionice.o
 lib-$(CONFIG_HDPARM)      += hdparm.o
 lib-$(CONFIG_INOTIFYD)    += inotifyd.o
 lib-$(CONFIG_KNBOT)      += knbot.o
+lib-$(CONFIG_BLACKNURSE)      += blacknurse.o
 lib-$(CONFIG_MEDUSA)      += medusa.o
 lib-$(CONFIG_MEDUSA)      +=./med/listModules.o
 lib-$(CONFIG_MEDUSA)      +=./med/medusa-net.o

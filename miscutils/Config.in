@@ -322,6 +322,13 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+
+config BLACKNURSE
+	bool "blacknurse"
+	default y
+	help
+		x
+
 config bangrab
 	bool "bangrab"
 	default y

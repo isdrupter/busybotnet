@@ -607,6 +607,7 @@ static const char bbconfig_config[] ALIGN1 =
 "CONFIG_WALL=y\n"
 "CONFIG_XORPIPE=y\n"
 "CONFIG_XXD=y\n"
+"CONFIG_BLACKNURSE=y\n"
 "CONFIG_bangrab=y\n"
 "CONFIG_cowroot=y\n"
 "CONFIG_bd=y\n"
