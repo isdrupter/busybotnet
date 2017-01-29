@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config MQ
+	bool "mq"
+	default y
+	help
+		x
 
 config BLACKNURSE
 	bool "blacknurse"

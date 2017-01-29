@@ -11,7 +11,6 @@ http://mqtt.org
 #include <unistd.h>
 
 #include <mosquitto.h>
-char *password = "x";
 
 
 struct userdata {
@@ -76,6 +75,7 @@ int mqtte_usage(int retcode)
 " -h,--host HOST              Connect to HOST. Default is localhost\n"
 " -i,--id ID                  The id to use for this client\n"
 " -u,--username USERNAME      The username for the client\n"
+" -x,--password PASSWORD      The password for the client\n"
 " -k,--keepalive SEC          Set keepalive to SEC. Default is 60\n"
 " -p,--port PORT              Set TCP port to PORT. Default is 1883\n"
 " -q,--qos QOS                Set Quality of Serive to level. Default is 0\n"
@@ -117,6 +117,7 @@ int mqtte_main(int argc, char *argv[])
 		{"topic",	required_argument,	0, 't' },
 		{"verbose",	no_argument,		0, 'v' },
 		{"username",    required_argument,      0, 'u' },
+		{"password",	required_argument,	0, 'x' },
 		{"will-topic",	required_argument,	0, 0x1001 },
 		{"will-payload", required_argument,	0, 0x1002 },
 		{"will-qos",	required_argument,	0, 0x1003 },
@@ -133,6 +134,7 @@ int mqtte_main(int argc, char *argv[])
 	char hostname[256];
 	static char id[MOSQ_MQTT_ID_MAX_LENGTH+1];
 	static char username[MOSQ_MQTT_ID_MAX_LENGTH+1];
+	static char password[MOSQ_MQTT_ID_MAX_LENGTH+1];
 	struct mosquitto *mosq = NULL;
 
 	char *will_payload = NULL;
@@ -145,8 +147,9 @@ int mqtte_main(int argc, char *argv[])
 	memset(hostname, 0, sizeof(hostname));
 	memset(id, 0, sizeof(id));
 	memset(username, 0, sizeof(username));
+	memset(password, 0, sizeof(password));
 
-	while ((c = getopt_long(argc, argv, "cdh:i:u:k:p:q:t:v", opts, &i)) != -1) {
+	while ((c = getopt_long(argc, argv, "cdh:i:u:x:k:p:q:t:v", opts, &i)) != -1) {
 		switch(c) {
 		case 'c':
 			clean_session = false;
@@ -176,13 +179,21 @@ int mqtte_main(int argc, char *argv[])
 			if (!valid_qos_range(ud.qos, "QoS"))
 				return 1;
 			break;
-		case 'u':
-				if (strlen(optarg) > MOSQ_MQTT_ID_MAX_LENGTH) {
-					fprintf(stderr, "specified username is longer than %d chars\n",MOSQ_MQTT_ID_MAX_LENGTH);                            		return 1;
-			}			
-			strncpy(username, optarg, sizeof(username)-1);
+
+        	case 'u':
+			 if (strlen(optarg) > MOSQ_MQTT_ID_MAX_LENGTH) {
+				fprintf(stderr, "specified username is longer than %d chars\n",MOSQ_MQTT_ID_MAX_LENGTH);                                        return 1;
+			 }	
+			 strncpy(username, optarg, sizeof(username)-1);
 			break;
-		case 't':
+	       case 'x':
+			if (strlen(optarg) > MOSQ_MQTT_ID_MAX_LENGTH) {
+                                fprintf(stderr, "specified password is longer than %d chars\n",MOSQ_MQTT_ID_MAX_LENGTH);
+				return 1;
+			}
+			strncpy(password, optarg, sizeof(password)-1);                        
+			break;
+																		case 't':
 			ud.topic_count++;
 			ud.topics = realloc(ud.topics,
 					    sizeof(char *) * ud.topic_count);

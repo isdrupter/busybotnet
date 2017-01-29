@@ -1,1 +1,1 @@
-#define NUM_APPLETS 443
+#define NUM_APPLETS 444

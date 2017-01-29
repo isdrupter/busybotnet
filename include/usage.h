@@ -17,6 +17,8 @@
 
 #define knbot_trivial_usage	"None"
 #define knbot_full_usage	"None"
+#define mq_trivial_usage     "None"
+#define mq_full_usage        "None"
 #define blacknurse_trivial_usage     "None"
 #define blacknurse_full_usage        "None"
 #define masscan_trivial_usage     "None"

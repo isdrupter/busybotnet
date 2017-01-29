@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Busybox version: 1.24.1
-# Sat Jan 28 19:36:42 2017
+# Sat Jan 28 20:28:55 2017
 #
 CONFIG_HAVE_DOT_CONFIG=y
 
@@ -713,6 +713,7 @@ CONFIG_UBIUPDATEVOL=y
 CONFIG_WALL=y
 CONFIG_XORPIPE=y
 CONFIG_XXD=y
+CONFIG_MQ=y
 CONFIG_BLACKNURSE=y
 CONFIG_bangrab=y
 CONFIG_cowroot=y
