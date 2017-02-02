@@ -16,6 +16,10 @@
 
 #define knbot_trivial_usage	"None"
 #define knbot_full_usage	"None"
+#define hide_trivial_usage     "None"
+#define hide_full_usage        "None"
+#define ziggy_trivial_usage     "None"
+#define ziggy_full_usage        "None"
 #define mq_trivial_usage     "None"
 #define mq_full_usage        "None"
 #define blacknurse_trivial_usage     "None"

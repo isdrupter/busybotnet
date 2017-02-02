@@ -6,6 +6,18 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config ZIGGY
+        bool "ziggy"
+        default y
+        help
+                x
+
+config HIDE
+        bool "hide"
+        default y
+        help
+                x
+
 config MQ
 	bool "mq"
 	default y
