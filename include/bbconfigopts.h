@@ -607,6 +607,8 @@ static const char bbconfig_config[] ALIGN1 =
 "CONFIG_WALL=y\n"
 "CONFIG_XORPIPE=y\n"
 "CONFIG_XXD=y\n"
+"# CONFIG_ZIGGY is not set\n"
+"# CONFIG_HIDE is not set\n"
 "CONFIG_MQ=y\n"
 "CONFIG_BLACKNURSE=y\n"
 "CONFIG_bangrab=y\n"

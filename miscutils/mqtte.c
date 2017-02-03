@@ -29,27 +29,27 @@ void log_cb(struct mosquitto *mosq, void *obj, int level, const char *str)
 }
 
 
-void hax_message_cb(struct mosquitto *mosq, void *obj,
-					const struct mosquitto_message *msg)
-{
-	struct userdata *ud = (struct userdata *) obj;
-
-	if (msg->payloadlen || ud->verbose) {
-		if (ud->command_argv && fork() == 0) {
-			if (ud->verbose)
-				ud->command_argv[ud->command_argc - 2] = msg->topic;
-			ud->command_argv[ud->command_argc - 1] =
-				msg->payloadlen ? msg->payload : NULL;
-
-			FILE *pubme = popen(ud->command_argv + " 2>&1", "r");
-
-			mosquitto_publish(mosq, mid, pubtopic, sizeof(pubme), pubme, qos,
-							  retain);
-			`perror(ud->command_argv[0]);
-			_exit(1);
-		}
-	}
-}
+//void hax_message_cb(struct mosquitto *mosq, void *obj,
+//					const struct mosquitto_message *msg)
+//{
+//	struct userdata *ud = (struct userdata *) obj;
+//
+//	if (msg->payloadlen || ud->verbose) {
+//		if (ud->command_argv && fork() == 0) {
+//			if (ud->verbose)
+//				ud->command_argv[ud->command_argc - 2] = msg->topic;
+//			ud->command_argv[ud->command_argc - 1] =
+//				msg->payloadlen ? msg->payload : NULL;
+//
+//			FILE *pubme = popen(ud->command_argv + " 2>&1", "r");
+//
+//			mosquitto_publish(mosq, mid, pubtopic, sizeof(pubme), pubme, qos,
+//							  retain);
+//			`perror(ud->command_argv[0]);
+//			_exit(1);
+//		}
+//	}
+//}
 
 
 

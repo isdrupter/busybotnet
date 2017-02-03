@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2017-01-28 20:33:21 PST"
+#define AUTOCONF_TIMESTAMP "2017-02-02 16:57:03 PST"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,6 +4516,14 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
+#undef CONFIG_ZIGGY
+#define ENABLE_ZIGGY 0
+#define IF_ZIGGY(...)
+#define IF_NOT_ZIGGY(...) __VA_ARGS__
+#undef CONFIG_HIDE
+#define ENABLE_HIDE 0
+#define IF_HIDE(...)
+#define IF_NOT_HIDE(...) __VA_ARGS__
 #define CONFIG_MQ 1
 #define ENABLE_MQ 1
 #ifdef MAKE_SUID

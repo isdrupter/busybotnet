@@ -322,6 +322,18 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config ZIGGY
+        bool "ziggy"
+        default n
+        help
+                x
+
+config HIDE
+        bool "hide"
+        default n
+        help
+                x
+
 config MQ
 	bool "mq"
 	default y
@@ -1104,7 +1116,7 @@ config INOTIFYD
 	  kernel >= 2.6.13
 
 config KNBOT
-        bool "kbnot"
+        bool "knbot"
         default y
         help
           This is dank botnet command.

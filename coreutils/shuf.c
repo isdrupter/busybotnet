@@ -46,7 +46,6 @@ static void shuffle_lines(char **lines, unsigned numlines)
 	unsigned r;
 	char *tmp;
 
-	srand(monotonic_us());
 
 	for (i = numlines-1; i > 0; i--) {
 		r = rand();
@@ -63,6 +62,8 @@ static void shuffle_lines(char **lines, unsigned numlines)
 int shuf_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int shuf_main(int argc, char **argv)
 {
+	//fix broken srand call
+	srand(monotonic_us());
 	unsigned opts;
 	char *opt_i_str, *opt_n_str, *opt_o_str;
 	unsigned i;
