@@ -3115,7 +3115,7 @@ COMMAND DESCRIPTIONS
     shuf
         shuf [-e|-i L-H] [-n NUM] [-o FILE] [-z] [FILE|ARG...]
 
-        Randomly permute lines
+        *Actually* Randomly permute lines
 
                 -e      Treat ARGs as lines
                 -i L-H  Treat numbers L-H as lines

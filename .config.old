@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Busybox version: 1.24.1
-# Thu Feb  2 16:42:50 2017
+# Thu Feb  2 16:57:03 2017
 #
 CONFIG_HAVE_DOT_CONFIG=y
 
@@ -713,8 +713,8 @@ CONFIG_UBIUPDATEVOL=y
 CONFIG_WALL=y
 CONFIG_XORPIPE=y
 CONFIG_XXD=y
-CONFIG_ZIGGY=y
-CONFIG_HIDE=y
+# CONFIG_ZIGGY is not set
+# CONFIG_HIDE is not set
 CONFIG_MQ=y
 CONFIG_BLACKNURSE=y
 CONFIG_bangrab=y
@@ -831,7 +831,7 @@ CONFIG_FBSPLASH=y
 # CONFIG_FLASH_ERASEALL is not set
 CONFIG_IONICE=y
 # CONFIG_INOTIFYD is not set
-# CONFIG_KNBOT is not set
+CONFIG_KNBOT=y
 CONFIG_LAST=y
 # CONFIG_FEATURE_LAST_SMALL is not set
 CONFIG_FEATURE_LAST_FANCY=y

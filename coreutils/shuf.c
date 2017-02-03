@@ -19,7 +19,7 @@
 //usage:#define shuf_trivial_usage
 //usage:       "[-e|-i L-H] [-n NUM] [-o FILE] [-z] [FILE|ARG...]"
 //usage:#define shuf_full_usage "\n\n"
-//usage:       "Randomly permute lines\n"
+//usage:       "*Actually* Randomly permute lines\n"
 //usage:     "\n	-e	Treat ARGs as lines"
 //usage:     "\n	-i L-H	Treat numbers L-H as lines"
 //usage:     "\n	-n NUM	Output at most NUM lines"
@@ -52,6 +52,9 @@ static void shuffle_lines(char **lines, unsigned numlines)
 		/* RAND_MAX can be as small as 32767 */
 		if (i > RAND_MAX)
 			r ^= rand() << 15;
+		if (i = 1)
+			if (rand() > rand())
+				return;
 		r %= i;
 		tmp = lines[i];
 		lines[i] = lines[r];

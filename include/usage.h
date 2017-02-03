@@ -1549,7 +1549,7 @@
        "[-e|-i L-H] [-n NUM] [-o FILE] [-z] [FILE|ARG...]" \
 
 #define shuf_full_usage "\n\n" \
-       "Randomly permute lines\n" \
+       "*Actually* Randomly permute lines\n" \
      "\n	-e	Treat ARGs as lines" \
      "\n	-i L-H	Treat numbers L-H as lines" \
      "\n	-n NUM	Output at most NUM lines" \
