@@ -200,6 +200,15 @@
 #define bangrab_full_usage  "None"
 #define bangrab_trivial_usage  "None"
 
+#define beleth_full_usage  "None"
+#define beleth_trivial_usage  "None"
+
+#define sshtrix_full_usage  "None"
+#define sshtrix_trivial_usage  "None"
+
+#define crunch_full_usage  "None"
+#define crunch_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \

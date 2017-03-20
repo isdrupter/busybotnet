@@ -13,9 +13,11 @@ void dummy_ssh() {
 }
 #else
 
+#define LIBSSH_STATIC 1
 #include <libssh/libssh.h>
 
-#if LIBSSH_VERSION_MAJOR == 0 && LIBSSH_VERSION_MINOR >= 4
+//#if LIBSSH_VERSION_MAJOR == 0 && LIBSSH_VERSION_MINOR >= 4
+#ifdef LIBSSH
 
 ssh_session session = NULL;
 

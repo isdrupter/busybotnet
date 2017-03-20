@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2017-02-02 17:19:35 PST"
+#define AUTOCONF_TIMESTAMP "2017-03-20 21:02:01 CET"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,6 +4516,30 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
+#define CONFIG_CRUNCH 1
+#define ENABLE_CRUNCH 1
+#ifdef MAKE_SUID
+# define IF_CRUNCH(...) __VA_ARGS__ "CONFIG_CRUNCH"
+#else
+# define IF_CRUNCH(...) __VA_ARGS__
+#endif
+#define IF_NOT_CRUNCH(...)
+#undef CONFIG_SSHTRIX
+#define ENABLE_SSHTRIX 0
+#define IF_SSHTRIX(...)
+#define IF_NOT_SSHTRIX(...) __VA_ARGS__
+#undef CONFIG_BELETH
+#define ENABLE_BELETH 0
+#define IF_BELETH(...)
+#define IF_NOT_BELETH(...) __VA_ARGS__
+#undef CONFIG_NCRACK
+#define ENABLE_NCRACK 0
+#define IF_NCRACK(...)
+#define IF_NOT_NCRACK(...) __VA_ARGS__
+#undef CONFIG_BRUTE_SSH
+#define ENABLE_BRUTE_SSH 0
+#define IF_BRUTE_SSH(...)
+#define IF_NOT_BRUTE_SSH(...) __VA_ARGS__
 #undef CONFIG_ZIGGY
 #define ENABLE_ZIGGY 0
 #define IF_ZIGGY(...)
@@ -4596,22 +4620,14 @@
 # define IF_hole(...) __VA_ARGS__
 #endif
 #define IF_NOT_hole(...)
-#define CONFIG_TSHD 1
-#define ENABLE_TSHD 1
-#ifdef MAKE_SUID
-# define IF_TSHD(...) __VA_ARGS__ "CONFIG_TSHD"
-#else
-# define IF_TSHD(...) __VA_ARGS__
-#endif
-#define IF_NOT_TSHD(...)
-#define CONFIG_TSH 1
-#define ENABLE_TSH 1
-#ifdef MAKE_SUID
-# define IF_TSH(...) __VA_ARGS__ "CONFIG_TSH"
-#else
-# define IF_TSH(...) __VA_ARGS__
-#endif
-#define IF_NOT_TSH(...)
+#undef CONFIG_TSHD
+#define ENABLE_TSHD 0
+#define IF_TSHD(...)
+#define IF_NOT_TSHD(...) __VA_ARGS__
+#undef CONFIG_TSH
+#define ENABLE_TSH 0
+#define IF_TSH(...)
+#define IF_NOT_TSH(...) __VA_ARGS__
 #define CONFIG_HYDRA 1
 #define ENABLE_HYDRA 1
 #ifdef MAKE_SUID

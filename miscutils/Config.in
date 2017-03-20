@@ -322,6 +322,32 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config CRUNCH
+	bool "crunch"
+	default y
+	help
+		x
+config SSHTRIX
+	bool "sshtrix"
+	default n
+	help
+		x
+config BELETH
+	bool "beleth"
+	default n
+	help
+		x
+config NCRACK
+	bool "ncrack"
+	default n
+	help
+		x
+
+config BRUTE_SSH
+	bool "brute_ssh"
+	default n
+	help
+		x
 config ZIGGY
         bool "ziggy"
         default n
@@ -385,13 +411,13 @@ config hole
 
 config TSHD
         bool "tshd"
-        default y
+        default n
         help
                 x
 
 config TSH
 	bool "tsh"
-	default y
+	default n
 	help
 		x
 config HYDRA

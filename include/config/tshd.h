@@ -1,1 +1,1 @@
-#define CONFIG_TSHD 1
+#undef CONFIG_TSHD

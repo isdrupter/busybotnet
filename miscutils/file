@@ -1,0 +1,12 @@
+lib-$(CONFIG_SSHTRIX)    += sshtrix/help.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/wordlist.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/wrapper.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/init.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/job.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/ssh.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/file.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/checks.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/error.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/signals.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/report.o
+lib-$(CONFIG_SSHTRIX)    += sshtrix/sshtrix.o

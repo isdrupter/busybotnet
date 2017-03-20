@@ -1,3 +1,10 @@
+#define LIBSSH
+#define HAVE_OPENSSL 
+#define LIBIDN 
+#define HAVE_PR29_H 
+#define HAVE_ZLIB 
+//#define HAVE_MATH_H
+
 #ifndef _HYDRA_H
 
 #include <stdio.h>
@@ -32,6 +39,7 @@
 #endif
 
 #ifdef LIBSSH
+#define LIBSSH_STATIC 1
 #include <libssh/libssh.h>
 #endif
 

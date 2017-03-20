@@ -25,7 +25,7 @@ RFC 4013: SASLprep: Stringprep Profile for User Names and Passwords
 code based on gsasl_saslprep from GSASL project
 */
 int sasl_saslprep(const char *in, sasl_saslprep_flags flags, char **out) {
-#if LIBIDN
+#ifdef LIBIDN
   int rc;
 
   rc = stringprep_profile(in, out, "SASLprep", (flags & SASL_ALLOW_UNASSIGNED) ? STRINGPREP_NO_UNASSIGNED : 0);
@@ -33,7 +33,7 @@ int sasl_saslprep(const char *in, sasl_saslprep_flags flags, char **out) {
     *out = NULL;
     return -1;
   }
-#if defined HAVE_PR29_H
+#ifdef HAVE_PR29_H
   if (pr29_8z(*out) != PR29_SUCCESS) {
     free(*out);
     *out = NULL;

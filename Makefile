@@ -321,8 +321,11 @@ CFLAGS		:= $(CFLAGS) -pthread
 CFLAGS_busybox	:= $(CFLAGS_busybox)
 CPPFLAGS	:= $(CPPFLAGS)
 AFLAGS		:= $(AFLAGS)
-LDFLAGS		:= $(LDFLAGS) -static -Wl,--no-as-needed
-LDLIBS		:= -lpcap -lm -lrt -ldl -lpthread
+LDFLAGS		:= $(LDFLAGS) -static -Wl,--no-as-needed -Lmiscutils/ncrack/nbase -Lmiscutils/ncrack/nsock/src -Lmiscutils/ncrack/opensshlib 
+LDLIBS		:= -lssh -lz -lssl -lidn -lpcap -lm -lrt -ldl -lpthread -lcrypto 
+ 
+
+
 
 # Read KERNELRELEASE from .kernelrelease (if it exists)
 KERNELRELEASE = $(shell cat .kernelrelease 2> /dev/null)

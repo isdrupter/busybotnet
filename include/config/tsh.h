@@ -1,1 +1,1 @@
-#define CONFIG_TSH 1
+#undef CONFIG_TSH
