@@ -210,6 +210,12 @@
 #define crunch_full_usage  "None"
 #define crunch_trivial_usage  "None"
 
+#define ssh_full_usage  "None"
+#define ssh_trivial_usage  "None"
+
+#define sftp_full_usage  "None"
+#define sftp_trivial_usage  "None"
+
 
 #define ar_trivial_usage \
        "[-o] [-v] [-p] [-t] [-x] ARCHIVE FILES" \

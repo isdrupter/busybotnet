@@ -607,6 +607,8 @@ static const char bbconfig_config[] ALIGN1 =
 "CONFIG_WALL=y\n"
 "CONFIG_XORPIPE=y\n"
 "CONFIG_XXD=y\n"
+"CONFIG_SFTP=y\n"
+"CONFIG_SSH=y\n"
 "CONFIG_CRUNCH=y\n"
 "# CONFIG_SSHTRIX is not set\n"
 "# CONFIG_BELETH is not set\n"

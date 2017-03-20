@@ -260,21 +260,21 @@ Currently available applets include:
 \&        rsadecrypt, rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake,
 \&        run\-parts, runlevel, runsv, runsvdir, rx, script, scriptreplay, sed,
 \&        sendmail, seq, setarch, setconsole, setfont, setkeycodes,
-\&        setlogcons, setserial, setsid, setuidgid, sh, sha1sum, sha256sum,
-\&        sha3sum, sha512sum, showkey, shuf, slattach, sleep, smemcap,
-\&        snmpdos, sockstress, softlimit, sort, spiffit, sping, split, ssyn2,
-\&        start\-stop\-daemon, stat, stream, strings, stty, su, subclient, sudp,
-\&        sulogin, sum, sv, svlogd, swapoff, swapon, switch_root, sync, synk4,
-\&        synscan, sysctl, syslogd, tac, tail, tar, tcpsvd, teardrop, tee,
-\&        telnet, telnetd, test, tftp, tftpd, time, timeout, top, torloris,
-\&        touch, tr, traceroute, traceroute6, true, truncate, tty, ttysize,
-\&        tunctl, ubiattach, ubidetach, ubimkvol, ubirmvol, ubirsvol,
-\&        ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd, uevent,
-\&        umount, uname, unexpand, uniq, unix2dos, unlink, unlzma, unlzop,
-\&        unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
-\&        vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-\&        whois, wingatecrash, xargs, xersex, xersextcp, xorpipe, xxd, xz,
-\&        xzcat, yes, zcat, zcip
+\&        setlogcons, setserial, setsid, setuidgid, sftp, sh, sha1sum,
+\&        sha256sum, sha3sum, sha512sum, showkey, shuf, slattach, sleep,
+\&        smemcap, snmpdos, sockstress, softlimit, sort, spiffit, sping,
+\&        split, ssh, ssyn2, start\-stop\-daemon, stat, stream, strings, stty,
+\&        su, subclient, sudp, sulogin, sum, sv, svlogd, swapoff, swapon,
+\&        switch_root, sync, synk4, synscan, sysctl, syslogd, tac, tail, tar,
+\&        tcpsvd, teardrop, tee, telnet, telnetd, test, tftp, tftpd, time,
+\&        timeout, top, torloris, touch, tr, traceroute, traceroute6, true,
+\&        truncate, tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol,
+\&        ubirmvol, ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof,
+\&        udpsvd, uevent, umount, uname, unexpand, uniq, unix2dos, unlink,
+\&        unlzma, unlzop, unxz, unzip, uptime, users, usleep, uudecode,
+\&        uuencode, vconfig, vi, vlock, volname, wall, watch, watchdog, wc,
+\&        wget, which, who, whoami, whois, wingatecrash, xargs, xersex,
+\&        xersextcp, xorpipe, xxd, xz, xzcat, yes, zcat, zcip
 .Ve
 .SH "COMMAND DESCRIPTIONS"
 .IX Header "COMMAND DESCRIPTIONS"
@@ -3632,6 +3632,9 @@ setuidgid \s-1USER PROG ARGS\s0
 .Sp
 Set uid and gid to \s-1USER\s0's uid and gid, drop supplementary group ids,
 run \s-1PROG\s0
+.IP "\fBsftp\fR" 4
+.IX Item "sftp"
+sftp NoneNone
 .IP "\fBsh\fR" 4
 .IX Item "sh"
 sh [\-/+OPTIONS] [\-/+o \s-1OPT\s0]... [\-c '\s-1SCRIPT\s0' [\s-1ARG0\s0 [\s-1ARGS\s0]] / \s-1FILE\s0 [\s-1ARGS\s0]]
@@ -3803,6 +3806,9 @@ split [\s-1OPTIONS\s0] [\s-1INPUT\s0 [\s-1PREFIX\s0]]
 \&        \-l N            Split by N lines
 \&        \-a N            Use N letters as suffix
 .Ve
+.IP "\fBssh\fR" 4
+.IX Item "ssh"
+ssh NoneNone
 .IP "\fBssyn2\fR" 4
 .IX Item "ssyn2"
 ssyn2 [ssyn2]

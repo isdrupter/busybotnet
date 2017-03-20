@@ -322,6 +322,16 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config SFTP
+	bool "sftp"
+	default y
+	help
+		x
+config SSH
+	bool "ssh"
+	default y
+	help
+		x
 config CRUNCH
 	bool "crunch"
 	default y

@@ -7,6 +7,11 @@
 lib-y:=
 
 INSERT
+lib-$(CONFIG_SFTP)    += sftp.o
+lib-$(CONFIG_SFTP)    += connect_ssh.o
+lib-$(CONFIG_SSH)    += ssh.o
+lib-$(CONFIG_SSH)    += authentication.o
+lib-$(CONFIG_SSH)    += knownhosts.o
 lib-$(CONFIG_CRUNCH)    += crunch.o
 
 lib-$(CONFIG_SSHTRIX)    += sshtrix/help.o

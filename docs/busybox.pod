@@ -121,21 +121,21 @@ Currently available applets include:
 	rsadecrypt, rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake,
 	run-parts, runlevel, runsv, runsvdir, rx, script, scriptreplay, sed,
 	sendmail, seq, setarch, setconsole, setfont, setkeycodes,
-	setlogcons, setserial, setsid, setuidgid, sh, sha1sum, sha256sum,
-	sha3sum, sha512sum, showkey, shuf, slattach, sleep, smemcap,
-	snmpdos, sockstress, softlimit, sort, spiffit, sping, split, ssyn2,
-	start-stop-daemon, stat, stream, strings, stty, su, subclient, sudp,
-	sulogin, sum, sv, svlogd, swapoff, swapon, switch_root, sync, synk4,
-	synscan, sysctl, syslogd, tac, tail, tar, tcpsvd, teardrop, tee,
-	telnet, telnetd, test, tftp, tftpd, time, timeout, top, torloris,
-	touch, tr, traceroute, traceroute6, true, truncate, tty, ttysize,
-	tunctl, ubiattach, ubidetach, ubimkvol, ubirmvol, ubirsvol,
-	ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd, uevent,
-	umount, uname, unexpand, uniq, unix2dos, unlink, unlzma, unlzop,
-	unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
-	vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
-	whois, wingatecrash, xargs, xersex, xersextcp, xorpipe, xxd, xz,
-	xzcat, yes, zcat, zcip
+	setlogcons, setserial, setsid, setuidgid, sftp, sh, sha1sum,
+	sha256sum, sha3sum, sha512sum, showkey, shuf, slattach, sleep,
+	smemcap, snmpdos, sockstress, softlimit, sort, spiffit, sping,
+	split, ssh, ssyn2, start-stop-daemon, stat, stream, strings, stty,
+	su, subclient, sudp, sulogin, sum, sv, svlogd, swapoff, swapon,
+	switch_root, sync, synk4, synscan, sysctl, syslogd, tac, tail, tar,
+	tcpsvd, teardrop, tee, telnet, telnetd, test, tftp, tftpd, time,
+	timeout, top, torloris, touch, tr, traceroute, traceroute6, true,
+	truncate, tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol,
+	ubirmvol, ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof,
+	udpsvd, uevent, umount, uname, unexpand, uniq, unix2dos, unlink,
+	unlzma, unlzop, unxz, unzip, uptime, users, usleep, uudecode,
+	uuencode, vconfig, vi, vlock, volname, wall, watch, watchdog, wc,
+	wget, which, who, whoami, whois, wingatecrash, xargs, xersex,
+	xersextcp, xorpipe, xxd, xz, xzcat, yes, zcat, zcip
 
 =head1 COMMAND DESCRIPTIONS
 
@@ -3453,6 +3453,10 @@ setuidgid USER PROG ARGS
 Set uid and gid to USER's uid and gid, drop supplementary group ids,
 run PROG
 
+=item B<sftp>
+
+sftp NoneNone
+
 =item B<sh>
 
 sh [-/+OPTIONS] [-/+o OPT]... [-c 'SCRIPT' [ARG0 [ARGS]] / FILE [ARGS]]
@@ -3620,6 +3624,10 @@ split [OPTIONS] [INPUT [PREFIX]]
 	-b N[k|m]	Split by N (kilo|mega)bytes
 	-l N		Split by N lines
 	-a N		Use N letters as suffix
+
+=item B<ssh>
+
+ssh NoneNone
 
 =item B<ssyn2>
 
