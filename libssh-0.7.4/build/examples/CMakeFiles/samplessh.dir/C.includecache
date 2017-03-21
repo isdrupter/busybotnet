@@ -36,7 +36,7 @@ sys/types.h
 libssh.h
 ../include/libssh/libssh.h
 
-/home/kod/libssh-0.7.4/examples/authentication.c
+/home/kod/bbn/libssh-0.7.4/examples/authentication.c
 stdio.h
 -
 stdlib.h
@@ -46,21 +46,21 @@ string.h
 libssh/libssh.h
 -
 examples_common.h
-/home/kod/libssh-0.7.4/examples/examples_common.h
+/home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 
-/home/kod/libssh-0.7.4/examples/connect_ssh.c
+/home/kod/bbn/libssh-0.7.4/examples/connect_ssh.c
 libssh/libssh.h
 -
 examples_common.h
-/home/kod/libssh-0.7.4/examples/examples_common.h
+/home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 stdio.h
 -
 
-/home/kod/libssh-0.7.4/examples/examples_common.h
+/home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 libssh/libssh.h
 -
 
-/home/kod/libssh-0.7.4/examples/knownhosts.c
+/home/kod/bbn/libssh-0.7.4/examples/knownhosts.c
 errno.h
 -
 stdio.h
@@ -72,11 +72,11 @@ string.h
 libssh/libssh.h
 -
 examples_common.h
-/home/kod/libssh-0.7.4/examples/examples_common.h
+/home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 
-/home/kod/libssh-0.7.4/examples/sample.c
+/home/kod/bbn/libssh-0.7.4/examples/sample.c
 config.h
-/home/kod/libssh-0.7.4/examples/config.h
+/home/kod/bbn/libssh-0.7.4/examples/config.h
 stdio.h
 -
 stdlib.h
@@ -108,7 +108,7 @@ libssh/libssh.h
 libssh/sftp.h
 -
 examples_common.h
-/home/kod/libssh-0.7.4/examples/examples_common.h
+/home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 
 config.h
 

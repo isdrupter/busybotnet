@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kod/libssh-0.7.4
+CMAKE_SOURCE_DIR = /home/kod/bbn/libssh-0.7.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kod/libssh-0.7.4/build
+CMAKE_BINARY_DIR = /home/kod/bbn/libssh-0.7.4/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/ssh_static.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/ssh_static.dir/flags.make
 
 src/CMakeFiles/ssh_static.dir/agent.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/agent.c.o: ../src/agent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/ssh_static.dir/agent.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/agent.c.o   -c /home/kod/libssh-0.7.4/src/agent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/ssh_static.dir/agent.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/agent.c.o   -c /home/kod/bbn/libssh-0.7.4/src/agent.c
 
 src/CMakeFiles/ssh_static.dir/agent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/agent.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/agent.c > CMakeFiles/ssh_static.dir/agent.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/agent.c > CMakeFiles/ssh_static.dir/agent.c.i
 
 src/CMakeFiles/ssh_static.dir/agent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/agent.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/agent.c -o CMakeFiles/ssh_static.dir/agent.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/agent.c -o CMakeFiles/ssh_static.dir/agent.c.s
 
 src/CMakeFiles/ssh_static.dir/agent.c.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/ssh_static.dir/agent.c.o.provides.build: src/CMakeFiles/ssh_stati
 
 src/CMakeFiles/ssh_static.dir/auth.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/auth.c.o: ../src/auth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/ssh_static.dir/auth.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/auth.c.o   -c /home/kod/libssh-0.7.4/src/auth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/ssh_static.dir/auth.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/auth.c.o   -c /home/kod/bbn/libssh-0.7.4/src/auth.c
 
 src/CMakeFiles/ssh_static.dir/auth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/auth.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/auth.c > CMakeFiles/ssh_static.dir/auth.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/auth.c > CMakeFiles/ssh_static.dir/auth.c.i
 
 src/CMakeFiles/ssh_static.dir/auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/auth.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/auth.c -o CMakeFiles/ssh_static.dir/auth.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/auth.c -o CMakeFiles/ssh_static.dir/auth.c.s
 
 src/CMakeFiles/ssh_static.dir/auth.c.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/ssh_static.dir/auth.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/base64.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/base64.c.o: ../src/base64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/ssh_static.dir/base64.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/base64.c.o   -c /home/kod/libssh-0.7.4/src/base64.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/ssh_static.dir/base64.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/base64.c.o   -c /home/kod/bbn/libssh-0.7.4/src/base64.c
 
 src/CMakeFiles/ssh_static.dir/base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/base64.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/base64.c > CMakeFiles/ssh_static.dir/base64.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/base64.c > CMakeFiles/ssh_static.dir/base64.c.i
 
 src/CMakeFiles/ssh_static.dir/base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/base64.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/base64.c -o CMakeFiles/ssh_static.dir/base64.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/base64.c -o CMakeFiles/ssh_static.dir/base64.c.s
 
 src/CMakeFiles/ssh_static.dir/base64.c.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/ssh_static.dir/base64.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/bignum.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/bignum.c.o: ../src/bignum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/ssh_static.dir/bignum.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/bignum.c.o   -c /home/kod/libssh-0.7.4/src/bignum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/ssh_static.dir/bignum.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/bignum.c.o   -c /home/kod/bbn/libssh-0.7.4/src/bignum.c
 
 src/CMakeFiles/ssh_static.dir/bignum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/bignum.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/bignum.c > CMakeFiles/ssh_static.dir/bignum.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/bignum.c > CMakeFiles/ssh_static.dir/bignum.c.i
 
 src/CMakeFiles/ssh_static.dir/bignum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/bignum.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/bignum.c -o CMakeFiles/ssh_static.dir/bignum.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/bignum.c -o CMakeFiles/ssh_static.dir/bignum.c.s
 
 src/CMakeFiles/ssh_static.dir/bignum.c.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/ssh_static.dir/bignum.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/buffer.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/buffer.c.o: ../src/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/ssh_static.dir/buffer.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/buffer.c.o   -c /home/kod/libssh-0.7.4/src/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/ssh_static.dir/buffer.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/buffer.c.o   -c /home/kod/bbn/libssh-0.7.4/src/buffer.c
 
 src/CMakeFiles/ssh_static.dir/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/buffer.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/buffer.c > CMakeFiles/ssh_static.dir/buffer.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/buffer.c > CMakeFiles/ssh_static.dir/buffer.c.i
 
 src/CMakeFiles/ssh_static.dir/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/buffer.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/buffer.c -o CMakeFiles/ssh_static.dir/buffer.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/buffer.c -o CMakeFiles/ssh_static.dir/buffer.c.s
 
 src/CMakeFiles/ssh_static.dir/buffer.c.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/ssh_static.dir/buffer.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/callbacks.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/callbacks.c.o: ../src/callbacks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/ssh_static.dir/callbacks.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/callbacks.c.o   -c /home/kod/libssh-0.7.4/src/callbacks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/ssh_static.dir/callbacks.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/callbacks.c.o   -c /home/kod/bbn/libssh-0.7.4/src/callbacks.c
 
 src/CMakeFiles/ssh_static.dir/callbacks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/callbacks.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/callbacks.c > CMakeFiles/ssh_static.dir/callbacks.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/callbacks.c > CMakeFiles/ssh_static.dir/callbacks.c.i
 
 src/CMakeFiles/ssh_static.dir/callbacks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/callbacks.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/callbacks.c -o CMakeFiles/ssh_static.dir/callbacks.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/callbacks.c -o CMakeFiles/ssh_static.dir/callbacks.c.s
 
 src/CMakeFiles/ssh_static.dir/callbacks.c.o.requires:
 
@@ -203,16 +203,16 @@ src/CMakeFiles/ssh_static.dir/callbacks.c.o.provides.build: src/CMakeFiles/ssh_s
 
 src/CMakeFiles/ssh_static.dir/channels.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/channels.c.o: ../src/channels.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/ssh_static.dir/channels.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/channels.c.o   -c /home/kod/libssh-0.7.4/src/channels.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/ssh_static.dir/channels.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/channels.c.o   -c /home/kod/bbn/libssh-0.7.4/src/channels.c
 
 src/CMakeFiles/ssh_static.dir/channels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/channels.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/channels.c > CMakeFiles/ssh_static.dir/channels.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/channels.c > CMakeFiles/ssh_static.dir/channels.c.i
 
 src/CMakeFiles/ssh_static.dir/channels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/channels.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/channels.c -o CMakeFiles/ssh_static.dir/channels.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/channels.c -o CMakeFiles/ssh_static.dir/channels.c.s
 
 src/CMakeFiles/ssh_static.dir/channels.c.o.requires:
 
@@ -227,16 +227,16 @@ src/CMakeFiles/ssh_static.dir/channels.c.o.provides.build: src/CMakeFiles/ssh_st
 
 src/CMakeFiles/ssh_static.dir/client.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/client.c.o: ../src/client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/ssh_static.dir/client.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/client.c.o   -c /home/kod/libssh-0.7.4/src/client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/ssh_static.dir/client.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/client.c.o   -c /home/kod/bbn/libssh-0.7.4/src/client.c
 
 src/CMakeFiles/ssh_static.dir/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/client.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/client.c > CMakeFiles/ssh_static.dir/client.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/client.c > CMakeFiles/ssh_static.dir/client.c.i
 
 src/CMakeFiles/ssh_static.dir/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/client.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/client.c -o CMakeFiles/ssh_static.dir/client.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/client.c -o CMakeFiles/ssh_static.dir/client.c.s
 
 src/CMakeFiles/ssh_static.dir/client.c.o.requires:
 
@@ -251,16 +251,16 @@ src/CMakeFiles/ssh_static.dir/client.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/config.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/config.c.o: ../src/config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/ssh_static.dir/config.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/config.c.o   -c /home/kod/libssh-0.7.4/src/config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/ssh_static.dir/config.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/config.c.o   -c /home/kod/bbn/libssh-0.7.4/src/config.c
 
 src/CMakeFiles/ssh_static.dir/config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/config.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/config.c > CMakeFiles/ssh_static.dir/config.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/config.c > CMakeFiles/ssh_static.dir/config.c.i
 
 src/CMakeFiles/ssh_static.dir/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/config.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/config.c -o CMakeFiles/ssh_static.dir/config.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/config.c -o CMakeFiles/ssh_static.dir/config.c.s
 
 src/CMakeFiles/ssh_static.dir/config.c.o.requires:
 
@@ -275,16 +275,16 @@ src/CMakeFiles/ssh_static.dir/config.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/connect.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/connect.c.o: ../src/connect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/ssh_static.dir/connect.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/connect.c.o   -c /home/kod/libssh-0.7.4/src/connect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/ssh_static.dir/connect.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/connect.c.o   -c /home/kod/bbn/libssh-0.7.4/src/connect.c
 
 src/CMakeFiles/ssh_static.dir/connect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/connect.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/connect.c > CMakeFiles/ssh_static.dir/connect.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/connect.c > CMakeFiles/ssh_static.dir/connect.c.i
 
 src/CMakeFiles/ssh_static.dir/connect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/connect.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/connect.c -o CMakeFiles/ssh_static.dir/connect.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/connect.c -o CMakeFiles/ssh_static.dir/connect.c.s
 
 src/CMakeFiles/ssh_static.dir/connect.c.o.requires:
 
@@ -299,16 +299,16 @@ src/CMakeFiles/ssh_static.dir/connect.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/curve25519.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/curve25519.c.o: ../src/curve25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/ssh_static.dir/curve25519.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/curve25519.c.o   -c /home/kod/libssh-0.7.4/src/curve25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/ssh_static.dir/curve25519.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/curve25519.c.o   -c /home/kod/bbn/libssh-0.7.4/src/curve25519.c
 
 src/CMakeFiles/ssh_static.dir/curve25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/curve25519.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/curve25519.c > CMakeFiles/ssh_static.dir/curve25519.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/curve25519.c > CMakeFiles/ssh_static.dir/curve25519.c.i
 
 src/CMakeFiles/ssh_static.dir/curve25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/curve25519.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/curve25519.c -o CMakeFiles/ssh_static.dir/curve25519.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/curve25519.c -o CMakeFiles/ssh_static.dir/curve25519.c.s
 
 src/CMakeFiles/ssh_static.dir/curve25519.c.o.requires:
 
@@ -323,16 +323,16 @@ src/CMakeFiles/ssh_static.dir/curve25519.c.o.provides.build: src/CMakeFiles/ssh_
 
 src/CMakeFiles/ssh_static.dir/dh.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/dh.c.o: ../src/dh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/ssh_static.dir/dh.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/dh.c.o   -c /home/kod/libssh-0.7.4/src/dh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/ssh_static.dir/dh.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/dh.c.o   -c /home/kod/bbn/libssh-0.7.4/src/dh.c
 
 src/CMakeFiles/ssh_static.dir/dh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/dh.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/dh.c > CMakeFiles/ssh_static.dir/dh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/dh.c > CMakeFiles/ssh_static.dir/dh.c.i
 
 src/CMakeFiles/ssh_static.dir/dh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/dh.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/dh.c -o CMakeFiles/ssh_static.dir/dh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/dh.c -o CMakeFiles/ssh_static.dir/dh.c.s
 
 src/CMakeFiles/ssh_static.dir/dh.c.o.requires:
 
@@ -347,16 +347,16 @@ src/CMakeFiles/ssh_static.dir/dh.c.o.provides.build: src/CMakeFiles/ssh_static.d
 
 src/CMakeFiles/ssh_static.dir/ecdh.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/ecdh.c.o: ../src/ecdh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/ssh_static.dir/ecdh.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/ecdh.c.o   -c /home/kod/libssh-0.7.4/src/ecdh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/ssh_static.dir/ecdh.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/ecdh.c.o   -c /home/kod/bbn/libssh-0.7.4/src/ecdh.c
 
 src/CMakeFiles/ssh_static.dir/ecdh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/ecdh.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/ecdh.c > CMakeFiles/ssh_static.dir/ecdh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/ecdh.c > CMakeFiles/ssh_static.dir/ecdh.c.i
 
 src/CMakeFiles/ssh_static.dir/ecdh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/ecdh.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/ecdh.c -o CMakeFiles/ssh_static.dir/ecdh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/ecdh.c -o CMakeFiles/ssh_static.dir/ecdh.c.s
 
 src/CMakeFiles/ssh_static.dir/ecdh.c.o.requires:
 
@@ -371,16 +371,16 @@ src/CMakeFiles/ssh_static.dir/ecdh.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/error.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/error.c.o: ../src/error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/ssh_static.dir/error.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/error.c.o   -c /home/kod/libssh-0.7.4/src/error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/ssh_static.dir/error.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/error.c.o   -c /home/kod/bbn/libssh-0.7.4/src/error.c
 
 src/CMakeFiles/ssh_static.dir/error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/error.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/error.c > CMakeFiles/ssh_static.dir/error.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/error.c > CMakeFiles/ssh_static.dir/error.c.i
 
 src/CMakeFiles/ssh_static.dir/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/error.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/error.c -o CMakeFiles/ssh_static.dir/error.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/error.c -o CMakeFiles/ssh_static.dir/error.c.s
 
 src/CMakeFiles/ssh_static.dir/error.c.o.requires:
 
@@ -395,16 +395,16 @@ src/CMakeFiles/ssh_static.dir/error.c.o.provides.build: src/CMakeFiles/ssh_stati
 
 src/CMakeFiles/ssh_static.dir/getpass.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/getpass.c.o: ../src/getpass.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/ssh_static.dir/getpass.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/getpass.c.o   -c /home/kod/libssh-0.7.4/src/getpass.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/ssh_static.dir/getpass.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/getpass.c.o   -c /home/kod/bbn/libssh-0.7.4/src/getpass.c
 
 src/CMakeFiles/ssh_static.dir/getpass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/getpass.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/getpass.c > CMakeFiles/ssh_static.dir/getpass.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/getpass.c > CMakeFiles/ssh_static.dir/getpass.c.i
 
 src/CMakeFiles/ssh_static.dir/getpass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/getpass.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/getpass.c -o CMakeFiles/ssh_static.dir/getpass.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/getpass.c -o CMakeFiles/ssh_static.dir/getpass.c.s
 
 src/CMakeFiles/ssh_static.dir/getpass.c.o.requires:
 
@@ -419,16 +419,16 @@ src/CMakeFiles/ssh_static.dir/getpass.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/init.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/init.c.o: ../src/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/ssh_static.dir/init.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/init.c.o   -c /home/kod/libssh-0.7.4/src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/ssh_static.dir/init.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/init.c.o   -c /home/kod/bbn/libssh-0.7.4/src/init.c
 
 src/CMakeFiles/ssh_static.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/init.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/init.c > CMakeFiles/ssh_static.dir/init.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/init.c > CMakeFiles/ssh_static.dir/init.c.i
 
 src/CMakeFiles/ssh_static.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/init.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/init.c -o CMakeFiles/ssh_static.dir/init.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/init.c -o CMakeFiles/ssh_static.dir/init.c.s
 
 src/CMakeFiles/ssh_static.dir/init.c.o.requires:
 
@@ -443,16 +443,16 @@ src/CMakeFiles/ssh_static.dir/init.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/kex.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/kex.c.o: ../src/kex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/ssh_static.dir/kex.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/kex.c.o   -c /home/kod/libssh-0.7.4/src/kex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/ssh_static.dir/kex.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/kex.c.o   -c /home/kod/bbn/libssh-0.7.4/src/kex.c
 
 src/CMakeFiles/ssh_static.dir/kex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/kex.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/kex.c > CMakeFiles/ssh_static.dir/kex.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/kex.c > CMakeFiles/ssh_static.dir/kex.c.i
 
 src/CMakeFiles/ssh_static.dir/kex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/kex.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/kex.c -o CMakeFiles/ssh_static.dir/kex.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/kex.c -o CMakeFiles/ssh_static.dir/kex.c.s
 
 src/CMakeFiles/ssh_static.dir/kex.c.o.requires:
 
@@ -467,16 +467,16 @@ src/CMakeFiles/ssh_static.dir/kex.c.o.provides.build: src/CMakeFiles/ssh_static.
 
 src/CMakeFiles/ssh_static.dir/known_hosts.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/known_hosts.c.o: ../src/known_hosts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/ssh_static.dir/known_hosts.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/known_hosts.c.o   -c /home/kod/libssh-0.7.4/src/known_hosts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/ssh_static.dir/known_hosts.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/known_hosts.c.o   -c /home/kod/bbn/libssh-0.7.4/src/known_hosts.c
 
 src/CMakeFiles/ssh_static.dir/known_hosts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/known_hosts.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/known_hosts.c > CMakeFiles/ssh_static.dir/known_hosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/known_hosts.c > CMakeFiles/ssh_static.dir/known_hosts.c.i
 
 src/CMakeFiles/ssh_static.dir/known_hosts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/known_hosts.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/known_hosts.c -o CMakeFiles/ssh_static.dir/known_hosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/known_hosts.c -o CMakeFiles/ssh_static.dir/known_hosts.c.s
 
 src/CMakeFiles/ssh_static.dir/known_hosts.c.o.requires:
 
@@ -491,16 +491,16 @@ src/CMakeFiles/ssh_static.dir/known_hosts.c.o.provides.build: src/CMakeFiles/ssh
 
 src/CMakeFiles/ssh_static.dir/legacy.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/legacy.c.o: ../src/legacy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/ssh_static.dir/legacy.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/legacy.c.o   -c /home/kod/libssh-0.7.4/src/legacy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/ssh_static.dir/legacy.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/legacy.c.o   -c /home/kod/bbn/libssh-0.7.4/src/legacy.c
 
 src/CMakeFiles/ssh_static.dir/legacy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/legacy.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/legacy.c > CMakeFiles/ssh_static.dir/legacy.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/legacy.c > CMakeFiles/ssh_static.dir/legacy.c.i
 
 src/CMakeFiles/ssh_static.dir/legacy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/legacy.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/legacy.c -o CMakeFiles/ssh_static.dir/legacy.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/legacy.c -o CMakeFiles/ssh_static.dir/legacy.c.s
 
 src/CMakeFiles/ssh_static.dir/legacy.c.o.requires:
 
@@ -515,16 +515,16 @@ src/CMakeFiles/ssh_static.dir/legacy.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/libcrypto.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/libcrypto.c.o: ../src/libcrypto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/ssh_static.dir/libcrypto.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/libcrypto.c.o   -c /home/kod/libssh-0.7.4/src/libcrypto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/ssh_static.dir/libcrypto.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/libcrypto.c.o   -c /home/kod/bbn/libssh-0.7.4/src/libcrypto.c
 
 src/CMakeFiles/ssh_static.dir/libcrypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/libcrypto.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/libcrypto.c > CMakeFiles/ssh_static.dir/libcrypto.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/libcrypto.c > CMakeFiles/ssh_static.dir/libcrypto.c.i
 
 src/CMakeFiles/ssh_static.dir/libcrypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/libcrypto.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/libcrypto.c -o CMakeFiles/ssh_static.dir/libcrypto.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/libcrypto.c -o CMakeFiles/ssh_static.dir/libcrypto.c.s
 
 src/CMakeFiles/ssh_static.dir/libcrypto.c.o.requires:
 
@@ -539,16 +539,16 @@ src/CMakeFiles/ssh_static.dir/libcrypto.c.o.provides.build: src/CMakeFiles/ssh_s
 
 src/CMakeFiles/ssh_static.dir/log.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/log.c.o: ../src/log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/ssh_static.dir/log.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/log.c.o   -c /home/kod/libssh-0.7.4/src/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/ssh_static.dir/log.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/log.c.o   -c /home/kod/bbn/libssh-0.7.4/src/log.c
 
 src/CMakeFiles/ssh_static.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/log.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/log.c > CMakeFiles/ssh_static.dir/log.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/log.c > CMakeFiles/ssh_static.dir/log.c.i
 
 src/CMakeFiles/ssh_static.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/log.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/log.c -o CMakeFiles/ssh_static.dir/log.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/log.c -o CMakeFiles/ssh_static.dir/log.c.s
 
 src/CMakeFiles/ssh_static.dir/log.c.o.requires:
 
@@ -563,16 +563,16 @@ src/CMakeFiles/ssh_static.dir/log.c.o.provides.build: src/CMakeFiles/ssh_static.
 
 src/CMakeFiles/ssh_static.dir/match.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/match.c.o: ../src/match.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/ssh_static.dir/match.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/match.c.o   -c /home/kod/libssh-0.7.4/src/match.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/ssh_static.dir/match.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/match.c.o   -c /home/kod/bbn/libssh-0.7.4/src/match.c
 
 src/CMakeFiles/ssh_static.dir/match.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/match.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/match.c > CMakeFiles/ssh_static.dir/match.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/match.c > CMakeFiles/ssh_static.dir/match.c.i
 
 src/CMakeFiles/ssh_static.dir/match.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/match.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/match.c -o CMakeFiles/ssh_static.dir/match.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/match.c -o CMakeFiles/ssh_static.dir/match.c.s
 
 src/CMakeFiles/ssh_static.dir/match.c.o.requires:
 
@@ -587,16 +587,16 @@ src/CMakeFiles/ssh_static.dir/match.c.o.provides.build: src/CMakeFiles/ssh_stati
 
 src/CMakeFiles/ssh_static.dir/messages.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/messages.c.o: ../src/messages.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/ssh_static.dir/messages.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/messages.c.o   -c /home/kod/libssh-0.7.4/src/messages.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/ssh_static.dir/messages.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/messages.c.o   -c /home/kod/bbn/libssh-0.7.4/src/messages.c
 
 src/CMakeFiles/ssh_static.dir/messages.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/messages.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/messages.c > CMakeFiles/ssh_static.dir/messages.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/messages.c > CMakeFiles/ssh_static.dir/messages.c.i
 
 src/CMakeFiles/ssh_static.dir/messages.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/messages.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/messages.c -o CMakeFiles/ssh_static.dir/messages.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/messages.c -o CMakeFiles/ssh_static.dir/messages.c.s
 
 src/CMakeFiles/ssh_static.dir/messages.c.o.requires:
 
@@ -611,16 +611,16 @@ src/CMakeFiles/ssh_static.dir/messages.c.o.provides.build: src/CMakeFiles/ssh_st
 
 src/CMakeFiles/ssh_static.dir/misc.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/misc.c.o: ../src/misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/ssh_static.dir/misc.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/misc.c.o   -c /home/kod/libssh-0.7.4/src/misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/ssh_static.dir/misc.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/misc.c.o   -c /home/kod/bbn/libssh-0.7.4/src/misc.c
 
 src/CMakeFiles/ssh_static.dir/misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/misc.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/misc.c > CMakeFiles/ssh_static.dir/misc.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/misc.c > CMakeFiles/ssh_static.dir/misc.c.i
 
 src/CMakeFiles/ssh_static.dir/misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/misc.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/misc.c -o CMakeFiles/ssh_static.dir/misc.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/misc.c -o CMakeFiles/ssh_static.dir/misc.c.s
 
 src/CMakeFiles/ssh_static.dir/misc.c.o.requires:
 
@@ -635,16 +635,16 @@ src/CMakeFiles/ssh_static.dir/misc.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/options.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/options.c.o: ../src/options.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/ssh_static.dir/options.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/options.c.o   -c /home/kod/libssh-0.7.4/src/options.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/ssh_static.dir/options.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/options.c.o   -c /home/kod/bbn/libssh-0.7.4/src/options.c
 
 src/CMakeFiles/ssh_static.dir/options.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/options.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/options.c > CMakeFiles/ssh_static.dir/options.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/options.c > CMakeFiles/ssh_static.dir/options.c.i
 
 src/CMakeFiles/ssh_static.dir/options.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/options.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/options.c -o CMakeFiles/ssh_static.dir/options.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/options.c -o CMakeFiles/ssh_static.dir/options.c.s
 
 src/CMakeFiles/ssh_static.dir/options.c.o.requires:
 
@@ -659,16 +659,16 @@ src/CMakeFiles/ssh_static.dir/options.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/packet.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/packet.c.o: ../src/packet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/ssh_static.dir/packet.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet.c.o   -c /home/kod/libssh-0.7.4/src/packet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/ssh_static.dir/packet.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet.c.o   -c /home/kod/bbn/libssh-0.7.4/src/packet.c
 
 src/CMakeFiles/ssh_static.dir/packet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/packet.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/packet.c > CMakeFiles/ssh_static.dir/packet.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/packet.c > CMakeFiles/ssh_static.dir/packet.c.i
 
 src/CMakeFiles/ssh_static.dir/packet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/packet.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/packet.c -o CMakeFiles/ssh_static.dir/packet.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/packet.c -o CMakeFiles/ssh_static.dir/packet.c.s
 
 src/CMakeFiles/ssh_static.dir/packet.c.o.requires:
 
@@ -683,16 +683,16 @@ src/CMakeFiles/ssh_static.dir/packet.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/packet_cb.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/packet_cb.c.o: ../src/packet_cb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/ssh_static.dir/packet_cb.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet_cb.c.o   -c /home/kod/libssh-0.7.4/src/packet_cb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/ssh_static.dir/packet_cb.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet_cb.c.o   -c /home/kod/bbn/libssh-0.7.4/src/packet_cb.c
 
 src/CMakeFiles/ssh_static.dir/packet_cb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/packet_cb.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/packet_cb.c > CMakeFiles/ssh_static.dir/packet_cb.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/packet_cb.c > CMakeFiles/ssh_static.dir/packet_cb.c.i
 
 src/CMakeFiles/ssh_static.dir/packet_cb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/packet_cb.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/packet_cb.c -o CMakeFiles/ssh_static.dir/packet_cb.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/packet_cb.c -o CMakeFiles/ssh_static.dir/packet_cb.c.s
 
 src/CMakeFiles/ssh_static.dir/packet_cb.c.o.requires:
 
@@ -707,16 +707,16 @@ src/CMakeFiles/ssh_static.dir/packet_cb.c.o.provides.build: src/CMakeFiles/ssh_s
 
 src/CMakeFiles/ssh_static.dir/packet_crypt.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/packet_crypt.c.o: ../src/packet_crypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/ssh_static.dir/packet_crypt.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet_crypt.c.o   -c /home/kod/libssh-0.7.4/src/packet_crypt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/ssh_static.dir/packet_crypt.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet_crypt.c.o   -c /home/kod/bbn/libssh-0.7.4/src/packet_crypt.c
 
 src/CMakeFiles/ssh_static.dir/packet_crypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/packet_crypt.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/packet_crypt.c > CMakeFiles/ssh_static.dir/packet_crypt.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/packet_crypt.c > CMakeFiles/ssh_static.dir/packet_crypt.c.i
 
 src/CMakeFiles/ssh_static.dir/packet_crypt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/packet_crypt.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/packet_crypt.c -o CMakeFiles/ssh_static.dir/packet_crypt.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/packet_crypt.c -o CMakeFiles/ssh_static.dir/packet_crypt.c.s
 
 src/CMakeFiles/ssh_static.dir/packet_crypt.c.o.requires:
 
@@ -731,16 +731,16 @@ src/CMakeFiles/ssh_static.dir/packet_crypt.c.o.provides.build: src/CMakeFiles/ss
 
 src/CMakeFiles/ssh_static.dir/pcap.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/pcap.c.o: ../src/pcap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/ssh_static.dir/pcap.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pcap.c.o   -c /home/kod/libssh-0.7.4/src/pcap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/ssh_static.dir/pcap.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pcap.c.o   -c /home/kod/bbn/libssh-0.7.4/src/pcap.c
 
 src/CMakeFiles/ssh_static.dir/pcap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/pcap.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/pcap.c > CMakeFiles/ssh_static.dir/pcap.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/pcap.c > CMakeFiles/ssh_static.dir/pcap.c.i
 
 src/CMakeFiles/ssh_static.dir/pcap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/pcap.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/pcap.c -o CMakeFiles/ssh_static.dir/pcap.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/pcap.c -o CMakeFiles/ssh_static.dir/pcap.c.s
 
 src/CMakeFiles/ssh_static.dir/pcap.c.o.requires:
 
@@ -755,16 +755,16 @@ src/CMakeFiles/ssh_static.dir/pcap.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/pki.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/pki.c.o: ../src/pki.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/ssh_static.dir/pki.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki.c.o   -c /home/kod/libssh-0.7.4/src/pki.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/ssh_static.dir/pki.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki.c.o   -c /home/kod/bbn/libssh-0.7.4/src/pki.c
 
 src/CMakeFiles/ssh_static.dir/pki.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/pki.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/pki.c > CMakeFiles/ssh_static.dir/pki.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/pki.c > CMakeFiles/ssh_static.dir/pki.c.i
 
 src/CMakeFiles/ssh_static.dir/pki.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/pki.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/pki.c -o CMakeFiles/ssh_static.dir/pki.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/pki.c -o CMakeFiles/ssh_static.dir/pki.c.s
 
 src/CMakeFiles/ssh_static.dir/pki.c.o.requires:
 
@@ -779,16 +779,16 @@ src/CMakeFiles/ssh_static.dir/pki.c.o.provides.build: src/CMakeFiles/ssh_static.
 
 src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.o: ../src/pki_container_openssh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki_container_openssh.c.o   -c /home/kod/libssh-0.7.4/src/pki_container_openssh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki_container_openssh.c.o   -c /home/kod/bbn/libssh-0.7.4/src/pki_container_openssh.c
 
 src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/pki_container_openssh.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/pki_container_openssh.c > CMakeFiles/ssh_static.dir/pki_container_openssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/pki_container_openssh.c > CMakeFiles/ssh_static.dir/pki_container_openssh.c.i
 
 src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/pki_container_openssh.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/pki_container_openssh.c -o CMakeFiles/ssh_static.dir/pki_container_openssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/pki_container_openssh.c -o CMakeFiles/ssh_static.dir/pki_container_openssh.c.s
 
 src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.o.requires:
 
@@ -803,16 +803,16 @@ src/CMakeFiles/ssh_static.dir/pki_container_openssh.c.o.provides.build: src/CMak
 
 src/CMakeFiles/ssh_static.dir/pki_ed25519.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/pki_ed25519.c.o: ../src/pki_ed25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/ssh_static.dir/pki_ed25519.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki_ed25519.c.o   -c /home/kod/libssh-0.7.4/src/pki_ed25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/ssh_static.dir/pki_ed25519.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki_ed25519.c.o   -c /home/kod/bbn/libssh-0.7.4/src/pki_ed25519.c
 
 src/CMakeFiles/ssh_static.dir/pki_ed25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/pki_ed25519.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/pki_ed25519.c > CMakeFiles/ssh_static.dir/pki_ed25519.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/pki_ed25519.c > CMakeFiles/ssh_static.dir/pki_ed25519.c.i
 
 src/CMakeFiles/ssh_static.dir/pki_ed25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/pki_ed25519.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/pki_ed25519.c -o CMakeFiles/ssh_static.dir/pki_ed25519.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/pki_ed25519.c -o CMakeFiles/ssh_static.dir/pki_ed25519.c.s
 
 src/CMakeFiles/ssh_static.dir/pki_ed25519.c.o.requires:
 
@@ -827,16 +827,16 @@ src/CMakeFiles/ssh_static.dir/pki_ed25519.c.o.provides.build: src/CMakeFiles/ssh
 
 src/CMakeFiles/ssh_static.dir/poll.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/poll.c.o: ../src/poll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/ssh_static.dir/poll.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/poll.c.o   -c /home/kod/libssh-0.7.4/src/poll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/ssh_static.dir/poll.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/poll.c.o   -c /home/kod/bbn/libssh-0.7.4/src/poll.c
 
 src/CMakeFiles/ssh_static.dir/poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/poll.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/poll.c > CMakeFiles/ssh_static.dir/poll.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/poll.c > CMakeFiles/ssh_static.dir/poll.c.i
 
 src/CMakeFiles/ssh_static.dir/poll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/poll.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/poll.c -o CMakeFiles/ssh_static.dir/poll.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/poll.c -o CMakeFiles/ssh_static.dir/poll.c.s
 
 src/CMakeFiles/ssh_static.dir/poll.c.o.requires:
 
@@ -851,16 +851,16 @@ src/CMakeFiles/ssh_static.dir/poll.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/session.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/session.c.o: ../src/session.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/ssh_static.dir/session.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/session.c.o   -c /home/kod/libssh-0.7.4/src/session.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/ssh_static.dir/session.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/session.c.o   -c /home/kod/bbn/libssh-0.7.4/src/session.c
 
 src/CMakeFiles/ssh_static.dir/session.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/session.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/session.c > CMakeFiles/ssh_static.dir/session.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/session.c > CMakeFiles/ssh_static.dir/session.c.i
 
 src/CMakeFiles/ssh_static.dir/session.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/session.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/session.c -o CMakeFiles/ssh_static.dir/session.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/session.c -o CMakeFiles/ssh_static.dir/session.c.s
 
 src/CMakeFiles/ssh_static.dir/session.c.o.requires:
 
@@ -875,16 +875,16 @@ src/CMakeFiles/ssh_static.dir/session.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/scp.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/scp.c.o: ../src/scp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/ssh_static.dir/scp.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/scp.c.o   -c /home/kod/libssh-0.7.4/src/scp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/ssh_static.dir/scp.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/scp.c.o   -c /home/kod/bbn/libssh-0.7.4/src/scp.c
 
 src/CMakeFiles/ssh_static.dir/scp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/scp.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/scp.c > CMakeFiles/ssh_static.dir/scp.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/scp.c > CMakeFiles/ssh_static.dir/scp.c.i
 
 src/CMakeFiles/ssh_static.dir/scp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/scp.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/scp.c -o CMakeFiles/ssh_static.dir/scp.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/scp.c -o CMakeFiles/ssh_static.dir/scp.c.s
 
 src/CMakeFiles/ssh_static.dir/scp.c.o.requires:
 
@@ -899,16 +899,16 @@ src/CMakeFiles/ssh_static.dir/scp.c.o.provides.build: src/CMakeFiles/ssh_static.
 
 src/CMakeFiles/ssh_static.dir/socket.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/socket.c.o: ../src/socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/ssh_static.dir/socket.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/socket.c.o   -c /home/kod/libssh-0.7.4/src/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/ssh_static.dir/socket.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/socket.c.o   -c /home/kod/bbn/libssh-0.7.4/src/socket.c
 
 src/CMakeFiles/ssh_static.dir/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/socket.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/socket.c > CMakeFiles/ssh_static.dir/socket.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/socket.c > CMakeFiles/ssh_static.dir/socket.c.i
 
 src/CMakeFiles/ssh_static.dir/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/socket.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/socket.c -o CMakeFiles/ssh_static.dir/socket.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/socket.c -o CMakeFiles/ssh_static.dir/socket.c.s
 
 src/CMakeFiles/ssh_static.dir/socket.c.o.requires:
 
@@ -923,16 +923,16 @@ src/CMakeFiles/ssh_static.dir/socket.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/string.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/string.c.o: ../src/string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/ssh_static.dir/string.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/string.c.o   -c /home/kod/libssh-0.7.4/src/string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/ssh_static.dir/string.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/string.c.o   -c /home/kod/bbn/libssh-0.7.4/src/string.c
 
 src/CMakeFiles/ssh_static.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/string.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/string.c > CMakeFiles/ssh_static.dir/string.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/string.c > CMakeFiles/ssh_static.dir/string.c.i
 
 src/CMakeFiles/ssh_static.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/string.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/string.c -o CMakeFiles/ssh_static.dir/string.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/string.c -o CMakeFiles/ssh_static.dir/string.c.s
 
 src/CMakeFiles/ssh_static.dir/string.c.o.requires:
 
@@ -947,16 +947,16 @@ src/CMakeFiles/ssh_static.dir/string.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/threads.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/threads.c.o: ../src/threads.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/ssh_static.dir/threads.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/threads.c.o   -c /home/kod/libssh-0.7.4/src/threads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/ssh_static.dir/threads.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/threads.c.o   -c /home/kod/bbn/libssh-0.7.4/src/threads.c
 
 src/CMakeFiles/ssh_static.dir/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/threads.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/threads.c > CMakeFiles/ssh_static.dir/threads.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/threads.c > CMakeFiles/ssh_static.dir/threads.c.i
 
 src/CMakeFiles/ssh_static.dir/threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/threads.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/threads.c -o CMakeFiles/ssh_static.dir/threads.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/threads.c -o CMakeFiles/ssh_static.dir/threads.c.s
 
 src/CMakeFiles/ssh_static.dir/threads.c.o.requires:
 
@@ -971,16 +971,16 @@ src/CMakeFiles/ssh_static.dir/threads.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/wrapper.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/wrapper.c.o: ../src/wrapper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/ssh_static.dir/wrapper.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/wrapper.c.o   -c /home/kod/libssh-0.7.4/src/wrapper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/ssh_static.dir/wrapper.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/wrapper.c.o   -c /home/kod/bbn/libssh-0.7.4/src/wrapper.c
 
 src/CMakeFiles/ssh_static.dir/wrapper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/wrapper.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/wrapper.c > CMakeFiles/ssh_static.dir/wrapper.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/wrapper.c > CMakeFiles/ssh_static.dir/wrapper.c.i
 
 src/CMakeFiles/ssh_static.dir/wrapper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/wrapper.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/wrapper.c -o CMakeFiles/ssh_static.dir/wrapper.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/wrapper.c -o CMakeFiles/ssh_static.dir/wrapper.c.s
 
 src/CMakeFiles/ssh_static.dir/wrapper.c.o.requires:
 
@@ -995,16 +995,16 @@ src/CMakeFiles/ssh_static.dir/wrapper.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o: ../src/external/bcrypt_pbkdf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o   -c /home/kod/libssh-0.7.4/src/external/bcrypt_pbkdf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/bcrypt_pbkdf.c
 
 src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/bcrypt_pbkdf.c > CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/bcrypt_pbkdf.c > CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.i
 
 src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/bcrypt_pbkdf.c -o CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/bcrypt_pbkdf.c -o CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.s
 
 src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o.requires:
 
@@ -1019,16 +1019,16 @@ src/CMakeFiles/ssh_static.dir/external/bcrypt_pbkdf.c.o.provides.build: src/CMak
 
 src/CMakeFiles/ssh_static.dir/external/blowfish.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/blowfish.c.o: ../src/external/blowfish.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/ssh_static.dir/external/blowfish.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/blowfish.c.o   -c /home/kod/libssh-0.7.4/src/external/blowfish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/ssh_static.dir/external/blowfish.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/blowfish.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/blowfish.c
 
 src/CMakeFiles/ssh_static.dir/external/blowfish.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/blowfish.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/blowfish.c > CMakeFiles/ssh_static.dir/external/blowfish.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/blowfish.c > CMakeFiles/ssh_static.dir/external/blowfish.c.i
 
 src/CMakeFiles/ssh_static.dir/external/blowfish.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/blowfish.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/blowfish.c -o CMakeFiles/ssh_static.dir/external/blowfish.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/blowfish.c -o CMakeFiles/ssh_static.dir/external/blowfish.c.s
 
 src/CMakeFiles/ssh_static.dir/external/blowfish.c.o.requires:
 
@@ -1043,16 +1043,16 @@ src/CMakeFiles/ssh_static.dir/external/blowfish.c.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/ssh_static.dir/external/ed25519.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/ed25519.c.o: ../src/external/ed25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/ssh_static.dir/external/ed25519.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/ed25519.c.o   -c /home/kod/libssh-0.7.4/src/external/ed25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/ssh_static.dir/external/ed25519.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/ed25519.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/ed25519.c
 
 src/CMakeFiles/ssh_static.dir/external/ed25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/ed25519.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/ed25519.c > CMakeFiles/ssh_static.dir/external/ed25519.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/ed25519.c > CMakeFiles/ssh_static.dir/external/ed25519.c.i
 
 src/CMakeFiles/ssh_static.dir/external/ed25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/ed25519.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/ed25519.c -o CMakeFiles/ssh_static.dir/external/ed25519.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/ed25519.c -o CMakeFiles/ssh_static.dir/external/ed25519.c.s
 
 src/CMakeFiles/ssh_static.dir/external/ed25519.c.o.requires:
 
@@ -1067,16 +1067,16 @@ src/CMakeFiles/ssh_static.dir/external/ed25519.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/ssh_static.dir/external/fe25519.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/fe25519.c.o: ../src/external/fe25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object src/CMakeFiles/ssh_static.dir/external/fe25519.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/fe25519.c.o   -c /home/kod/libssh-0.7.4/src/external/fe25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object src/CMakeFiles/ssh_static.dir/external/fe25519.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/fe25519.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/fe25519.c
 
 src/CMakeFiles/ssh_static.dir/external/fe25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/fe25519.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/fe25519.c > CMakeFiles/ssh_static.dir/external/fe25519.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/fe25519.c > CMakeFiles/ssh_static.dir/external/fe25519.c.i
 
 src/CMakeFiles/ssh_static.dir/external/fe25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/fe25519.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/fe25519.c -o CMakeFiles/ssh_static.dir/external/fe25519.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/fe25519.c -o CMakeFiles/ssh_static.dir/external/fe25519.c.s
 
 src/CMakeFiles/ssh_static.dir/external/fe25519.c.o.requires:
 
@@ -1091,16 +1091,16 @@ src/CMakeFiles/ssh_static.dir/external/fe25519.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/ssh_static.dir/external/ge25519.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/ge25519.c.o: ../src/external/ge25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object src/CMakeFiles/ssh_static.dir/external/ge25519.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/ge25519.c.o   -c /home/kod/libssh-0.7.4/src/external/ge25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object src/CMakeFiles/ssh_static.dir/external/ge25519.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/ge25519.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/ge25519.c
 
 src/CMakeFiles/ssh_static.dir/external/ge25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/ge25519.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/ge25519.c > CMakeFiles/ssh_static.dir/external/ge25519.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/ge25519.c > CMakeFiles/ssh_static.dir/external/ge25519.c.i
 
 src/CMakeFiles/ssh_static.dir/external/ge25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/ge25519.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/ge25519.c -o CMakeFiles/ssh_static.dir/external/ge25519.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/ge25519.c -o CMakeFiles/ssh_static.dir/external/ge25519.c.s
 
 src/CMakeFiles/ssh_static.dir/external/ge25519.c.o.requires:
 
@@ -1115,16 +1115,16 @@ src/CMakeFiles/ssh_static.dir/external/ge25519.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/ssh_static.dir/external/sc25519.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/sc25519.c.o: ../src/external/sc25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/ssh_static.dir/external/sc25519.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/sc25519.c.o   -c /home/kod/libssh-0.7.4/src/external/sc25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/ssh_static.dir/external/sc25519.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/sc25519.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/sc25519.c
 
 src/CMakeFiles/ssh_static.dir/external/sc25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/sc25519.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/sc25519.c > CMakeFiles/ssh_static.dir/external/sc25519.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/sc25519.c > CMakeFiles/ssh_static.dir/external/sc25519.c.i
 
 src/CMakeFiles/ssh_static.dir/external/sc25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/sc25519.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/sc25519.c -o CMakeFiles/ssh_static.dir/external/sc25519.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/sc25519.c -o CMakeFiles/ssh_static.dir/external/sc25519.c.s
 
 src/CMakeFiles/ssh_static.dir/external/sc25519.c.o.requires:
 
@@ -1139,16 +1139,16 @@ src/CMakeFiles/ssh_static.dir/external/sc25519.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/ssh_static.dir/pki_crypto.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/pki_crypto.c.o: ../src/pki_crypto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/ssh_static.dir/pki_crypto.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki_crypto.c.o   -c /home/kod/libssh-0.7.4/src/pki_crypto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/ssh_static.dir/pki_crypto.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/pki_crypto.c.o   -c /home/kod/bbn/libssh-0.7.4/src/pki_crypto.c
 
 src/CMakeFiles/ssh_static.dir/pki_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/pki_crypto.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/pki_crypto.c > CMakeFiles/ssh_static.dir/pki_crypto.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/pki_crypto.c > CMakeFiles/ssh_static.dir/pki_crypto.c.i
 
 src/CMakeFiles/ssh_static.dir/pki_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/pki_crypto.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/pki_crypto.c -o CMakeFiles/ssh_static.dir/pki_crypto.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/pki_crypto.c -o CMakeFiles/ssh_static.dir/pki_crypto.c.s
 
 src/CMakeFiles/ssh_static.dir/pki_crypto.c.o.requires:
 
@@ -1163,16 +1163,16 @@ src/CMakeFiles/ssh_static.dir/pki_crypto.c.o.provides.build: src/CMakeFiles/ssh_
 
 src/CMakeFiles/ssh_static.dir/sftp.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/sftp.c.o: ../src/sftp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/ssh_static.dir/sftp.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/sftp.c.o   -c /home/kod/libssh-0.7.4/src/sftp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/ssh_static.dir/sftp.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/sftp.c.o   -c /home/kod/bbn/libssh-0.7.4/src/sftp.c
 
 src/CMakeFiles/ssh_static.dir/sftp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/sftp.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/sftp.c > CMakeFiles/ssh_static.dir/sftp.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/sftp.c > CMakeFiles/ssh_static.dir/sftp.c.i
 
 src/CMakeFiles/ssh_static.dir/sftp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/sftp.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/sftp.c -o CMakeFiles/ssh_static.dir/sftp.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/sftp.c -o CMakeFiles/ssh_static.dir/sftp.c.s
 
 src/CMakeFiles/ssh_static.dir/sftp.c.o.requires:
 
@@ -1187,16 +1187,16 @@ src/CMakeFiles/ssh_static.dir/sftp.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/sftpserver.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/sftpserver.c.o: ../src/sftpserver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/ssh_static.dir/sftpserver.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/sftpserver.c.o   -c /home/kod/libssh-0.7.4/src/sftpserver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/ssh_static.dir/sftpserver.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/sftpserver.c.o   -c /home/kod/bbn/libssh-0.7.4/src/sftpserver.c
 
 src/CMakeFiles/ssh_static.dir/sftpserver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/sftpserver.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/sftpserver.c > CMakeFiles/ssh_static.dir/sftpserver.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/sftpserver.c > CMakeFiles/ssh_static.dir/sftpserver.c.i
 
 src/CMakeFiles/ssh_static.dir/sftpserver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/sftpserver.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/sftpserver.c -o CMakeFiles/ssh_static.dir/sftpserver.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/sftpserver.c -o CMakeFiles/ssh_static.dir/sftpserver.c.s
 
 src/CMakeFiles/ssh_static.dir/sftpserver.c.o.requires:
 
@@ -1211,16 +1211,16 @@ src/CMakeFiles/ssh_static.dir/sftpserver.c.o.provides.build: src/CMakeFiles/ssh_
 
 src/CMakeFiles/ssh_static.dir/auth1.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/auth1.c.o: ../src/auth1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/ssh_static.dir/auth1.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/auth1.c.o   -c /home/kod/libssh-0.7.4/src/auth1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/ssh_static.dir/auth1.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/auth1.c.o   -c /home/kod/bbn/libssh-0.7.4/src/auth1.c
 
 src/CMakeFiles/ssh_static.dir/auth1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/auth1.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/auth1.c > CMakeFiles/ssh_static.dir/auth1.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/auth1.c > CMakeFiles/ssh_static.dir/auth1.c.i
 
 src/CMakeFiles/ssh_static.dir/auth1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/auth1.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/auth1.c -o CMakeFiles/ssh_static.dir/auth1.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/auth1.c -o CMakeFiles/ssh_static.dir/auth1.c.s
 
 src/CMakeFiles/ssh_static.dir/auth1.c.o.requires:
 
@@ -1235,16 +1235,16 @@ src/CMakeFiles/ssh_static.dir/auth1.c.o.provides.build: src/CMakeFiles/ssh_stati
 
 src/CMakeFiles/ssh_static.dir/channels1.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/channels1.c.o: ../src/channels1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/ssh_static.dir/channels1.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/channels1.c.o   -c /home/kod/libssh-0.7.4/src/channels1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/ssh_static.dir/channels1.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/channels1.c.o   -c /home/kod/bbn/libssh-0.7.4/src/channels1.c
 
 src/CMakeFiles/ssh_static.dir/channels1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/channels1.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/channels1.c > CMakeFiles/ssh_static.dir/channels1.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/channels1.c > CMakeFiles/ssh_static.dir/channels1.c.i
 
 src/CMakeFiles/ssh_static.dir/channels1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/channels1.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/channels1.c -o CMakeFiles/ssh_static.dir/channels1.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/channels1.c -o CMakeFiles/ssh_static.dir/channels1.c.s
 
 src/CMakeFiles/ssh_static.dir/channels1.c.o.requires:
 
@@ -1259,16 +1259,16 @@ src/CMakeFiles/ssh_static.dir/channels1.c.o.provides.build: src/CMakeFiles/ssh_s
 
 src/CMakeFiles/ssh_static.dir/crc32.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/crc32.c.o: ../src/crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/ssh_static.dir/crc32.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/crc32.c.o   -c /home/kod/libssh-0.7.4/src/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/ssh_static.dir/crc32.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/crc32.c.o   -c /home/kod/bbn/libssh-0.7.4/src/crc32.c
 
 src/CMakeFiles/ssh_static.dir/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/crc32.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/crc32.c > CMakeFiles/ssh_static.dir/crc32.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/crc32.c > CMakeFiles/ssh_static.dir/crc32.c.i
 
 src/CMakeFiles/ssh_static.dir/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/crc32.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/crc32.c -o CMakeFiles/ssh_static.dir/crc32.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/crc32.c -o CMakeFiles/ssh_static.dir/crc32.c.s
 
 src/CMakeFiles/ssh_static.dir/crc32.c.o.requires:
 
@@ -1283,16 +1283,16 @@ src/CMakeFiles/ssh_static.dir/crc32.c.o.provides.build: src/CMakeFiles/ssh_stati
 
 src/CMakeFiles/ssh_static.dir/kex1.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/kex1.c.o: ../src/kex1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/ssh_static.dir/kex1.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/kex1.c.o   -c /home/kod/libssh-0.7.4/src/kex1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/ssh_static.dir/kex1.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/kex1.c.o   -c /home/kod/bbn/libssh-0.7.4/src/kex1.c
 
 src/CMakeFiles/ssh_static.dir/kex1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/kex1.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/kex1.c > CMakeFiles/ssh_static.dir/kex1.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/kex1.c > CMakeFiles/ssh_static.dir/kex1.c.i
 
 src/CMakeFiles/ssh_static.dir/kex1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/kex1.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/kex1.c -o CMakeFiles/ssh_static.dir/kex1.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/kex1.c -o CMakeFiles/ssh_static.dir/kex1.c.s
 
 src/CMakeFiles/ssh_static.dir/kex1.c.o.requires:
 
@@ -1307,16 +1307,16 @@ src/CMakeFiles/ssh_static.dir/kex1.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/packet1.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/packet1.c.o: ../src/packet1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/ssh_static.dir/packet1.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet1.c.o   -c /home/kod/libssh-0.7.4/src/packet1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/ssh_static.dir/packet1.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/packet1.c.o   -c /home/kod/bbn/libssh-0.7.4/src/packet1.c
 
 src/CMakeFiles/ssh_static.dir/packet1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/packet1.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/packet1.c > CMakeFiles/ssh_static.dir/packet1.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/packet1.c > CMakeFiles/ssh_static.dir/packet1.c.i
 
 src/CMakeFiles/ssh_static.dir/packet1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/packet1.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/packet1.c -o CMakeFiles/ssh_static.dir/packet1.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/packet1.c -o CMakeFiles/ssh_static.dir/packet1.c.s
 
 src/CMakeFiles/ssh_static.dir/packet1.c.o.requires:
 
@@ -1331,16 +1331,16 @@ src/CMakeFiles/ssh_static.dir/packet1.c.o.provides.build: src/CMakeFiles/ssh_sta
 
 src/CMakeFiles/ssh_static.dir/server.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/server.c.o: ../src/server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/ssh_static.dir/server.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/server.c.o   -c /home/kod/libssh-0.7.4/src/server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/ssh_static.dir/server.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/server.c.o   -c /home/kod/bbn/libssh-0.7.4/src/server.c
 
 src/CMakeFiles/ssh_static.dir/server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/server.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/server.c > CMakeFiles/ssh_static.dir/server.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/server.c > CMakeFiles/ssh_static.dir/server.c.i
 
 src/CMakeFiles/ssh_static.dir/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/server.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/server.c -o CMakeFiles/ssh_static.dir/server.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/server.c -o CMakeFiles/ssh_static.dir/server.c.s
 
 src/CMakeFiles/ssh_static.dir/server.c.o.requires:
 
@@ -1355,16 +1355,16 @@ src/CMakeFiles/ssh_static.dir/server.c.o.provides.build: src/CMakeFiles/ssh_stat
 
 src/CMakeFiles/ssh_static.dir/bind.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/bind.c.o: ../src/bind.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/ssh_static.dir/bind.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/bind.c.o   -c /home/kod/libssh-0.7.4/src/bind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/ssh_static.dir/bind.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/bind.c.o   -c /home/kod/bbn/libssh-0.7.4/src/bind.c
 
 src/CMakeFiles/ssh_static.dir/bind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/bind.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/bind.c > CMakeFiles/ssh_static.dir/bind.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/bind.c > CMakeFiles/ssh_static.dir/bind.c.i
 
 src/CMakeFiles/ssh_static.dir/bind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/bind.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/bind.c -o CMakeFiles/ssh_static.dir/bind.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/bind.c -o CMakeFiles/ssh_static.dir/bind.c.s
 
 src/CMakeFiles/ssh_static.dir/bind.c.o.requires:
 
@@ -1379,16 +1379,16 @@ src/CMakeFiles/ssh_static.dir/bind.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/gzip.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/gzip.c.o: ../src/gzip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/ssh_static.dir/gzip.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/gzip.c.o   -c /home/kod/libssh-0.7.4/src/gzip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/ssh_static.dir/gzip.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/gzip.c.o   -c /home/kod/bbn/libssh-0.7.4/src/gzip.c
 
 src/CMakeFiles/ssh_static.dir/gzip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/gzip.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/gzip.c > CMakeFiles/ssh_static.dir/gzip.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/gzip.c > CMakeFiles/ssh_static.dir/gzip.c.i
 
 src/CMakeFiles/ssh_static.dir/gzip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/gzip.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/gzip.c -o CMakeFiles/ssh_static.dir/gzip.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/gzip.c -o CMakeFiles/ssh_static.dir/gzip.c.s
 
 src/CMakeFiles/ssh_static.dir/gzip.c.o.requires:
 
@@ -1403,16 +1403,16 @@ src/CMakeFiles/ssh_static.dir/gzip.c.o.provides.build: src/CMakeFiles/ssh_static
 
 src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o: src/CMakeFiles/ssh_static.dir/flags.make
 src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o: ../src/external/curve25519_ref.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o   -c /home/kod/libssh-0.7.4/src/external/curve25519_ref.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o   -c /home/kod/bbn/libssh-0.7.4/src/external/curve25519_ref.c
 
 src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_static.dir/external/curve25519_ref.c.i"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/src/external/curve25519_ref.c > CMakeFiles/ssh_static.dir/external/curve25519_ref.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/src/external/curve25519_ref.c > CMakeFiles/ssh_static.dir/external/curve25519_ref.c.i
 
 src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_static.dir/external/curve25519_ref.c.s"
-	cd /home/kod/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/src/external/curve25519_ref.c -o CMakeFiles/ssh_static.dir/external/curve25519_ref.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/src/external/curve25519_ref.c -o CMakeFiles/ssh_static.dir/external/curve25519_ref.c.s
 
 src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o.requires:
 
@@ -1547,9 +1547,9 @@ src/libssh.a: src/CMakeFiles/ssh_static.dir/gzip.c.o
 src/libssh.a: src/CMakeFiles/ssh_static.dir/external/curve25519_ref.c.o
 src/libssh.a: src/CMakeFiles/ssh_static.dir/build.make
 src/libssh.a: src/CMakeFiles/ssh_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking C static library libssh.a"
-	cd /home/kod/libssh-0.7.4/build/src && $(CMAKE_COMMAND) -P CMakeFiles/ssh_static.dir/cmake_clean_target.cmake
-	cd /home/kod/libssh-0.7.4/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ssh_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking C static library libssh.a"
+	cd /home/kod/bbn/libssh-0.7.4/build/src && $(CMAKE_COMMAND) -P CMakeFiles/ssh_static.dir/cmake_clean_target.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ssh_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/ssh_static.dir/build: src/libssh.a
@@ -1617,10 +1617,10 @@ src/CMakeFiles/ssh_static.dir/requires: src/CMakeFiles/ssh_static.dir/external/c
 .PHONY : src/CMakeFiles/ssh_static.dir/requires
 
 src/CMakeFiles/ssh_static.dir/clean:
-	cd /home/kod/libssh-0.7.4/build/src && $(CMAKE_COMMAND) -P CMakeFiles/ssh_static.dir/cmake_clean.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build/src && $(CMAKE_COMMAND) -P CMakeFiles/ssh_static.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/ssh_static.dir/clean
 
 src/CMakeFiles/ssh_static.dir/depend:
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kod/libssh-0.7.4 /home/kod/libssh-0.7.4/src /home/kod/libssh-0.7.4/build /home/kod/libssh-0.7.4/build/src /home/kod/libssh-0.7.4/build/src/CMakeFiles/ssh_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kod/bbn/libssh-0.7.4 /home/kod/bbn/libssh-0.7.4/src /home/kod/bbn/libssh-0.7.4/build /home/kod/bbn/libssh-0.7.4/build/src /home/kod/bbn/libssh-0.7.4/build/src/CMakeFiles/ssh_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/ssh_static.dir/depend
 

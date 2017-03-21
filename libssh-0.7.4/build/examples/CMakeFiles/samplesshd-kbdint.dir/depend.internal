@@ -5,5 +5,5 @@ examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o
  ../include/libssh/legacy.h
  ../include/libssh/libssh.h
  ../include/libssh/server.h
- /home/kod/libssh-0.7.4/examples/samplesshd-kbdint.c
+ /home/kod/bbn/libssh-0.7.4/examples/samplesshd-kbdint.c
  config.h

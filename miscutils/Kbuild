@@ -39,6 +39,7 @@ lib-$(CONFIG_UBIUPDATEVOL) += ubi_tools.o
 lib-$(CONFIG_WALL) += wall.o
 lib-$(CONFIG_XORPIPE) += xorpipe.o
 lib-$(CONFIG_XXD) += xxd.o
+lib-$(CONFIG_SCP)    += scp.o
 lib-$(CONFIG_SFTP)    += sftp.o
 lib-$(CONFIG_SFTP)    += connect_ssh.o
 lib-$(CONFIG_SSH)    += ssh.o

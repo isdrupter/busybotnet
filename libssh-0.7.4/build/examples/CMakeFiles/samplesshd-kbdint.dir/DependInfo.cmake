@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kod/libssh-0.7.4/examples/samplesshd-kbdint.c" "/home/kod/libssh-0.7.4/build/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o"
+  "/home/kod/bbn/libssh-0.7.4/examples/samplesshd-kbdint.c" "/home/kod/bbn/libssh-0.7.4/build/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/kod/libssh-0.7.4/build/src/CMakeFiles/ssh_shared.dir/DependInfo.cmake"
+  "/home/kod/bbn/libssh-0.7.4/build/src/CMakeFiles/ssh_shared.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

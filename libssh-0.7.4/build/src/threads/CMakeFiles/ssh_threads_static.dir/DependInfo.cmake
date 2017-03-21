@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kod/libssh-0.7.4/src/threads/pthread.c" "/home/kod/libssh-0.7.4/build/src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.o"
+  "/home/kod/bbn/libssh-0.7.4/src/threads/pthread.c" "/home/kod/bbn/libssh-0.7.4/build/src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

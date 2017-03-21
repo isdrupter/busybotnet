@@ -322,6 +322,11 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config SCP
+	bool "scp"
+	default y
+	help
+		x
 config SFTP
 	bool "sftp"
 	default y

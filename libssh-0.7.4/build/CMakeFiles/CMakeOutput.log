@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/kod/libssh-0.7.4/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d142/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d142.dir/build.make CMakeFiles/cmTC_2d142.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2d142.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_2d142.dir/testCCompiler.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_2d142
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d142.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2d142.dir/testCCompiler.c.o  -o cmTC_2d142 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4f2d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f2d1.dir/build.make CMakeFiles/cmTC_4f2d1.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f2d1.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4f2d1.dir/testCCompiler.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4f2d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f2d1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4f2d1.dir/testCCompiler.c.o  -o cmTC_4f2d1 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad04d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad04d.dir/build.make CMakeFiles/cmTC_ad04d.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ad04d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad04d.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o  -o cmTC_ad04d -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_ad7fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad7fe.dir/build.make CMakeFiles/cmTC_ad7fe.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ad7fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad7fe.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o  -o cmTC_ad7fe -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -46,24 +46,24 @@ Thread model: posix
 gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad04d' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQXsLlx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad04d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad04d' '-rdynamic' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad7fe' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF9Pkhj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad7fe /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad7fe' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ad04d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ad04d.dir/build.make CMakeFiles/cmTC_ad04d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ad04d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad04d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o  -o cmTC_ad04d -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ad7fe/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ad7fe.dir/build.make CMakeFiles/cmTC_ad7fe.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ad7fe]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad7fe.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o  -o cmTC_ad7fe -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -73,13 +73,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad04d' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQXsLlx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad04d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad7fe' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF9Pkhj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad7fe /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccQXsLlx.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccF9Pkhj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -99,7 +99,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ad04d] ==> ignore
+    arg [cmTC_ad7fe] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_ad04d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ad7fe.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -143,17 +143,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b744/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b744.dir/build.make CMakeFiles/cmTC_1b744.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b744.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1b744.dir/feature_tests.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1b744
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b744.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1b744.dir/feature_tests.c.o  -o cmTC_1b744 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c116b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c116b.dir/build.make CMakeFiles/cmTC_c116b.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c116b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_c116b.dir/feature_tests.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c116b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c116b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c116b.dir/feature_tests.c.o  -o cmTC_c116b -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -163,17 +163,17 @@ make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ecf09/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ecf09.dir/build.make CMakeFiles/cmTC_ecf09.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ecf09.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_ecf09.dir/feature_tests.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ecf09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf09.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ecf09.dir/feature_tests.c.o  -o cmTC_ecf09 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1ece0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ece0.dir/build.make CMakeFiles/cmTC_1ece0.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ece0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_1ece0.dir/feature_tests.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1ece0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ece0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1ece0.dir/feature_tests.c.o  -o cmTC_1ece0 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -183,17 +183,17 @@ make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6478f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6478f.dir/build.make CMakeFiles/cmTC_6478f.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6478f.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_6478f.dir/feature_tests.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6478f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6478f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6478f.dir/feature_tests.c.o  -o cmTC_6478f -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_56909/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56909.dir/build.make CMakeFiles/cmTC_56909.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56909.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_56909.dir/feature_tests.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_56909
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56909.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_56909.dir/feature_tests.c.o  -o cmTC_56909 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -201,479 +201,479 @@ make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Performing C SOURCE FILE Test WITH_FPIC succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86d5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86d5f.dir/build.make CMakeFiles/cmTC_86d5f.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86d5f.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -DWITH_FPIC   -fPIC -o CMakeFiles/cmTC_86d5f.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_86d5f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86d5f.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -DWITH_FPIC    CMakeFiles/cmTC_86d5f.dir/src.c.o  -o cmTC_86d5f -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1697c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1697c.dir/build.make CMakeFiles/cmTC_1697c.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1697c.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -DWITH_FPIC   -fPIC -o CMakeFiles/cmTC_1697c.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1697c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1697c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -DWITH_FPIC    CMakeFiles/cmTC_1697c.dir/src.c.o  -o cmTC_1697c -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test WITH_STACK_PROTECTOR succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf8cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf8cf.dir/build.make CMakeFiles/cmTC_cf8cf.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf8cf.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTC_cf8cf.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+Run Build Command:"/usr/bin/make" "cmTC_fc88e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc88e.dir/build.make CMakeFiles/cmTC_fc88e.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc88e.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTC_fc88e.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
  int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
                            ^~~~
-Linking C executable cmTC_cf8cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf8cf.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -DWITH_STACK_PROTECTOR    CMakeFiles/cmTC_cf8cf.dir/src.c.o  -o cmTC_cf8cf -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_fc88e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc88e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -DWITH_STACK_PROTECTOR    CMakeFiles/cmTC_fc88e.dir/src.c.o  -o cmTC_fc88e -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64082/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64082.dir/build.make CMakeFiles/cmTC_64082.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64082.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_64082.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_64082
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64082.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_64082.dir/CheckIncludeFile.c.o  -o cmTC_64082 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d90f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d90f5.dir/build.make CMakeFiles/cmTC_d90f5.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d90f5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_d90f5.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d90f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d90f5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_d90f5.dir/CheckIncludeFile.c.o  -o cmTC_d90f5 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee338/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee338.dir/build.make CMakeFiles/cmTC_ee338.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee338.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ee338.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ee338
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee338.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ee338.dir/CheckFunctionExists.c.o  -o cmTC_ee338 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_30577/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30577.dir/build.make CMakeFiles/cmTC_30577.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30577.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_30577.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30577.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_30577.dir/CheckFunctionExists.c.o  -o cmTC_30577 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7ec0a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7ec0a.dir/build.make CMakeFiles/cmTC_7ec0a.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ec0a.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN -fvisibility=hidden   -o CMakeFiles/cmTC_7ec0a.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:1:45: warning: no previous prototype for ‘test’ [-Wmissing-prototypes]
+Run Build Command:"/usr/bin/make" "cmTC_1e8a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e8a8.dir/build.make CMakeFiles/cmTC_1e8a8.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e8a8.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN -fvisibility=hidden   -o CMakeFiles/cmTC_1e8a8.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:1:45: warning: no previous prototype for ‘test’ [-Wmissing-prototypes]
  void __attribute__((visibility("default"))) test() {}
                                              ^~~~
-Linking C executable cmTC_7ec0a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ec0a.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN -fvisibility=hidden    CMakeFiles/cmTC_7ec0a.dir/src.c.o  -o cmTC_7ec0a -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_1e8a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e8a8.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN -fvisibility=hidden    CMakeFiles/cmTC_1e8a8.dir/src.c.o  -o cmTC_1e8a8 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 void __attribute__((visibility("default"))) test() {}
 int main(void){ return 0; }
 
 Determining if the include file argp.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22558/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22558.dir/build.make CMakeFiles/cmTC_22558.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22558.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_22558.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_22558
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22558.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_22558.dir/CheckIncludeFile.c.o  -o cmTC_22558 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_662ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_662ef.dir/build.make CMakeFiles/cmTC_662ef.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_662ef.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_662ef.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_662ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_662ef.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_662ef.dir/CheckIncludeFile.c.o  -o cmTC_662ef -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pty.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_881b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_881b7.dir/build.make CMakeFiles/cmTC_881b7.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_881b7.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_881b7.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_881b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_881b7.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_881b7.dir/CheckIncludeFile.c.o  -o cmTC_881b7 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_454b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_454b3.dir/build.make CMakeFiles/cmTC_454b3.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_454b3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_454b3.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_454b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_454b3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_454b3.dir/CheckIncludeFile.c.o  -o cmTC_454b3 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file utmp.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e7ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e7ae.dir/build.make CMakeFiles/cmTC_2e7ae.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2e7ae.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_2e7ae.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_2e7ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e7ae.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_2e7ae.dir/CheckIncludeFile.c.o  -o cmTC_2e7ae -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_31989/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31989.dir/build.make CMakeFiles/cmTC_31989.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31989.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_31989.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_31989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31989.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_31989.dir/CheckIncludeFile.c.o  -o cmTC_31989 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file termios.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b56a1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b56a1.dir/build.make CMakeFiles/cmTC_b56a1.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b56a1.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_b56a1.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b56a1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b56a1.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_b56a1.dir/CheckIncludeFile.c.o  -o cmTC_b56a1 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_724c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_724c8.dir/build.make CMakeFiles/cmTC_724c8.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_724c8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_724c8.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_724c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_724c8.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_724c8.dir/CheckIncludeFile.c.o  -o cmTC_724c8 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_66312/fast"
-/usr/bin/make -f CMakeFiles/cmTC_66312.dir/build.make CMakeFiles/cmTC_66312.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66312.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_66312.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_66312
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66312.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_66312.dir/CheckIncludeFile.c.o  -o cmTC_66312 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_855b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_855b0.dir/build.make CMakeFiles/cmTC_855b0.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_855b0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_855b0.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_855b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_855b0.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_855b0.dir/CheckIncludeFile.c.o  -o cmTC_855b0 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file sys/time.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5445/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5445.dir/build.make CMakeFiles/cmTC_a5445.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a5445.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_a5445.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a5445
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5445.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_a5445.dir/CheckIncludeFile.c.o  -o cmTC_a5445 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_76771/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76771.dir/build.make CMakeFiles/cmTC_76771.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76771.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_76771.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76771.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_76771.dir/CheckIncludeFile.c.o  -o cmTC_76771 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file sys/param.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f82ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f82ca.dir/build.make CMakeFiles/cmTC_f82ca.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f82ca.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f82ca.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f82ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f82ca.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f82ca.dir/CheckIncludeFile.c.o  -o cmTC_f82ca -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7bc1d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bc1d.dir/build.make CMakeFiles/cmTC_7bc1d.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bc1d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_7bc1d.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7bc1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc1d.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_7bc1d.dir/CheckIncludeFile.c.o  -o cmTC_7bc1d -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file arpa/inet.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_65389/fast"
-/usr/bin/make -f CMakeFiles/cmTC_65389.dir/build.make CMakeFiles/cmTC_65389.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65389.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_65389.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_65389
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65389.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_65389.dir/CheckIncludeFile.c.o  -o cmTC_65389 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4e20a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e20a.dir/build.make CMakeFiles/cmTC_4e20a.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e20a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_4e20a.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4e20a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e20a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_4e20a.dir/CheckIncludeFile.c.o  -o cmTC_4e20a -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file byteswap.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5dbf7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5dbf7.dir/build.make CMakeFiles/cmTC_5dbf7.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5dbf7.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_5dbf7.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5dbf7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dbf7.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_5dbf7.dir/CheckIncludeFile.c.o  -o cmTC_5dbf7 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1eaf8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1eaf8.dir/build.make CMakeFiles/cmTC_1eaf8.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1eaf8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_1eaf8.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1eaf8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eaf8.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_1eaf8.dir/CheckIncludeFile.c.o  -o cmTC_1eaf8 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file openssl/des.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aeebe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aeebe.dir/build.make CMakeFiles/cmTC_aeebe.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aeebe.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_aeebe.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_aeebe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeebe.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_aeebe.dir/CheckIncludeFile.c.o  -o cmTC_aeebe -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_82e0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82e0c.dir/build.make CMakeFiles/cmTC_82e0c.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82e0c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_82e0c.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82e0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e0c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_82e0c.dir/CheckIncludeFile.c.o  -o cmTC_82e0c -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file openssl/aes.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46a64/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46a64.dir/build.make CMakeFiles/cmTC_46a64.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46a64.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_46a64.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_46a64
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a64.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_46a64.dir/CheckIncludeFile.c.o  -o cmTC_46a64 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_79781/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79781.dir/build.make CMakeFiles/cmTC_79781.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79781.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_79781.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_79781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79781.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_79781.dir/CheckIncludeFile.c.o  -o cmTC_79781 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file openssl/blowfish.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8838c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8838c.dir/build.make CMakeFiles/cmTC_8838c.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8838c.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_8838c.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_8838c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8838c.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_8838c.dir/CheckIncludeFile.c.o  -o cmTC_8838c -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0055e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0055e.dir/build.make CMakeFiles/cmTC_0055e.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0055e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_0055e.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0055e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0055e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_0055e.dir/CheckIncludeFile.c.o  -o cmTC_0055e -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file openssl/ecdh.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_996a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_996a3.dir/build.make CMakeFiles/cmTC_996a3.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_996a3.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_996a3.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_996a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_996a3.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_996a3.dir/CheckIncludeFile.c.o  -o cmTC_996a3 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5d7b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d7b4.dir/build.make CMakeFiles/cmTC_5d7b4.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d7b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_5d7b4.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d7b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7b4.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_5d7b4.dir/CheckIncludeFile.c.o  -o cmTC_5d7b4 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file openssl/ec.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_93f3f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_93f3f.dir/build.make CMakeFiles/cmTC_93f3f.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_93f3f.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_93f3f.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_93f3f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f3f.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_93f3f.dir/CheckIncludeFile.c.o  -o cmTC_93f3f -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_231b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_231b3.dir/build.make CMakeFiles/cmTC_231b3.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_231b3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_231b3.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_231b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_231b3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_231b3.dir/CheckIncludeFile.c.o  -o cmTC_231b3 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file openssl/ecdsa.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_657c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_657c0.dir/build.make CMakeFiles/cmTC_657c0.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_657c0.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_657c0.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_657c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_657c0.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_657c0.dir/CheckIncludeFile.c.o  -o cmTC_657c0 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d142c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d142c.dir/build.make CMakeFiles/cmTC_d142c.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d142c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_d142c.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d142c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d142c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_d142c.dir/CheckIncludeFile.c.o  -o cmTC_d142c -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function isblank exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_564ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_564ff.dir/build.make CMakeFiles/cmTC_564ff.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_564ff.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=isblank   -o CMakeFiles/cmTC_564ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_e289a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e289a.dir/build.make CMakeFiles/cmTC_e289a.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e289a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=isblank   -o CMakeFiles/cmTC_e289a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘isblank’
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
  char CHECK_FUNCTION_EXISTS();
       ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_564ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_564ff.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=isblank    CMakeFiles/cmTC_564ff.dir/CheckFunctionExists.c.o  -o cmTC_564ff -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_e289a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e289a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=isblank    CMakeFiles/cmTC_e289a.dir/CheckFunctionExists.c.o  -o cmTC_e289a -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function strncpy exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0eef5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0eef5.dir/build.make CMakeFiles/cmTC_0eef5.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0eef5.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strncpy   -o CMakeFiles/cmTC_0eef5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_825d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_825d2.dir/build.make CMakeFiles/cmTC_825d2.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_825d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strncpy   -o CMakeFiles/cmTC_825d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘strncpy’
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
  char CHECK_FUNCTION_EXISTS();
       ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_0eef5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eef5.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strncpy    CMakeFiles/cmTC_0eef5.dir/CheckFunctionExists.c.o  -o cmTC_0eef5 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_825d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_825d2.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strncpy    CMakeFiles/cmTC_825d2.dir/CheckFunctionExists.c.o  -o cmTC_825d2 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function strtoull exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c365b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c365b.dir/build.make CMakeFiles/cmTC_c365b.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c365b.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_c365b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c365b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c365b.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_c365b.dir/CheckFunctionExists.c.o  -o cmTC_c365b -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c7c28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7c28.dir/build.make CMakeFiles/cmTC_c7c28.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7c28.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_c7c28.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7c28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c28.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_c7c28.dir/CheckFunctionExists.c.o  -o cmTC_c7c28 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function vsnprintf exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9313/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a9313.dir/build.make CMakeFiles/cmTC_a9313.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a9313.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_a9313.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_d4211/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4211.dir/build.make CMakeFiles/cmTC_d4211.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4211.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_d4211.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
  char CHECK_FUNCTION_EXISTS();
       ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_a9313
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9313.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_a9313.dir/CheckFunctionExists.c.o  -o cmTC_a9313 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_d4211
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4211.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_d4211.dir/CheckFunctionExists.c.o  -o cmTC_d4211 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function snprintf exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70a25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70a25.dir/build.make CMakeFiles/cmTC_70a25.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70a25.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_70a25.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_b2cc6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2cc6.dir/build.make CMakeFiles/cmTC_b2cc6.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2cc6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_b2cc6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
  char CHECK_FUNCTION_EXISTS();
       ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_70a25
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a25.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTC_70a25.dir/CheckFunctionExists.c.o  -o cmTC_70a25 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_b2cc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2cc6.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTC_b2cc6.dir/CheckFunctionExists.c.o  -o cmTC_b2cc6 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function poll exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9ad4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9ad4.dir/build.make CMakeFiles/cmTC_c9ad4.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9ad4.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_c9ad4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c9ad4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9ad4.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_c9ad4.dir/CheckFunctionExists.c.o  -o cmTC_c9ad4 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8ea53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ea53.dir/build.make CMakeFiles/cmTC_8ea53.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ea53.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_8ea53.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ea53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ea53.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_8ea53.dir/CheckFunctionExists.c.o  -o cmTC_8ea53 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function select exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3dbb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3dbb.dir/build.make CMakeFiles/cmTC_b3dbb.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3dbb.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_b3dbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b3dbb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3dbb.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTC_b3dbb.dir/CheckFunctionExists.c.o  -o cmTC_b3dbb -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1d96b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d96b.dir/build.make CMakeFiles/cmTC_1d96b.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d96b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_1d96b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d96b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d96b.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTC_1d96b.dir/CheckFunctionExists.c.o  -o cmTC_1d96b -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function getaddrinfo exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfe37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfe37.dir/build.make CMakeFiles/cmTC_dfe37.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dfe37.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTC_dfe37.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dfe37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe37.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTC_dfe37.dir/CheckFunctionExists.c.o  -o cmTC_dfe37 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_664dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_664dc.dir/build.make CMakeFiles/cmTC_664dc.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_664dc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTC_664dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_664dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_664dc.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTC_664dc.dir/CheckFunctionExists.c.o  -o cmTC_664dc -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function clock_gettime exists in the rt passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_11fc4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_11fc4.dir/build.make CMakeFiles/cmTC_11fc4.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11fc4.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_11fc4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_11fc4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11fc4.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_11fc4.dir/CheckFunctionExists.c.o  -o cmTC_11fc4 -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_981c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_981c3.dir/build.make CMakeFiles/cmTC_981c3.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_981c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_981c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_981c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_981c3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_981c3.dir/CheckFunctionExists.c.o  -o cmTC_981c3 -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function forkpty exists in the util passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bbbb1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bbbb1.dir/build.make CMakeFiles/cmTC_bbbb1.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bbbb1.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=forkpty   -o CMakeFiles/cmTC_bbbb1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bbbb1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbbb1.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=forkpty    CMakeFiles/cmTC_bbbb1.dir/CheckFunctionExists.c.o  -o cmTC_bbbb1 -rdynamic -lutil -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fb040/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb040.dir/build.make CMakeFiles/cmTC_fb040.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb040.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=forkpty   -o CMakeFiles/cmTC_fb040.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb040.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=forkpty    CMakeFiles/cmTC_fb040.dir/CheckFunctionExists.c.o  -o cmTC_fb040 -rdynamic -lutil -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function cfmakeraw exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a075/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a075.dir/build.make CMakeFiles/cmTC_9a075.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9a075.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTC_9a075.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9a075
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a075.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=cfmakeraw    CMakeFiles/cmTC_9a075.dir/CheckFunctionExists.c.o  -o cmTC_9a075 -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e29d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e29d2.dir/build.make CMakeFiles/cmTC_e29d2.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e29d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTC_e29d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e29d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29d2.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=cfmakeraw    CMakeFiles/cmTC_e29d2.dir/CheckFunctionExists.c.o  -o cmTC_e29d2 -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8c008/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8c008.dir/build.make CMakeFiles/cmTC_8c008.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8c008.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_8c008.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_8c008
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c008.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    CMakeFiles/cmTC_8c008.dir/src.c.o  -o cmTC_8c008 -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fc656/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc656.dir/build.make CMakeFiles/cmTC_fc656.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc656.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_fc656.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fc656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc656.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    CMakeFiles/cmTC_fc656.dir/src.c.o  -o cmTC_fc656 -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 
@@ -683,17 +683,17 @@ int main(void) {
     return 0;
 }
 Performing C SOURCE FILE Test HAVE_GCC_VOLATILE_MEMORY_PROTECTION succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a34e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a34e.dir/build.make CMakeFiles/cmTC_0a34e.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a34e.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_VOLATILE_MEMORY_PROTECTION   -o CMakeFiles/cmTC_0a34e.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_0a34e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a34e.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_VOLATILE_MEMORY_PROTECTION    CMakeFiles/cmTC_0a34e.dir/src.c.o  -o cmTC_0a34e -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6984a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6984a.dir/build.make CMakeFiles/cmTC_6984a.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6984a.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_VOLATILE_MEMORY_PROTECTION   -o CMakeFiles/cmTC_6984a.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6984a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6984a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_VOLATILE_MEMORY_PROTECTION    CMakeFiles/cmTC_6984a.dir/src.c.o  -o cmTC_6984a -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 
@@ -708,17 +708,17 @@ int main(void)
     return 0;
 }
 Performing C SOURCE FILE Test HAVE_GCC_NARG_MACRO succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_49abd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_49abd.dir/build.make CMakeFiles/cmTC_49abd.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_49abd.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_NARG_MACRO   -o CMakeFiles/cmTC_49abd.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_49abd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49abd.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_NARG_MACRO    CMakeFiles/cmTC_49abd.dir/src.c.o  -o cmTC_49abd -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f41b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f41b7.dir/build.make CMakeFiles/cmTC_f41b7.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f41b7.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_NARG_MACRO   -o CMakeFiles/cmTC_f41b7.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f41b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f41b7.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_GCC_NARG_MACRO    CMakeFiles/cmTC_f41b7.dir/src.c.o  -o cmTC_f41b7 -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 
@@ -733,17 +733,17 @@ int main(void) {
     return 0;
 }
 Performing C SOURCE FILE Test HAVE_COMPILER__FUNC__ succeeded with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ea59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ea59.dir/build.make CMakeFiles/cmTC_9ea59.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ea59.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_COMPILER__FUNC__   -o CMakeFiles/cmTC_9ea59.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_9ea59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ea59.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_COMPILER__FUNC__    CMakeFiles/cmTC_9ea59.dir/src.c.o  -o cmTC_9ea59 -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22904/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22904.dir/build.make CMakeFiles/cmTC_22904.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22904.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_COMPILER__FUNC__   -o CMakeFiles/cmTC_22904.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22904.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_COMPILER__FUNC__    CMakeFiles/cmTC_22904.dir/src.c.o  -o cmTC_22904 -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 
@@ -753,59 +753,59 @@ int main(void) {
     return 0;
 }
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13cf9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13cf9.dir/build.make CMakeFiles/cmTC_13cf9.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13cf9.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_13cf9.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_13cf9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13cf9.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_13cf9.dir/CheckIncludeFile.c.o  -o cmTC_13cf9 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_73c43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73c43.dir/build.make CMakeFiles/cmTC_73c43.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73c43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_73c43.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73c43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73c43.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_73c43.dir/CheckIncludeFile.c.o  -o cmTC_73c43 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e9ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e9ae.dir/build.make CMakeFiles/cmTC_2e9ae.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2e9ae.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_2e9ae.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_2e9ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e9ae.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_2e9ae.dir/CheckIncludeFile.c.o  -o cmTC_2e9ae -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c501f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c501f.dir/build.make CMakeFiles/cmTC_c501f.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c501f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_c501f.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c501f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c501f.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_c501f.dir/CheckIncludeFile.c.o  -o cmTC_c501f -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f20d4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f20d4.dir/build.make CMakeFiles/cmTC_f20d4.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f20d4.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f20d4.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f20d4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f20d4.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f20d4.dir/CheckIncludeFile.c.o  -o cmTC_f20d4 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22fce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22fce.dir/build.make CMakeFiles/cmTC_22fce.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22fce.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_22fce.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22fce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22fce.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_22fce.dir/CheckIncludeFile.c.o  -o cmTC_22fce -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of unsigned short passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9f8a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9f8a9.dir/build.make CMakeFiles/cmTC_9f8a9.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9f8a9.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_9f8a9.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTC_9f8a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f8a9.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_9f8a9.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_9f8a9 -rdynamic -lrt 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c24d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c24d3.dir/build.make CMakeFiles/cmTC_c24d3.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c24d3.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_c24d3.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_c24d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c24d3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_c24d3.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_c24d3 -rdynamic -lrt 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -819,33 +819,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/kod/libssh-0.7.4/build/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8b22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8b22.dir/build.make CMakeFiles/cmTC_a8b22.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a8b22.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a8b22.dir/testCXXCompiler.cxx.o -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_a8b22
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8b22.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_a8b22.dir/testCXXCompiler.cxx.o  -o cmTC_a8b22 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_66bde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66bde.dir/build.make CMakeFiles/cmTC_66bde.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66bde.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_66bde.dir/testCXXCompiler.cxx.o -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_66bde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66bde.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_66bde.dir/testCXXCompiler.cxx.o  -o cmTC_66bde -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fdf63/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fdf63.dir/build.make CMakeFiles/cmTC_fdf63.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_fdf63
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdf63.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fdf63 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_4f7da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f7da.dir/build.make CMakeFiles/cmTC_4f7da.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4f7da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f7da.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4f7da -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -855,24 +855,24 @@ Thread model: posix
 gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fdf63' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRR29nK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fdf63 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fdf63' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f7da' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7Ktirt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4f7da /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f7da' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fdf63/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fdf63.dir/build.make CMakeFiles/cmTC_fdf63.dir/build]
-  ignore line: [make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_fdf63]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdf63.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fdf63 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4f7da/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4f7da.dir/build.make CMakeFiles/cmTC_4f7da.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4f7da]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f7da.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4f7da -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -882,13 +882,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fdf63' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRR29nK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fdf63 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f7da' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7Ktirt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4f7da /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccRR29nK.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7Ktirt.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -908,7 +908,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fdf63] ==> ignore
+    arg [cmTC_4f7da] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -920,7 +920,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_fdf63.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4f7da.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -950,17 +950,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d46be/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d46be.dir/build.make CMakeFiles/cmTC_d46be.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d46be.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d46be.dir/feature_tests.cxx.o -c /home/kod/libssh-0.7.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d46be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d46be.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d46be.dir/feature_tests.cxx.o  -o cmTC_d46be -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_565a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_565a7.dir/build.make CMakeFiles/cmTC_565a7.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_565a7.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_565a7.dir/feature_tests.cxx.o -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_565a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_565a7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_565a7.dir/feature_tests.cxx.o  -o cmTC_565a7 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -1023,17 +1023,17 @@ make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d72e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d72e0.dir/build.make CMakeFiles/cmTC_d72e0.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d72e0.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_d72e0.dir/feature_tests.cxx.o -c /home/kod/libssh-0.7.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d72e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d72e0.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d72e0.dir/feature_tests.cxx.o  -o cmTC_d72e0 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_896da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_896da.dir/build.make CMakeFiles/cmTC_896da.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_896da.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_896da.dir/feature_tests.cxx.o -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_896da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_896da.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_896da.dir/feature_tests.cxx.o  -o cmTC_896da -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -1096,17 +1096,17 @@ make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91ca7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_91ca7.dir/build.make CMakeFiles/cmTC_91ca7.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_91ca7.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_91ca7.dir/feature_tests.cxx.o -c /home/kod/libssh-0.7.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_91ca7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ca7.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_91ca7.dir/feature_tests.cxx.o  -o cmTC_91ca7 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9aec9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9aec9.dir/build.make CMakeFiles/cmTC_9aec9.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9aec9.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_9aec9.dir/feature_tests.cxx.o -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9aec9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aec9.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_9aec9.dir/feature_tests.cxx.o  -o cmTC_9aec9 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

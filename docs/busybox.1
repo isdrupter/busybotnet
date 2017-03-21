@@ -133,7 +133,7 @@
 .\" ========================================================================
 .\"
 .IX Title "BUSYBOX 1"
-.TH BUSYBOX 1 "2017-03-20" "version 1.24.1" "busybox"
+.TH BUSYBOX 1 "2017-03-21" "version 1.24.1" "busybox"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -258,8 +258,8 @@ Currently available applets include:
 \&        readprofile, realpath, reboot, reformime, remove\-shell, renice,
 \&        reset, resize, rev, rm, rmdir, rmmod, route, rpm, rpm2cpio,
 \&        rsadecrypt, rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake,
-\&        run\-parts, runlevel, runsv, runsvdir, rx, script, scriptreplay, sed,
-\&        sendmail, seq, setarch, setconsole, setfont, setkeycodes,
+\&        run\-parts, runlevel, runsv, runsvdir, rx, scp, script, scriptreplay,
+\&        sed, sendmail, seq, setarch, setconsole, setfont, setkeycodes,
 \&        setlogcons, setserial, setsid, setuidgid, sftp, sh, sha1sum,
 \&        sha256sum, sha3sum, sha512sum, showkey, shuf, slattach, sleep,
 \&        smemcap, snmpdos, sockstress, softlimit, sort, spiffit, sping,
@@ -3468,6 +3468,9 @@ Start a runsv process for each subdirectory. If it exits, restart it.
 rx \s-1FILE\s0
 .Sp
 Receive a file using the xmodem protocol
+.IP "\fBscp\fR" 4
+.IX Item "scp"
+scp NoneNone
 .IP "\fBscript\fR" 4
 .IX Item "script"
 script [\-afqt] [\-c \s-1PROG\s0] [\s-1OUTFILE\s0]

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kod/libssh-0.7.4/build/examples -I/home/kod/libssh-0.7.4/examples -I/home/kod/libssh-0.7.4/include -I/home/kod/libssh-0.7.4/build 
+CXX_INCLUDES = -I/home/kod/bbn/libssh-0.7.4/build/examples -I/home/kod/bbn/libssh-0.7.4/examples -I/home/kod/bbn/libssh-0.7.4/include -I/home/kod/bbn/libssh-0.7.4/build 
 

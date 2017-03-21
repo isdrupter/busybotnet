@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea165/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea165.dir/build.make CMakeFiles/cmTC_ea165.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea165.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_ea165.dir/CheckSymbolExists.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+Run Build Command:"/usr/bin/make" "cmTC_0e4d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e4d4.dir/build.make CMakeFiles/cmTC_0e4d4.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e4d4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_0e4d4.dir/CheckSymbolExists.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
    return ((int*)(&pthread_create))[argc];
            ^
-CMakeFiles/cmTC_ea165.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ea165.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_ea165.dir/CheckSymbolExists.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ea165/fast' failed
-make: *** [cmTC_ea165/fast] Error 2
+CMakeFiles/cmTC_0e4d4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0e4d4.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0e4d4.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e4d4/fast' failed
+make: *** [cmTC_0e4d4/fast] Error 2
 
-File /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -32,86 +32,86 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a871e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a871e.dir/build.make CMakeFiles/cmTC_a871e.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a871e.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a871e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a871e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a871e.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a871e.dir/CheckFunctionExists.c.o  -o cmTC_a871e -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_dd22a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd22a.dir/build.make CMakeFiles/cmTC_dd22a.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd22a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dd22a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd22a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd22a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_dd22a.dir/CheckFunctionExists.c.o  -o cmTC_dd22a -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a871e.dir/build.make:97: recipe for target 'cmTC_a871e' failed
-make[1]: *** [cmTC_a871e] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a871e/fast' failed
-make: *** [cmTC_a871e/fast] Error 2
+CMakeFiles/cmTC_dd22a.dir/build.make:97: recipe for target 'cmTC_dd22a' failed
+make[1]: *** [cmTC_dd22a] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dd22a/fast' failed
+make: *** [cmTC_dd22a/fast] Error 2
 
 
 Determining if the include file util.h exists failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60ede/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60ede.dir/build.make CMakeFiles/cmTC_60ede.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60ede.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_60ede.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: util.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_a8f96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8f96.dir/build.make CMakeFiles/cmTC_a8f96.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8f96.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_a8f96.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: util.h: No such file or directory
  #include <util.h>
                   ^
 compilation terminated.
-CMakeFiles/cmTC_60ede.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_60ede.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_60ede.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_60ede/fast' failed
-make: *** [cmTC_60ede/fast] Error 2
+CMakeFiles/cmTC_a8f96.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a8f96.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a8f96.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8f96/fast' failed
+make: *** [cmTC_a8f96/fast] Error 2
 
 
 Determining if the include file libutil.h exists failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d317e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d317e.dir/build.make CMakeFiles/cmTC_d317e.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d317e.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_d317e.dir/CheckIncludeFile.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: libutil.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_5b43a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b43a.dir/build.make CMakeFiles/cmTC_5b43a.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b43a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_5b43a.dir/CheckIncludeFile.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: libutil.h: No such file or directory
  #include <libutil.h>
                      ^
 compilation terminated.
-CMakeFiles/cmTC_d317e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d317e.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_d317e.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d317e/fast' failed
-make: *** [cmTC_d317e/fast] Error 2
+CMakeFiles/cmTC_5b43a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5b43a.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5b43a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b43a/fast' failed
+make: *** [cmTC_5b43a/fast] Error 2
 
 
 Determining if the ntohll exist failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_131f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_131f7.dir/build.make CMakeFiles/cmTC_131f7.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_131f7.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_131f7.dir/CheckSymbolExists.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘ntohll’ undeclared (first use in this function)
+Run Build Command:"/usr/bin/make" "cmTC_64214/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64214.dir/build.make CMakeFiles/cmTC_64214.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64214.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_64214.dir/CheckSymbolExists.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘ntohll’ undeclared (first use in this function)
    return ((int*)(&ntohll))[argc];
                    ^~~~~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
  int main(int argc, char** argv)
               ^~~~
-CMakeFiles/cmTC_131f7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_131f7.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_131f7.dir/CheckSymbolExists.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_131f7/fast' failed
-make: *** [cmTC_131f7/fast] Error 2
+CMakeFiles/cmTC_64214.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_64214.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_64214.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_64214/fast' failed
+make: *** [cmTC_64214/fast] Error 2
 
-File /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <arpa/inet.h>
 
@@ -127,28 +127,28 @@ int main(int argc, char** argv)
 }
 
 Determining if the htonll exist failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73df0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73df0.dir/build.make CMakeFiles/cmTC_73df0.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73df0.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_73df0.dir/CheckSymbolExists.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘htonll’ undeclared (first use in this function)
+Run Build Command:"/usr/bin/make" "cmTC_0507e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0507e.dir/build.make CMakeFiles/cmTC_0507e.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0507e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_0507e.dir/CheckSymbolExists.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘htonll’ undeclared (first use in this function)
    return ((int*)(&htonll))[argc];
                    ^~~~~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
  int main(int argc, char** argv)
               ^~~~
-CMakeFiles/cmTC_73df0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_73df0.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_73df0.dir/CheckSymbolExists.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_73df0/fast' failed
-make: *** [cmTC_73df0/fast] Error 2
+CMakeFiles/cmTC_0507e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0507e.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0507e.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0507e/fast' failed
+make: *** [cmTC_0507e/fast] Error 2
 
-File /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <arpa/inet.h>
 
@@ -164,65 +164,65 @@ int main(int argc, char** argv)
 }
 
 Determining if the function __strtoull exists failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_adc8b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_adc8b.dir/build.make CMakeFiles/cmTC_adc8b.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_adc8b.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=__strtoull   -o CMakeFiles/cmTC_adc8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_adc8b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adc8b.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=__strtoull    CMakeFiles/cmTC_adc8b.dir/CheckFunctionExists.c.o  -o cmTC_adc8b -rdynamic -lrt 
-CMakeFiles/cmTC_adc8b.dir/CheckFunctionExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_4a62d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a62d.dir/build.make CMakeFiles/cmTC_4a62d.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a62d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=__strtoull   -o CMakeFiles/cmTC_4a62d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a62d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a62d.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=__strtoull    CMakeFiles/cmTC_4a62d.dir/CheckFunctionExists.c.o  -o cmTC_4a62d -rdynamic -lrt 
+CMakeFiles/cmTC_4a62d.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x15): undefined reference to `__strtoull'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_adc8b.dir/build.make:97: recipe for target 'cmTC_adc8b' failed
-make[1]: *** [cmTC_adc8b] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_adc8b/fast' failed
-make: *** [cmTC_adc8b/fast] Error 2
+CMakeFiles/cmTC_4a62d.dir/build.make:97: recipe for target 'cmTC_4a62d' failed
+make[1]: *** [cmTC_4a62d] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4a62d/fast' failed
+make: *** [cmTC_4a62d/fast] Error 2
 
 
 Performing C SOURCE FILE Test HAVE_MSC_THREAD_LOCAL_STORAGE failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95b7d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95b7d.dir/build.make CMakeFiles/cmTC_95b7d.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95b7d.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_MSC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_95b7d.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: error: return type defaults to ‘int’ [-Wimplicit-int]
+Run Build Command:"/usr/bin/make" "cmTC_e0ce7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0ce7.dir/build.make CMakeFiles/cmTC_e0ce7.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0ce7.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_MSC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_e0ce7.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: error: return type defaults to ‘int’ [-Wimplicit-int]
  __declspec(thread) int tls;
  ^~~~~~~~~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: warning: no previous prototype for ‘__declspec’ [-Wmissing-prototypes]
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:4:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: warning: no previous prototype for ‘__declspec’ [-Wmissing-prototypes]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:4:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
  int main(void) {
                 ^
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: error: type of ‘thread’ defaults to ‘int’ [-Wimplicit-int]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: error: type of ‘thread’ defaults to ‘int’ [-Wimplicit-int]
  __declspec(thread) int tls;
  ^~~~~~~~~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:24: error: declaration for parameter ‘tls’ but no such parameter
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:24: error: declaration for parameter ‘tls’ but no such parameter
  __declspec(thread) int tls;
                         ^~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:6:1: error: expected ‘{’ at end of input
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:6:1: error: expected ‘{’ at end of input
  }
  ^
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: warning: unused parameter ‘thread’ [-Wunused-parameter]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:1: warning: unused parameter ‘thread’ [-Wunused-parameter]
  __declspec(thread) int tls;
  ^~~~~~~~~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:24: warning: unused parameter ‘tls’ [-Wunused-parameter]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:2:24: warning: unused parameter ‘tls’ [-Wunused-parameter]
  __declspec(thread) int tls;
                         ^~~
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:6:1: warning: control reaches end of non-void function [-Wreturn-type]
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:6:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
-CMakeFiles/cmTC_95b7d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_95b7d.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_95b7d.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_95b7d/fast' failed
-make: *** [cmTC_95b7d/fast] Error 2
+CMakeFiles/cmTC_e0ce7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e0ce7.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e0ce7.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e0ce7/fast' failed
+make: *** [cmTC_e0ce7/fast] Error 2
 
 Source file was:
 
@@ -232,22 +232,22 @@ int main(void) {
     return 0;
 }
 Performing C SOURCE FILE Test HAVE_COMPILER__FUNCTION__ failed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79195/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79195.dir/build.make CMakeFiles/cmTC_79195.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_79195.dir/src.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_COMPILER__FUNCTION__   -o CMakeFiles/cmTC_79195.dir/src.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:4:18: error: ISO C does not support ‘__FUNCTION__’ predefined identifier [-Wpedantic]
+Run Build Command:"/usr/bin/make" "cmTC_bdcc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdcc2.dir/build.make CMakeFiles/cmTC_bdcc2.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdcc2.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -DHAVE_COMPILER__FUNCTION__   -o CMakeFiles/cmTC_bdcc2.dir/src.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/src.c:4:18: error: ISO C does not support ‘__FUNCTION__’ predefined identifier [-Wpedantic]
      printf("%s", __FUNCTION__);
                   ^~~~~~~~~~~~
-CMakeFiles/cmTC_79195.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_79195.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_79195.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_79195/fast' failed
-make: *** [cmTC_79195/fast] Error 2
+CMakeFiles/cmTC_bdcc2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bdcc2.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bdcc2.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bdcc2/fast' failed
+make: *** [cmTC_bdcc2/fast] Error 2
 
 Source file was:
 
@@ -257,17 +257,17 @@ int main(void) {
     return 0;
 }
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b103/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b103.dir/build.make CMakeFiles/cmTC_6b103.dir/build
-make[1]: Entering directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b103.dir/TestEndianess.c.o
-/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_6b103.dir/TestEndianess.c.o   -c /home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_6b103
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b103.dir/link.txt --verbose=1
-/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_6b103.dir/TestEndianess.c.o  -o cmTC_6b103 -rdynamic 
-make[1]: Leaving directory '/home/kod/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5f3a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f3a7.dir/build.make CMakeFiles/cmTC_5f3a7.dir/build
+make[1]: Entering directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f3a7.dir/TestEndianess.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_5f3a7.dir/TestEndianess.c.o   -c /home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_5f3a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f3a7.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_5f3a7.dir/TestEndianess.c.o  -o cmTC_5f3a7 -rdynamic 
+make[1]: Leaving directory '/home/kod/bbn/libssh-0.7.4/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */

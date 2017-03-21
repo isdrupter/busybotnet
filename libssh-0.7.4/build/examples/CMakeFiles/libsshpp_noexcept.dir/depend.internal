@@ -6,4 +6,4 @@ examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o
  ../include/libssh/libssh.h
  ../include/libssh/libsshpp.hpp
  ../include/libssh/server.h
- /home/kod/libssh-0.7.4/examples/libsshpp_noexcept.cpp
+ /home/kod/bbn/libssh-0.7.4/examples/libsshpp_noexcept.cpp

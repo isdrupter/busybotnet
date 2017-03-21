@@ -6,5 +6,5 @@ C_FLAGS =  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissin
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/kod/libssh-0.7.4/build/src -I/home/kod/libssh-0.7.4/src -I/home/kod/libssh-0.7.4/include -I/home/kod/libssh-0.7.4/build 
+C_INCLUDES = -I/home/kod/bbn/libssh-0.7.4/build/src -I/home/kod/bbn/libssh-0.7.4/src -I/home/kod/bbn/libssh-0.7.4/include -I/home/kod/bbn/libssh-0.7.4/build 
 

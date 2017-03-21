@@ -28,9 +28,9 @@ libssh/legacy.h
 libssh/libssh.h
 ../include/libssh/libssh/libssh.h
 
-/home/kod/libssh-0.7.4/examples/samplesshd-kbdint.c
+/home/kod/bbn/libssh-0.7.4/examples/samplesshd-kbdint.c
 config.h
-/home/kod/libssh-0.7.4/examples/config.h
+/home/kod/bbn/libssh-0.7.4/examples/config.h
 libssh/libssh.h
 -
 libssh/server.h

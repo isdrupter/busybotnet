@@ -215,6 +215,9 @@
 #define sftp_full_usage  "None"
 #define sftp_trivial_usage  "None"
 
+#define scp_full_usage  "None"
+#define scp_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \

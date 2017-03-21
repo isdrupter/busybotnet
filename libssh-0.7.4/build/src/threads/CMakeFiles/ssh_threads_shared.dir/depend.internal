@@ -5,5 +5,5 @@ src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.o
  ../include/libssh/callbacks.h
  ../include/libssh/legacy.h
  ../include/libssh/libssh.h
- /home/kod/libssh-0.7.4/src/threads/pthread.c
+ /home/kod/bbn/libssh-0.7.4/src/threads/pthread.c
  config.h

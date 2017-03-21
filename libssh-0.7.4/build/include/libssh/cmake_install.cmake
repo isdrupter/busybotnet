@@ -1,4 +1,4 @@
-# Install script for directory: /home/kod/libssh-0.7.4/include/libssh
+# Install script for directory: /home/kod/bbn/libssh-0.7.4/include/libssh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,14 +42,14 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "headers
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/include/libssh" TYPE FILE FILES
-    "/home/kod/libssh-0.7.4/include/libssh/callbacks.h"
-    "/home/kod/libssh-0.7.4/include/libssh/libssh.h"
-    "/home/kod/libssh-0.7.4/include/libssh/ssh2.h"
-    "/home/kod/libssh-0.7.4/include/libssh/legacy.h"
-    "/home/kod/libssh-0.7.4/include/libssh/libsshpp.hpp"
-    "/home/kod/libssh-0.7.4/include/libssh/sftp.h"
-    "/home/kod/libssh-0.7.4/include/libssh/ssh1.h"
-    "/home/kod/libssh-0.7.4/include/libssh/server.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/callbacks.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/libssh.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/ssh2.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/legacy.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/libsshpp.hpp"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/sftp.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/ssh1.h"
+    "/home/kod/bbn/libssh-0.7.4/include/libssh/server.h"
     )
 endif()
 

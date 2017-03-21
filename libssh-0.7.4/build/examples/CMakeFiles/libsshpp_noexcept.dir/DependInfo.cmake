@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kod/libssh-0.7.4/examples/libsshpp_noexcept.cpp" "/home/kod/libssh-0.7.4/build/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o"
+  "/home/kod/bbn/libssh-0.7.4/examples/libsshpp_noexcept.cpp" "/home/kod/bbn/libssh-0.7.4/build/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/kod/libssh-0.7.4/build/src/CMakeFiles/ssh_shared.dir/DependInfo.cmake"
+  "/home/kod/bbn/libssh-0.7.4/build/src/CMakeFiles/ssh_shared.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config SCP
+	bool "scp"
+	default y
+	help
+		x
 config SFTP
 	bool "sftp"
 	default y

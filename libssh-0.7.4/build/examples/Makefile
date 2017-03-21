@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kod/libssh-0.7.4
+CMAKE_SOURCE_DIR = /home/kod/bbn/libssh-0.7.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kod/libssh-0.7.4/build
+CMAKE_BINARY_DIR = /home/kod/bbn/libssh-0.7.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kod/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kod/libssh-0.7.4/build/CPackSourceConfig.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kod/bbn/libssh-0.7.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -81,7 +81,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kod/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -146,14 +146,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kod/libssh-0.7.4/build/CMakeFiles /home/kod/libssh-0.7.4/build/examples/CMakeFiles/progress.marks
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kod/libssh-0.7.4/build/CMakeFiles 0
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kod/bbn/libssh-0.7.4/build/CMakeFiles /home/kod/bbn/libssh-0.7.4/build/examples/CMakeFiles/progress.marks
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kod/bbn/libssh-0.7.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/sshnetcat.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/sshnetcat.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/sshnetcat.dir/rule
 .PHONY : examples/CMakeFiles/sshnetcat.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ sshnetcat: examples/CMakeFiles/sshnetcat.dir/rule
 
 # fast build rule for target.
 sshnetcat/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/build
 .PHONY : sshnetcat/fast
 
 # Convenience name for target.
 examples/CMakeFiles/scp_download.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/scp_download.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/scp_download.dir/rule
 .PHONY : examples/CMakeFiles/scp_download.dir/rule
 
 # Convenience name for target.
@@ -203,12 +203,12 @@ scp_download: examples/CMakeFiles/scp_download.dir/rule
 
 # fast build rule for target.
 scp_download/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/build
 .PHONY : scp_download/fast
 
 # Convenience name for target.
 examples/CMakeFiles/samplesftp.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/samplesftp.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/samplesftp.dir/rule
 .PHONY : examples/CMakeFiles/samplesftp.dir/rule
 
 # Convenience name for target.
@@ -218,12 +218,12 @@ samplesftp: examples/CMakeFiles/samplesftp.dir/rule
 
 # fast build rule for target.
 samplesftp/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/build
 .PHONY : samplesftp/fast
 
 # Convenience name for target.
 examples/CMakeFiles/senddata.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/senddata.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/senddata.dir/rule
 .PHONY : examples/CMakeFiles/senddata.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ senddata: examples/CMakeFiles/senddata.dir/rule
 
 # fast build rule for target.
 senddata/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/build
 .PHONY : senddata/fast
 
 # Convenience name for target.
 examples/CMakeFiles/libssh_scp.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/libssh_scp.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/libssh_scp.dir/rule
 .PHONY : examples/CMakeFiles/libssh_scp.dir/rule
 
 # Convenience name for target.
@@ -248,12 +248,12 @@ libssh_scp: examples/CMakeFiles/libssh_scp.dir/rule
 
 # fast build rule for target.
 libssh_scp/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/build
 .PHONY : libssh_scp/fast
 
 # Convenience name for target.
 examples/CMakeFiles/libsshpp_noexcept.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/libsshpp_noexcept.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/libsshpp_noexcept.dir/rule
 .PHONY : examples/CMakeFiles/libsshpp_noexcept.dir/rule
 
 # Convenience name for target.
@@ -263,12 +263,12 @@ libsshpp_noexcept: examples/CMakeFiles/libsshpp_noexcept.dir/rule
 
 # fast build rule for target.
 libsshpp_noexcept/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/build
 .PHONY : libsshpp_noexcept/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ssh_server_fork.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ssh_server_fork.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ssh_server_fork.dir/rule
 .PHONY : examples/CMakeFiles/ssh_server_fork.dir/rule
 
 # Convenience name for target.
@@ -278,12 +278,12 @@ ssh_server_fork: examples/CMakeFiles/ssh_server_fork.dir/rule
 
 # fast build rule for target.
 ssh_server_fork/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/build
 .PHONY : ssh_server_fork/fast
 
 # Convenience name for target.
 examples/CMakeFiles/samplessh.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/samplessh.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/samplessh.dir/rule
 .PHONY : examples/CMakeFiles/samplessh.dir/rule
 
 # Convenience name for target.
@@ -293,12 +293,12 @@ samplessh: examples/CMakeFiles/samplessh.dir/rule
 
 # fast build rule for target.
 samplessh/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/build
 .PHONY : samplessh/fast
 
 # Convenience name for target.
 examples/CMakeFiles/exec.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/exec.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/exec.dir/rule
 .PHONY : examples/CMakeFiles/exec.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ exec: examples/CMakeFiles/exec.dir/rule
 
 # fast build rule for target.
 exec/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/build
 .PHONY : exec/fast
 
 # Convenience name for target.
 examples/CMakeFiles/samplesshd-kbdint.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/samplesshd-kbdint.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/samplesshd-kbdint.dir/rule
 .PHONY : examples/CMakeFiles/samplesshd-kbdint.dir/rule
 
 # Convenience name for target.
@@ -323,12 +323,12 @@ samplesshd-kbdint: examples/CMakeFiles/samplesshd-kbdint.dir/rule
 
 # fast build rule for target.
 samplesshd-kbdint/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/build
 .PHONY : samplesshd-kbdint/fast
 
 # Convenience name for target.
 examples/CMakeFiles/libsshpp.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/libsshpp.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/libsshpp.dir/rule
 .PHONY : examples/CMakeFiles/libsshpp.dir/rule
 
 # Convenience name for target.
@@ -338,7 +338,7 @@ libsshpp: examples/CMakeFiles/libsshpp.dir/rule
 
 # fast build rule for target.
 libsshpp/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/build
 .PHONY : libsshpp/fast
 
 authentication.o: authentication.c.o
@@ -347,13 +347,13 @@ authentication.o: authentication.c.o
 
 # target to build an object file
 authentication.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/authentication.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/authentication.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/authentication.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/authentication.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/authentication.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/authentication.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/authentication.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/authentication.c.o
 .PHONY : authentication.c.o
 
 authentication.i: authentication.c.i
@@ -362,13 +362,13 @@ authentication.i: authentication.c.i
 
 # target to preprocess a source file
 authentication.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/authentication.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/authentication.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/authentication.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/authentication.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/authentication.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/authentication.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/authentication.c.i
 .PHONY : authentication.c.i
 
 authentication.s: authentication.c.s
@@ -377,13 +377,13 @@ authentication.s: authentication.c.s
 
 # target to generate assembly for a file
 authentication.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/authentication.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/authentication.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/authentication.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/authentication.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/authentication.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/authentication.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/authentication.c.s
 .PHONY : authentication.c.s
 
 connect_ssh.o: connect_ssh.c.o
@@ -392,13 +392,13 @@ connect_ssh.o: connect_ssh.c.o
 
 # target to build an object file
 connect_ssh.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/connect_ssh.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/connect_ssh.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/connect_ssh.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/connect_ssh.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/connect_ssh.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/connect_ssh.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/connect_ssh.c.o
 .PHONY : connect_ssh.c.o
 
 connect_ssh.i: connect_ssh.c.i
@@ -407,13 +407,13 @@ connect_ssh.i: connect_ssh.c.i
 
 # target to preprocess a source file
 connect_ssh.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/connect_ssh.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/connect_ssh.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/connect_ssh.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/connect_ssh.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/connect_ssh.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/connect_ssh.c.i
 .PHONY : connect_ssh.c.i
 
 connect_ssh.s: connect_ssh.c.s
@@ -422,13 +422,13 @@ connect_ssh.s: connect_ssh.c.s
 
 # target to generate assembly for a file
 connect_ssh.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/connect_ssh.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/connect_ssh.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/connect_ssh.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/connect_ssh.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/connect_ssh.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/connect_ssh.c.s
 .PHONY : connect_ssh.c.s
 
 exec.o: exec.c.o
@@ -437,7 +437,7 @@ exec.o: exec.c.o
 
 # target to build an object file
 exec.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/exec.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/exec.c.o
 .PHONY : exec.c.o
 
 exec.i: exec.c.i
@@ -446,7 +446,7 @@ exec.i: exec.c.i
 
 # target to preprocess a source file
 exec.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/exec.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/exec.c.i
 .PHONY : exec.c.i
 
 exec.s: exec.c.s
@@ -455,7 +455,7 @@ exec.s: exec.c.s
 
 # target to generate assembly for a file
 exec.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/exec.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/exec.c.s
 .PHONY : exec.c.s
 
 knownhosts.o: knownhosts.c.o
@@ -464,13 +464,13 @@ knownhosts.o: knownhosts.c.o
 
 # target to build an object file
 knownhosts.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/knownhosts.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/knownhosts.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/knownhosts.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/knownhosts.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/knownhosts.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/knownhosts.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/knownhosts.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/knownhosts.c.o
 .PHONY : knownhosts.c.o
 
 knownhosts.i: knownhosts.c.i
@@ -479,13 +479,13 @@ knownhosts.i: knownhosts.c.i
 
 # target to preprocess a source file
 knownhosts.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/knownhosts.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/knownhosts.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/knownhosts.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/knownhosts.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/knownhosts.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/knownhosts.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/knownhosts.c.i
 .PHONY : knownhosts.c.i
 
 knownhosts.s: knownhosts.c.s
@@ -494,13 +494,13 @@ knownhosts.s: knownhosts.c.s
 
 # target to generate assembly for a file
 knownhosts.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/knownhosts.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/knownhosts.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/knownhosts.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/knownhosts.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/knownhosts.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/knownhosts.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/exec.dir/build.make examples/CMakeFiles/exec.dir/knownhosts.c.s
 .PHONY : knownhosts.c.s
 
 libssh_scp.o: libssh_scp.c.o
@@ -509,7 +509,7 @@ libssh_scp.o: libssh_scp.c.o
 
 # target to build an object file
 libssh_scp.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/libssh_scp.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/libssh_scp.c.o
 .PHONY : libssh_scp.c.o
 
 libssh_scp.i: libssh_scp.c.i
@@ -518,7 +518,7 @@ libssh_scp.i: libssh_scp.c.i
 
 # target to preprocess a source file
 libssh_scp.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/libssh_scp.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/libssh_scp.c.i
 .PHONY : libssh_scp.c.i
 
 libssh_scp.s: libssh_scp.c.s
@@ -527,7 +527,7 @@ libssh_scp.s: libssh_scp.c.s
 
 # target to generate assembly for a file
 libssh_scp.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/libssh_scp.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libssh_scp.dir/build.make examples/CMakeFiles/libssh_scp.dir/libssh_scp.c.s
 .PHONY : libssh_scp.c.s
 
 libsshpp.o: libsshpp.cpp.o
@@ -536,7 +536,7 @@ libsshpp.o: libsshpp.cpp.o
 
 # target to build an object file
 libsshpp.cpp.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.o
 .PHONY : libsshpp.cpp.o
 
 libsshpp.i: libsshpp.cpp.i
@@ -545,7 +545,7 @@ libsshpp.i: libsshpp.cpp.i
 
 # target to preprocess a source file
 libsshpp.cpp.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.i
 .PHONY : libsshpp.cpp.i
 
 libsshpp.s: libsshpp.cpp.s
@@ -554,7 +554,7 @@ libsshpp.s: libsshpp.cpp.s
 
 # target to generate assembly for a file
 libsshpp.cpp.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp.dir/build.make examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.s
 .PHONY : libsshpp.cpp.s
 
 libsshpp_noexcept.o: libsshpp_noexcept.cpp.o
@@ -563,7 +563,7 @@ libsshpp_noexcept.o: libsshpp_noexcept.cpp.o
 
 # target to build an object file
 libsshpp_noexcept.cpp.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o
 .PHONY : libsshpp_noexcept.cpp.o
 
 libsshpp_noexcept.i: libsshpp_noexcept.cpp.i
@@ -572,7 +572,7 @@ libsshpp_noexcept.i: libsshpp_noexcept.cpp.i
 
 # target to preprocess a source file
 libsshpp_noexcept.cpp.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.i
 .PHONY : libsshpp_noexcept.cpp.i
 
 libsshpp_noexcept.s: libsshpp_noexcept.cpp.s
@@ -581,7 +581,7 @@ libsshpp_noexcept.s: libsshpp_noexcept.cpp.s
 
 # target to generate assembly for a file
 libsshpp_noexcept.cpp.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/libsshpp_noexcept.dir/build.make examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.s
 .PHONY : libsshpp_noexcept.cpp.s
 
 sample.o: sample.c.o
@@ -590,7 +590,7 @@ sample.o: sample.c.o
 
 # target to build an object file
 sample.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/sample.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/sample.c.o
 .PHONY : sample.c.o
 
 sample.i: sample.c.i
@@ -599,7 +599,7 @@ sample.i: sample.c.i
 
 # target to preprocess a source file
 sample.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/sample.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/sample.c.i
 .PHONY : sample.c.i
 
 sample.s: sample.c.s
@@ -608,7 +608,7 @@ sample.s: sample.c.s
 
 # target to generate assembly for a file
 sample.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/sample.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplessh.dir/build.make examples/CMakeFiles/samplessh.dir/sample.c.s
 .PHONY : sample.c.s
 
 samplesftp.o: samplesftp.c.o
@@ -617,7 +617,7 @@ samplesftp.o: samplesftp.c.o
 
 # target to build an object file
 samplesftp.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/samplesftp.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/samplesftp.c.o
 .PHONY : samplesftp.c.o
 
 samplesftp.i: samplesftp.c.i
@@ -626,7 +626,7 @@ samplesftp.i: samplesftp.c.i
 
 # target to preprocess a source file
 samplesftp.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/samplesftp.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/samplesftp.c.i
 .PHONY : samplesftp.c.i
 
 samplesftp.s: samplesftp.c.s
@@ -635,7 +635,7 @@ samplesftp.s: samplesftp.c.s
 
 # target to generate assembly for a file
 samplesftp.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/samplesftp.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesftp.dir/build.make examples/CMakeFiles/samplesftp.dir/samplesftp.c.s
 .PHONY : samplesftp.c.s
 
 samplesshd-kbdint.o: samplesshd-kbdint.c.o
@@ -644,7 +644,7 @@ samplesshd-kbdint.o: samplesshd-kbdint.c.o
 
 # target to build an object file
 samplesshd-kbdint.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o
 .PHONY : samplesshd-kbdint.c.o
 
 samplesshd-kbdint.i: samplesshd-kbdint.c.i
@@ -653,7 +653,7 @@ samplesshd-kbdint.i: samplesshd-kbdint.c.i
 
 # target to preprocess a source file
 samplesshd-kbdint.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.i
 .PHONY : samplesshd-kbdint.c.i
 
 samplesshd-kbdint.s: samplesshd-kbdint.c.s
@@ -662,7 +662,7 @@ samplesshd-kbdint.s: samplesshd-kbdint.c.s
 
 # target to generate assembly for a file
 samplesshd-kbdint.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/samplesshd-kbdint.dir/build.make examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.s
 .PHONY : samplesshd-kbdint.c.s
 
 scp_download.o: scp_download.c.o
@@ -671,7 +671,7 @@ scp_download.o: scp_download.c.o
 
 # target to build an object file
 scp_download.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/scp_download.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/scp_download.c.o
 .PHONY : scp_download.c.o
 
 scp_download.i: scp_download.c.i
@@ -680,7 +680,7 @@ scp_download.i: scp_download.c.i
 
 # target to preprocess a source file
 scp_download.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/scp_download.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/scp_download.c.i
 .PHONY : scp_download.c.i
 
 scp_download.s: scp_download.c.s
@@ -689,7 +689,7 @@ scp_download.s: scp_download.c.s
 
 # target to generate assembly for a file
 scp_download.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/scp_download.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/scp_download.dir/build.make examples/CMakeFiles/scp_download.dir/scp_download.c.s
 .PHONY : scp_download.c.s
 
 senddata.o: senddata.c.o
@@ -698,7 +698,7 @@ senddata.o: senddata.c.o
 
 # target to build an object file
 senddata.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/senddata.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/senddata.c.o
 .PHONY : senddata.c.o
 
 senddata.i: senddata.c.i
@@ -707,7 +707,7 @@ senddata.i: senddata.c.i
 
 # target to preprocess a source file
 senddata.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/senddata.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/senddata.c.i
 .PHONY : senddata.c.i
 
 senddata.s: senddata.c.s
@@ -716,7 +716,7 @@ senddata.s: senddata.c.s
 
 # target to generate assembly for a file
 senddata.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/senddata.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/senddata.dir/build.make examples/CMakeFiles/senddata.dir/senddata.c.s
 .PHONY : senddata.c.s
 
 ssh_server_fork.o: ssh_server_fork.c.o
@@ -725,7 +725,7 @@ ssh_server_fork.o: ssh_server_fork.c.o
 
 # target to build an object file
 ssh_server_fork.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o
 .PHONY : ssh_server_fork.c.o
 
 ssh_server_fork.i: ssh_server_fork.c.i
@@ -734,7 +734,7 @@ ssh_server_fork.i: ssh_server_fork.c.i
 
 # target to preprocess a source file
 ssh_server_fork.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.i
 .PHONY : ssh_server_fork.c.i
 
 ssh_server_fork.s: ssh_server_fork.c.s
@@ -743,7 +743,7 @@ ssh_server_fork.s: ssh_server_fork.c.s
 
 # target to generate assembly for a file
 ssh_server_fork.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/ssh_server_fork.dir/build.make examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.s
 .PHONY : ssh_server_fork.c.s
 
 sshnetcat.o: sshnetcat.c.o
@@ -752,7 +752,7 @@ sshnetcat.o: sshnetcat.c.o
 
 # target to build an object file
 sshnetcat.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.o
 .PHONY : sshnetcat.c.o
 
 sshnetcat.i: sshnetcat.c.i
@@ -761,7 +761,7 @@ sshnetcat.i: sshnetcat.c.i
 
 # target to preprocess a source file
 sshnetcat.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.i
 .PHONY : sshnetcat.c.i
 
 sshnetcat.s: sshnetcat.c.s
@@ -770,7 +770,7 @@ sshnetcat.s: sshnetcat.c.s
 
 # target to generate assembly for a file
 sshnetcat.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f examples/CMakeFiles/sshnetcat.dir/build.make examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.s
 .PHONY : sshnetcat.c.s
 
 # Help Target
@@ -851,6 +851,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

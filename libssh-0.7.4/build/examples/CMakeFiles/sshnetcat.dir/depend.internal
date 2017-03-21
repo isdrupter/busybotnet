@@ -4,24 +4,24 @@
 examples/CMakeFiles/sshnetcat.dir/authentication.c.o
  ../include/libssh/legacy.h
  ../include/libssh/libssh.h
- /home/kod/libssh-0.7.4/examples/authentication.c
- /home/kod/libssh-0.7.4/examples/examples_common.h
+ /home/kod/bbn/libssh-0.7.4/examples/authentication.c
+ /home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 examples/CMakeFiles/sshnetcat.dir/connect_ssh.c.o
  ../include/libssh/legacy.h
  ../include/libssh/libssh.h
- /home/kod/libssh-0.7.4/examples/connect_ssh.c
- /home/kod/libssh-0.7.4/examples/examples_common.h
+ /home/kod/bbn/libssh-0.7.4/examples/connect_ssh.c
+ /home/kod/bbn/libssh-0.7.4/examples/examples_common.h
 examples/CMakeFiles/sshnetcat.dir/knownhosts.c.o
  ../include/libssh/legacy.h
  ../include/libssh/libssh.h
- /home/kod/libssh-0.7.4/examples/examples_common.h
- /home/kod/libssh-0.7.4/examples/knownhosts.c
+ /home/kod/bbn/libssh-0.7.4/examples/examples_common.h
+ /home/kod/bbn/libssh-0.7.4/examples/knownhosts.c
 examples/CMakeFiles/sshnetcat.dir/sshnetcat.c.o
  ../include/libssh/callbacks.h
  ../include/libssh/legacy.h
  ../include/libssh/libssh.h
  ../include/libssh/pcap.h
  ../include/libssh/sftp.h
- /home/kod/libssh-0.7.4/examples/examples_common.h
- /home/kod/libssh-0.7.4/examples/sshnetcat.c
+ /home/kod/bbn/libssh-0.7.4/examples/examples_common.h
+ /home/kod/bbn/libssh-0.7.4/examples/sshnetcat.c
  config.h

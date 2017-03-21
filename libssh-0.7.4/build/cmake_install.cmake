@@ -1,4 +1,4 @@
-# Install script for directory: /home/kod/libssh-0.7.4
+# Install script for directory: /home/kod/bbn/libssh-0.7.4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,8 +42,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconf
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES
-    "/home/kod/libssh-0.7.4/build/libssh.pc"
-    "/home/kod/libssh-0.7.4/build/libssh_threads.pc"
+    "/home/kod/bbn/libssh-0.7.4/build/libssh.pc"
+    "/home/kod/bbn/libssh-0.7.4/build/libssh_threads.pc"
     )
 endif()
 
@@ -57,8 +57,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconf
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES
-    "/home/kod/libssh-0.7.4/build/libssh.pc"
-    "/home/kod/libssh-0.7.4/build/libssh_threads.pc"
+    "/home/kod/bbn/libssh-0.7.4/build/libssh.pc"
+    "/home/kod/bbn/libssh-0.7.4/build/libssh_threads.pc"
     )
 endif()
 
@@ -72,17 +72,17 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib/cmake/libssh" TYPE FILE FILES
-    "/home/kod/libssh-0.7.4/build/libssh-config.cmake"
-    "/home/kod/libssh-0.7.4/build/libssh-config-version.cmake"
+    "/home/kod/bbn/libssh-0.7.4/build/libssh-config.cmake"
+    "/home/kod/bbn/libssh-0.7.4/build/libssh-config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kod/libssh-0.7.4/build/doc/cmake_install.cmake")
-  include("/home/kod/libssh-0.7.4/build/include/cmake_install.cmake")
-  include("/home/kod/libssh-0.7.4/build/src/cmake_install.cmake")
-  include("/home/kod/libssh-0.7.4/build/examples/cmake_install.cmake")
+  include("/home/kod/bbn/libssh-0.7.4/build/doc/cmake_install.cmake")
+  include("/home/kod/bbn/libssh-0.7.4/build/include/cmake_install.cmake")
+  include("/home/kod/bbn/libssh-0.7.4/build/src/cmake_install.cmake")
+  include("/home/kod/bbn/libssh-0.7.4/build/examples/cmake_install.cmake")
 
 endif()
 
@@ -94,5 +94,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kod/libssh-0.7.4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kod/bbn/libssh-0.7.4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

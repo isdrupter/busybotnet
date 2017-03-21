@@ -42,7 +42,7 @@ string
 libssh/libssh.h
 ../include/libssh/libssh/libssh.h
 
-/home/kod/libssh-0.7.4/examples/libsshpp.cpp
+/home/kod/bbn/libssh-0.7.4/examples/libsshpp.cpp
 iostream
 -
 string

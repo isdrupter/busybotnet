@@ -7,6 +7,7 @@
 lib-y:=
 
 INSERT
+lib-$(CONFIG_SCP)    += scp.o
 lib-$(CONFIG_SFTP)    += sftp.o
 lib-$(CONFIG_SFTP)    += connect_ssh.o
 lib-$(CONFIG_SSH)    += ssh.o

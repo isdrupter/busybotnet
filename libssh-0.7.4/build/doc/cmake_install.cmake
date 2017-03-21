@@ -1,4 +1,4 @@
-# Install script for directory: /home/kod/libssh-0.7.4/doc
+# Install script for directory: /home/kod/bbn/libssh-0.7.4/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

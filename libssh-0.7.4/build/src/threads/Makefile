@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kod/libssh-0.7.4
+CMAKE_SOURCE_DIR = /home/kod/bbn/libssh-0.7.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kod/libssh-0.7.4/build
+CMAKE_BINARY_DIR = /home/kod/bbn/libssh-0.7.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/kod/libssh-0.7.4/build
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kod/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kod/libssh-0.7.4/build/CPackSourceConfig.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kod/bbn/libssh-0.7.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -114,7 +114,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kod/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -146,14 +146,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kod/libssh-0.7.4/build/CMakeFiles /home/kod/libssh-0.7.4/build/src/threads/CMakeFiles/progress.marks
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kod/libssh-0.7.4/build/CMakeFiles 0
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kod/bbn/libssh-0.7.4/build/CMakeFiles /home/kod/bbn/libssh-0.7.4/build/src/threads/CMakeFiles/progress.marks
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kod/bbn/libssh-0.7.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/clean
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/preinstall
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/preinstall
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/threads/CMakeFiles/ssh_threads_shared.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/CMakeFiles/ssh_threads_shared.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/CMakeFiles/ssh_threads_shared.dir/rule
 .PHONY : src/threads/CMakeFiles/ssh_threads_shared.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ ssh_threads_shared: src/threads/CMakeFiles/ssh_threads_shared.dir/rule
 
 # fast build rule for target.
 ssh_threads_shared/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/build
 .PHONY : ssh_threads_shared/fast
 
 # Convenience name for target.
 src/threads/CMakeFiles/ssh_threads_static.dir/rule:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/CMakeFiles/ssh_threads_static.dir/rule
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/threads/CMakeFiles/ssh_threads_static.dir/rule
 .PHONY : src/threads/CMakeFiles/ssh_threads_static.dir/rule
 
 # Convenience name for target.
@@ -203,7 +203,7 @@ ssh_threads_static: src/threads/CMakeFiles/ssh_threads_static.dir/rule
 
 # fast build rule for target.
 ssh_threads_static/fast:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/build
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/build
 .PHONY : ssh_threads_static/fast
 
 pthread.o: pthread.c.o
@@ -212,8 +212,8 @@ pthread.o: pthread.c.o
 
 # target to build an object file
 pthread.c.o:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.o
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.o
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.o
 .PHONY : pthread.c.o
 
 pthread.i: pthread.c.i
@@ -222,8 +222,8 @@ pthread.i: pthread.c.i
 
 # target to preprocess a source file
 pthread.c.i:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.i
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.i
 .PHONY : pthread.c.i
 
 pthread.s: pthread.c.s
@@ -232,8 +232,8 @@ pthread.s: pthread.c.s
 
 # target to generate assembly for a file
 pthread.c.s:
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.s
-	cd /home/kod/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_shared.dir/build.make src/threads/CMakeFiles/ssh_threads_shared.dir/pthread.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build && $(MAKE) -f src/threads/CMakeFiles/ssh_threads_static.dir/build.make src/threads/CMakeFiles/ssh_threads_static.dir/pthread.c.s
 .PHONY : pthread.c.s
 
 # Help Target
@@ -266,6 +266,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

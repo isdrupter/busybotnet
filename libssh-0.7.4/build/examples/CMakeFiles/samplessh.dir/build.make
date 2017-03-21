@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kod/libssh-0.7.4
+CMAKE_SOURCE_DIR = /home/kod/bbn/libssh-0.7.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kod/libssh-0.7.4/build
+CMAKE_BINARY_DIR = /home/kod/bbn/libssh-0.7.4/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/samplessh.dir/depend.make
@@ -59,16 +59,16 @@ include examples/CMakeFiles/samplessh.dir/flags.make
 
 examples/CMakeFiles/samplessh.dir/sample.c.o: examples/CMakeFiles/samplessh.dir/flags.make
 examples/CMakeFiles/samplessh.dir/sample.c.o: ../examples/sample.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/samplessh.dir/sample.c.o"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/sample.c.o   -c /home/kod/libssh-0.7.4/examples/sample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/samplessh.dir/sample.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/sample.c.o   -c /home/kod/bbn/libssh-0.7.4/examples/sample.c
 
 examples/CMakeFiles/samplessh.dir/sample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samplessh.dir/sample.c.i"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/examples/sample.c > CMakeFiles/samplessh.dir/sample.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/examples/sample.c > CMakeFiles/samplessh.dir/sample.c.i
 
 examples/CMakeFiles/samplessh.dir/sample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samplessh.dir/sample.c.s"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/examples/sample.c -o CMakeFiles/samplessh.dir/sample.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/examples/sample.c -o CMakeFiles/samplessh.dir/sample.c.s
 
 examples/CMakeFiles/samplessh.dir/sample.c.o.requires:
 
@@ -83,16 +83,16 @@ examples/CMakeFiles/samplessh.dir/sample.c.o.provides.build: examples/CMakeFiles
 
 examples/CMakeFiles/samplessh.dir/authentication.c.o: examples/CMakeFiles/samplessh.dir/flags.make
 examples/CMakeFiles/samplessh.dir/authentication.c.o: ../examples/authentication.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/samplessh.dir/authentication.c.o"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/authentication.c.o   -c /home/kod/libssh-0.7.4/examples/authentication.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/samplessh.dir/authentication.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/authentication.c.o   -c /home/kod/bbn/libssh-0.7.4/examples/authentication.c
 
 examples/CMakeFiles/samplessh.dir/authentication.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samplessh.dir/authentication.c.i"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/examples/authentication.c > CMakeFiles/samplessh.dir/authentication.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/examples/authentication.c > CMakeFiles/samplessh.dir/authentication.c.i
 
 examples/CMakeFiles/samplessh.dir/authentication.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samplessh.dir/authentication.c.s"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/examples/authentication.c -o CMakeFiles/samplessh.dir/authentication.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/examples/authentication.c -o CMakeFiles/samplessh.dir/authentication.c.s
 
 examples/CMakeFiles/samplessh.dir/authentication.c.o.requires:
 
@@ -107,16 +107,16 @@ examples/CMakeFiles/samplessh.dir/authentication.c.o.provides.build: examples/CM
 
 examples/CMakeFiles/samplessh.dir/knownhosts.c.o: examples/CMakeFiles/samplessh.dir/flags.make
 examples/CMakeFiles/samplessh.dir/knownhosts.c.o: ../examples/knownhosts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object examples/CMakeFiles/samplessh.dir/knownhosts.c.o"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/knownhosts.c.o   -c /home/kod/libssh-0.7.4/examples/knownhosts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object examples/CMakeFiles/samplessh.dir/knownhosts.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/knownhosts.c.o   -c /home/kod/bbn/libssh-0.7.4/examples/knownhosts.c
 
 examples/CMakeFiles/samplessh.dir/knownhosts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samplessh.dir/knownhosts.c.i"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/examples/knownhosts.c > CMakeFiles/samplessh.dir/knownhosts.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/examples/knownhosts.c > CMakeFiles/samplessh.dir/knownhosts.c.i
 
 examples/CMakeFiles/samplessh.dir/knownhosts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samplessh.dir/knownhosts.c.s"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/examples/knownhosts.c -o CMakeFiles/samplessh.dir/knownhosts.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/examples/knownhosts.c -o CMakeFiles/samplessh.dir/knownhosts.c.s
 
 examples/CMakeFiles/samplessh.dir/knownhosts.c.o.requires:
 
@@ -131,16 +131,16 @@ examples/CMakeFiles/samplessh.dir/knownhosts.c.o.provides.build: examples/CMakeF
 
 examples/CMakeFiles/samplessh.dir/connect_ssh.c.o: examples/CMakeFiles/samplessh.dir/flags.make
 examples/CMakeFiles/samplessh.dir/connect_ssh.c.o: ../examples/connect_ssh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object examples/CMakeFiles/samplessh.dir/connect_ssh.c.o"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/connect_ssh.c.o   -c /home/kod/libssh-0.7.4/examples/connect_ssh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object examples/CMakeFiles/samplessh.dir/connect_ssh.c.o"
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplessh.dir/connect_ssh.c.o   -c /home/kod/bbn/libssh-0.7.4/examples/connect_ssh.c
 
 examples/CMakeFiles/samplessh.dir/connect_ssh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samplessh.dir/connect_ssh.c.i"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/libssh-0.7.4/examples/connect_ssh.c > CMakeFiles/samplessh.dir/connect_ssh.c.i
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kod/bbn/libssh-0.7.4/examples/connect_ssh.c > CMakeFiles/samplessh.dir/connect_ssh.c.i
 
 examples/CMakeFiles/samplessh.dir/connect_ssh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samplessh.dir/connect_ssh.c.s"
-	cd /home/kod/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/libssh-0.7.4/examples/connect_ssh.c -o CMakeFiles/samplessh.dir/connect_ssh.c.s
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kod/bbn/libssh-0.7.4/examples/connect_ssh.c -o CMakeFiles/samplessh.dir/connect_ssh.c.s
 
 examples/CMakeFiles/samplessh.dir/connect_ssh.c.o.requires:
 
@@ -172,8 +172,8 @@ examples/samplessh: src/libssh.so.4.4.1
 examples/samplessh: /usr/lib/x86_64-linux-gnu/libcrypto.so
 examples/samplessh: /usr/lib/x86_64-linux-gnu/libz.so
 examples/samplessh: examples/CMakeFiles/samplessh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kod/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable samplessh"
-	cd /home/kod/libssh-0.7.4/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/samplessh.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kod/bbn/libssh-0.7.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable samplessh"
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/samplessh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/samplessh.dir/build: examples/samplessh
@@ -188,10 +188,10 @@ examples/CMakeFiles/samplessh.dir/requires: examples/CMakeFiles/samplessh.dir/co
 .PHONY : examples/CMakeFiles/samplessh.dir/requires
 
 examples/CMakeFiles/samplessh.dir/clean:
-	cd /home/kod/libssh-0.7.4/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/samplessh.dir/cmake_clean.cmake
+	cd /home/kod/bbn/libssh-0.7.4/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/samplessh.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/samplessh.dir/clean
 
 examples/CMakeFiles/samplessh.dir/depend:
-	cd /home/kod/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kod/libssh-0.7.4 /home/kod/libssh-0.7.4/examples /home/kod/libssh-0.7.4/build /home/kod/libssh-0.7.4/build/examples /home/kod/libssh-0.7.4/build/examples/CMakeFiles/samplessh.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kod/bbn/libssh-0.7.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kod/bbn/libssh-0.7.4 /home/kod/bbn/libssh-0.7.4/examples /home/kod/bbn/libssh-0.7.4/build /home/kod/bbn/libssh-0.7.4/build/examples /home/kod/bbn/libssh-0.7.4/build/examples/CMakeFiles/samplessh.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/samplessh.dir/depend
 
