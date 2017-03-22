@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2017-03-22 20:52:52 CET"
+#define AUTOCONF_TIMESTAMP "2017-03-22 22:10:16 CET"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,14 +4516,10 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
-#define CONFIG_ZMAP 1
-#define ENABLE_ZMAP 1
-#ifdef MAKE_SUID
-# define IF_ZMAP(...) __VA_ARGS__ "CONFIG_ZMAP"
-#else
-# define IF_ZMAP(...) __VA_ARGS__
-#endif
-#define IF_NOT_ZMAP(...)
+#undef CONFIG_ZMAP
+#define ENABLE_ZMAP 0
+#define IF_ZMAP(...)
+#define IF_NOT_ZMAP(...) __VA_ARGS__
 #define CONFIG_RANDIP 1
 #define ENABLE_RANDIP 1
 #ifdef MAKE_SUID

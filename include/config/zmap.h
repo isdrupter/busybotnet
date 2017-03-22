@@ -1,1 +1,1 @@
-#define CONFIG_ZMAP 1
+#undef CONFIG_ZMAP

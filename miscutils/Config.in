@@ -324,7 +324,7 @@ config XXD
 	  Returns an indeterminate value.
 config ZMAP
 	bool "zmap"
-	default y
+	default n
 	help
 		x
 config RANDIP
