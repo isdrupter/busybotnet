@@ -6,6 +6,16 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config RANDIP
+	bool "randip"
+	default y
+	help
+		x
+config TS3
+	bool "ts3"
+	default n
+	help
+		x
 config SCP
 	bool "scp"
 	default y

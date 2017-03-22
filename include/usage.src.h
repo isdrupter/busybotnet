@@ -218,6 +218,12 @@
 #define scp_full_usage  "None"
 #define scp_trivial_usage  "None"
 
+#define ts3_full_usage  "None"
+#define ts3_trivial_usage  "None"
+
+#define randip_full_usage  "None"
+#define randip_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \

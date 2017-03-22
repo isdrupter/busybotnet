@@ -7,6 +7,8 @@
 lib-y:=
 
 INSERT
+lib-$(CONFIG_RANDIP)    += randip.o
+lib-$(CONFIG_TS3)    += ts3.o
 lib-$(CONFIG_SCP)    += scp.o
 lib-$(CONFIG_SFTP)    += sftp.o
 lib-$(CONFIG_SFTP)    += connect_ssh.o

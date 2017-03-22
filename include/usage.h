@@ -219,6 +219,12 @@
 #define scp_full_usage  "None"
 #define scp_trivial_usage  "None"
 
+#define ts3_full_usage  "None"
+#define ts3_trivial_usage  "None"
+
+#define randip_full_usage  "None"
+#define randip_trivial_usage  "None"
+
 
 #define ar_trivial_usage \
        "[-o] [-v] [-p] [-t] [-x] ARCHIVE FILES" \

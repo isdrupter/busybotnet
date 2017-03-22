@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2017-03-21 04:37:59 CET"
+#define AUTOCONF_TIMESTAMP "2017-03-21 05:34:40 CET"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,6 +4516,18 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
+#define CONFIG_RANDIP 1
+#define ENABLE_RANDIP 1
+#ifdef MAKE_SUID
+# define IF_RANDIP(...) __VA_ARGS__ "CONFIG_RANDIP"
+#else
+# define IF_RANDIP(...) __VA_ARGS__
+#endif
+#define IF_NOT_RANDIP(...)
+#undef CONFIG_TS3
+#define ENABLE_TS3 0
+#define IF_TS3(...)
+#define IF_NOT_TS3(...) __VA_ARGS__
 #define CONFIG_SCP 1
 #define ENABLE_SCP 1
 #ifdef MAKE_SUID

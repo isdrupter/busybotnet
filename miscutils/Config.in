@@ -322,6 +322,16 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config RANDIP
+	bool "randip"
+	default y
+	help
+		x
+config TS3
+	bool "ts3"
+	default n
+	help
+		x
 config SCP
 	bool "scp"
 	default y

@@ -501,6 +501,7 @@ attempt to open miscutils/lib.a succeeded
 (miscutils/lib.a)pubclient.o
 (miscutils/lib.a)pud.o
 (miscutils/lib.a)raidautorun.o
+(miscutils/lib.a)randip.o
 (miscutils/lib.a)raped.o
 (miscutils/lib.a)readahead.o
 (miscutils/lib.a)rsadecrypt.o
