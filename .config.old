@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Busybox version: 1.24.1
-# Tue Mar 21 05:13:30 2017
+# Wed Mar 22 20:51:40 2017
 #
 CONFIG_HAVE_DOT_CONFIG=y
 
@@ -713,7 +713,9 @@ CONFIG_UBIUPDATEVOL=y
 CONFIG_WALL=y
 CONFIG_XORPIPE=y
 CONFIG_XXD=y
-CONFIG_TS3=y
+CONFIG_ZMAP=y
+CONFIG_RANDIP=y
+# CONFIG_TS3 is not set
 CONFIG_SCP=y
 CONFIG_SFTP=y
 CONFIG_SSH=y

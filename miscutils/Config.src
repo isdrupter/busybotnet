@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config ZMAP
+	bool "zmap"
+	default n
+	help
+		x
 config RANDIP
 	bool "randip"
 	default y

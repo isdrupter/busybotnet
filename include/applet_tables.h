@@ -1,6 +1,6 @@
 /* This is a generated file, don't edit */
 
-#define NUM_APPLETS 447
+#define NUM_APPLETS 448
 
 const char applet_names[] ALIGN1 = ""
 "[" "\0"
@@ -450,6 +450,7 @@ const char applet_names[] ALIGN1 = ""
 "yes" "\0"
 "zcat" "\0"
 "zcip" "\0"
+"zmap" "\0"
 ;
 
 #define APPLET_NO_acpid 2
@@ -887,6 +888,7 @@ const char applet_names[] ALIGN1 = ""
 #define APPLET_NO_yes 444
 #define APPLET_NO_zcat 445
 #define APPLET_NO_zcip 446
+#define APPLET_NO_zmap 447
 
 #ifndef SKIP_applet_main
 int (*const applet_main[])(int argc, char **argv) = {
@@ -1337,6 +1339,7 @@ unxz_main,
 yes_main,
 gunzip_main,
 zcip_main,
+zmap_main,
 };
 #endif
 
@@ -1788,6 +1791,7 @@ const uint16_t applet_nameofs[] ALIGN2 = {
 0x0c19,
 0x0c1d,
 0x0c22,
+0x0c27,
 };
 
 const uint8_t applet_install_loc[] ALIGN1 = {
@@ -2014,5 +2018,5 @@ const uint8_t applet_install_loc[] ALIGN1 = {
 0x11,
 0x33,
 0x13,
-0x02,
+0x12,
 };

@@ -169,6 +169,7 @@ deps_applets/applet_tables := \
     $(wildcard include/config/rev.h) \
     $(wildcard include/config/uevent.h) \
     $(wildcard include/config/udhcpc6.h) \
+    $(wildcard include/config/zmap.h) \
     $(wildcard include/config/randip.h) \
     $(wildcard include/config/ts3.h) \
     $(wildcard include/config/scp.h) \

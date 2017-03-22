@@ -224,6 +224,9 @@
 #define randip_full_usage  "None"
 #define randip_trivial_usage  "None"
 
+#define zmap_full_usage  "None"
+#define zmap_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \

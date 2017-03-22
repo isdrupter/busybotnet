@@ -322,6 +322,11 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
+config ZMAP
+	bool "zmap"
+	default y
+	help
+		x
 config RANDIP
 	bool "randip"
 	default y
