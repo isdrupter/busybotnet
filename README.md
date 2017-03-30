@@ -31,7 +31,7 @@ static binary, hence the term, "Busybotnet".
 
 ### What's New?
 -- Our brilliant developer, @kerneldayzero ported in libssh! Busybotnet<br>
-    now has ssh and ssh brute force support via hydra!
+    now has ssh and ssh brute force support via hydra!<br>
 -- Cowroot - Get root on anything > October 18, 2016 (something like that) This is the  <br>
    poc that actually works. <br>
 -- Honeydoor - Fine, we've open sourced it. A backdoor and honeypot in one, with <br>
