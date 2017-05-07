@@ -22,7 +22,7 @@
 *IT DOESN'T COMPILE IT SELF.*<br>
 *We won't help you DDOS people*<br>
 *If you have build errors, GOOGLE them!*<br>
-*Do you own research and ask **intellegent** questions.*<br>
+*Do you own research and ask **intelligent** questions.*<br>
 *Now with ssh bruteforce support*<br>
 
 Busybotnet is a (deviously named) fork of [busybox](https://busybox.net) that aims to make many of the security tools that
