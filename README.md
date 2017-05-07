@@ -18,7 +18,9 @@
 
 ### One Bin to Rule Them All...
 
-*now with ssh bruteforce support*
+
+*IT DOESN'T COMPILE IT SELF. If you have build errors, GOOGLE them! Do you own research and ask **intellegent** questions.*<br>
+*Now with ssh bruteforce support*
 
 Busybotnet is a (deviously named) fork of [busybox](https://busybox.net) that aims to make many of the security tools that
 are often only found on full systems available their resource lacking counterparts we call embedded devices. With the 
