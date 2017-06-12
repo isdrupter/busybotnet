@@ -9,8 +9,8 @@
 #define LIBDIR "/usr/local/lib"
 #define PLUGINDIR "/usr/local/lib/libssh-4"
 #define SYSCONFDIR "/usr/local/etc"
-#define BINARYDIR "/home/kod/bbn/libssh-0.7.4/build"
-#define SOURCEDIR "/home/kod/bbn/libssh-0.7.4"
+#define BINARYDIR "/home/kod/busybotnet/libssh-0.7.4/build"
+#define SOURCEDIR "/home/kod/busybotnet/libssh-0.7.4"
 
 /************************** HEADER FILES *************************/
 

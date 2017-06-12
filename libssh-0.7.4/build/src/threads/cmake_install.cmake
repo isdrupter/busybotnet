@@ -1,4 +1,4 @@
-# Install script for directory: /home/kod/bbn/libssh-0.7.4/src/threads
+# Install script for directory: /home/kod/busybotnet/libssh-0.7.4/src/threads
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,7 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
       "$ENV{DESTDIR}/usr/local/lib/libssh_threads.so.4.4.1"
       "$ENV{DESTDIR}/usr/local/lib/libssh_threads.so.4"
@@ -54,9 +54,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kod/bbn/libssh-0.7.4/build/src/threads/libssh_threads.so.4.4.1"
-    "/home/kod/bbn/libssh-0.7.4/build/src/threads/libssh_threads.so.4"
-    "/home/kod/bbn/libssh-0.7.4/build/src/threads/libssh_threads.so"
+    "/home/kod/busybotnet/libssh-0.7.4/build/src/threads/libssh_threads.so.4.4.1"
+    "/home/kod/busybotnet/libssh-0.7.4/build/src/threads/libssh_threads.so.4"
+    "/home/kod/busybotnet/libssh-0.7.4/build/src/threads/libssh_threads.so"
     )
   foreach(file
       "$ENV{DESTDIR}/usr/local/lib/libssh_threads.so.4.4.1"
@@ -67,7 +67,7 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/kod/bbn/libssh-0.7.4/build/src:"
+           OLD_RPATH "/home/kod/busybotnet/libssh-0.7.4/build/src:"
            NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -76,7 +76,7 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
   endforeach()
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libraries")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/libssh_threads.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -85,6 +85,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "librari
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/kod/bbn/libssh-0.7.4/build/src/threads/libssh_threads.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/kod/busybotnet/libssh-0.7.4/build/src/threads/libssh_threads.a")
 endif()
 

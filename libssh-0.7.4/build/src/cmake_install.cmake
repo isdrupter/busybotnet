@@ -1,4 +1,4 @@
-# Install script for directory: /home/kod/bbn/libssh-0.7.4/src
+# Install script for directory: /home/kod/busybotnet/libssh-0.7.4/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,7 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
       "$ENV{DESTDIR}/usr/local/lib/libssh.so.4.4.1"
       "$ENV{DESTDIR}/usr/local/lib/libssh.so.4"
@@ -54,9 +54,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kod/bbn/libssh-0.7.4/build/src/libssh.so.4.4.1"
-    "/home/kod/bbn/libssh-0.7.4/build/src/libssh.so.4"
-    "/home/kod/bbn/libssh-0.7.4/build/src/libssh.so"
+    "/home/kod/busybotnet/libssh-0.7.4/build/src/libssh.so.4.4.1"
+    "/home/kod/busybotnet/libssh-0.7.4/build/src/libssh.so.4"
+    "/home/kod/busybotnet/libssh-0.7.4/build/src/libssh.so"
     )
   foreach(file
       "$ENV{DESTDIR}/usr/local/lib/libssh.so.4.4.1"
@@ -72,7 +72,7 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
   endforeach()
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libraries")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/libssh.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -81,12 +81,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "librari
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/kod/bbn/libssh-0.7.4/build/src/libssh.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/kod/busybotnet/libssh-0.7.4/build/src/libssh.a")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kod/bbn/libssh-0.7.4/build/src/threads/cmake_install.cmake")
+  include("/home/kod/busybotnet/libssh-0.7.4/build/src/threads/cmake_install.cmake")
 
 endif()
 

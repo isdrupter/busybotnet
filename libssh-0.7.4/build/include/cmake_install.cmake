@@ -1,4 +1,4 @@
-# Install script for directory: /home/kod/bbn/libssh-0.7.4/include
+# Install script for directory: /home/kod/busybotnet/libssh-0.7.4/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kod/bbn/libssh-0.7.4/build/include/libssh/cmake_install.cmake")
+  include("/home/kod/busybotnet/libssh-0.7.4/build/include/libssh/cmake_install.cmake")
 
 endif()
 

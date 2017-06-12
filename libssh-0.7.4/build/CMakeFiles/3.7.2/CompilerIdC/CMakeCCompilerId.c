@@ -5,6 +5,11 @@
 #if defined(__18CXX)
 # define ID_VOID_MAIN
 #endif
+#if defined(__CLASSIC_C__)
+/* cv-qualifiers did not exist in K&R C */
+# define const
+# define volatile
+#endif
 
 
 /* Version number components: V=Version, R=Revision, P=Patch
@@ -145,6 +150,9 @@
 
 #elif defined(__TINYC__)
 # define COMPILER_ID "TinyCC"
+
+#elif defined(__BCC__)
+# define COMPILER_ID "Bruce"
 
 #elif defined(__SCO_VERSION__)
 # define COMPILER_ID "SCO"
@@ -378,11 +386,11 @@ char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 #  define PLATFORM_ID "Windows3x"
 
 # else /* unknown platform */
-#  define PLATFORM_ID ""
+#  define PLATFORM_ID
 # endif
 
 #else /* unknown platform */
-# define PLATFORM_ID ""
+# define PLATFORM_ID
 
 #endif
 
@@ -432,7 +440,7 @@ char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 # endif
 
 #else
-#  define ARCHITECTURE_ID ""
+#  define ARCHITECTURE_ID
 #endif
 
 /* Convert integer to decimal digit literals.  */
@@ -503,23 +511,32 @@ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
 
 
 
-const char* info_language_dialect_default = "INFO" ":" "dialect_default["
-#if !defined(__STDC_VERSION__)
-  "90"
+#if !defined(__STDC__)
+# if defined(_MSC_VER) && !defined(__clang__)
+#  define C_DIALECT "90"
+# else
+#  define C_DIALECT
+# endif
 #elif __STDC_VERSION__ >= 201000L
-  "11"
+# define C_DIALECT "11"
 #elif __STDC_VERSION__ >= 199901L
-  "99"
+# define C_DIALECT "99"
 #else
+# define C_DIALECT "90"
 #endif
-"]";
+const char* info_language_dialect_default =
+  "INFO" ":" "dialect_default[" C_DIALECT "]";
 
 /*--------------------------------------------------------------------------*/
 
 #ifdef ID_VOID_MAIN
 void main() {}
 #else
+# if defined(__CLASSIC_C__)
+int main(argc, argv) int argc; char *argv[];
+# else
 int main(int argc, char* argv[])
+# endif
 {
   int require = 0;
   require += info_compiler[argc];
