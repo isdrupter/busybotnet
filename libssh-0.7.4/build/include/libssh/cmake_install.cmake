@@ -32,7 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "headers" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "headers")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/include/libssh/callbacks.h;/usr/local/include/libssh/libssh.h;/usr/local/include/libssh/ssh2.h;/usr/local/include/libssh/legacy.h;/usr/local/include/libssh/libsshpp.hpp;/usr/local/include/libssh/sftp.h;/usr/local/include/libssh/ssh1.h;/usr/local/include/libssh/server.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
