@@ -64,7 +64,7 @@ config BRUTE_SSH
 		x
 config ZIGGY
         bool "ziggy"
-        default n
+        default y
         help
                 x
 
@@ -295,7 +295,7 @@ config PEPSI
 
 config PONG 
         bool "pong"
-        default y
+        default n
         help
           This is dank botnet command.
 
@@ -857,7 +857,7 @@ config INOTIFYD
 
 config KNBOT
         bool "knbot"
-        default y
+        default n
         help
           This is dank botnet command.
 
