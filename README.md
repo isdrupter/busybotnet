@@ -35,6 +35,55 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### What's New?
+
+
+
+
+
+		WooWOOASHHHH  lieeek omzg whuu itz a newziez relzie leassseieieie?!
+
+yeah sure whatever, people obviously dont have any idea how to build overly complicated and intentionally underdocumented project
+
+
+
+			or something
+
+
+
+so here ya go, little tricks to make ur life easier and crap
+
+
+Complilations are going to get messy when you start wanting to cross compile. Busybox is not particularly well written and I was drunk for the
+majority of this codebase, I think. I can't remember. So pretty much this is a hideoous mess and i don't even blame you for wondering why I am even getting it
+Into any sort of where it can compile out of the box or something like that.
+
+My friend asked me kinda so i told him the super secret rules about how its a broken piece of junk and you just have to build it like an idiot lmao
+
+
+
+I wrote some scripts to do it for ya in OMG_HELP because the main thing i hear about this besides "what is it" is "why wont it build"
+
+It does build, geez, come on you think anyone would work on this if it didnt compile lol wow
+
+
+If youre stupid like me you dont care about how long it takes to build you just want it to fricqin build and make a deng binary so you go the legit 
+
+
+EASIEST  route to build it cross platform and thats to just cheat and not even build it cross platform at all. But Ur lil rinky dink router can't build this crap it needs cmake so you gotta have that junk, so the ol stage3 gentoo tarballs are pretty out of sync now, so it's not gonna be easy to use the 2014 releases anymore like the old days, so just build a deb chroot cross arch and execute it with good ol smexy qemu. Are my instructions hecca boring u rn bcuz im like not rly trying to even give it away what this shit does or how to build it.  
+
+
+Just like be easy an stuff dude it has self rep and p2p and errthang read the code urself lmao 
+
+
+
+
+
+
+
+		- - - G G E E T T       R R E E K K T T      L L M M A A O O 
+
+
+
 -- Our brilliant developer, @kerneldayzero ported in libssh! Busybotnet<br>
     now has ssh and ssh brute force support via hydra!<br>
 -- Cowroot - Get root on anything > October 18, 2016 (something like that) This is the  <br>
