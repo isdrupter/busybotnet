@@ -401,9 +401,9 @@ Building is litterally 3 commands <br>
 **Step 1:** <br>
 $ make clean <br>
 **Step 2:** <br>
-$ make menuconfig 
+$ make menuconfig <br>
   -- Configure your build <br>
-  -- Choose applets to include
+  -- Choose applets to include <br>
   -- If we're cross compiling see below... <br>
 **Step 3:** <br>
 $ make <br>
@@ -413,7 +413,7 @@ To install, run ./busybox --install -s /path/to/wherever
 #### Cross Compiling
 Cross-compiling busybo* is easy. First, you need a toolchain. <br>
 **Step 1:** <br>
-Grab the latest [buildroot](https://download.buildroot.org) and build it (same as above, $ make clean;make menuconfig;make) <br>
+Grab the latest [buildroot](https://buildroot.org/download.html) and build it (same as above, $ make clean;make menuconfig;make) <br>
 **Step 2** <br>
 Configure with *make menuconfig* -- Specifically, tell busybotnet where your *toolchain and sysroot* are located. <br>
 **Step 3** <br>
