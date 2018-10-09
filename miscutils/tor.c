@@ -47,7 +47,7 @@
  **/
 
 #define MAIN_PRIVATE
-#include "tor/or.h"
+#include "tor/or/or.h"
 #include "tor/addressmap.h"
 #include "tor/backtrace.h"
 #include "tor/bridges.h"
