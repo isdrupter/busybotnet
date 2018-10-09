@@ -84,6 +84,12 @@ Just like be easy an stuff dude it has self rep and p2p and errthang read the co
 
 
 
+
+got tor yeet succ it lmao checc it
+------------------------------------------------------------------------------------
+anon lost his login to this acct like 2 years ago lmao
+-------------------------------------------------------------------------------------
+
 -- Our brilliant developer, @kerneldayzero ported in libssh! Busybotnet<br>
     now has ssh and ssh brute force support via hydra!<br>
 -- Cowroot - Get root on anything > October 18, 2016 (something like that) This is the  <br>
