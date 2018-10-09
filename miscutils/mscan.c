@@ -1577,7 +1577,7 @@ int masscan_main(int argc, char *argv[])
             x += base64_selftest();
             x += banner1_selftest();
             x += output_selftest();
-            x += siphash24_selftest();
+            x += m_siphash24_selftest();
             x += ntp_selftest();
             x += snmp_selftest();
             x += payloads_selftest();

@@ -321,8 +321,8 @@ CFLAGS		:= $(CFLAGS) -pthread
 CFLAGS_busybox	:= $(CFLAGS_busybox)
 CPPFLAGS	:= $(CPPFLAGS)
 AFLAGS		:= $(AFLAGS)
-LDFLAGS		:= $(LDFLAGS) -static -Wl,--no-as-needed -Lmiscutils/ncrack/nbase -Lmiscutils/ncrack/nsock/src -Lmiscutils/ncrack/opensshlib 
-LDLIBS		:= -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lm -lrt -ldl -lpthread -lcrypto 
+LDFLAGS		:= $(LDFLAGS) -static -Wl,--no-as-needed 
+LDLIBS		:= -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lm -lrt -ldl -lpthread -lcrypto 
  
 
 

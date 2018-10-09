@@ -1228,7 +1228,7 @@ masscan_set_parameter(struct Masscan *masscan,
         }
         fclose(fp);
 
-        bytes_encoded = base64_encode(buf2, sizeof(buf2)-1, buf, bytes_read);
+        bytes_encoded = m_base64_encode(buf2, sizeof(buf2)-1, buf, bytes_read);
         buf2[bytes_encoded] = '\0';
 
         sprintf_s(foo, sizeof(foo), "hello-string[%u]", (unsigned)index);

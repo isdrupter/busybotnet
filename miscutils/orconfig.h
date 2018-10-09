@@ -5,7 +5,7 @@
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
 
 /* tor's build directory */
-#define BUILDDIR "/home/kod/tor-0.3.4.8"
+#define BUILDDIR "/home/kod/busybotnet/HELP_OMG/tor-0.3.4.8"
 
 /* tor's configuration directory */
 #define CONFDIR "/usr/local/etc/tor"
@@ -14,7 +14,7 @@
 /* #undef DEBUG_SMARTLIST */
 
 /* Defined if we're turning off memory safety code to look for bugs */
-/* #undef DISABLE_MEMORY_SENTINELS */
+#define DISABLE_MEMORY_SENTINELS 1
 
 /* Defined if we're not going to look for a torrc in SYSCONF */
 /* #undef DISABLE_SYSTEM_TORRC */
@@ -302,7 +302,7 @@
 #define HAVE_MMAP 1
 
 /* Compile with Directory Authority feature support */
-#define HAVE_MODULE_DIRAUTH 1
+/* #undef HAVE_MODULE_DIRAUTH */
 
 /* Define to 1 if you have the <nacl/crypto_scalarmult_curve25519.h> header
    file. */
@@ -715,7 +715,7 @@
 #define SIZEOF___INT64 0
 
 /* tor's sourcedir directory */
-#define SRCDIR "/home/kod/tor-0.3.4.8"
+#define SRCDIR "/home/kod/busybotnet/HELP_OMG/tor-0.3.4.8"
 
 /* Set to 1 if we can compile a simple stdatomic example. */
 #define STDATOMIC_WORKS 1
@@ -827,3 +827,4 @@
 # endif
 #endif
 
+#undef USE_BACKTRACE

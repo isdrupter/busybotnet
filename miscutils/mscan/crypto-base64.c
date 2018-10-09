@@ -8,7 +8,7 @@
 /*****************************************************************************
  *****************************************************************************/
 size_t
-base64_encode(void *vdst, size_t sizeof_dst, 
+m_base64_encode(void *vdst, size_t sizeof_dst, 
               const void *vsrc, size_t sizeof_src)
 {
     static const char *b64 =
@@ -65,7 +65,7 @@ base64_encode(void *vdst, size_t sizeof_dst,
 /*****************************************************************************
  *****************************************************************************/
 size_t
-base64_decode(void *vdst, size_t sizeof_dst, 
+m_base64_decode(void *vdst, size_t sizeof_dst, 
               const void *vsrc, size_t sizeof_src)
 {
 	static const unsigned char rstr[] = {
@@ -188,8 +188,8 @@ base64_selftest(void)
     unsigned i;
     unsigned seed = (unsigned)time(0);
 
-    buf_len = base64_encode(buf, sizeof(buf), "hello", 5);
-    buf2_len = base64_decode(buf2, sizeof(buf2), buf, buf_len);
+    buf_len = m_base64_encode(buf, sizeof(buf), "hello", 5);
+    buf2_len = m_base64_decode(buf2, sizeof(buf2), buf, buf_len);
     if (buf2_len != 5 && memcmp(buf2, "hello", 5) != 0) {
         fprintf(stderr, "base64: selftest failed\n");
         return 1;
@@ -209,10 +209,10 @@ base64_selftest(void)
         }
 
         /* encode it */
-        buf2_len = base64_encode(buf2, sizeof(buf2), buf, buf_len);
+        buf2_len = m_base64_encode(buf2, sizeof(buf2), buf, buf_len);
 
         /* decode it back again */
-        buf3_len = base64_decode(buf3, sizeof(buf3), buf2, buf2_len);
+        buf3_len = m_base64_decode(buf3, sizeof(buf3), buf2, buf2_len);
 
         /* now make sure result equals original */
         if (buf3_len != buf_len && memcmp(buf3, buf, buf_len) != 0) {

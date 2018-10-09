@@ -125,5 +125,5 @@ syn_cookie( unsigned ip_them, unsigned port_them,
     data[1] = port_them;
     data[2] = ip_me;
     data[3] = port_me;
-    return siphash24(data, sizeof(data), x);
+    return m_siphash24(data, sizeof(data), x);
 }

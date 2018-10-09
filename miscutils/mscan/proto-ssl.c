@@ -1244,7 +1244,7 @@ ssl_hello(const void *templ)
     for (i=4; i<32; i++) {
         static const uint64_t key[2] = {0,0};
         unsigned val = i+now;
-        unsigned char c = (unsigned char)siphash24(&val, sizeof(val), key);
+        unsigned char c = (unsigned char)m_siphash24(&val, sizeof(val), key);
         
         px[11+i] = c;
     }
