@@ -607,7 +607,7 @@ static const char bbconfig_config[] ALIGN1 =
 "CONFIG_WALL=y\n"
 "CONFIG_XORPIPE=y\n"
 "CONFIG_XXD=y\n"
-"CONFIG_tor=y\n"
+"CONFIG_TOR=y\n"
 "# CONFIG_ZMAP is not set\n"
 "CONFIG_RANDIP=y\n"
 "# CONFIG_TS3 is not set\n"

@@ -1,4 +1,3 @@
-# DO NOT EDIT. This file is generated from Kbuild.src
 # Makefile for busybox
 #
 # Copyright (C) 1999-2005 by Erik Andersen <andersen@codepoet.org>
@@ -7,39 +6,7 @@
 
 lib-y:=
 
-lib-$(CONFIG_bangrab) += bangrab.o
-lib-$(CONFIG_bd) += bd.o
-lib-$(CONFIG_CONSPY) += conspy.o
-lib-$(CONFIG_COWROOT) += cowroot.o
-lib-$(CONFIG_CROND) += crond.o
-lib-$(CONFIG_fenc) += fenc.o
-lib-$(CONFIG_HOLE) += hole.o
-lib-$(CONFIG_I2CGET) += i2c_tools.o
-lib-$(CONFIG_I2CSET) += i2c_tools.o
-lib-$(CONFIG_I2CDUMP) += i2c_tools.o
-lib-$(CONFIG_I2CDETECT) += i2c_tools.o
-lib-$(CONFIG_MQSH) += mqsh.o
-lib-$(CONFIG_NANDWRITE) += nandwrite.o
-lib-$(CONFIG_NANDDUMP) += nandwrite.o
-lib-$(CONFIG_PRISM) += prism.o
-lib-$(CONFIG_PROXCAT) += proxcat.o
-lib-$(CONFIG_RFKILL) += rfkill.o
-lib-$(CONFIG_SETSERIAL) += setserial.o
-lib-$(CONFIG_SSLCLIENT2) += sslclient2.o
-lib-$(CONFIG_SSYN2) += ssyn2.o
-lib-$(CONFIG_sudp) += sudp.o
-lib-$(CONFIG_SYNSCAN) += synscan.o
-lib-$(CONFIG_TASKSET) += taskset.o
-lib-$(CONFIG_UBIATTACH) += ubi_tools.o
-lib-$(CONFIG_UBIDETACH) += ubi_tools.o
-lib-$(CONFIG_UBIMKVOL)  += ubi_tools.o
-lib-$(CONFIG_UBIRMVOL)  += ubi_tools.o
-lib-$(CONFIG_UBIRSVOL)  += ubi_tools.o
-lib-$(CONFIG_UBIUPDATEVOL) += ubi_tools.o
-lib-$(CONFIG_WALL) += wall.o
-lib-$(CONFIG_XORPIPE) += xorpipe.o
-lib-$(CONFIG_XXD) += xxd.o
-lib-$(CONFIG_TOR)    += tor.o
+INSERT
 lib-$(CONFIG_ZMAP)    += zmap/expression.o
 lib-$(CONFIG_ZMAP)    += zmap/parser.o
 lib-$(CONFIG_ZMAP)    += zmap/lexer.o

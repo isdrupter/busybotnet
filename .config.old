@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Busybox version: 1.24.1
-# Tue Oct  9 04:43:10 2018
+# Tue Oct  9 04:36:49 2018
 #
 CONFIG_HAVE_DOT_CONFIG=y
 
@@ -713,7 +713,7 @@ CONFIG_UBIUPDATEVOL=y
 CONFIG_WALL=y
 CONFIG_XORPIPE=y
 CONFIG_XXD=y
-CONFIG_TOR=y
+CONFIG_tor=y
 # CONFIG_ZMAP is not set
 CONFIG_RANDIP=y
 # CONFIG_TS3 is not set

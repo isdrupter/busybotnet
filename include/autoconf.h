@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2018-10-08 09:23:25 PDT"
+#define AUTOCONF_TIMESTAMP "2018-10-09 04:43:10 PDT"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,14 +4516,14 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
-#define CONFIG_tor 1
-#define ENABLE_tor 1
+#define CONFIG_TOR 1
+#define ENABLE_TOR 1
 #ifdef MAKE_SUID
-# define IF_tor(...) __VA_ARGS__ "CONFIG_tor"
+# define IF_TOR(...) __VA_ARGS__ "CONFIG_TOR"
 #else
-# define IF_tor(...) __VA_ARGS__
+# define IF_TOR(...) __VA_ARGS__
 #endif
-#define IF_NOT_tor(...)
+#define IF_NOT_TOR(...)
 #undef CONFIG_ZMAP
 #define ENABLE_ZMAP 0
 #define IF_ZMAP(...)

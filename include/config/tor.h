@@ -1,1 +1,1 @@
-#define CONFIG_tor 1
+#define CONFIG_TOR 1

@@ -322,8 +322,7 @@ config XXD
 	default y
 	help
 	  Returns an indeterminate value.
-
-config tor
+config TOR
 	bool "tor"
 	default y
 	help

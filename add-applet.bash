@@ -10,7 +10,7 @@
 echo -n "enter basename: ";read i; 
 
 echo "Config"
-cat miscutils/Config.src | sed "s/INSERT/INSERT\nconfig\ $i\n\tbool\ \"$i\"\n\tdefault\ y\n\thelp\n\t\tx/" > tmp.config.src; cat tmp.config.src > miscutils/Config.src
+cat miscutils/Config.src | sed "s/INSERT/INSERT\nconfig\ `awk '{ print toupper($0) }' <<< $i`\n\tbool\ \"$i\"\n\tdefault\ y\n\thelp\n\t\tx/" > tmp.config.src; cat tmp.config.src > miscutils/Config.src
 rm -v tmp.config.src
 echo "Kbuild"
 
