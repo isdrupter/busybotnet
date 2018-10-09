@@ -8,7 +8,6 @@ lib-y:=
 
 INSERT
 lib-$(CONFIG_TOR)    += tor.o
-
 lib-$(CONFIG_ZMAP)    += zmap/expression.o
 lib-$(CONFIG_ZMAP)    += zmap/parser.o
 lib-$(CONFIG_ZMAP)    += zmap/lexer.o

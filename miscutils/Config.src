@@ -6,7 +6,6 @@
 menu "Miscellaneous Utilities"
 
 INSERT
-
 config tor
 	bool "tor"
 	default y
