@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config SOCAT
+	bool "socat"
+	default y
+	help
+		x
 config TOR
 	bool "tor"
 	default y

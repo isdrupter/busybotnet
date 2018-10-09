@@ -229,6 +229,9 @@
 #define tor_full_usage  "None"
 #define tor_trivial_usage  "None"
 
+#define socat_full_usage  "None"
+#define socat_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \
