@@ -101,41 +101,41 @@ Currently available applets include:
 	i2cget, i2cset, id, ifconfig, ifdown, ifenslave, ifplugd, ifup,
 	inetd, init, insmod, install, ionice, iostat, ip, ipaddr, ipcalc,
 	ipcrm, ipcs, iplink, iproute, iprule, iptunnel, jolt, jshon,
-	kbd_mode, kill, killall, killall5, kissofdeath, kkill, klogd, knbot,
-	land, last, latierra, less, linux32, linux64, linuxrc, lizbot,
-	lizserv, ln, loadfont, loadkmap, logger, login, logname, logread,
-	losetup, lpd, lpq, lpr, ls, lsattr, lsmod, lsof, lspci, lsusb,
-	lzcat, lzma, lzop, lzopcat, makedevs, makemime, man, masscan,
-	md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo,
-	mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
-	modinfo, modprobe, more, mount, mountpoint, mpstat, mq, mqsh, mqtte,
-	mt, mv, nameif, nanddump, nandwrite, nbd-client, nc, nestea,
-	netscan, netstat, newtear, nice, nmeter, nohup, nslookup, ntpd,
-	ntpdos, od, openvt, orgasm, ottf, passwd, patator, patch, pgrep,
-	pidof, ping, ping6, pipe_progress, pivot_root, pkdecrypt, pkencrypt,
-	pkill, pksign, pmap, pong, popmaildir, poweroff, powertop, printenv,
-	printf, prism, proxcat, ps, pscan, pstree, pubclient, pud, pwd,
-	pwdx, raidautorun, randip, raped, rdate, rdev, readahead, readlink,
-	readprofile, realpath, reboot, reformime, remove-shell, renice,
-	reset, resize, rev, rm, rmdir, rmmod, route, rpm, rpm2cpio,
-	rsadecrypt, rsaencrypt, rsagenkey, rsasign, rsaverify, rtcwake,
-	run-parts, runlevel, runsv, runsvdir, rx, scp, script, scriptreplay,
-	sed, sendmail, seq, setarch, setconsole, setfont, setkeycodes,
-	setlogcons, setserial, setsid, setuidgid, sftp, sh, sha1sum,
-	sha256sum, sha3sum, sha512sum, showkey, shuf, slattach, sleep,
-	smemcap, snmpdos, sockstress, softlimit, sort, spiffit, sping,
-	split, ssh, ssyn2, start-stop-daemon, stat, stream, strings, stty,
-	su, subclient, sudp, sulogin, sum, sv, svlogd, swapoff, swapon,
-	switch_root, sync, synk4, synscan, sysctl, syslogd, tac, tail, tar,
-	tcpsvd, teardrop, tee, telnet, telnetd, test, tftp, tftpd, time,
-	timeout, top, torloris, touch, tr, traceroute, traceroute6, true,
-	truncate, tty, ttysize, tunctl, ubiattach, ubidetach, ubimkvol,
-	ubirmvol, ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof,
-	udpsvd, uevent, umount, uname, unexpand, uniq, unix2dos, unlink,
-	unlzma, unlzop, unxz, unzip, uptime, users, usleep, uudecode,
-	uuencode, vconfig, vi, vlock, volname, wall, watch, watchdog, wc,
-	wget, which, who, whoami, whois, wingatecrash, xargs, xersex,
-	xersextcp, xorpipe, xxd, xz, xzcat, yes, zcat, zcip
+	kbd_mode, kill, killall, killall5, kissofdeath, kkill, klogd, land,
+	last, latierra, less, linux32, linux64, linuxrc, lizbot, lizserv,
+	ln, loadfont, loadkmap, logger, login, logname, logread, losetup,
+	lpd, lpq, lpr, ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma,
+	lzop, lzopcat, makedevs, makemime, man, masscan, md5sum, mdev, mesg,
+	microcom, mkdir, mkdosfs, mke2fs, mkfifo, mkfs.ext2, mkfs.minix,
+	mkfs.vfat, mknod, mkpasswd, mkswap, mktemp, modinfo, modprobe, more,
+	mount, mountpoint, mpstat, mq, mqsh, mqtte, mt, mv, nameif,
+	nanddump, nandwrite, nbd-client, nc, nestea, netscan, netstat,
+	newtear, nice, nmeter, nohup, nslookup, ntpd, ntpdos, od, openvt,
+	orgasm, ottf, passwd, patator, patch, pgrep, pidof, ping, ping6,
+	pipe_progress, pivot_root, pkdecrypt, pkencrypt, pkill, pksign,
+	pmap, popmaildir, poweroff, powertop, printenv, printf, prism,
+	proxcat, ps, pscan, pstree, pubclient, pud, pwd, pwdx, raidautorun,
+	randip, raped, rdate, rdev, readahead, readlink, readprofile,
+	realpath, reboot, reformime, remove-shell, renice, reset, resize,
+	rev, rm, rmdir, rmmod, route, rpm, rpm2cpio, rsadecrypt, rsaencrypt,
+	rsagenkey, rsasign, rsaverify, rtcwake, run-parts, runlevel, runsv,
+	runsvdir, rx, scp, script, scriptreplay, sed, sendmail, seq,
+	setarch, setconsole, setfont, setkeycodes, setlogcons, setserial,
+	setsid, setuidgid, sftp, sh, sha1sum, sha256sum, sha3sum, sha512sum,
+	showkey, shuf, slattach, sleep, smemcap, snmpdos, sockstress,
+	softlimit, sort, spiffit, sping, split, ssh, ssyn2,
+	start-stop-daemon, stat, stream, strings, stty, su, subclient, sudp,
+	sulogin, sum, sv, svlogd, swapoff, swapon, switch_root, sync, synk4,
+	synscan, sysctl, syslogd, tac, tail, tar, tcpsvd, teardrop, tee,
+	telnet, telnetd, test, tftp, tftpd, time, timeout, top, tor,
+	torloris, touch, tr, traceroute, traceroute6, true, truncate, tty,
+	ttysize, tunctl, ubiattach, ubidetach, ubimkvol, ubirmvol, ubirsvol,
+	ubiupdatevol, udhcpc, udhcpd, udpdata, udpspoof, udpsvd, uevent,
+	umount, uname, unexpand, uniq, unix2dos, unlink, unlzma, unlzop,
+	unxz, unzip, uptime, users, usleep, uudecode, uuencode, vconfig, vi,
+	vlock, volname, wall, watch, watchdog, wc, wget, which, who, whoami,
+	whois, wingatecrash, xargs, xersex, xersextcp, xorpipe, xxd, xz,
+	xzcat, yes, zcat, zcip, ziggy
 
 =head1 COMMAND DESCRIPTIONS
 
@@ -2034,10 +2034,6 @@ Kernel logger
 	-c N	Print to console messages more urgent than prio N (1-8)
 	-n	Run in foreground
 
-=item B<knbot>
-
-knbot NoneNone
-
 =item B<land>
 
 land NoneNone
@@ -2927,10 +2923,6 @@ Display detailed process memory usage
 
 	-x	Show details
 	-q	Quiet
-
-=item B<pong>
-
-pong NoneNone
 
 =item B<popmaildir>
 
@@ -4084,6 +4076,10 @@ Options:
 	-d N	Delay between updates
 	-m	Same as 's' key
 
+=item B<tor>
+
+tor NoneNone
+
 =item B<torloris>
 
 torloris NoneNone
@@ -4682,6 +4678,10 @@ $LOGGING=syslog 	Log to syslog
 
 With no -q, runs continuously monitoring for ARP conflicts,
 exits only on I/O errors (link down etc)
+
+=item B<ziggy>
+
+ziggy NoneNone
 
 =back
 
