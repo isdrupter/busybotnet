@@ -1,1 +1,1 @@
-#define CONFIG_PONG 1
+#undef CONFIG_PONG

@@ -228,6 +228,9 @@
 #define zmap_full_usage  "None"
 #define zmap_trivial_usage  "None"
 
+#define tor_full_usage  "None"
+#define tor_trivial_usage  "None"
+
 
 #define ar_trivial_usage \
        "[-o] [-v] [-p] [-t] [-x] ARCHIVE FILES" \

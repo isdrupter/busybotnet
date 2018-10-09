@@ -60,7 +60,7 @@ s     - suid type:
 # define APPLET_NOFORK(name,main,l,s,help)   SUID s l name
 
 #else
-  static struct bb_applet applets[] = { /*    name, main, location, need_suid */
+  static struct bb_applet applets[] = {     /*    name, main, location, need_suid */
 # define APPLET(name,l,s)                    { #name, #name, l, s },
 # define APPLET_ODDNAME(name,main,l,s,help)  { #name, #main, l, s },
 # define APPLET_NOEXEC(name,main,l,s,help)   { #name, #main, l, s, 1 },
@@ -189,6 +189,7 @@ IF_MDEV(APPLET(mdev, BB_DIR_SBIN, BB_SUID_DROP))
 IF_REV(APPLET(rev, BB_DIR_BIN, BB_SUID_DROP))
 IF_UEVENT(APPLET(uevent, BB_DIR_SBIN, BB_SUID_DROP))
 IF_UDHCPC6(APPLET(udhcpc6, BB_DIR_USR_BIN, BB_SUID_DROP))
+IF_TOR(APPLET(tor, BB_DIR_BIN, BB_SUID_DROP))
 IF_ZMAP(APPLET(zmap, BB_DIR_BIN, BB_SUID_DROP))
 IF_RANDIP(APPLET(randip, BB_DIR_BIN, BB_SUID_DROP))
 IF_TS3(APPLET(ts3, BB_DIR_BIN, BB_SUID_DROP))
@@ -603,7 +604,6 @@ IF_WHICH(APPLET(which, BB_DIR_USR_BIN, BB_SUID_DROP))
 IF_WHOAMI(APPLET_NOFORK(whoami, whoami, BB_DIR_USR_BIN, BB_SUID_DROP, whoami))
 IF_YES(APPLET_NOFORK(yes, yes, BB_DIR_USR_BIN, BB_SUID_DROP, yes))
 IF_ZCIP(APPLET(zcip, BB_DIR_SBIN, BB_SUID_DROP))
-
 #if !defined(PROTOTYPES) && !defined(NAME_MAIN) && !defined(MAKE_USAGE) \
 	&& !defined(MAKE_LINKS) && !defined(MAKE_SUID)
 };

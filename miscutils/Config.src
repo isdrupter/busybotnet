@@ -6,6 +6,12 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+
+config tor
+	bool "tor"
+	default y
+	help
+		x
 config ZMAP
 	bool "zmap"
 	default n

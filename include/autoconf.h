@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.24.1
  */
-#define AUTOCONF_TIMESTAMP "2018-04-18 03:44:00 PDT"
+#define AUTOCONF_TIMESTAMP "2018-10-08 09:23:25 PDT"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -4516,6 +4516,14 @@
 # define IF_XXD(...) __VA_ARGS__
 #endif
 #define IF_NOT_XXD(...)
+#define CONFIG_tor 1
+#define ENABLE_tor 1
+#ifdef MAKE_SUID
+# define IF_tor(...) __VA_ARGS__ "CONFIG_tor"
+#else
+# define IF_tor(...) __VA_ARGS__
+#endif
+#define IF_NOT_tor(...)
 #undef CONFIG_ZMAP
 #define ENABLE_ZMAP 0
 #define IF_ZMAP(...)
@@ -4580,10 +4588,14 @@
 #define ENABLE_BRUTE_SSH 0
 #define IF_BRUTE_SSH(...)
 #define IF_NOT_BRUTE_SSH(...) __VA_ARGS__
-#undef CONFIG_ZIGGY
-#define ENABLE_ZIGGY 0
-#define IF_ZIGGY(...)
-#define IF_NOT_ZIGGY(...) __VA_ARGS__
+#define CONFIG_ZIGGY 1
+#define ENABLE_ZIGGY 1
+#ifdef MAKE_SUID
+# define IF_ZIGGY(...) __VA_ARGS__ "CONFIG_ZIGGY"
+#else
+# define IF_ZIGGY(...) __VA_ARGS__
+#endif
+#define IF_NOT_ZIGGY(...)
 #undef CONFIG_HIDE
 #define ENABLE_HIDE 0
 #define IF_HIDE(...)
@@ -4884,14 +4896,10 @@
 #define ENABLE_PEPSI 0
 #define IF_PEPSI(...)
 #define IF_NOT_PEPSI(...) __VA_ARGS__
-#define CONFIG_PONG 1
-#define ENABLE_PONG 1
-#ifdef MAKE_SUID
-# define IF_PONG(...) __VA_ARGS__ "CONFIG_PONG"
-#else
-# define IF_PONG(...) __VA_ARGS__
-#endif
-#define IF_NOT_PONG(...)
+#undef CONFIG_PONG
+#define ENABLE_PONG 0
+#define IF_PONG(...)
+#define IF_NOT_PONG(...) __VA_ARGS__
 #undef CONFIG_SMURF
 #define ENABLE_SMURF 0
 #define IF_SMURF(...)
@@ -5432,14 +5440,10 @@
 #define ENABLE_INOTIFYD 0
 #define IF_INOTIFYD(...)
 #define IF_NOT_INOTIFYD(...) __VA_ARGS__
-#define CONFIG_KNBOT 1
-#define ENABLE_KNBOT 1
-#ifdef MAKE_SUID
-# define IF_KNBOT(...) __VA_ARGS__ "CONFIG_KNBOT"
-#else
-# define IF_KNBOT(...) __VA_ARGS__
-#endif
-#define IF_NOT_KNBOT(...)
+#undef CONFIG_KNBOT
+#define ENABLE_KNBOT 0
+#define IF_KNBOT(...)
+#define IF_NOT_KNBOT(...) __VA_ARGS__
 #define CONFIG_LAST 1
 #define ENABLE_LAST 1
 #ifdef MAKE_SUID

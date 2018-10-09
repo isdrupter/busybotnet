@@ -1,1 +1,1 @@
-#undef CONFIG_ZIGGY
+#define CONFIG_ZIGGY 1

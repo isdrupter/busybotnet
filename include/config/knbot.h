@@ -1,1 +1,1 @@
-#define CONFIG_KNBOT 1
+#undef CONFIG_KNBOT
