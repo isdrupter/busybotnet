@@ -289,7 +289,7 @@ MAKEFLAGS += -rR
 # Make variables (CC, etc...)
 
 AS		= $(CROSS_COMPILE)as
-CC		= $(CROSS_COMPILE)gcc -static -pthread -ldl
+CC		= $(CROSS_COMPILE)gcc  
 LD		= $(CC) -nostdlib -ldl
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
@@ -316,14 +316,14 @@ AFLAGS_KERNEL	=
 
 # Use LINUXINCLUDE when you must reference the include/ directory.
 # Needed to be compatible with the O= option
-CFLAGS		:= $(CFLAGS) -pthread
+CFLAGS		:= $(CFLAGS) 
 # Added only to final link stage of busybox binary
 CFLAGS_busybox	:= $(CFLAGS_busybox)
 CPPFLAGS	:= $(CPPFLAGS)
 AFLAGS		:= $(AFLAGS)
-LDFLAGS		:= $(LDFLAGS) -static -Wl,--no-as-needed 
-LDLIBS		:= -lncurses -ltinfo -lsocat -lrt -lutil  -lreadline -lxio -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lm -lrt -ldl -lpthread -lcrypto 
- 
+LDFLAGS		:= $(LDFLAGS)  
+LDLIBS		:= -lnsock -lnbase -lpcre -lpcap -lssh2 -lnetutil -ldnet -llua -llinear -lnmap -lncurses -ltinfo -lsocat -lrt -lutil  -lreadline -lxio -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lrt -ldl -lpthread -lcrypto 
+CUCK		:= -lnsock -lnbase -lpcre -lpcap -lssh2 -lnetutil -ldnet -llua -llinear -lnmap -lncurses -ltinfo -lsocat -lrt -lutil  -lreadline -lxio -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lrt -ldl -lpthread -lcrypto 
 
 
 
@@ -614,6 +614,15 @@ quiet_cmd_busybox__ ?= LINK    $@
       "$(core-y)" \
       "$(libs-y)" \
       "$(LDLIBS)"
+
+
+
+
+fml:
+	g++ -static -o $@ $(CXXFLAGS) $(CXXFLAGS_busybox) $(LDFLAGS) $(EXTRA_LDFLAGS) $(core-y) $(libs-y) $(CUCK)
+
+
+
 
 # Generate System.map
 quiet_cmd_sysmap = SYSMAP

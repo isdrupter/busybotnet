@@ -341,9 +341,9 @@ pcdebug_( const char *fmt, ... )                  /* without prefix */
     }
 }
 
-/* error message output */
+/* prerror message output */
 void
-error( const char *fmt, ... )
+prerror( const char *fmt, ... )
 {
     va_list args;
     va_start( args, fmt );
@@ -566,7 +566,7 @@ read_parameter_file_1(const char* name)
             param = p;
             p = strchr(p, '=');
             if ( p == NULL ) {
-                error("%s:%d: missing equal sign\n", name, line);
+                prerror("%s:%d: missing equal sign\n", name, line);
                 continue;
             }
             for ( q = p - 1; q >= lbuf; q-- )
@@ -583,7 +583,7 @@ read_parameter_file_1(const char* name)
                 PARAMETER_ITEM *item;
                 item = find_parameter_item(param);
                 if ( item == NULL ) {
-                    error("%s:%d: unknown parameter `%s'\n", name, line, param);
+                    prerror("%s:%d: unknown parameter `%s'\n", name, line, param);
                     continue;
                 }
                 item->value = strdup(value);
@@ -655,7 +655,7 @@ add_direct_addr (struct in_addr *addr, struct in_addr *mask, int negative)
     struct in_addr iaddr;
     char *s;
     if ( MAX_DIRECT_ADDR_LIST <= n_direct_addr_list ) {
-        error("direct address table is full!\n");
+        prerror("direct address table is full!\n");
         return -1;
     }
     iaddr = *addr;
@@ -698,7 +698,7 @@ parse_addr_pair (const char *str, struct in_addr *addr, struct in_addr *mask)
         if ( *ptr == '\0' )
             break;              /* case of format #3 */
         if ( !isdigit(*ptr) )
-            return -1;          /* format error: */
+            return -1;          /* format prerror: */
         *dsta++ = atoi( ptr );
         *dstm++ = 255;          /* automatic mask for format #3 */
         while ( isdigit(*ptr) ) /* skip digits */
@@ -712,7 +712,7 @@ parse_addr_pair (const char *str, struct in_addr *addr, struct in_addr *mask)
     if ( *ptr == '\0' )
         return 0;                       /* complete as format #3 */
     if ( *ptr != '/' )
-        return -1;                      /* format error */
+        return -1;                      /* format prerror */
     /* Now parse mask for format #1 or #2 */
     ptr++;
     mask->s_addr = 0;                   /* clear automatic mask */
@@ -722,7 +722,7 @@ parse_addr_pair (const char *str, struct in_addr *addr, struct in_addr *mask)
         dstm = (u_char*)&mask->s_addr;
         for (i=0; i<4; i++) {
             if ( !isdigit(*ptr) )
-                return -1;              /* format error: */
+                return -1;              /* format prerror: */
             *dstm++ = atoi(ptr);
             while ( isdigit(*ptr) )     /* skip digits */
                 ptr++;
@@ -735,10 +735,10 @@ parse_addr_pair (const char *str, struct in_addr *addr, struct in_addr *mask)
     } else {
         /* case of format #2 */
         if ( !isdigit(*ptr) )
-            return -1;                  /* format error: */
+            return -1;                  /* format prerror: */
         n = atoi(ptr);
         if ( n<0 || 32<n)
-            return -1;                  /* format error */
+            return -1;                  /* format prerror */
         mask->s_addr = (n==0)? 0: htonl(((u_long)0xFFFFFFFF)<<(32-n));
         /* complete as format #1 */
     }
@@ -776,7 +776,7 @@ initialize_direct_addr (void)
     n_entries = 0;
     do {
         if ( MAX_DIRECT_ADDR_LIST <= n_entries ) {
-            error("too many entries in %s", envkey);
+            prerror("too many entries in %s", envkey);
             break;              /* from do loop */
         }
         next = strchr( beg, ',');
@@ -792,7 +792,7 @@ initialize_direct_addr (void)
         if ( !parse_addr_pair( beg, &addr, &mask ) ) {
             add_direct_addr( &addr, &mask, negative );
         } else {
-            error("invalid addr format in %s: %s\n", envkey, beg);
+            prerror("invalid addr format in %s: %s\n", envkey, beg);
         }
         if ( next != NULL )
             beg = next;
@@ -904,7 +904,7 @@ tty_readpass( const char *prompt, char *buf, size_t size )
 
     tty = open(TTY_NAME, O_RDWR);
     if ( tty < 0 ) {
-        error("Unable to open %s\n", TTY_NAME);
+        prerror("Unable to open %s\n", TTY_NAME);
         return -1;                              /* can't open tty */
     }
     if ( size <= 0 )
@@ -1244,7 +1244,7 @@ getarg( int argc, char **argv )
                     method = METHOD_SOCKS;
                     server = *argv;
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1255,7 +1255,7 @@ getarg( int argc, char **argv )
                     method = METHOD_HTTP;
                     server = *argv;
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1265,7 +1265,7 @@ getarg( int argc, char **argv )
                     method = METHOD_TELNET;
                     server = *argv;
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1275,7 +1275,7 @@ getarg( int argc, char **argv )
                       argv++, argc--;
                       telnet_command = *argv;
                  } else {
-                      error("option '%c' needs argument.\n", *ptr);
+                      prerror("option '%c' needs argument.\n", *ptr);
                       err++;
                  }
                  break;
@@ -1289,7 +1289,7 @@ getarg( int argc, char **argv )
                     local_type = LOCAL_SOCKET;
                     local_port = resolve_port(*argv);
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1300,7 +1300,7 @@ getarg( int argc, char **argv )
                     argv++, argc--;
                     connect_timeout = atoi(*argv);
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1319,7 +1319,7 @@ getarg( int argc, char **argv )
                     argv++, argc--;
                     socks5_auth = *argv;
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1329,7 +1329,7 @@ getarg( int argc, char **argv )
                     argv++, argc--;
                     socks_resolve = lookup_resolve( *argv );
                 } else {
-                    error("option '-%c' needs argument.\n", *ptr);
+                    prerror("option '-%c' needs argument.\n", *ptr);
                     err++;
                 }
                 break;
@@ -1347,7 +1347,7 @@ getarg( int argc, char **argv )
                 break;
 
             default:
-                error("unknown option '-%c'\n", *ptr);
+                prerror("unknown option '-%c'\n", *ptr);
                 err++;
             }
             ptr++;
@@ -1355,7 +1355,7 @@ getarg( int argc, char **argv )
         argc--, argv++;
     }
 
-    /* check error */
+    /* check prerror */
     if ( 0 < err )
         goto quit;
 
@@ -1390,12 +1390,12 @@ getarg( int argc, char **argv )
     }
     /* check port number */
     if ( dest_port <= 0 ) {
-        error( "You must specify the destination port correctly.\n");
+        prerror( "You must specify the destination port correctly.\n");
         err++;
         goto quit;
     }
     if ( (relay_method != METHOD_DIRECT) && (relay_port <= 0) ) {
-        error("Invalid relay port: %d\n", dest_port);
+        prerror("Invalid relay port: %d\n", dest_port);
         err++;
         goto quit;
     }
@@ -1519,7 +1519,7 @@ open_connection( const char *host, u_short port )
     }
 
     if (local_resolve (host, &saddr) < 0) {
-        error("can't resolve hostname: %s\n", host);
+        prerror("can't resolve hostname: %s\n", host);
         return SOCKET_ERROR;
     }
     saddr.sin_port = htons(port);
@@ -1650,13 +1650,13 @@ line_input( SOCKET s, char *buf, int size )
 {
     char *dst = buf;
     if ( size == 0 )
-        return 0;                               /* no error */
+        return 0;                               /* no prerror */
     size--;
     while ( 0 < size ) {
         switch ( recv( s, dst, 1, 0) ) {        /* recv one-by-one */
         case SOCKET_ERROR:
-            error("recv() error\n");
-            return -1;                          /* error */
+            prerror("recv() prerror\n");
+            return -1;                          /* prerror */
         case 0:
             size = 0;                           /* end of stream */
             break;
@@ -1900,7 +1900,7 @@ begin_socks5_relay( SOCKET s )
     atomic_in( s, buf, 2 );                     /* recv response */
     if ( (buf[0] != 5) ||                       /* ver5 response */
          (buf[1] == (char)0xFF) ) {             /* check auth method */
-        error("No auth method accepted.\n");
+        prerror("No auth method accepted.\n");
         return -1;
     }
     auth_method = buf[1];
@@ -1909,7 +1909,7 @@ begin_socks5_relay( SOCKET s )
 
     switch ( (unsigned char)auth_method ) {
     case SOCKS5_AUTH_REJECT:
-        error("No acceptable authentication method\n");
+        prerror("No acceptable authentication method\n");
         return -1;                              /* fail */
 
     case SOCKS5_AUTH_NOAUTH:
@@ -1922,12 +1922,12 @@ begin_socks5_relay( SOCKET s )
         break;
 
     default:
-        error("Unsupported authentication method: %s\n",
+        prerror("Unsupported authentication method: %s\n",
               socks5_getauthname( auth_method ));
         return -1;                              /* fail */
     }
     if ( auth_result != 0 ) {
-        error("Authentication failed.\n");
+        prerror("Authentication failed.\n");
         return -1;
     }
     /* request to connect */
@@ -1953,7 +1953,7 @@ begin_socks5_relay( SOCKET s )
     atomic_out( s, buf, ptr-buf);               /* send request */
     atomic_in( s, buf, 4 );                     /* recv response */
     if ( (buf[1] != SOCKS5_REP_SUCCEEDED) ) {   /* check reply code */
-        error("Got error response from SOCKS server: %d (%s).\n",
+        prerror("Got prerror response from SOCKS server: %d (%s).\n",
               buf[1], lookup(buf[1], socks5_rep_names));
         return -1;
     }
@@ -2040,7 +2040,7 @@ begin_socks4_relay( SOCKET s )
     atomic_out( s, buf, ptr-buf);               /* send request */
     atomic_in( s, buf, 8 );                     /* recv response */
     if ( (buf[1] != SOCKS4_REP_SUCCEEDED) ) {   /* check reply code */
-        error("Got error response: %d: '%s'.\n",
+        prerror("Got prerror response: %d: '%s'.\n",
               buf[1], lookup(buf[1], socks4_rep_names));
         return -1;                              /* failed */
     }
@@ -2167,7 +2167,7 @@ begin_http_relay( SOCKET s )
 
     /* check status */
     if (!strchr(buf, ' ')) {
-        error ("Unexpected http response: '%s'.\n", buf);
+        prerror ("Unexpected http response: '%s'.\n", buf);
         return START_ERROR;
     }
     result = atoi(strchr(buf,' '));
@@ -2200,7 +2200,7 @@ begin_http_relay( SOCKET s )
         /* If proxy_auth_type is PROXY_AUTH_BASIC and get
          this result code, authentication was failed. */
         if (proxy_auth_type != PROXY_AUTH_NONE) {
-            error("Authentication failed.\n");
+            prerror("Authentication failed.\n");
             return START_ERROR;
         }
         auth_what = (result == 401) ? "WWW-Authenticate:" : "Proxy-Authenticate:";
@@ -2304,7 +2304,7 @@ begin_telnet_relay( SOCKET s )
             }
         }
     }
-    pcdebug("error reading from telnet proxy\n");
+    pcdebug("prerror reading from telnet proxy\n");
 
     return START_ERROR;
 }
@@ -2402,8 +2402,8 @@ do_repeater( SOCKET local_in, SOCKET local_out, SOCKET remote )
         /* FD_SET( remote, ofds ); */
 
         if ( select( nfds, &ifds, &ofds, (fd_set*)NULL, tmo ) == -1 ) {
-            /* some error */
-            error( "select() failed, %d\n", socket_errno());
+            /* some prerror */
+            prerror( "select() failed, %d\n", socket_errno());
             return REASON_ERROR;
         }
 #ifdef _WIN32
@@ -2424,7 +2424,7 @@ do_repeater( SOCKET local_in, SOCKET local_out, SOCKET remote )
                 f_local = 0;
             } else if ( len == -1 ) {
                 if (socket_errno() != ECONNRESET) {
-                    /* error */
+                    /* prerror */
                     fatalx("recv() faield, %d\n", socket_errno());
                 } else {
                     pcdebug("ECONNRESET detected\n");
@@ -2452,7 +2452,7 @@ do_repeater( SOCKET local_in, SOCKET local_out, SOCKET remote )
                 f_local = 0;
                 close_reason = REASON_CLOSED_BY_LOCAL;
             } else if ( len == -1 ) {
-                /* error on reading from stdin */
+                /* prerror on reading from stdin */
                 if (f_hold_session) {
                     pcdebug ("failed to read from local\n");
                     f_local = 0;

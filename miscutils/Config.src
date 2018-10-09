@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config NMAP
+	bool "nmap"
+	default y
+	help
+		x
 config SOCAT
 	bool "socat"
 	default y

@@ -232,6 +232,9 @@
 #define socat_full_usage  "None"
 #define socat_trivial_usage  "None"
 
+#define nmap_full_usage  "None"
+#define nmap_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \
