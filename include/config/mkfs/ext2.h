@@ -1,1 +1,0 @@
-#define CONFIG_MKFS_EXT2 1

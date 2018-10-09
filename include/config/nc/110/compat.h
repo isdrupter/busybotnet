@@ -1,1 +1,0 @@
-#undef CONFIG_NC_110_COMPAT

@@ -1,1 +1,0 @@
-#define CONFIG_FEATURE_TUNCTL_UG 1

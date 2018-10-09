@@ -1,1 +1,0 @@
-#define CONFIG_FEATURE_DIFF_DIR 1

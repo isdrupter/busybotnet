@@ -1,1 +1,0 @@
-#define CONFIG_FEATURE_CPIO_P 1

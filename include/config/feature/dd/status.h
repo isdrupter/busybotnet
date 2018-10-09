@@ -1,1 +1,0 @@
-#define CONFIG_FEATURE_DD_STATUS 1

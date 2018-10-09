@@ -1,1 +1,0 @@
-#define CONFIG_DNSAMP 1

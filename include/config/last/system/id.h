@@ -1,1 +1,0 @@
-#define CONFIG_LAST_SYSTEM_ID 999

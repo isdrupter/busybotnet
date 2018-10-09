@@ -1,1 +1,0 @@
-#define CONFIG_UNAME_OSNAME "GNU/Linux"

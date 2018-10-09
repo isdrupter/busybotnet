@@ -1,1 +1,0 @@
-#define CONFIG_HUSH_BASH_COMPAT 1

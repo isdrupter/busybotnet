@@ -1,1 +1,0 @@
-#define CONFIG_LATIERRA 1

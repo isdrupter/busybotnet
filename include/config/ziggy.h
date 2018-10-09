@@ -1,1 +1,0 @@
-#define CONFIG_ZIGGY 1

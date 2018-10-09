@@ -1,1 +1,0 @@
-#define CONFIG_DHCPRELAY 1

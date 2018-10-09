@@ -1,1 +1,0 @@
-#define CONFIG_ASH_BASH_COMPAT 1

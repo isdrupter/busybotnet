@@ -1,1 +1,0 @@
-#define CONFIG_REMOVE_SHELL 1

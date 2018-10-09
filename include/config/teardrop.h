@@ -1,1 +1,0 @@
-#define CONFIG_TEARDROP 1

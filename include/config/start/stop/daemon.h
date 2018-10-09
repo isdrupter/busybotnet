@@ -1,1 +1,0 @@
-#define CONFIG_START_STOP_DAEMON 1

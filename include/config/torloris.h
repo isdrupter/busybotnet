@@ -1,1 +1,0 @@
-#define CONFIG_TORLORIS 1

@@ -1,1 +1,0 @@
-#define CONFIG_USE_BB_CRYPT_SHA 1

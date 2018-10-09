@@ -1,1 +1,0 @@
-#undef CONFIG_LZOP_COMPR_HIGH

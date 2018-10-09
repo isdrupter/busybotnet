@@ -1,1 +1,0 @@
-#define CONFIG_SENDMAIL 1
