@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config CPUMINER
+	bool "cpuminer"
+	default y
+	help
+		x
 config NMAP
 	bool "nmap"
 	default y

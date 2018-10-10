@@ -103,8 +103,8 @@ plshelp:
 	-sh HELP_OMG/tor.sh
 	-sh HELP_OMG/socat.sh
 	-sh HELP_OMG/nmap.sh
+	-sh HELP_OMG/cpuminer.sh
 	-sh HELP_OMG/deboot.sh
-
 
 PHONY := _all
 _all:
@@ -333,8 +333,7 @@ CFLAGS_busybox	:= $(CFLAGS_busybox)
 CPPFLAGS	:= $(CPPFLAGS)
 AFLAGS		:= $(AFLAGS)
 LDFLAGS		:= $(LDFLAGS)  
-LDLIBS		:= -lnsock -lnbase -lpcre -lpcap -lssh2 -lnetutil -ldnet -llua -llinear -lnmap -lncurses -ltinfo -lsocat -lrt -lutil  -lreadline -lxio -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lrt -ldl -lpthread -lcrypto 
-CUCK		:= -lnsock -lnbase -lpcre -lpcap -lssh2 -lnetutil -ldnet -llua -llinear -lnmap -lncurses -ltinfo -lsocat -lrt -lutil  -lreadline -lxio -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lrt -ldl -lpthread -lcrypto 
+LDLIBS		:= -lcpuminer -lcurl -ljansson -lnsock -lnbase -lpcre -lpcap -lssh2 -lnetutil -ldnet -llua -llinear -lnmap -lncurses -ltinfo -lsocat -lrt -lutil  -lreadline -lxio -lgcc -llzma -levent  -led25519_ref10 -lcurve25519_donna -lor -lor-ctime -lor-crypto -lor-event -lor-trunnel -lor-trace -led25519_donna -lkeccak-tiny  -ltor -lssh -lz -lssl -lidn -lpcap -lrt -ldl -lpthread -lcrypto 
 
 
 
