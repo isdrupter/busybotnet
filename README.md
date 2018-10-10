@@ -35,6 +35,9 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### What's New?
+
+-------------
+yo what ur kidding rn it has cpuminer-multi now? what? how?
 -------------
 wthhhhh nmap?
 -------------
