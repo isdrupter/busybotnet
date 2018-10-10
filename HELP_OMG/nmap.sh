@@ -4,6 +4,11 @@ tar xfpv nmap-7.70.tar.bz2
 cd nmap-7.70
 ./configure
 
+
+sed -i 's/static const char *program_name = NULL/static const char *program_name = "bmap"/g' nmap.cc
+sed -i 's/program_name = name/program_name = "bmap"/g' nmap.cc
+sed -i 's/assert(argv0 != NULL);//g' nmap.cc
+
 sed -i 's/fatal/nm_fatal/g' *.cc
 sed -i 's/fatal/nm_fatal/g' *.h
 #sed -i 's/error/nm_error/g' *.cc

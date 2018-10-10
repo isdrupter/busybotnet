@@ -95,6 +95,17 @@ ifdef O
 endif
 
 # That's our default target when none is given on the command line
+gay := fml
+fml:
+
+plshelp:
+	-sh HELP_OMG/libssh.sh
+	-sh HELP_OMG/tor.sh
+	-sh HELP_OMG/socat.sh
+	-sh HELP_OMG/nmap.sh
+	-sh HELP_OMG/deboot.sh
+
+
 PHONY := _all
 _all:
 
@@ -601,6 +612,8 @@ libs-y		:= $(libs-y1) $(libs-y2)
 #
 # System.map is generated to document addresses of all kernel symbols
 
+
+
 busybox-all  := $(core-y) $(libs-y)
 
 # Rule to link busybox - also used during CONFIG_KALLSYMS
@@ -618,8 +631,11 @@ quiet_cmd_busybox__ ?= LINK    $@
 
 
 
-fml:
-	g++ -static -o $@ $(CXXFLAGS) $(CXXFLAGS_busybox) $(LDFLAGS) $(EXTRA_LDFLAGS) $(core-y) $(libs-y) $(CUCK)
+fml: $(busybox-all) FORCE
+	-make _all
+	sh bloody_hell.sh
+	cp busybox_unstripped busybox
+	strip busybox
 
 
 
