@@ -36,6 +36,31 @@ static binary, hence the term, "Busybotnet".
 
 ### What's New?
 
+Check this out:
+```
+~/busybotnet $ ./busybox tor --version
+Tor version 0.3.4.8 (git-da95b91355248ad8).
+~/busybotnet $ ./busybox nmap -V
+Nmap version 7.70 ( https://nmap.org )
+Platform: x86_64-unknown-linux-gnu
+Compiled with: nmap-liblua-5.3.3 openssl-1.1.0g nmap-libssh2-1.8.0 libz-1.2.11 libpcre-8.39 libpcap-1.8.1 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+~/busybotnet $ ./busybox socat --version
+2018/10/09 22:14:07 socat[19352] E unknown option "--version"; use option "-h" for help
+~/busybotnet $ ./busybox cpuminer --version
+** cpuminer-multi 1.3.1 by tpruvot@github **
+BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)
+
+ built with GCC 7.3.0 the Oct  9 2018
+ compiled for AVX
+ config features: x86_64 SSE2 XOP AVX AVX2
+
+libcurl/7.61.1 OpenSSL/1.1.0g zlib/1.2.11 libidn2/2.0.4
+jansson/2.11 
+```
+
+
 -------------
 yo what ur kidding rn it has cpuminer-multi now? what? how?
 -------------
