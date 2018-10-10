@@ -35,8 +35,13 @@ point of this project is to provide all of the security tools a system admin nee
 static binary, hence the term, "Busybotnet".
 
 ### What's New?
-
-
+-------------
+wthhhhh nmap?
+-------------
+oh snap also socat
+-------------
+whoah i added tor
+-------------
 
 
 
