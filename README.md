@@ -36,6 +36,7 @@ static binary, hence the term, "Busybotnet".
 
 ### What's New?
 
+<<<<<<< HEAD
 Check this out:
 ```
 ~/busybotnet $ ./busybox tor --version
@@ -61,6 +62,8 @@ jansson/2.11
 ```
 
 
+=======
+>>>>>>> 87d49d945... readme u better get read lmao
 -------------
 yo what ur kidding rn it has cpuminer-multi now? what? how?
 -------------
