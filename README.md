@@ -36,7 +36,6 @@ static binary, hence the term, "Busybotnet".
 
 ### What's New?
 
-<<<<<<< HEAD
 Check this out:
 ```
 ~/busybotnet $ ./busybox tor --version
@@ -59,11 +58,70 @@ BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)
 
 libcurl/7.61.1 OpenSSL/1.1.0g zlib/1.2.11 libidn2/2.0.4
 jansson/2.11 
+
+
+YEET LOL
+
+
+~/fucc/busybotnet # ./busybox cpuminer -h                   
+** cpuminer-multi 1.3.1 by tpruvot@github **                  
+BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)
+                                                               
+Usage: cpuminer-multi [OPTIONS]                          
+Options:                                           
+  -a, --algo=ALGO       specify the algorithm to use
+                          axiom        Shabal-256 MemoHash
+                          blake        Blake-256 14-rounds (SFR)
+                          blakecoin    Blake-256 single sha256 merkle
+                          blake2s      Blake2-S (256)
+                          bmw          BMW 256        
+                          c11/flax     C11     
+                          cryptolight  Cryptonight-light
+                          cryptonight  Monero
+                          decred       Blake-256 14-rounds 180 bytes
+                          dmd-gr       Diamond-Groestl
+                          drop         Dropcoin   
+                          fresh        Fresh                   
+                          groestl      GroestlCoin             
+                          heavy        Heavy                                   
+                          keccak       Keccak                           
+                          luffa        Luffa
+                          lyra2re      Lyra2RE
+                          lyra2rev2    Lyra2REv2 (Vertcoin)
+                          myr-gr       Myriad-Groestl
+                          neoscrypt    NeoScrypt(128, 2, 1)
+                          nist5        Nist5
+                          pluck        Pluck:128 (Supcoin)
+                          pentablake   Pentablake
+                          quark        Quark
+                          qubit        Qubit
+                          scrypt       scrypt(1024, 1, 1) (default)
+                          scrypt:N     scrypt(N, 1, 1)
+                          scrypt-jane:N (with N factor from 4 to 30)
+                          shavite3     Shavite3
+                          sha256d      SHA-256d
+                          sia          Blake2-B
+                          sib          X11 + gost (SibCoin)
+                          skein        Skein+Sha (Skeincoin)
+                          skein2       Double Skein (Woodcoin)
+                          s3           S3
+                          timetravel   Timetravel (Machinecoin)
+                          vanilla      Blake-256 8-rounds
+                          x11evo       Permuted x11
+                          x11          X11
+                          x13          X13
+                          x14          X14
+                          x15          X15
+                          x17          X17
+                          xevan        Xevan (BitSend)
+                          yescrypt     Yescrypt
+                          zr5          ZR5
+
+
+
 ```
 
 
-=======
->>>>>>> 87d49d945... readme u better get read lmao
 -------------
 yo what ur kidding rn it has cpuminer-multi now? what? how?
 -------------
