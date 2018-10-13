@@ -238,6 +238,9 @@
 #define cpuminer_full_usage  "None"
 #define cpuminer_trivial_usage  "None"
 
+#define exploitdb_full_usage  "None"
+#define exploitdb_trivial_usage  "None"
+
 INSERT
 
 #define busybox_notes_usage \

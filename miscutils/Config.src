@@ -6,6 +6,11 @@
 menu "Miscellaneous Utilities"
 
 INSERT
+config EXPLOITDB
+	bool "exploitdb"
+	default n
+	help
+		x
 config CPUMINER
 	bool "cpuminer"
 	default y
