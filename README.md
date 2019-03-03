@@ -18,7 +18,10 @@
 
 ### One Bin to Rule Them All...
 
-
+###### Dev's need your help! Donate: 
+<pre>
+BTC: 1EpTUh4kMstvzpXb86tekFGTzq2jk9CqhD
+</pre>
 *IT DOESN'T COMPILE IT SELF.*<br>
 *We won't help you DDOS people*<br>
 *If you have build errors, GOOGLE them!*<br>
