@@ -133,10 +133,7 @@ Thanks kod for your contributions ... you sound like a moron though so I am revo
 
 
 
-------------------------------------------------------------------------------------
-anon lost his login to this acct like 2 years ago lmao 
 
-^ Who? you fucking idiot... You're access has been revoked.
 
 -------------------------------------------------------------------------------------
 
