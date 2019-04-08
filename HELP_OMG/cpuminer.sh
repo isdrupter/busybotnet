@@ -1,7 +1,7 @@
 rm -rfv cpuminer-multi-1.3.1-multi
-wget -c https://github.com/tpruvot/cpuminer-multi/archive/v1.3.1-multi.tar.gz
-tar xfpv v1.3.1-multi.tar.gz
-cd cpuminer-multi-1.3.1-multi
+wget -c https://github.com/tpruvot/cpuminer-multi/archive/v1.3.5-multi.tar.gz
+tar xfpv v1.3.5-multi.tar.gz
+cd cpuminer-multi-1.3.5-multi
 ./autogen.sh
 ./configure --with-crypto --with-curl
 cp cpu-miner.c libcpuminer.c
